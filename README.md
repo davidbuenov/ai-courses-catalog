@@ -4,7 +4,7 @@
 
 A clean, fast, and fully client-side web application to discover, search, and filter a curated list of courses and resources on Artificial Intelligence. This project runs entirely in the browser without needing a backend or database.
 
-**➡️ Live Demo (Placeholder):** `https://davidbuenov.github.io/ai-courses-catalog/` *(Este enlace funcionará una vez subas el proyecto a un repositorio de GitHub llamado `ai-courses-catalog` y actives GitHub Pages)*
+**➡️ Live Demo (Placeholder):** [https://davidbuenov.github.io/ai-courses-catalog/](https://davidbuenov.github.io/ai-courses-catalog/)
 
 ---
 
@@ -20,7 +20,7 @@ A clean, fast, and fully client-side web application to discover, search, and fi
 ## 🛠️ Tech Stack
 
 *   **HTML5**
-*   **CSS3** (sin frameworks)
+*   **CSS3** (without frameworks)
 *   **JavaScript (Vanilla JS)**
 *   **Font Awesome** (for icons)
 
