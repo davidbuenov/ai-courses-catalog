@@ -1,0 +1,56 @@
+{
+  "1. Fundamentals and Concepts of AI": [
+    "Introduction to AI and Fundamental Concepts",
+    "Generative AI",
+    "Machine Learning",
+    "Deep Learning",
+    "Large Language Models (LLMs)",
+    "AI Ethics",
+    "Big Data"
+  ],
+  "2. Prompt Engineering": [
+    "Prompt Engineering",
+    "Prompt Optimization",
+    "Prompting Strategies",
+    "Interaction with LLMs",
+    "Applications of LLMs"
+  ],
+  "3. AI Agents and Systems": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "RAG (Retrieval-Augmented Generation)",
+    "Agent Memory",
+    "MCP (Model Context Protocol)"
+  ],
+  "4. AI Operations and Deployment (LLMOps)": [
+    "LLMOps",
+    "AI Deployment",
+    "Model Management",
+    "AI Automation"
+  ],
+  "5. Practical AI Applications": [
+    "AI Applications",
+    "AI for Productivity",
+    "AI in Education",
+    "Content Generation with AI",
+    "AI Assistants",
+    "Multimodal AI",
+    "ChatGPT Use Cases"
+  ],
+  "6. Automation and Integration with AI": [
+    "Workflow Automation",
+    "Systems Integration",
+    "Business Automation",
+    "Chatbots",
+    "n8n",
+    "Data Synchronization"
+  ],
+  "7. Data Analysis with AI": [
+    "Data Analysis",
+    "Document Processing",
+    "Image Analysis with AI",
+    "Sentiment Analysis",
+    "Web Scraping with AI"
+  ]
+}

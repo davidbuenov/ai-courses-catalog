@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Google AI Courses",
+    "link": "https://www.cloudskillsboost.google/paths/118",
+    "difficulty": "Beginner",
+    "description": "A series of 5 courses offered by Google to learn about generative AI from the ground up, starting with an introduction to AI and progressing to a solid understanding of the field .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+  },
+  {
+    "name": "Microsoft AI Course",
+    "link": "https://microsoft.github.io/AI-For-Beginners/",
+    "difficulty": "Beginner",
+    "description": "Covers the basics of AI, as well as more advanced topics such as neural networks and deep learning .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Machine Learning", "Deep Learning"]
+  },
+  {
+    "name": "Introduction to AI with Python (Harvard University)",
+    "link": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
+    "difficulty": "Beginner",
+    "description": "A comprehensive 7-week course that explores the fundamental concepts and algorithms of AI, concluding with knowledge of AI principles and machine learning libraries .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Machine Learning"]
+  },
+  {
+    "name": "Generative AI for Everyone",
+    "link": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+    "difficulty": "Beginner",
+    "description": "A free resource to get started with Generative AI .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+  },
+  {
+    "name": "Getting Started with LLMs",
+    "link": "https://www.deeplearning.ai/short-courses/getting-started-with-mistral/",
+    "difficulty": "Beginner",
+    "description": "A free resource to begin working with Large Language Models (LLMs) .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "AI Python for Beginners",
+    "link": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+    "difficulty": "Beginner",
+    "description": "A free resource focused on teaching Python for beginners in the context of AI .",
+    "categories": ["Introduction to AI and Fundamental Concepts"]
+  },
+  {
+    "name": "OpenAI AI Academy - OpenAI, LLMs & ChatGPT",
+    "link": "https://academy.openai.com/public/collections",
+    "difficulty": "Beginner",
+    "description": "Part of OpenAI Academy's free course offerings, introducing users to OpenAI, LLMs, and ChatGPT .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "OpenAI AI Academy - Introduction to GPTs",
+    "link": "https://academy.openai.com/public/collections/chatgpt-at-work-2025-02-14",
+    "difficulty": "Beginner",
+    "description": "Another course from the OpenAI Academy, focused on introducing GPT models .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+  },
+  {
+    "name": "Big Data, Artificial Intelligence, and Ethics (University of California - Davis)",
+    "link": "https://www.coursera.org/learn/big-data-ai-ethics",
+    "difficulty": "Intermediate",
+    "description": "A 4-module course covering Big Data opportunities, introducing IBM Watson, and addressing the limitations of AI .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Big Data", "AI Ethics"]
+  },
+  {
+    "name": "Deep Reinforcement Learning Course (Hugging Face)",
+    "link": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+    "difficulty": "Unspecified",
+    "description": "A free and open-source course that teaches Deep Reinforcement Learning from beginner to expert . It includes theoretical and practical content with popular libraries like Stable Baselines3, as well as agent training in various environments . Please note that this course is in a low-maintenance state, and some features like 'AI vs AI' challenges and the 'Leaderboard' are not operational [10, 12, 13]. It recommends dedicating 3-4 hours per week per chapter .",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Deep Learning", "AI Agents"]
+  },
+  {
+    "name": "Prompt Engineering for ChatGPT (Vanderbilt University / Coursera)",
+    "link": "https://www.coursera.org/learn/prompt-engineering",
+    "difficulty": "Beginner",
+    "description": "A 6-module course designed for beginners looking to improve their skills for writing effective prompts .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "AI Applications and Prompt Engineering (edX)",
+    "link": "https://www.edx.org/learn/computer-programming/edx-ai-applications-and-prompt-engineering",
+    "difficulty": "Beginner",
+    "description": "An introductory course that not only covers the basics of prompt engineering but also teaches how to apply them to create AI applications .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "OpenAI AI Academy - Introduction to Prompt Engineering",
+    "link": "https://academy.openai.com/public/videos/introduction-to-prompt-engineering-2025-02-13",
+    "difficulty": "Beginner",
+    "description": "A fundamental course from the OpenAI Academy to learn the basics of prompt engineering .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "Prompt Engineering Guide (GitHub Repo)",
+    "link": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "difficulty": "Beginner",
+    "description": "A comprehensive repository containing guides, articles, classes, notebooks, and other resources for learning and mastering prompt engineering .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "Anthropic's Interactive Prompt Engineering Tutorial - Beginner Chapters",
+    "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "difficulty": "Beginner",
+    "description": "This interactive tutorial from Anthropic includes initial chapters on basic prompt structure, being clear and direct, and assigning roles to the model .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "Anthropic's Interactive Prompt Engineering Tutorial - Intermediate Chapters",
+    "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "difficulty": "Intermediate",
+    "description": "Includes chapters on how to separate data from instructions, format model output and 'speak for Claude', the use of precognition ('thinking step by step'), and the utilization of examples .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "ChatGPT Prompt Engineering for Devs (OpenAI / DeepLearning AI)",
+    "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "difficulty": "Intermediate",
+    "description": "A collaborative course between OpenAI and DeepLearning AI, focusing on best practices and hands-on experience in prompt engineering for developers .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "Anthropic's Interactive Prompt Engineering Tutorial - Advanced Chapters",
+    "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "difficulty": "Advanced",
+    "description": "This section addresses advanced techniques such as avoiding hallucinations and the construction of complex prompts for industry use cases .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "OpenAI AI Academy - Advanced Prompt Engineering",
+    "link": "https://academy.openai.com/public/videos/advanced-prompt-engineering-2025-02-13",
+    "difficulty": "Advanced",
+    "description": "A course within the OpenAI Academy that focuses on advanced prompt engineering techniques .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "AI Agents for Beginners (GitHub Repo)",
+    "link": "https://github.com/microsoft/ai-agents-for-beginners",
+    "difficulty": "Beginner",
+    "description": "A free 11-lesson course specifically designed for beginners who want to start building AI agents .",
+    "categories": ["AI Agents"]
+  },
+  {
+    "name": "AI Agentic Design Patterns with AutoGen",
+    "link": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
+    "difficulty": "Unspecified",
+    "description": "A course available through DeepLearning AI that explores design patterns for AI agents using the AutoGen library [5, 21, 22].",
+    "categories": ["AI Agents"]
+  },
+  {
+    "name": "Multi AI Agent Systems with crewAI",
+    "link": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
+    "difficulty": "Unspecified",
+    "description": "A course of DeepLearning AI that focuses on the creation of systems with multiple AI agents using crewAI [5, 22, 23].",
+    "categories": ["AI Agents"]
+  },
+  {
+    "name": "AI Agents in LangGraph",
+    "link": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+    "difficulty": "Unspecified",
+    "description": "A course of DeepLearning AI that explores the use of LangGraph to build AI agents.",
+    "categories": ["AI Agents"]
+  },
+  {
+    "name": "Fundamentals of AI agents using RAG and LangChain",
+    "link": "https://www.coursera.org/learn/fundamentals-of-ai-agents-using-rag-and-langchain",
+    "difficulty": "Unspecified",
+    "description": "A resource for learning the fundamentals of AI agents integrating RAG and LangChain .",
+    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)"]
+  },
+  {
+    "name": "Building Agentic RAG with LlamaIndex",
+    "link": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
+    "difficulty": "Unspecified",
+    "description": "A course of DeepLearning AI focused on the construction of RAG systems with agentic capabilities using LlamaIndex .",
+    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)"]
+  },
+  {
+    "name": "GenAI Agents (GitHub Repo)",
+    "link": "https://github.com/NirDiamant/GenAI_Agents",
+    "difficulty": "Unspecified",
+    "description": "A GitHub repository that provides tutorials and implementations for various Generative AI Agent techniques, covering from basic to advanced concepts .",
+    "categories": ["AI Agents", "Generative AI"]
+  },
+  {
+    "name": "n8n AI Agents Tutorial (8-hour video)",
+    "link": "https://youtu.be/Ey18PDiaAYI",
+    "difficulty": "Unspecified",
+    "description": "A detailed video tutorial that teaches how to build AI agents using the n8n platform. It covers practical topics such as the creation of a RAG Chatbot, automation of Customer Support, and automated content generation for LinkedIn .",
+    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)", "Data Analysis and Specific Tool Usage", "Other AI Topics and Applications"]
+  },
+  {
+    "name": "Serverless Agentic Workflows with Amazon Bedrock (DeepLearning AI)",
+    "link": "https://www.deeplearning.ai/short-courses/serverless-agentic-workflows-with-amazon-bedrock/",
+    "difficulty": "Advanced",
+    "description": "A DeepLearning AI course on implementing serverless agentic workflows using Amazon Bedrock .",
+    "categories": ["AI Agents", "LLMOps"]
+  },
+  {
+    "name": "Agentic Pattern Course by Miguel Otero",
+    "link": "https://www.youtube.com/playlist?list=PLacQJwuclt_sK_pUPzBpfeWyiL1QOSMRQ",
+    "difficulty": "Unspecified",
+    "description": "A youtube course based on practice and real-world projects for learning agentic patterns .",
+    "categories": ["AI Agents"]
+  },
+  {
+    "name": "LLMOps (Google Cloud / DeepLearning AI)",
+    "link": "https://www.deeplearning.ai/short-courses/llmops/",
+    "difficulty": "Advanced",
+    "description": "A DeepLearning AI course in collaboration with Google Cloud that delves into the LLMOps pipeline, from pre-processing training data to adapting a supervised tuning pipeline to train and deploy a custom LLM .",
+    "categories": ["LLMOps", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "OpenAI AI Academy - ChatGPT for Data Analysis",
+    "link": "https://academy.openai.com/public/videos/chatgpt-for-data-analysis-2025-02-13",
+    "difficulty": "Unspecified",
+    "description": "A course from the OpenAI Academy focused on using ChatGPT for data analysis tasks .",
+    "categories": ["Data Analysis and Specific Tool Usage", "Large Language Models (LLMs)"]
+  },
+   {
+    "name": "ChatGPT Advanced Data Analysis (Coursera)",
+    "link": "https://www.coursera.org/learn/chatgpt-advanced-data-analysis",
+    "difficulty": "Beginner",
+    "description": "Mentioned in relation to the Code Interpreter .",
+    "categories": ["Data Analysis and Specific Tool Usage", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "Hands on Large Language Models (GitHub Repo)",
+    "link": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+    "difficulty": "Unspecified",
+    "description": "This repository contains code examples that complement the book 'Hands-On Large Language Models,' covering from the introduction to language models to fine-tuning techniques .",
+    "categories": ["Other AI Topics and Applications", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "Prompt Engineering for VLMS",
+    "link": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/",
+    "difficulty": "Beginner",
+    "description": "A free resource for prompt engineering with Visual Language Models (VLMs) .",
+    "categories": ["Prompt Engineering"]
+  },
+  {
+    "name": "Generative AI for Everyone",
+    "link": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+    "difficulty": "Beginner",
+    "description": "A free resource to get started with Generative AI.",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+  },
+  {
+    "name": "Generative AI Specialization for Data Analysts",
+    "link": "https://www.coursera.org/specializations/generative-ai-for-data-analysts",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on Generative AI for data analysts.",
+    "categories": ["Generative AI", "Data Analysis"]
+  },
+  {
+    "name": "Microsoft AI Product Manager Professional Certificate",
+    "link": "https://www.coursera.org/professional-certificates/microsoft-ai-product-manager",
+    "difficulty": "Unspecified",
+    "description": "A professional certificate program for AI product managers.",
+    "categories": ["AI Applications"]
+  },
+  {
+    "name": "Generative AI with Large Language Models",
+    "link": "https://www.coursera.org/learn/generative-ai-with-llms",
+    "difficulty": "Unspecified",
+    "description": "A course focusing on generative AI using Large Language Models.",
+    "categories": ["Generative AI", "Large Language Models (LLMs)"]
+  },
+  {
+    "name": "Generative AI: Fundamentals of Signal Engineering",
+    "link": "https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone",
+    "difficulty": "Unspecified",
+    "description": "A course covering the fundamentals of signal engineering in the context of Generative AI.",
+    "categories": ["Generative AI", "Introduction to AI and Fundamental Concepts"]
+  },
+  {
+    "name": "IBM AI Developer Professional Certificate",
+    "link": "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai",
+    "difficulty": "Unspecified",
+    "description": "A professional certificate program for AI developers.",
+    "categories": ["AI Applications"]
+  },
+  {
+    "name": "Machine Learning Specialization",
+    "link": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on Machine Learning.",
+    "categories": ["Machine Learning"]
+  },
+  {
+    "name": "Generative AI Specialization for Data Engineers",
+    "link": "https://www.coursera.org/specializations/generative-ai-for-data-engineers",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on Generative AI for data engineers.",
+    "categories": ["Generative AI", "Data Analysis"]
+  },
+  {
+    "name": "Generative AI Specialization for Data Scientists",
+    "link": "https://www.coursera.org/specializations/generative-ai-for-data-scientists",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on Generative AI for data scientists.",
+    "categories": ["Generative AI", "Data Analysis"]
+  },
+  {
+    "name": "IBM Generative AI Specialization for Cybersecurity Professionals",
+    "link": "https://www.coursera.org/specializations/generative-ai-for-cybersecurity-professionals",
+    "difficulty": "Unspecified",
+    "description": "An IBM specialization focused on Generative AI for cybersecurity professionals.",
+    "categories": ["Generative AI", "AI Applications"]
+  },
+  {
+    "name": "Generative AI Specialization for Software Developers",
+    "link": "https://www.coursera.org/specializations/generative-ai-for-software-developers",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on Generative AI for software developers.",
+    "categories": ["Generative AI", "AI Applications"]
+  },
+  {
+    "name": "Google AI Fundamentals Specialization",
+    "link": "https://www.cloudskillsboost.google/paths/118",
+    "difficulty": "Beginner",
+    "description": "A series of 5 courses offered by Google to learn about generative AI from the ground up, starting with an introduction to AI and progressing to a solid understanding of the field [4].",
+    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+  },
+  {
+    "name": "Automation with Generative AI Specialization",
+    "link": "https://www.coursera.org/specializations/generative-ai-automation",
+    "difficulty": "Unspecified",
+    "description": "A specialization focused on automation using Generative AI.",
+    "categories": ["Workflow Automation", "Generative AI"]
+  },
+  {
+    "name": "Introduction to Artificial Intelligence (AI)",
+    "link": "https://www.coursera.org/learn/introduction-to-ai",
+    "difficulty": "Beginner",
+    "description": "An introductory course to Artificial Intelligence. The specific destination link for this general course title is not explicitly provided in the source material [3].",
+    "categories": ["Introduction to AI and Fundamental Concepts"]
+  }
+]
