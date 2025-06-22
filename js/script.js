@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let cursosFiltrados = todosLosCursos;
         const searchText = searchBox.value.trim().toLowerCase();
 
-        // 1. Aplicar filtro de búsqueda de texto (si tiene 4 o más caracteres)
-        if (searchText.length >= 4) {
+        // 1. Aplicar filtro de búsqueda de texto (si tiene 3 o más caracteres)
+        if (searchText.length >= 3) {
             cursosFiltrados = cursosFiltrados.filter(curso => {
                 const nameMatch = curso.name.toLowerCase().includes(searchText);
                 const descMatch = curso.description ? curso.description.toLowerCase().includes(searchText) : false;
