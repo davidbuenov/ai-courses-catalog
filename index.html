@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Courses Catalog</title>
+    <title>AI Content Catalog</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Iconos de Font Awesome para el pie de página y los pulgares -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
     <div class="container">
         <header>
-            <h1>AI Courses Catalog</h1>
-            <p>Find the best courses and resources to learn about Artificial Intelligence.</p>
+            <h1>AI Content Catalog</h1>
+            <p>Find the best courses, books, and tools to learn about Artificial Intelligence.</p>
+            
+            <!-- CONTENEDOR PRINCIPAL PARA LA INFORMACIÓN DEL HEADER -->
             <div class="header-info">
-                <span>Courses available: <strong id="total-cursos">...</strong></span>
+                <!-- Los contadores de tipo se añadirán aquí con JS -->
+                <div id="header-info-counters"></div>
+                
+                <!-- El span de "Última Actualización" que querías mantener -->
                 <span id="ultima-actualizacion-container" style="display: none;"> | 
                     Last updated: <strong id="ultima-actualizacion">...</strong>
                 </span>
@@ -28,6 +32,12 @@
             </div>
 
             <div id="filtros-container">
+                <div class="filtro-grupo">
+                    <label for="filtro-tipo">Filter by Type:</label>
+                    <select id="filtro-tipo">
+                        <option value="">-- Select a type --</option>
+                    </select>
+                </div>
                 <div class="filtro-grupo">
                     <label for="filtro-categoria">Filter by Category:</label>
                     <select id="filtro-categoria">
@@ -47,31 +57,23 @@
             </div>
 
             <div id="cursos-container">
-                <!-- Courses will be rendered here with JS -->
-                <div class="loader">Loading courses...</div>
+                <!-- Content will be rendered here with JS -->
+                <div class="loader">Loading content...</div>
             </div>
         </main>
 
         <footer class="site-footer">
             <div class="footer-author">
                 A project by David Bueno Vallejo
-                <a href="https://www.linkedin.com/in/davidbueno/" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's LinkedIn Profile">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://davidbuenov.com" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's Personal Website">
-                    <i class="fas fa-globe"></i>
-                </a>
+                <a href="https://www.linkedin.com/in/davidbueno/" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://davidbuenov.com" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's Personal Website"><i class="fas fa-globe"></i></a>
             </div>
             <div class="footer-attribution">
                 This website was generated with the help of <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.
-                GitHub repository:
-                <a href="https://github.com/davidbuenov/ai-courses-catalog" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> davidbuenov/ai-courses-catalog
-                </a>
             </div>
         </footer>
 
-    </div> <!-- Cierre de .container -->
+    </div>
 
     <script src="js/script.js"></script>
 

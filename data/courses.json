@@ -3,358 +3,660 @@
     "name": "Google AI Courses",
     "link": "https://www.cloudskillsboost.google/paths/118",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A series of 5 courses offered by Google to learn about generative AI from the ground up, starting with an introduction to AI and progressing to a solid understanding of the field .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI"
+    ]
   },
   {
     "name": "Microsoft AI Course",
     "link": "https://microsoft.github.io/AI-For-Beginners/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "Covers the basics of AI, as well as more advanced topics such as neural networks and deep learning .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Machine Learning", "Deep Learning"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Machine Learning",
+      "Deep Learning"
+    ]
   },
   {
     "name": "Introduction to AI with Python (Harvard University)",
     "link": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A comprehensive 7-week course that explores the fundamental concepts and algorithms of AI, concluding with knowledge of AI principles and machine learning libraries .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Machine Learning"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Machine Learning"
+    ]
   },
   {
     "name": "Generative AI for Everyone",
     "link": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free resource to get started with Generative AI .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI"
+    ]
   },
   {
     "name": "Getting Started with LLMs",
     "link": "https://www.deeplearning.ai/short-courses/getting-started-with-mistral/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free resource to begin working with Large Language Models (LLMs) .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Large Language Models (LLMs)"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "AI Python for Beginners",
     "link": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free resource focused on teaching Python for beginners in the context of AI .",
-    "categories": ["Introduction to AI and Fundamental Concepts"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts"
+    ]
   },
   {
     "name": "OpenAI AI Academy - OpenAI, LLMs & ChatGPT",
     "link": "https://academy.openai.com/public/collections",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "Part of OpenAI Academy's free course offerings, introducing users to OpenAI, LLMs, and ChatGPT .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Large Language Models (LLMs)"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "OpenAI AI Academy - Introduction to GPTs",
     "link": "https://academy.openai.com/public/collections/chatgpt-at-work-2025-02-14",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "Another course from the OpenAI Academy, focused on introducing GPT models .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI"
+    ]
   },
   {
     "name": "Big Data, Artificial Intelligence, and Ethics (University of California - Davis)",
     "link": "https://www.coursera.org/learn/big-data-ai-ethics",
     "difficulty": "Intermediate",
+    "type": "Course",
     "description": "A 4-module course covering Big Data opportunities, introducing IBM Watson, and addressing the limitations of AI .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Big Data", "AI Ethics"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Big Data",
+      "AI Ethics"
+    ]
   },
   {
     "name": "Deep Reinforcement Learning Course (Hugging Face)",
     "link": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
     "difficulty": "Unspecified",
-    "description": "A free and open-source course that teaches Deep Reinforcement Learning from beginner to expert . It includes theoretical and practical content with popular libraries like Stable Baselines3, as well as agent training in various environments . Please note that this course is in a low-maintenance state, and some features like 'AI vs AI' challenges and the 'Leaderboard' are not operational [10, 12, 13]. It recommends dedicating 3-4 hours per week per chapter .",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Deep Learning", "AI Agents"]
+    "type": "Course",
+    "description": "A free and open-source course that teaches Deep Reinforcement Learning from beginner to expert . It includes theoretical and practical content with popular libraries like Stable Baselines3, as well as agent training in various environments . Please note that this course is in a low-maintenance state, and some features like 'AI vs AI' challenges and the 'Leaderboard' are not operational . It recommends dedicating 3-4 hours per week per chapter .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Deep Learning",
+      "AI Agents"
+    ]
   },
   {
     "name": "Prompt Engineering for ChatGPT (Vanderbilt University / Coursera)",
     "link": "https://www.coursera.org/learn/prompt-engineering",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A 6-module course designed for beginners looking to improve their skills for writing effective prompts .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "AI Applications and Prompt Engineering (edX)",
     "link": "https://www.edx.org/learn/computer-programming/edx-ai-applications-and-prompt-engineering",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "An introductory course that not only covers the basics of prompt engineering but also teaches how to apply them to create AI applications .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "OpenAI AI Academy - Introduction to Prompt Engineering",
     "link": "https://academy.openai.com/public/videos/introduction-to-prompt-engineering-2025-02-13",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A fundamental course from the OpenAI Academy to learn the basics of prompt engineering .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "Prompt Engineering Guide (GitHub Repo)",
     "link": "https://github.com/dair-ai/Prompt-Engineering-Guide",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A comprehensive repository containing guides, articles, classes, notebooks, and other resources for learning and mastering prompt engineering .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "Anthropic's Interactive Prompt Engineering Tutorial - Beginner Chapters",
     "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "This interactive tutorial from Anthropic includes initial chapters on basic prompt structure, being clear and direct, and assigning roles to the model .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "Anthropic's Interactive Prompt Engineering Tutorial - Intermediate Chapters",
     "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
     "difficulty": "Intermediate",
+    "type": "Course",
     "description": "Includes chapters on how to separate data from instructions, format model output and 'speak for Claude', the use of precognition ('thinking step by step'), and the utilization of examples .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "ChatGPT Prompt Engineering for Devs (OpenAI / DeepLearning AI)",
     "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
     "difficulty": "Intermediate",
+    "type": "Course",
     "description": "A collaborative course between OpenAI and DeepLearning AI, focusing on best practices and hands-on experience in prompt engineering for developers .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "Anthropic's Interactive Prompt Engineering Tutorial - Advanced Chapters",
     "link": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
     "difficulty": "Advanced",
+    "type": "Course",
     "description": "This section addresses advanced techniques such as avoiding hallucinations and the construction of complex prompts for industry use cases .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "OpenAI AI Academy - Advanced Prompt Engineering",
     "link": "https://academy.openai.com/public/videos/advanced-prompt-engineering-2025-02-13",
     "difficulty": "Advanced",
+    "type": "Course",
     "description": "A course within the OpenAI Academy that focuses on advanced prompt engineering techniques .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "AI Agents for Beginners (GitHub Repo)",
     "link": "https://github.com/microsoft/ai-agents-for-beginners",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free 11-lesson course specifically designed for beginners who want to start building AI agents .",
-    "categories": ["AI Agents"]
+    "categories": [
+      "AI Agents"
+    ]
   },
   {
     "name": "AI Agentic Design Patterns with AutoGen",
     "link": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
     "difficulty": "Unspecified",
-    "description": "A course available through DeepLearning AI that explores design patterns for AI agents using the AutoGen library [5, 21, 22].",
-    "categories": ["AI Agents"]
+    "type": "Course",
+    "description": "A course available through DeepLearning AI that explores design patterns for AI agents using the AutoGen library .",
+    "categories": [
+      "AI Agents"
+    ]
   },
   {
     "name": "Multi AI Agent Systems with crewAI",
     "link": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
     "difficulty": "Unspecified",
-    "description": "A course of DeepLearning AI that focuses on the creation of systems with multiple AI agents using crewAI [5, 22, 23].",
-    "categories": ["AI Agents"]
+    "type": "Course",
+    "description": "A course of DeepLearning AI that focuses on the creation of systems with multiple AI agents using crewAI .",
+    "categories": [
+      "AI Agents"
+    ]
   },
   {
     "name": "AI Agents in LangGraph",
     "link": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A course of DeepLearning AI that explores the use of LangGraph to build AI agents.",
-    "categories": ["AI Agents"]
+    "categories": [
+      "AI Agents"
+    ]
   },
   {
     "name": "Fundamentals of AI agents using RAG and LangChain",
     "link": "https://www.coursera.org/learn/fundamentals-of-ai-agents-using-rag-and-langchain",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A resource for learning the fundamentals of AI agents integrating RAG and LangChain .",
-    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)"]
+    "categories": [
+      "AI Agents",
+      "RAG (Retrieval-Augmented Generation)"
+    ]
   },
   {
     "name": "Building Agentic RAG with LlamaIndex",
     "link": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A course of DeepLearning AI focused on the construction of RAG systems with agentic capabilities using LlamaIndex .",
-    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)"]
+    "categories": [
+      "AI Agents",
+      "RAG (Retrieval-Augmented Generation)"
+    ]
   },
   {
     "name": "GenAI Agents (GitHub Repo)",
     "link": "https://github.com/NirDiamant/GenAI_Agents",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A GitHub repository that provides tutorials and implementations for various Generative AI Agent techniques, covering from basic to advanced concepts .",
-    "categories": ["AI Agents", "Generative AI"]
+    "categories": [
+      "AI Agents",
+      "Generative AI"
+    ]
   },
   {
     "name": "n8n AI Agents Tutorial (8-hour video)",
     "link": "https://youtu.be/Ey18PDiaAYI",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A detailed video tutorial that teaches how to build AI agents using the n8n platform. It covers practical topics such as the creation of a RAG Chatbot, automation of Customer Support, and automated content generation for LinkedIn .",
-    "categories": ["AI Agents", "RAG (Retrieval-Augmented Generation)", "Data Analysis and Specific Tool Usage", "Other AI Topics and Applications"]
+    "categories": [
+      "AI Agents",
+      "RAG (Retrieval-Augmented Generation)",
+      "Data Analysis and Specific Tool Usage",
+      "Other AI Topics and Applications"
+    ]
   },
   {
     "name": "Serverless Agentic Workflows with Amazon Bedrock (DeepLearning AI)",
     "link": "https://www.deeplearning.ai/short-courses/serverless-agentic-workflows-with-amazon-bedrock/",
     "difficulty": "Advanced",
+    "type": "Course",
     "description": "A DeepLearning AI course on implementing serverless agentic workflows using Amazon Bedrock .",
-    "categories": ["AI Agents", "LLMOps"]
+    "categories": [
+      "AI Agents",
+      "LLMOps"
+    ]
   },
   {
     "name": "Agentic Pattern Course by Miguel Otero",
     "link": "https://www.youtube.com/playlist?list=PLacQJwuclt_sK_pUPzBpfeWyiL1QOSMRQ",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A youtube course based on practice and real-world projects for learning agentic patterns .",
-    "categories": ["AI Agents"]
+    "categories": [
+      "AI Agents"
+    ]
   },
   {
     "name": "LLMOps (Google Cloud / DeepLearning AI)",
     "link": "https://www.deeplearning.ai/short-courses/llmops/",
     "difficulty": "Advanced",
+    "type": "Course",
     "description": "A DeepLearning AI course in collaboration with Google Cloud that delves into the LLMOps pipeline, from pre-processing training data to adapting a supervised tuning pipeline to train and deploy a custom LLM .",
-    "categories": ["LLMOps", "Large Language Models (LLMs)"]
+    "categories": [
+      "LLMOps",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "OpenAI AI Academy - ChatGPT for Data Analysis",
     "link": "https://academy.openai.com/public/videos/chatgpt-for-data-analysis-2025-02-13",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A course from the OpenAI Academy focused on using ChatGPT for data analysis tasks .",
-    "categories": ["Data Analysis and Specific Tool Usage", "Large Language Models (LLMs)"]
+    "categories": [
+      "Data Analysis and Specific Tool Usage",
+      "Large Language Models (LLMs)"
+    ]
   },
-   {
+  {
     "name": "ChatGPT Advanced Data Analysis (Coursera)",
     "link": "https://www.coursera.org/learn/chatgpt-advanced-data-analysis",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "Mentioned in relation to the Code Interpreter .",
-    "categories": ["Data Analysis and Specific Tool Usage", "Large Language Models (LLMs)"]
+    "categories": [
+      "Data Analysis and Specific Tool Usage",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "Hands on Large Language Models (GitHub Repo)",
     "link": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "This repository contains code examples that complement the book 'Hands-On Large Language Models,' covering from the introduction to language models to fine-tuning techniques .",
-    "categories": ["Other AI Topics and Applications", "Large Language Models (LLMs)"]
+    "categories": [
+      "Other AI Topics and Applications",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "Prompt Engineering for VLMS",
     "link": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free resource for prompt engineering with Visual Language Models (VLMs) .",
-    "categories": ["Prompt Engineering"]
+    "categories": [
+      "Prompt Engineering"
+    ]
   },
   {
     "name": "Generative AI for Everyone",
     "link": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
     "difficulty": "Beginner",
+    "type": "Course",
     "description": "A free resource to get started with Generative AI.",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI"
+    ]
   },
   {
     "name": "Generative AI Specialization for Data Analysts",
     "link": "https://www.coursera.org/specializations/generative-ai-for-data-analysts",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on Generative AI for data analysts.",
-    "categories": ["Generative AI", "Data Analysis"]
+    "categories": [
+      "Generative AI",
+      "Data Analysis"
+    ]
   },
   {
     "name": "Microsoft AI Product Manager Professional Certificate",
     "link": "https://www.coursera.org/professional-certificates/microsoft-ai-product-manager",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A professional certificate program for AI product managers.",
-    "categories": ["AI Applications"]
+    "categories": [
+      "AI Applications"
+    ]
   },
   {
     "name": "Generative AI with Large Language Models",
     "link": "https://www.coursera.org/learn/generative-ai-with-llms",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A course focusing on generative AI using Large Language Models.",
-    "categories": ["Generative AI", "Large Language Models (LLMs)"]
+    "categories": [
+      "Generative AI",
+      "Large Language Models (LLMs)"
+    ]
   },
   {
     "name": "Generative AI: Fundamentals of Signal Engineering",
     "link": "https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A course covering the fundamentals of signal engineering in the context of Generative AI.",
-    "categories": ["Generative AI", "Introduction to AI and Fundamental Concepts"]
+    "categories": [
+      "Generative AI",
+      "Introduction to AI and Fundamental Concepts"
+    ]
   },
   {
     "name": "IBM AI Developer Professional Certificate",
     "link": "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A professional certificate program for AI developers.",
-    "categories": ["AI Applications"]
+    "categories": [
+      "AI Applications"
+    ]
   },
   {
     "name": "Machine Learning Specialization",
     "link": "https://www.coursera.org/specializations/machine-learning-introduction",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on Machine Learning.",
-    "categories": ["Machine Learning"]
+    "categories": [
+      "Machine Learning"
+    ]
   },
   {
     "name": "Generative AI Specialization for Data Engineers",
     "link": "https://www.coursera.org/specializations/generative-ai-for-data-engineers",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on Generative AI for data engineers.",
-    "categories": ["Generative AI", "Data Analysis"]
+    "categories": [
+      "Generative AI",
+      "Data Analysis"
+    ]
   },
   {
     "name": "Generative AI Specialization for Data Scientists",
     "link": "https://www.coursera.org/specializations/generative-ai-for-data-scientists",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on Generative AI for data scientists.",
-    "categories": ["Generative AI", "Data Analysis"]
+    "categories": [
+      "Generative AI",
+      "Data Analysis"
+    ]
   },
   {
     "name": "IBM Generative AI Specialization for Cybersecurity Professionals",
     "link": "https://www.coursera.org/specializations/generative-ai-for-cybersecurity-professionals",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "An IBM specialization focused on Generative AI for cybersecurity professionals.",
-    "categories": ["Generative AI", "AI Applications"]
+    "categories": [
+      "Generative AI",
+      "AI Applications"
+    ]
   },
   {
     "name": "Generative AI Specialization for Software Developers",
     "link": "https://www.coursera.org/specializations/generative-ai-for-software-developers",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on Generative AI for software developers.",
-    "categories": ["Generative AI", "AI Applications"]
+    "categories": [
+      "Generative AI",
+      "AI Applications"
+    ]
   },
   {
     "name": "Google AI Fundamentals Specialization",
     "link": "https://www.cloudskillsboost.google/paths/118",
     "difficulty": "Beginner",
-    "description": "A series of 5 courses offered by Google to learn about generative AI from the ground up, starting with an introduction to AI and progressing to a solid understanding of the field [4].",
-    "categories": ["Introduction to AI and Fundamental Concepts", "Generative AI"]
+    "type": "Course",
+    "description": "A series of 5 courses offered by Google to learn about generative AI from the ground up, starting with an introduction to AI and progressing to a solid understanding of the field .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI"
+    ]
   },
   {
     "name": "Automation with Generative AI Specialization",
     "link": "https://www.coursera.org/specializations/generative-ai-automation",
     "difficulty": "Unspecified",
+    "type": "Course",
     "description": "A specialization focused on automation using Generative AI.",
-    "categories": ["Workflow Automation", "Generative AI"]
+    "categories": [
+      "Workflow Automation",
+      "Generative AI"
+    ]
   },
   {
     "name": "Introduction to Artificial Intelligence (AI)",
     "link": "https://www.coursera.org/learn/introduction-to-ai",
     "difficulty": "Beginner",
-    "description": "An introductory course to Artificial Intelligence. The specific destination link for this general course title is not explicitly provided in the source material [3].",
-    "categories": ["Introduction to AI and Fundamental Concepts"]
+    "type": "Course",
+    "description": "An introductory course to Artificial Intelligence. The specific destination link for this general course title is not explicitly provided in the source material .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts"
+    ]
   },
   {
-  "name": "MCP: Build Rich-Context AI Apps with Anthropic",
-  "link": "https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
-  "difficulty": "Unspecified",
-  "description": "This course, built in partnership with Anthropic, teaches the core concepts of the Model Context Protocol (MCP) and how to implement it in your AI applications. MCP is an open protocol that standardizes how Large Language Model (LLM) applications can get access to context in terms of tools and data resources, based on a client-server architecture. It defines how communication takes place between an MCP client, hosted inside your own LLM application, and an MCP server that exposes tools, data resources, and prompt templates to your application. MCP originated as part of an internal Anthropic project to extend the capabilities of Claude Desktop, allowing it to interact with local file systems and other external systems. The protocol was found useful in many AI applications and was subsequently published as open source to make it available to more developers.\n\nThe MCP ecosystem is growing rapidly and includes a number of MCP services developed by the open-source community and Anthropic's MCP team . It is model agnostic and designed to be easy to plug into multiple applications. For instance, a research assistant agent could connect to GitHub, Google Drive, and File System services via MCP to access and summarize data, without you having to write custom LLM tools.\n\nThe course curriculum includes a deep dive into the MCP client-server architecture, making a chatbot application MCP compatible, building and testing an MCP server, and connecting the chatbot to it. You will also learn to connect your chatbot to other trusted third-party servers to extend its capabilities, re-use your MCP server with other MCP applications like Claude Desktop, and deploy your MCP server remotely. The instructor for this course is Elie Schoppik, Head of Technical Education at Anthropic. This technology significantly eases the process for LLM application developers to connect their systems to various tools and data resources, and for tool/data providers to make their offerings accessible to many developers.",
-  "categories": ["MCP (Model Context Protocol)", "Large Language Models (LLMs)", "AI Agents", "AI Deployment"]
- },
- {
-  "name": "#2 Programming 'Hello World' with MCP: Python implementation and integration with Claude AI",
-  "link": "https://www.youtube.com/watch?v=9-v2WOby2-Q&list=PLnNbmcjjevxsnAfDfQmDmhBYBWAt0rbMs&index=2",
-  "difficulty": "Intermediate",
-  "description": "This youtube video provides a step-by-step guide on how to create a Model Context Protocol (MCP) client and server from scratch using Python. It covers the essential setup, including initializing a Python environment, creating a virtual environment, and installing necessary libraries such as `FasMCP`, `MCP_Types`, `asyncio`, and `Pathlib`. The tutorial demonstrates how to build an MCP server, defining tools (e.g., a 'Hello World' tool) and their descriptions, which are crucial for clients and Large Language Models (LLMs) to understand when to call them. It then walks through the process of creating an MCP client that connects to the server, makes requests to its tools, and processes the text-based responses. The video also includes a section on error handling for robust application development. A key highlight is the demonstration of how to integrate the custom-built MCP server with Claude Desktop by configuring the `claude_desktop_config` file, allowing Claude AI to interact with your local MCP server and its defined tools. This practical 'Hello World' example serves as a fundamental base for developing more complex AI applications that leverage the MCP client-server architecture. The MCP itself is an open protocol that standardizes how LLM applications can access context, tools, and data resources through a client-server model.",
-  "categories": ["MCP (Model Context Protocol)", "AI Agents", "Large Language Models (LLMs)", "AI Deployment", "Systems Integration", "Workflow Automation"]
-},
+    "name": "MCP: Build Rich-Context AI Apps with Anthropic",
+    "link": "https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "This course, built in partnership with Anthropic, teaches the core concepts of the Model Context Protocol (MCP) and how to implement it in your AI applications. MCP is an open protocol that standardizes how Large Language Model (LLM) applications can get access to context in terms of tools and data resources, based on a client-server architecture. It defines how communication takes place between an MCP client, hosted inside your own LLM application, and an MCP server that exposes tools, data resources, and prompt templates to your application. MCP originated as part of an internal Anthropic project to extend the capabilities of Claude Desktop, allowing it to interact with local file systems and other external systems. The protocol was found useful in many AI applications and was subsequently published as open source to make it available to more developers.\n\nThe MCP ecosystem is growing rapidly and includes a number of MCP services developed by the open-source community and Anthropic's MCP team . It is model agnostic and designed to be easy to plug into multiple applications. For instance, a research assistant agent could connect to GitHub, Google Drive, and File System services via MCP to access and summarize data, without you having to write custom LLM tools.\n\nThe course curriculum includes a deep dive into the MCP client-server architecture, making a chatbot application MCP compatible, building and testing an MCP server, and connecting the chatbot to it. You will also learn to connect your chatbot to other trusted third-party servers to extend its capabilities, re-use your MCP server with other MCP applications like Claude Desktop, and deploy your MCP server remotely. The instructor for this course is Elie Schoppik, Head of Technical Education at Anthropic. This technology significantly eases the process for LLM application developers to connect their systems to various tools and data resources, and for tool/data providers to make their offerings accessible to many developers.",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "Large Language Models (LLMs)",
+      "AI Agents",
+      "AI Deployment"
+    ]
+  },
   {
-  "name": "David Kriesel’s A Brief Introduction to Neural Networks",
-  "link": "https://www.linkedin.com/posts/michael-erlihson-phd-8208616_a-brief-introduction-to-neural-networks-ugcPost-7342131671187501056-B_xA/",
-  "difficulty": "Unspecified",
-  "type": "book",
-  "description": "A **mathematically grounded text** that delves into the **foundations of neural networks** [1]. It explains **how neural networks actually work, layer by layer, and equation by equation**, without assuming hype or shortcuts [1]. The book covers a range of topics, from biology to **perceptrons, backpropagation, RBFs, SOMs, Hopfield nets, and ART**, providing **clear derivations and precise illustrations** [1]. It is notable for **balancing rigor and clarity**, making it comprehensible for both math-inclined readers who can follow the formalism directly, and non-math-inclined readers who are carried forward by its prose [1]. This resource also includes a **complete Java neural network framework (SNIPE)** for practical learning through coding [1]. It addresses classic and less common architectures carefully, including delta rules, gradient procedures, growing RBF networks, and **reinforcement learning with real examples** [1]. This **foundational work** is highly recommended for **building a serious intuition** about neural networks, rather than merely tuning them, and is noted to not age despite not being a new book [1].",
-  "categories": ["Introduction to AI and Fundamental Concepts", "Deep Learning", "Machine Learning", "AI Agents"]
+    "name": "#2 Programming 'Hello World' with MCP: Python implementation and integration with Claude AI",
+    "link": "https://www.youtube.com/watch?v=9-v2WOby2-Q&list=PLnNbmcjjevxsnAfDfQmDmhBYBWAt0rbMs&index=2",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "This youtube video provides a step-by-step guide on how to create a Model Context Protocol (MCP) client and server from scratch using Python. It covers the essential setup, including initializing a Python environment, creating a virtual environment, and installing necessary libraries such as `FasMCP`, `MCP_Types`, `asyncio`, and `Pathlib`. The tutorial demonstrates how to build an MCP server, defining tools (e.g., a 'Hello World' tool) and their descriptions, which are crucial for clients and Large Language Models (LLMs) to understand when to call them. It then walks through the process of creating an MCP client that connects to the server, makes requests to its tools, and processes the text-based responses. The video also includes a section on error handling for robust application development. A key highlight is the demonstration of how to integrate the custom-built MCP server with Claude Desktop by configuring the `claude_desktop_config` file, allowing Claude AI to interact with your local MCP server and its defined tools. This practical 'Hello World' example serves as a fundamental base for developing more complex AI applications that leverage the MCP client-server architecture. The MCP itself is an open protocol that standardizes how LLM applications can access context, tools, and data resources through a client-server model.",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "AI Agents",
+      "Large Language Models (LLMs)",
+      "AI Deployment",
+      "Systems Integration",
+      "Workflow Automation"
+    ]
+  },
+  {
+    "name": "David Kriesel’s A Brief Introduction to Neural Networks",
+    "link": "https://www.linkedin.com/posts/michael-erlihson-phd-8208616_a-brief-introduction-to-neural-networks-ugcPost-7342131671187501056-B_xA/",
+    "difficulty": "Unspecified",
+    "type": "Book",
+    "description": "A mathematically grounded text that delves into the foundations of neural networks . It explains how neural networks actually work, layer by layer, and equation by equation, without assuming hype or shortcuts . The book covers a range of topics, from biology to perceptrons, backpropagation, RBFs, SOMs, Hopfield nets, and ART, providing clear derivations and precise illustrations . It is notable for balancing rigor and clarity, making it comprehensible for both math-inclined readers who can follow the formalism directly, and non-math-inclined readers who are carried forward by its prose . This resource also includes a complete Java neural network framework (SNIPE) for practical learning through coding . It addresses classic and less common architectures carefully, including delta rules, gradient procedures, growing RBF networks, and reinforcement learning with real examples . This foundational work is highly recommended for building a serious intuition about neural networks, rather than merely tuning them, and is noted to not age despite not being a new book .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Deep Learning",
+      "Machine Learning",
+      "AI Agents"
+    ]
+  },
+  {
+    "name": "AI Frontier",
+    "link": "https://www.linkedin.com/newsletters/ai-frontier-6861893793654935552/",
+    "difficulty": "Unspecified",
+    "type": "Newsletter",
+    "description": "This is a witty, informative newsletter featuring curated AI news, the latest innovations and learning resources. It is published weekly and created by Steve Nouri, who is known for building the largest AI community, being an advisor to Fortune 500 companies, having 2 million followers, and being a keynote speaker.",
+    "categories": [
+        "Introduction to AI and Fundamental Concepts",
+        "AI Applications"
+    ]
+  },
+  {
+    "name": "IBM AI Newsletter",
+    "link": "https://www.linkedin.com/newsletters/ai-newsletter-7321517150936920066/",
+    "difficulty": "Unspecified",
+    "type": "Newsletter",
+    "description": "This newsletter provides the latest in AI from IBM and the open source world, curated and delivered every two weeks. It is created by Jacobo Garnacho Pérez, who is a Principal Data Platform Sales Manager at IBM and a University Professor, with a passion for AI and Quantum. Featured editions include IBM AI June Highlights and Latest AI News, as well as coverage of IBM THINK 2025.",
+    "categories": [
+        "Introduction to AI and Fundamental Concepts",
+        "AI Applications"
+    ]
+},
+{
+    "name": "Brain News",
+    "link": "https://www.linkedin.com/newsletters/brain-news-6877555549521616896/",
+    "difficulty": "Unspecified",
+    "type": "Newsletter",
+    "description": "This newsletter covers Marketing, Design, Business, and a wide variety of other topics ('Newsletter de todo lo que leo sobre Marketing, Diseño, Negocios y un largo etcétera') . It is published weekly  and is created by Andrés Karp, who is identified as a LinkedIn Top Voice specializing in Strategic Marketing, Artificial Intelligence, and Data . Past editions of the newsletter include a series titled ʙʀᴀɪɴs ɴᴇᴡs ʙᴏᴏᴋ: ʙᴜɪʟᴛ ɪɴ ᴘᴜʙʟɪᴄ .",
+    "categories": [
+        "Introduction to AI and Fundamental Concepts",
+        "AI Applications",
+        "Data Analysis"
+    ]
+},
+{
+    "name": "ACI.dev",
+    "link": "https://github.com/aipotheosis-labs/aci",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "ACI.dev is an open-source platform designed to connect AI agents to any tool for VibeOps and Agent Workflows . It provides capabilities for building AI agents through function calling or its unified Model Context Protocol (MCP) server . The platform is model agnostic  and aims to solve complex AI agent engineering challenges by offering multi-tenant authentication management and granular permissions .\n\nKey features of ACI.dev include:   Unified MCP Server: Allows connecting an MCP client to over 600+ integrations through a single connection, enabling AI agents to search, plan, and execute tasks based on intent .   Workflow Discovery: Grants AI agents the flexibility to dynamically discover the best tools and workflows for their current task .   Secure Authentication / Managed Agent Authentication: Facilitates end-users authorizing their AI agents with account access via OAuth, with ACI.dev handling token management and OAuth client setups .   Secure Agent Secrets Manager: Provides a mechanism for end-users to securely store and manage credentials for web browsing AI agents, with customizable access policies .   Natural Language Permissions: Enables setting granular permissions using natural language, which helps prevent erroneous API execution and significantly improves agent reliability .\n\nPre-built tool integrations include popular services like Gmail, HubSpot, Notion, and Slack . ACI.dev aims to provide everything necessary to create production-ready AI agents that can securely interact with various tools and services .",
+    "categories": [
+        "AI Agents",
+        "Agent Development",
+        "MCP (Model Context Protocol)",
+        "Systems Integration",
+        "Workflow Automation",
+        "AI Deployment"
+    ]
+},
+{
+    "name": "n8n Workflows Collection (DragonJAR)",
+    "link": "https://github.com/DragonJAR/n8n-workflows-es",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "This GitHub repository, a fork of @Zie619's initiative, is a consolidated collection of n8n workflows ('Colección de Flujos de Trabajo de n8n'). It gathers workflows from various sources, including the official n8n.io site and its community forum, public GitHub examples, blogs, and other websites. Its primary purpose is to serve as a resource for inspiration, learning, and reuse of workflows in your own n8n projects .\n\nKey features and improvements implemented in this collection include:   Descriptions in Spanish: Each `.json` file has a clear description in Spanish, detailing the actions it performs .   Duplicate Elimination: A unique hash validation process ensures that each workflow is unique in content .   File Renaming: File names have been updated for more accurate functionality descriptions, aiding in search and selection .\n\nTo use a workflow, you typically import the desired `.json` file into your n8n instance, adjust any necessary credentials or webhook URLs, then save and execute . The repository also offers interactive support through a Custom GPT and an MCP (Model Context Protocol) server . The MCP server allows interaction with this knowledge base of documented n8n flows, with instructions for use in various AI-powered tools like Cursor, Claude Desktop, and VSCode . Contributions are welcome via pull requests .\n\nThe collection features a wide variety of workflows, including those for AI reports, marketing automation, integrations with services like Gumroad, MailerLite, LINE, ChatGPT, Google Drive, Connectwise, Microsoft Teams, Google Calendar, Outlook, Airtable, Notion, LinkedIn, Stripe, HubSpot, Slack, and many more [6-653]. It also includes complex AI-driven automations such as multi-agent AI conversations, AI-powered content creation for social media, email analysis and summarization with AI, AI agents for various tasks (e.g., calendar management, sales, HR), document processing (PDF to text/markdown), image generation and analysis, sentiment analysis, and web scraping.",
+    "categories": [
+        "n8n",
+        "Workflow Automation",
+        "Systems Integration",
+        "AI Agents",
+        "RAG (Retrieval-Augmented Generation)",
+        "Large Language Models (LLMs)",
+        "AI Applications",
+        "Data Analysis",
+        "Document Processing",
+        "Image Analysis with AI",
+        "Web Scraping with AI",
+        "MCP (Model Context Protocol)"
+    ]
+},
+{
+    "name": "The Unwind AI",
+    "link": "https://www.theunwindai.com/",
+    "difficulty": "Unspecified",
+    "type": "Newsletter",
+    "description": "The Unwind AI is an online platform that serves as a go-to source for the latest AI news, cutting-edge tools, and in-depth tutorials specifically for AI Developers . It provides real-time updates on the rapidly evolving AI landscape . While not a traditional linear course, its continuous stream of tutorials and news updates provides a learning resource for developers.\n\nThe platform features a popular \"Daily Unwind\" section that offers concise summaries of impactful developments across various AI domains :   AI Agents & Workflows: Includes discussions on topics such as Microsoft’s Deep Research Agent for Large Codebases, general-purpose AI agents for long-running tasks, Software Development Agents in Your Terminal, Agentic Browsers that see all your tabs, and Multi-Agent AI Systems, including those built with 1000+ tools [1-3]. It also covers AI Super Agents in your browser and always-on AI agents that monitor the web .   Model Context Protocol (MCP): Highlights practical applications and potential, such as connecting React applications to an MCP server in just 3 lines of code, the potential for 500K+ AI apps to act as MCP servers, using an MCP server to help stop AI hallucination, and how to connect AI agents to 10,000+ tools via MCP [1-3]. The platform also notes the availability of an AI agent course as an MCP server and the Hugging Face MCP Server for Models, Datasets, and Papers .   Large Language Models (LLMs): Covers updates on new models like Gemini 2.5 Flash and Mistral's reasoning model, discussions on Apple's perspective on reasoning LLMs, and practical aspects like GitHub making Copilot project-specific .   Emerging AI Tools & Resources: Provides updates on developer-centric tools such as Claude Code now available in VS Code, Apple opensourcing a Docker alternative for Mac, Vibe code browser automation scripts, and free open-source alternatives to various services .   Memory-Augmented Generation & RAG: Explores concepts like an Operating System for Memory-augmented generation and the availability of an opensource plug-and-play RAG stack .\n\nIn addition to daily news, The Unwind AI offers an \"AI Tutorial\" section that provides step-by-step instructions to empower users to build real-world AI applications . An example tutorial highlighted is on building a fully functional, 100% open-source Agentic RAG App with Reasoning . The platform aims to be an essential resource for developers looking to stay ahead and master AI development .",
+    "categories": [
+        "AI Agents",
+        "MCP (Model Context Protocol)",
+        "Large Language Models (LLMs)",
+        "RAG (Retrieval-Augmented Generation)",
+        "AI Applications",
+        "Workflow Automation",
+        "Systems Integration",
+        "Prompt Engineering",
+        "Introduction to AI and Fundamental Concepts"
+    ]
+},
+{
+    "name": "Firecrawl",
+    "link": "https://www.firecrawl.dev/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "Firecrawl is an open-source API and platform designed to transform websites into LLM-ready data . It offers industry-leading web scraping and crawling capabilities to enhance AI applications .\n\nKey features and functionalities of Firecrawl include:   Web Scraping and Search: It allows users to search the web and scrape the results with a single API call . It can extract content in markdown and JSON formats, and even capture screenshots .   Advanced Crawling: Firecrawl can gather clean data from all accessible subpages, even without a sitemap . It handles complex web elements such as rotating proxies, orchestration, rate limits, and JavaScript-blocked content, ensuring zero configuration for the user .   Dynamic Content & Reliability: The tool is built for reliability and scales with user needs, handling JavaScript, Single-Page Applications (SPAs), and dynamic content loading with minimal setup . It also features a 'Smart Wait' function to intelligently wait for content to load, making scraping faster and more dependable .   Media Parsing & Actions: Firecrawl can parse and output content from web-hosted PDFs, DOCX, and HTML files . It supports various actions to interact with web pages before extraction, including click, scroll, write, wait, and press .   Integration: It is fully integrated with existing tools and workflows . Developers can easily start using it by installing the `@mendable/firecrawl-js` package .\n\nFirecrawl is used for various AI-powered solutions , including:   AI Chats: Powering AI assistants with real-time, accurate web content .   Lead Enrichment: Enhancing sales data with web information .   MCPs (Model Context Protocols): Adding powerful scraping capabilities to code editors .   AI Platforms: Enabling customers to build AI apps with web data .   Deep Research: Extracting comprehensive information for in-depth research .\n\nUsers have reported significant benefits, such as simplifying data preparation, being 50 times faster than alternatives like Apify for web scraping, and providing major savings in time and money by reducing token consumption (e.g., saving 2/3 tokens and allowing GPT-3.5 Turbo usage over GPT-4) [7-9]. Firecrawl offers a free plan (500 credits) and various paid plans with increasing credits and concurrent browser support, with transparent pricing and add-ons like auto-recharge and credit packs.",
+    "categories": [
+        "Web Scraping with AI",
+        "Large Language Models (LLMs)",
+        "AI Applications",
+        "AI Assistants",
+        "MCP (Model Context Protocol)",
+        "Workflow Automation",
+        "Systems Integration",
+        "Data Analysis"
+    ]
 }
+  
 ]
