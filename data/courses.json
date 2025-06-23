@@ -657,6 +657,25 @@
         "Systems Integration",
         "Data Analysis"
     ]
+},
+{
+    "name": "Awesome LLM Apps",
+    "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "The Awesome LLM Apps repository is a curated collection of impressive applications built using Large Language Models (LLMs) . These applications leverage various advanced AI concepts including Retrieval Augmented Generation (RAG), AI Agents (both single and multi-agent teams), Model Context Protocol (MCP), and Voice Agents . The repository features apps developed with leading models from OpenAI, Anthropic, Google, and a range of open-source models like DeepSeek, Qwen, or Llama that can be run locally .\n\nThis collection serves as a valuable resource to:   Discover practical and creative applications of LLMs across diverse domains, from code repositories to email inboxes .   Explore apps that combine LLMs with AI Agents, Agent Teams, MCP, and RAG .   Learn from well-documented projects and contribute to the expanding open-source ecosystem of LLM-powered applications .\n\nThe repository organizes its featured AI projects into several key categories, showcasing a wide array of functionalities:   AI Agents: Includes a variety of 'Starter AI Agents' (e.g., AI Blog to Podcast Agent, AI Data Analysis Agent, AI Travel Agent) and 'Advanced AI Agents' (e.g., AI Deep Research Agent, AI System Architect Agent, AI Financial Coach Agent), as well as 'Autonomous Game Playing Agents' (e.g., AI Chess Agent) . The collection also features a 'Web Scrapping AI Agent (Local & Cloud)' .   Multi-agent Teams: Highlights systems where multiple AI agents collaborate, such as 'AI Competitor Intelligence Agent Team', 'AI Finance Agent Team', and 'Multimodal Coding Agent Team' .   Voice AI Agents: Focuses on agents designed for voice interaction, including 'AI Audio Tour Agent' and 'Customer Support Voice Agent' .   MCP AI Agents: Demonstrates agents integrated with the Model Context Protocol, such as 'Browser MCP Agent', 'GitHub MCP Agent', and 'Notion MCP Agent' .   RAG (Retrieval Augmented Generation): Features various implementations of RAG, including 'Agentic RAG', 'Corrective RAG (CRAG)', 'Hybrid Search RAG', and 'Local RAG Agent' .   LLM Apps with Memory Tutorials: Provides examples of LLM applications capable of maintaining memory, like 'AI ArXiv Agent with Memory' and 'Local ChatGPT Clone with Memory' .   Chat with X Tutorials: Offers guides on building LLM applications that can chat with various data sources, such as 'Chat with GitHub', 'Chat with Gmail', 'Chat with PDF', and 'Chat with YouTube Videos' .   LLM Fine-tuning Tutorials: Includes resources like 'Llama 3.2 Fine-tuning' .\n\nTo get started, users can clone the repository, navigate to the desired project directory, install dependencies using `pip install -r requirements.txt`, and follow the project-specific instructions provided in each `README.md` file . The repository encourages contributions, inviting users to create issues or submit pull requests for new apps or improvements . The project is primarily developed in Python (59.7%), with significant contributions in JavaScript (31.8%) and TypeScript (7.9%) . It has garnered substantial community support, with 45.7k stars and 5.2k forks .",
+    "categories": [
+        "AI Agents",
+        "RAG (Retrieval-Augmented Generation)",
+        "Large Language Models (LLMs)",
+        "MCP (Model Context Protocol)",
+        "AI Applications",
+        "Workflow Automation",
+        "Systems Integration",
+        "Prompt Engineering",
+        "Web Scraping with AI",
+        "Data Analysis"
+    ]
 }
   
 ]
