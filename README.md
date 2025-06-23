@@ -4,7 +4,7 @@
 
 A clean, fast, and fully client-side web application to discover, search, and filter a curated list of AI content, including courses, books, tools, and newsletters. This project runs entirely in the browser without needing a backend or database.
 
-**➡️ Live Demo (Placeholder):** `https://davidbuenov.github.io/ai-courses-catalog/` *(This link will work once you upload the project to a GitHub repository and activate GitHub Pages)*
+**➡️ Live Demo (Placeholder): [https://davidbuenov.github.io/ai-courses-catalog/](https://davidbuenov.github.io/ai-courses-catalog/)
 
 ---
 
