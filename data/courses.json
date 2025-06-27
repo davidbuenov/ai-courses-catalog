@@ -833,7 +833,7 @@
     "name": "Large Language Models: A Survey",
     "link": "https://doi.org/10.48550/arXiv.2402.06196",
     "difficulty": "Advanced",
-    "type": "Paper",
+    "type": "Book",
     "description": "This is a comprehensive research article on Large Language Models (LLMs), authored by Shervin Minaee, Tomas Mikolov, and Richard Socher, among others . It was initially submitted on February 9, 2024, and last revised on March 23, 2025 . The paper explores the rapid evolution of LLMs since the release of ChatGPT in November 2022, highlighting their powerful performance on a wide range of natural language processing tasks .\n\nThe article delves into how LLMs acquire their general-purpose language understanding and generation capabilities by training billions of parameters on massive amounts of text data, as predicted by scaling laws . The research reviews the most prominent LLM families, including GPT, LLaMA, and PaLM, and discusses their features, contributions, and limitations . It also provides an overview of techniques developed for building and augmenting LLMs . Furthermore, the paper analyzes popular datasets used for training, fine-tuning, and evaluating LLMs, and reviews widely used evaluation metrics. It includes a comparison of the performance of several popular LLMs on a set of representative benchmarks. The paper concludes by discussing open challenges and future research directions in the field of LLMs. The topics covered are Computer Science and Language (cs.CL) and Artificial Intelligence (cs.AI).",
     "categories": [
       "Large Language Models (LLMs)",
@@ -953,7 +953,7 @@
     "name": "No-Code Tools for Building Agents (Demo)",
     "link": "https://www.youtube.com/watch?v=6N5HLxqJ-cY",
     "difficulty": "Unspecified",
-    "type": "Video",
+    "type": "Course",
     "description": "A demo showcasing a full workflow using no-code tools to build AI agents, highlighting their potential for boosting efficiency and scaling operations without needing to code . This falls under workflow automation.",
     "categories": [
       "AI Agents",
