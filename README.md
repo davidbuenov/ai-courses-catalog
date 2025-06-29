@@ -10,8 +10,8 @@ This project uses a "monorepo" approach, meaning the core application logic (HTM
 
 You can visit the live, deployed websites here:
 
-*   **➡️ AI Content Catalog (Live):** [`https://davidbuenov.github.io/ai-courses-catalog/`](https://davidbuenov.github.io/ai-courses-catalog/)
-*   **➡️ Unreal Engine Catalog (Live):** [`https://davidbuenov.github.io/unreal-content-catalog/`](https://davidbuenov.github.io/unreal-content-catalog/) *(URL de ejemplo, ajústala a tu enlace real)*
+*   **➡️ AI Content Catalog (Live):** [`https://davidbuenov.github.io/ai-courses-catalog/dist_ai/`](https://davidbuenov.github.io/ai-courses-catalog/dist_ai/)
+*   **➡️ Unreal Engine Catalog (Live):** [`https://davidbuenov.github.io/ai-courses-catalog/dist_unreal/`](https://davidbuenov.github.io/ai-courses-catalog/dist_unreal/) 
 
 ## 🏛️ Project Architecture
 
@@ -34,6 +34,9 @@ The project is structured to separate the application "engine" from the data it 
 ├── dist_unreal/ # Output folder for the Unreal site (ready to deploy)
 │
 ├── build.py # Python script to build the final websites
+├── index.html # Global index of the portal
+├── portal-style.css # styles only for the portal
+├── images/  #images only for the portal
 └── README.md
 ```
 ## Generated code

@@ -12,7 +12,7 @@ THEMES = {
         # START: New link configuration
         "REPO_URL": "https://github.com/davidbuenov/ai-courses-catalog/",
         "OTHER_CATALOG_NAME": "Unreal Engine",
-        "OTHER_CATALOG_URL": "https://davidbuenov.github.io/unreal-content-catalog/" 
+        "OTHER_CATALOG_URL": "https://davidbuenov.github.io/ai-courses-catalog/dist_unreal/" 
         # END: New link configuration
     },
     "unreal": {
@@ -22,7 +22,7 @@ THEMES = {
         # START: New link configuration
         "REPO_URL": "https://github.com/davidbuenov/ai-courses-catalog/", 
         "OTHER_CATALOG_NAME": "AI",
-        "OTHER_CATALOG_URL": "https://davidbuenov.github.io/ai-courses-catalog/" # URL de la web de AI
+        "OTHER_CATALOG_URL": "https://davidbuenov.github.io/ai-courses-catalog/dist_ai/" # URL de la web de AI
         # END: New link configuration
     }
 }
