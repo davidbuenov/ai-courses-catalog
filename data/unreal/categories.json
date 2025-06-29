@@ -1,0 +1,35 @@
+{
+  "Core Programming & Gameplay": [
+    "Blueprints",
+    "C++",
+    "Gameplay Programming",
+    "AI / Behavior Trees",
+    "Project Setup"
+  ],
+  "Visuals & Rendering": [
+    "Materials & Shaders",
+    "Lighting",
+    "Rendering",
+    "VFX / Niagara"
+  ],
+  "World & Level Creation": [
+    "World Building",
+    "Physics & Chaos",
+    "Editor & Tools"
+  ],
+  "Animation & Cinematics": [
+    "Animation",
+    "Metahumans",
+    "Cinematics / Sequencer"
+  ],
+  "User Interface & Audio": [
+    "UI / UMG",
+    "Audio"
+  ],
+  "Advanced & Platform Specific": [
+    "Multiplayer",
+    "Performance & Optimization",
+    "VR / AR / XR",
+    "Mobile Development"
+  ]
+}

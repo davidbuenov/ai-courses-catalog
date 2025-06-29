@@ -1,0 +1,4209 @@
+[
+  {
+    "name": "Tutorial | MetaHuman Facial Animation using LiveLink + AI Voice | Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=gg7FsOLe1iY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to use LiveLink to capture facial animation from your mobile device. It shows how to combine these captures with an AI-generated voice and animations derived from the voice audio file to achieve high-quality mouth animations and a polished final result in Unreal Engine, using only a mobile device and a PC.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Metahumans",
+      "Mobile Development",
+      "Performance & Optimization"
+    ]
+  },
+  {
+    "name": "Record and Cache Cloth Physics in Unreal Engine 5.6",
+    "link": "https://www.youtube.com/watch?v=31_BeJJ9EXU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial covers the process of recording and caching Cloth Physics simulations in Unreal Engine using the Chaos Cache Manager.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Metahumans",
+      "Physics & Chaos"
+    ]
+  },
+  {
+    "name": "Extract Parts of A Character in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=TbNxU9uwPio",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to extract parts of a character's Skeletal Mesh in Unreal Engine. This process is useful for cleaning up assets or reusing specific elements like guns or body parts in other characters.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Materials & Shaders",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Create Metahuman Clothes In Unreal Engine 5.6",
+    "link": "https://www.youtube.com/watch?v=l6adjxlPRfo",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "In this tutorial, you will learn to create a Metahuman Wardrobe Asset. This asset can then be applied to the Metahuman Creator in Unreal Engine 5.6 through a Skeletal Mesh.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Gameplay Programming",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Create Your Own MetaHuman with Your Real Face Texture in Unreal Engine 5.6",
+    "link": "https://www.youtube.com/watch?v=mvFEiPsiw3g",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This full 45-minute tutorial provides a step-by-step guide on creating a custom MetaHuman using a real face scan and animating it with both body and facial motion in Unreal Engine 5.6. It covers the installation of Unreal 5.6, enabling necessary plugins, cleaning up scanned meshes in Blender, importing face scans, and creating a MetaHuman character.\n\nThe tutorial also details generating realistic textures, combining skin textures with MetaHuman UVs in Photoshop, animating the body with AI from video, adding face animation using Live Link Hub, and refining the animation to fix jitter. It is designed for those interested in building digital humans for virtual production, games, or exploring the technology.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "Metahumans",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5.6 How to Use Android Live Link Face for Real-Time MetaHuman Facial Animation",
+    "link": "https://www.youtube.com/watch?v=k91OlXZ57z4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial shows how to use Android Live Link Face on an Android phone to drive a MetaHuman in real-time and create MetaHuman Facial Animation in Unreal Engine 5.6. It highlights a significant announcement that MetaHumans can now be used in any program.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Make Pretty Characters with MetaHuman Creator in Unreal 5.6",
+    "link": "https://www.youtube.com/watch?v=qxd0eOfaTY4",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video guides users on creating characters using MetaHuman Creator in Unreal Engine 5.6. It covers enabling the MetaHuman Plugin, creating a MetaHuman Asset and Identity with custom assets, and applying makeup.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Blueprints",
+      "Gameplay Programming",
+      "Performance & Optimization",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "New LED Wall, New Channel, New Discord, Oh My! (Plus Unreal Fest in June!)",
+    "link": "https://www.youtube.com/watch?v=RuO5nOQUad8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video discusses the process of building a new AOTO LED Wall, including connecting the render box to a Vicon system and running the first ICVFX shot. It also shares announcements like the expected release of UE5.6 at Unreal Fest Orlando 2025 in June.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Metahuman Tutorial [Outdated]",
+    "link": "https://www.youtube.com/watch?v=9L3rgTvMN0c",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial provides a comprehensive guide to MetaHumans in Unreal Engine 5, suitable for both beginners and experienced users. It covers importing and setting up MetaHumans, facial and body animation without expensive motion capture, and lip-syncing with Metahuman Animator.\n\nAdditional topics include rigging and retargeting animations from Mixamo and Unreal Engine, and enabling cloth physics for realistic clothing movement.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Materials & Shaders",
+      "Metahumans",
+      "Physics & Chaos",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5.5 Metahuman Audio To Facial Animation Tutorial",
+    "link": "https://www.youtube.com/watch?v=XIrekfg_fmw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores the new Unreal Engine 5.5 Metahuman Audio To Facial Animation Feature, which allows generating facial animation from a simple audio file for any Metahuman. This is a groundbreaking feature, especially when combined with optimized Metahumans in 5.5, enabling quick dialog or facial animated characters for games.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Metahumans",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Make Mixed Reality Games - Meta XR MRUK Unreal Engine Tutorial",
+    "link": "https://www.youtube.com/watch?v=z7-yC01Zktg",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial guides you on how to make mixed reality games using Meta XR and MRUK in Unreal Engine. It covers installing the Epic Games launcher, the Meta XR plugin, and the Meta Quest Link App.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "LIVE : Interact with AI Mai #audio2face #unrealengine #ai",
+    "link": "https://www.youtube.com/watch?v=wCr_oHzRPUM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases a prototype AI, 'Mai', being developed for both desktop and Unreal Engine integration. The goal is to embody Mai in any character model, eventually allowing true virtual companionship in VR for activities like playing games or watching videos.\n\nThe video also mentions various uses for NeuroSync, including AI embodiment and animation tools based on text or audio inputs for games or VFX. It provides links to set up NeuroSync Open Source Audio2Face.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Renderiza con Calidad Extrema en Unreal Engine 5 - Configuraciones y Comandos",
+    "link": "https://www.youtube.com/watch?v=E82KhJvYzMY",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video teaches tricks and commands to achieve extreme rendering quality in Unreal Engine 5 by modifying settings and commands in the Movie Render Queue. It covers activating Movie Render Queue, basic configurations, color output, and anti-aliasing samples.\n\nIt also provides important commands for DOF quality, Motion Blur quality, Screen Percentage, Hair Strands DOF, and Nanite shadows, along with commands suggested by Unreal Engine documentation. The tutorial shows how to save configurations, combine Lumen and Ray Tracing, and troubleshoot Nanite shadow errors.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Metahumans",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "how to fix video memory exhausted in unreal engine 5 | unreal engine tutorial || ue5",
+    "link": "https://www.youtube.com/watch?v=IEn2XZc33Fo",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This Unreal Engine tutorial helps beginners fix the \"Video Memory Exhausted\" error in Unreal Engine 5. It provides step-by-step instructions on checking graphics card memory usage, optimizing projects, and upgrading hardware if necessary. The guide aims to ensure a smooth development experience.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Beginners Guide : NeuroSync to Unreal From Scratch",
+    "link": "https://www.youtube.com/watch?v=qN-CSqNEhmk",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This guide demonstrates how to go from an empty project to a NeuroSync Driven Metahuman in minutes. NeuroSync offers various uses, including AI embodiment and tools for animation based on text or audio inputs for games or VFX.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Control Rigs for Compatible Characters in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=UYf4i0OhL9c",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explains that all \"Epic Compatible\" characters available in the FAB marketplace include an animation control rig, even if not explicitly bundled with the asset. It demonstrates how to enable this feature for animating Epic Compatible characters in Unreal Engine 5.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Gameplay Focused Level Design | Inside Unreal",
+    "link": "https://www.youtube.com/watch?v=hfTrMOLVXoI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This session explores level design concepts in Unreal Engine that lead to impactful and exciting gameplay opportunities. It includes live suggestions and questions from the audience.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Level up your MetaHuman Skills! Accessories, Auto Retargeting, and Smaller Files in Unreal 5.5!",
+    "link": "https://www.youtube.com/watch?v=33YOmXpBHKM",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial helps users unlock the potential of Unreal Engine 5.5 Metahumans. It covers seamlessly attaching accessories, mastering auto retargeting across characters, and optimizing projects for smaller file sizes without quality loss. The video provides professional tips and efficient workflows for game developers, animators, and 3D artists to enhance their Unreal projects.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Create The \"Gravity Grab\" In Unreal Engine 5 VR In Less Than 6 Minutes!",
+    "link": "https://www.youtube.com/watch?v=BNKvOefOZNk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial aims to simplify the recreation of the \"Gravity Grab\" player interaction from games like Half-Life: Alyx in Unreal Engine 5 VR. It focuses on using clever function recreation and combining Move Component To/Line Trace for quick and seamless implementation of this popular feature.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Gameplay Programming",
+      "Materials & Shaders",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Half-Life: Alyx Locomotion in Unreal 5.4.3 - Advanced Thumbstick Locomotion Tutorial | Re-Upload",
+    "link": "https://www.youtube.com/watch?v=KTPx8PeKyQM",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This comprehensive two-hour tutorial meticulously recreates the locomotion system from Half-Life: Alyx in Unreal Engine 5.4. It is designed for developers looking to enhance their VR projects with advanced mechanics and visual effects. The tutorial covers mastering Unreal's blueprint system for responsive thumbstick locomotion, creating immersive translucent animated shaders, and designing professional-grade visual effects to bring VR environments to life.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Materials & Shaders",
+      "Metahumans",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Introduction to Virtual Reality, OpenXR Hand-Tracking, and Gesture Recognition in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=67v-sEhidvM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video introduces a VR tutorial series in Unreal Engine, focusing on OpenXR Hand-Tracking and Gesture Recognition. It covers setting up OpenXR Runtime, enabling Developer Runtime Features, basic project setup, and understanding OpenXR Data Format for hand tracking.\n\nThe tutorial also details functions like 'Get Joint Transforms' for drawing hands, 'Clear Hands', and 'Draw Hand', along with implementing 'Gesture Recognition' and 'Check Gestures' functions for spawning particles. It concludes with making the setup compatible with UE 5.5.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Mobile Development",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to make Smooth Locomotion movement in VR | Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=aUBoYVXlMh8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to implement smooth locomotion movement in VR within Unreal Engine 5, filling gaps found in other tutorials. It guides users through setting up the system for VR games, providing enough information to get started with VR movement.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Smooth Moving [Locomotion] & Smooth Turning | Unreal Engine 5 [VR] Tutorial",
+    "link": "https://www.youtube.com/watch?v=VHqtp_R37DU",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This is the first in a potential series of Unreal Engine 5 (UE5) VR Tutorials, focusing on achieving smooth movement (locomotion) and smooth turning. It offers an alternative to the default teleporting and snap-turn movement found in VR templates.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Gameplay Programming",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "VR Procedural Grip Poses in Unreal 5.4 | How to Create Realistic Grip Animations for Any Object",
+    "link": "https://www.youtube.com/watch?v=m3xanGZ5ETI",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial guides users step-by-step in creating realistic procedural grip poses in Unreal Engine 5.4, enhancing VR projects. It covers setting up procedural grip poses, techniques for realistic grabbing animations, and tips for integrating the system using the Meta Quest 3.\n\nThe tutorial breaks down each step with clear visuals and detailed explanations, making it easy to follow. It also covers initializing Animation Blueprint on hand meshes, configuring the Grab Component, and creating custom hand animations within Unreal.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Create Entire Cities Automatically With PCG Splines! Procedural Content Generation in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=STqt92VF3KM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This step-by-step tutorial demonstrates how to use PCG Splines to automatically create a Medieval City with Spline Roads, leveraging the Procedural Content Generation Framework in Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Lighting",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "UNREAL ENGINE 5 VR | Adding Custom Hands to Levels",
+    "link": "https://www.youtube.com/watch?v=bIjBk9vpboY",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video demonstrates how to replace the default Unreal Engine virtual reality template's controllers with custom hand models from Zectorlab's VR hands pack. It also shows how to navigate new levels with these custom hands.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 VR SMOOTH LOCOMOTION | Unreal Engine 5.2 Tutorial + Environment Showcase",
+    "link": "https://www.youtube.com/watch?v=mLF1Jhg7WDY",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial provides a basic guide for setting up smooth locomotion based on joystick input in Unreal Engine 5 VR template. It offers a beginner-friendly approach to creating a smooth movement system, an alternative to teleporting.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Golden Dataset: Best Practices on Structuring Unreal Engine Data for AI Training | Unreal Fest 2024",
+    "link": "https://www.youtube.com/watch?v=sbylT5GLQwo",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This recorded session from Unreal Fest Seattle 2024 explores the critical importance of structuring data properly for AI training in Unreal Engine due to the rapid advancements in AI tool technology. The ICVR team discusses what constitutes a golden dataset, its advantages, and how to structure your pipeline effectively.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Multiplayer",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Get Started With Unreal Engine 5: Build VR Worlds for Virtual Reality",
+    "link": "https://www.youtube.com/watch?v=QxoB20j0cEE",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial is the first lesson on building VR environments in Unreal Engine 5.3 or 5.4. It guides users through downloading and customizing a museum using free assets from the Epic Marketplace, transforming it into a full VR experience where users can teleport and personalize artwork.\n\nFuture lessons will cover incorporating video, sound, interaction, advanced movement, grabbing objects, and more. The video encourages engagement through questions and joining a Discord community, aiming to inspire and teach content creation tools for the Metaverse.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Build User Interfaces In VIRTUAL REALITY For Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=kM27HYbpvc0",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video demonstrates how to build 3D user interfaces in Unreal Engine 5 that can be interacted with using VR controllers. It covers widget design, blueprint setup, widget interaction components, and pressing buttons to achieve a final interactive result.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Project Setup",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "VR Hand Tracking in Unreal Engine 5.3 | Tutorial for Beginners",
+    "link": "https://www.youtube.com/watch?v=empovwgouwI",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial simplifies setting up hand tracking in Unreal Engine 5.3.2, showing a step-by-step process that requires no coding. It demonstrates how to achieve working hands that track individual finger movements, compatible with all Meta Quest headsets.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to set up HAND TRACKING in 10 MINUTES┃Unreal Engine Meta Interaction SDK Tutorial",
+    "link": "https://www.youtube.com/watch?v=1GC2Vgimlis",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video promises a robust hand tracking system capable of interacting with objects and UIs within 10 minutes. It covers downloading the Epic Launcher, the Interaction SDK, and the Meta XR plugin. The tutorial also references a more detailed video for enabling additional options.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Meta XR Simulator - Tutorial - Quest 3 & Unreal 5",
+    "link": "https://www.youtube.com/watch?v=ovVZXg2dsV4",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial provides an overview of the capabilities of the Meta XR Simulator in Unreal Engine 5. It covers installation, an overview of the simulator's features, importing custom rooms in JSON format, and setting up hand tracking.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "This Ai can Generate Blueprints in Unreal Engine (LINK IN DESCRIPTION)",
+    "link": "https://www.youtube.com/watch?v=iyj_2SQf4I8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video showcases an AI capable of generating Blueprints in Unreal Engine. It demonstrates various functions such as generating passwords, assets, and random functions. The video aims to highlight the mind-blowing capabilities of this AI tool.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "¿El Fin de los Artistas 3D? Modelado 3D con IA",
+    "link": "https://www.youtube.com/watch?v=xya5lu-mFAc",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video explores whether Artificial Intelligence can replace 3D artists by testing Meshy.AI, a platform that uses AI to generate 3D models from text and images. It showcases the results of creating various models, including a Viking barbarian, cupcake, different robots, a medieval helmet, a toucan, and a guitar.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "I turned a 3D Gaussian Splat into a Detailed 3D Render.",
+    "link": "https://www.youtube.com/watch?v=uaWChilLESI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Unreal Engine 5 photogrammetry tutorial demonstrates a complete pipeline for creating 3D photogrammetry scans using an iPhone and importing them into Unreal Engine 5. It details how to make art in Unreal 5 by combining it with the Kiri Engine. The video is sponsored by Kiri Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "Rendering",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Make your 3D Gaussian Splatting easily -Turning a VIDEO into 3D [Free 3DGS Tool Tutorial]",
+    "link": "https://www.youtube.com/watch?v=yFC6SipFtyo",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial introduces XV3DTools, a Windows Local Training Tool designed to easily create 3D Gaussian Splatting ply models from MP4 videos. Gaussian Splatting is a recent 3D reconstruction technique for creating 3D scenes from multiple photos.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools"
+    ]
+  },
+  {
+    "name": "3D Gaussian Splatting in Unreal Engine 5 for Beginners [Free 3DGS Plugin Tutorial]",
+    "link": "https://www.youtube.com/watch?v=ohU4qo-7jJo",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial introduces the XVERSE 3D Gaussian Splatting (3D-GS) UE Plugin, a hybrid editing plugin for Unreal Engine 5 (UE5). Developed by XVERSE, it enables Gaussian Splatting model generation, rendering, and mixed editing within UE, leveraging UE5 Niagara for efficient rendering and management.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Rendering",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "#UE5 Series: Introduction to Gaussian Splatting in UNREAL Engine",
+    "link": "https://www.youtube.com/watch?v=pkiBGdWtp4g",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This step-by-step tutorial introduces Gaussian Splatting, its benefits, limitations, and implementation in Unreal Engine. It covers importing splats into Unreal and adjusting parameters for refined output. The video also features demonstrations of 3D and 4D Gaussian Splatting.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "50 Tips and Tricks in Modeling Mode | Unreal Fest 2024",
+    "link": "https://www.youtube.com/watch?v=xIMudHNX9JM",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This recorded session from Unreal Fest Seattle 2024 explores 3D modeling in Unreal Engine. It offers useful tips and tricks for both experienced and new users of Unreal Engine's modeling tools to streamline their workflow.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Make A Slider In Unreal Engine 5.4.3 For VR",
+    "link": "https://www.youtube.com/watch?v=Q0NDffxKyVI",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to create a slider in Unreal Engine 5.4.3 for VR. It covers making the UE project, editing the VR Template, creating the Slider Blueprint, and using interfaces to drive a door. The video also addresses a common error during the process.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "IMAGEN a MODELO 3D con IA (Compatible con Blender) | Tutorial",
+    "link": "https://www.youtube.com/watch?v=fW1A2J7DVBk",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial introduces an AI tool for generating 3D models from images, compatible with Blender. It demonstrates experimenting with Meshy and MidJourney, an AI-powered toolkit for transforming text or 2D images into high-quality 3D models quickly. The video also mentions free alternatives like Krea.ai and Dream.ai.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Editing Skeletal Meshes in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=g6BxRs910SA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to edit the skeleton of an existing skeletal mesh in Unreal Engine 5 using UE5's Skeletal Editing Tools plugin. As an example, it shows how to add joints to a free F/A-18C asset to enable functionalities like folding wings and an articulated launch bar, which were not included with the original asset.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Architectural Visualization for Design Strategies on a 120 Year-Old Building | Unreal Fest 2024",
+    "link": "https://www.youtube.com/watch?v=zVLCuKxAdjk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This recorded session from Unreal Fest Seattle 2024 showcases how HOK, a design and architecture firm, used Unreal Engine for a project on Canada’s Parliament precinct. They developed a technical visualization and data workflow to display edited photogrammetric meshes with real-time lighting, creating a photorealistic 3D environment for client approval of alterations to a 120-year-old building.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Use MetaHuman Animator in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=WWLF-a68-CE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video teaches how to use MetaHuman Animator to produce facial animation for digital humans quickly. It explains how to capture facial performance using an iPhone and a PC, then convert it into facial animation for a MetaHuman. The tutorial also mentions the option of using a stereo head-mounted camera for even higher quality results.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Gameplay Programming",
+      "Metahumans",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Episode 06: Rigging",
+    "link": "https://www.youtube.com/watch?v=LheppjZqyD0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video teaches how to easily and quickly rig a rigid prop in Unreal Engine, allowing characters to hold objects like guns, swords, or hula-hoops.",
+    "categories": [
+      "Animation",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Cinematic Sound Effects (Royalty-Free)",
+    "link": "https://www.youtube.com/watch?v=tS7Cn0IM02Y",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video presents Inferno SFX, a collection of royalty-free cinematic sound effects by Flame Sound, available for download. The library includes cinematic impacts, whooshes, braams, booms, transitions, tension builders, drones, and background textures.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "7-Minute Guide to UE5 State Tree Event Triggers",
+    "link": "https://www.youtube.com/watch?v=Ek9ZJLSYDp4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This 7-minute guide helps users understand UE5 State Tree Event Triggers. It demonstrates On Event Trigger functionality, discussing State Tree transitions and flexibility. The video is designed to assist game developers in their journey.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Animate Metahumans Using an Audio File in Unreal Engine 5.5",
+    "link": "https://www.youtube.com/watch?v=sZyfVYybVFc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates a new feature from Unreal Fest 2024: the ability to animate Metahuman lip sync animation using only an audio dialog file in Unreal Engine 5.5. It provides a pre-release walkthrough of this functionality, noting that while effective, some aspects may change in the final release.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5.4 | How to use Metahuman Face Control Rig Picker ~ A Huge Time Saver",
+    "link": "https://www.youtube.com/watch?v=ToCzU3AkzYE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to use Locodrome Metahuman Face Control Rig Picker in Unreal Engine 5.4. This intuitive tool simplifies control for any Metahuman face control rig within an Unreal Engine scene. It also mentions the availability of the free iClone Unreal Live Link Plugin and iClone 8.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Performance & Optimization",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Seminario Unreal C++ España",
+    "link": "https://www.youtube.com/watch?v=GdgmM0xv6jc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is a seminar about Unreal C++ in Spain, focusing on programming within Unreal Engine.",
+    "categories": [
+      "C++",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Add Custom Animations to your AI Metahuman | Convai Unreal Engine Tutorial",
+    "link": "https://www.youtube.com/watch?v=g9xEZApFKUc",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial shows how to add custom animations to Convai-powered AI Metahuman avatars in Unreal Engine. It also provides tips on customizing the animation blueprint for simple actions like talking, interacting, and staring, as well as complex actions that involve scene interaction or other characters.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Victoria la Malagueña se convierte en un holograma (primera prueba)",
+    "link": "https://www.youtube.com/watch?v=cw8Qzh-20_E",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video shows a first proof of concept where a character, Victoria la Malagueña, transforms into a real-time hologram, demonstrating the ability to project any digital content as a hologram.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Story Development with Virtual Production in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=CCJPOmBIQ6Q",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video course explores how to visualize a story using virtual production workflows in Unreal Engine. It covers live mocap, virtual cameras, timeline editing, sound addition, and lighting adjustments to accelerate concept exploration and iteration. The tutorial also highlights how immersive collaboration enhances creativity and allows viewing the story through characters' eyes, offering fresh perspectives.\n\nIt examines various workstreams for visualizing a script in a real-time engine, including location scouting, performance capture, and action breakdown. The video is supported by assets from ROTU Entertainment and Aaron Sims Creative.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Performance & Optimization",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Introducing Arcane Mirage, the Unreal Engine 5 Pixel Streaming Platform",
+    "link": "https://www.youtube.com/watch?v=gJwp84qTtfE",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video introduces Arcane Mirage, a self-service Pixel Streaming platform for Unreal Engine 5, designed to make pixel streaming powerful, affordable, and accessible. It emphasizes the ease of getting started for both new and experienced Unreal Engine creators.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "SETUP REMOTE PIXEL STREAMING IN UNREAL ENGINE 4.24+: Stream your app to any mobile or desktop device",
+    "link": "https://www.youtube.com/watch?v=9V6Iy-OSlc4",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial teaches how to set up pixel streaming for remote connection in Unreal Engine 4.24 and above. It explains how Epic Games' changes simplify the setup process by embedding Web RTC directly into the plugin. The video guides through the process of configuring an Unreal Engine project to stream to remote devices over the internet.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Mobile Development",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Make a Simple Flying AI in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=1q5gGRtco_M",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial demonstrates how to create a simple flying AI in Unreal Engine 5.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "⚠️ CÓMO TRANSFORMAR TU LANDSCAPE CON NANITE TESSELLATION EN UNREAL ENGINE 5.4 🌟 | ¡LA VERDAD!",
+    "link": "https://www.youtube.com/watch?v=zlht-MlhUOY",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video from UnrealXperts shows how to transform landscapes using Nanite Tessellation in Unreal Engine 5.4. It provides console commands for enabling Nanite Tessellation and aims to help users unlock their creativity in visual project development.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "The Full Motion Matching Tutorial W500 Animations/ Walk, Crouch, Jump, TurnInPlace | UE5.4",
+    "link": "https://www.youtube.com/watch?v=j8RgsganqRU",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial provides a complete guide to Motion Matching using 500 free animations provided by Epic Games in Unreal Engine 5.4. It covers topics such as importing animations, retargeting, setting up Default PSS and DataBases, and implementing components and Animation Blueprints. The video also explains Choosers, addresses fixing crouching issues, and discusses Air PSS, PSS Explanations, Turn In Place, and Traversals.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Game Animation Sample Walkthrough | Inside Unreal",
+    "link": "https://www.youtube.com/watch?v=mhVp_cC9MLc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Inside Unreal session walks through the new Game Animation Sample project, showcasing advancements in Unreal Engine's animation systems. It highlights how users can improve their skills and access a library of over 500 ready-to-use animations.",
+    "categories": [
+      "Animation",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to - Editor Utility Widget [Unreal 5]",
+    "link": "https://www.youtube.com/watch?v=xn1580FZgC0",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This step-by-step tutorial teaches how to use Unreal's Editor Utility Widget in Unreal Engine 5. It covers the basics, setup, customization, and practical applications for streamlining workflow.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Full custom metahuman workflow tutorial Blender Unreal Substance",
+    "link": "https://www.youtube.com/watch?v=Pwm2zc4k1Ms",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates a full custom Metahuman workflow using Blender, Unreal Engine, and Substance Painter. It covers steps like using Metahuman Creator, working in Blender for hair, texturing in Substance Painter, and animation tracking with the Live Link app.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5.4 State Tree Data Management",
+    "link": "https://www.youtube.com/watch?v=BGBixiDy2dY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores various ideas on how to manage data within State Trees in Unreal Engine.",
+    "categories": [
+      "Performance & Optimization"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5.3.2: State Trees Demystified (Global tasks, Parameters, etc)",
+    "link": "https://www.youtube.com/watch?v=D1sR2RrrIuw",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video demystifies State Trees in Unreal Engine 5.3.2, covering their recent addition and functionality like parameters and global tasks. It guides viewers through project setup, State Tree configuration, and understanding evaluators and tasks. The tutorial also delves into transitions, state types, and a full breakdown of state selection behavior, concluding with a demonstration of AI ships using State Trees.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "Lighting",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 State Trees: Huge Potential, Glaring Issues | Devlog",
+    "link": "https://www.youtube.com/watch?v=uUmDqA43cYY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This devlog discusses the potential and issues of State Trees in Unreal Engine 5. It covers their organization improvements, flexibility, and performance, while also highlighting their experimental nature, instances of crashing UE5, and debugging challenges. The video reflects on an 'epiphany' regarding State Trees' effectiveness and references official documentation and forums.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Tutorial - AI Part 1: Character Setup",
+    "link": "https://www.youtube.com/watch?v=IDZh0epFTRY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the first part of a tutorial series on AI in Unreal Engine 5, focusing on basic character setup for AI characters. It will eventually cover examples of AI behavior typically seen in commercial video games.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Delegates - Unreal C++ Course #15",
+    "link": "https://www.youtube.com/watch?v=qX1tBA8Q1pY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores C++ scripting in Unreal Engine, noting that while Blueprints offer visual scripting, C++ provides a more performant alternative. It aims to demystify C++ in Unreal, inviting viewers to learn more about its tools.",
+    "categories": [
+      "Audio",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Create a Game Instance in Unreal Engine 5 - Carry Data Between Levels",
+    "link": "https://www.youtube.com/watch?v=sWh1jgHb6Tw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial shows how to create a game instance in Unreal Engine 5 to carry data between levels. It covers how to make a game instance and pass variables across multiple levels.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Chat GPT (Open AI) integrated with Unreal Engine 5 , Text To Speech",
+    "link": "https://www.youtube.com/watch?v=5RsTLTo8FZU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates the integration of ChatGPT (Open AI) into Unreal Engine 5, including text-to-speech functionality. It showcases how ChatGPT can be used within a game environment.",
+    "categories": [
+      "AI / Behavior Trees"
+    ]
+  },
+  {
+    "name": "Unreal Engine Text to Speech (TTS)",
+    "link": "https://www.youtube.com/watch?v=qMieBhe4snY",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video provides a free and easy setup option for adding Text-to-Speech (TTS) to an Unreal Engine project. It covers the basic setup, calling TTS from other blueprints, and a more efficient implementation method, referencing Unreal Engine's official documentation.",
+    "categories": [
+      "Blueprints",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Ep.3: Real-Time Text-to-Speech and Speech-to-Text in Qt and Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=-wyvyWKlD8E",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This third episode focuses on real-time Text-to-Speech and Speech-to-Text functionalities in Qt and Unreal Engine 5. It highlights the use of realistic voices that run locally without requiring cloud subscriptions.",
+    "categories": [
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Use AI to create a world (Blockade, Unreal Engine 5, Kaiber)",
+    "link": "https://www.youtube.com/watch?v=OEfV3RRpmRE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to leverage AI tools like Blockade Labs, Unreal Engine 5, and Kaiber to create and animate vast fantasy worlds for film. It covers creating and downloading HDR worlds, importing them into Unreal, adding characters, animating them, and setting up camera movements.\n\nThe video concludes by showing the final result and the use of Kaiber for animation, suggesting a powerful combination of tools for generating imaginative scenes.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "¿De qué hablan las IA cuando se quedan solas? Almudena y Victoria la Malagueña",
+    "link": "https://www.youtube.com/watch?v=uoniXxThUCw",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This experiment features two 3D avatars, Almudena and Victoria la Malagueña, engaging in autonomous conversation. Almudena, a recycling expert from Madrid, and Victoria, a guide and lover of Málaga, discuss topics ranging from recycling to Málaga's culture, gastronomy, flamenco, Semana Santa, and Feria. The video highlights how these AI entities react and share perspectives in an unusual dialogue.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Simple Options Menu In Unreal UE5.2",
+    "link": "https://www.youtube.com/watch?v=j9OAV7LO3Pg",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to create a simple options menu in Unreal Engine 5.2. It covers designing the UI, setting up the blueprint, changing and saving settings, and loading them. The video provides a step-by-step guide for implementing a functional options menu.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "How to add custom clothes to metahumans! | Unreal Engine 5 Tutorial",
+    "link": "https://www.youtube.com/watch?v=376wmg-cvro",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to add custom clothes to Metahumans in Unreal Engine 5. It covers replacing the mannequin with a Metahuman, exporting and importing meshes between Unreal and Blender, transferring vertex data, and adding pants to the Metahuman. The video concludes with a final demonstration of the customized character.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 (works in UE4) Mask water out of boat/ship hull",
+    "link": "https://www.youtube.com/watch?v=mEyU18wwMcM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This instructional video demonstrates how to mask water out of boat and ship hulls using Unreal Engine's native water plugin, applicable in both UE5 and UE4 without third-party plugins. It notes an updated video for Unreal Engine 5.1 and 5.2 to address previous issues.",
+    "categories": [
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 - X-Ray Eagle Vision",
+    "link": "https://www.youtube.com/watch?v=M12aFyVVORI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This instructional video demonstrates how to create an X-Ray or Eagle Vision effect in Unreal Engine 5, highlighting enemies, allies, and interactable objects.",
+    "categories": [
+      "Lighting"
+    ]
+  },
+  {
+    "name": "Setting up OWO haptics for VRC for Hatchlings",
+    "link": "https://www.youtube.com/watch?v=z-9N6t83iR8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video covers setting up OWO haptics for VRC for Hatchlings.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "ChatGPT Prompting vs RAG vs fine tuning: Aprovecha la IA al máximo | #laFunción 9x18",
+    "link": "https://www.youtube.com/watch?v=bjCdsnkQ6Dw",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video presents three examples to differentiate between prompt engineering, RAG (Retrieval-Augmented Generation), and fine-tuning AI models. Jose Luis Calvo, co-founder of Diverger AI, provides direct and concise examples to explain the fundamentals of these techniques.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Smart Cleaner. Reduce el espacio de tus proyectos Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=ZseMI_vM64M",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video introduces a free tool available on GitHub, Unreal Smart Cleaner, designed to reduce the disk space occupied by Unreal Engine 5 projects. It allows users to delete automatically generated folders and files from less frequently used projects, thus optimizing storage while keeping projects accessible.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Como Crear Fácilmente un Enemigo AI en Unreal Engine 5 - Tutorial en Español",
+    "link": "https://www.youtube.com/watch?v=tw2sU1u-zeI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial demonstrates how to easily create a simple AI enemy in Unreal Engine 5 that pursues, attacks, and detects the player. It guides users through the process of setting up enemy AI within the engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "Rendering",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Introducing EasyMapper for Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=UWrCA-t0v3U",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video introduces EasyMapper, a Master Material setup for Unreal Engine 5 that supports World-Aligned (Triplanar) texture projection, Nanite tessellation/displacement, and Advanced Vertex Blending. It allows blending up to three materials in a single package for easy texture blending across assets.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "AI NPCs Take Action from Conversation | Environment and Object Aware Characters | Convai UE Tutorial",
+    "link": "https://www.youtube.com/watch?v=phAkEFa6Thc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Convai Unreal Engine tutorial demonstrates how to make AI NPCs feel more lifelike by enabling conversations to trigger behaviors and actions, including interactions with the environment or other characters. Convai's NPCs can interpret complex verbal instructions and convert them into natural in-game actions, such as fetching items, following/leading characters, or executing dynamically requested tasks during gameplay.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Portal to another level in Unreal - Unreal Blueprints Tutorial 22 🚀",
+    "link": "https://www.youtube.com/watch?v=8RHdx2ylhZU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Unreal Blueprints tutorial (part 22) uncovers the process of creating portals for seamless level transitions in Unreal Engine. It guides users step-by-step to master this technique and enhance game design skills.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Generate 3D Sets for your Short Films!",
+    "link": "https://www.youtube.com/watch?v=t-8I7EkIL8c",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video shows how to use AI tools to create virtual environments for film projects, covering the entire workflow from generating 3D environments to filming in a low-budget virtual production setup. It also includes tips for compositing shots with AI, such as re-lighting based on the created environment.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Best Quest 3 Settings to Enable on DAY 1!",
+    "link": "https://www.youtube.com/watch?v=qaoDSANUC_c",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides essential settings to enable on a new Meta Quest 3 (or any Quest) headset from day one.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Meta Quest 3: How to Activate Hand Tracking",
+    "link": "https://www.youtube.com/watch?v=jiEyeVnXPc8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to activate the hand tracking feature on a Meta Quest 3, allowing users to interact without controllers. It provides a step-by-step guide to ditching controllers and using hands instead.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Hand Tracking Updates and Resources | Oculus For Developers",
+    "link": "https://www.youtube.com/watch?v=HJ2oO2FfZBs",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "Developer Advocate Cami Williams discusses the latest updates to hand tracking and essential information for implementation. Topics include an overview of the Hands API, updates in the v28 Release, and High Frequency Hand Tracking.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Mobile Development",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Use VIRTUAL REALITY In Unreal Engine 5 | Beginner Tutorial",
+    "link": "https://www.youtube.com/watch?v=DiGh6MxDFds",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This beginner tutorial guides users on how to set up and use Virtual Reality (VR) in Unreal Engine 5. It covers connecting a Quest 2 headset to Unreal Engine, creating bespoke pickup actors, and setting up VR in a custom scene with user-owned content. By the end, users will have their Quest 2 connected and be able to create custom VR interactions.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Mobile Development",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 360 Panoramic EASY! | No coding No Plugins",
+    "link": "https://www.youtube.com/watch?v=SpkP1XCF_mE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial shows how to render out a 360 panoramic image or video natively in Unreal Engine 5, without requiring blueprints or plugins. It covers additional render passes, panoramic rendering settings, allocating history per pane, and converting 8K to 4K resolution using Adobe Media Encoder.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Rendering",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Virtual Production at Home at ZERO Cost: A New Era of Filmmaking",
+    "link": "https://www.youtube.com/watch?v=qrPwt7KJP6g",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video explores virtual production at home with zero cost, marking a new era of filmmaking. It encourages viewers to explore various resources for workshops, film festivals, and masterclasses to enhance their filmmaking skills. The content also features cinematic LUTs and gear recommendations.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Lighting",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Felicitación Navideña 2024 (4K)",
+    "link": "https://www.youtube.com/watch?v=RA76EP2fyhg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is a Christmas greeting created with Unreal Engine, featuring familiar characters like Victoria la Malagueña, a Metahuman, and a dog named Yuri. It acknowledges some humorous inconsistencies, such as robot-like movement and a beach in Bethlehem.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Metahumans",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Customise your MetaHuman | Unreal Engine 5 Tutorial",
+    "link": "https://www.youtube.com/watch?v=b_ZjsUg2XCc",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial offers an ultimate guide to MetaHuman customization using Unreal Engine 5, Blender, and Adobe Substance Painter, presenting an efficient workflow without additional paid plugins. It covers customizing MetaHuman mesh, skin texture, eyes, and teeth.\n\nIt also teaches how to attach items like lightsabers, horns, hats, and glasses to MetaHumans in Blueprint, import hair/groom assets, and perform basic texturing in Substance Painter, including baking high poly details onto low poly models with normal maps.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Metahumans",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Texture Tilling Issue in Unreal Engine Solved!",
+    "link": "https://www.youtube.com/watch?v=o5nocajtIAQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides a solution for visible texture tiling on large landscapes in Unreal Engine. It introduces Unreal Terrains texture pack, which includes Distance Blending and UV Scrambling tools to easily prevent visual repetitions. The pack offers 250 materials, including beaches, deserts, forests, glaciers, jungles, mountains, and wetlands, designed to save significant time.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "VR with Unreal Engine 5 - Full Beginner Course",
+    "link": "https://www.youtube.com/watch?v=wqjJU4V6bGM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This is a full beginner course on VR with Unreal Engine 5. It covers VR headset setup, VR project settings, UE5 light setup, Nanite and Datasmith, and materials using Quixel Bridge. The tutorial also includes creating emissive projectiles, interacting with a door, moving the sun in VR, and final adjustments for publishing.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Lighting",
+      "Materials & Shaders",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "¡Convierte TUS VÍDEOS en ESCENAS 3D! - Tutorial Gaussian Splatting",
+    "link": "https://www.youtube.com/watch?v=hZBM_kjhHfc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial teaches how to use PolyCam and Luma Labs to create 3D Gaussian Splatting from videos or images. It allows users to reconstruct hyperrealistic 3D scenes in minutes, revive memories, re-record videos, or explore the potential of this revolutionary 3D technique.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "VIVE Mars CamTrack and Aximmetry DE setup guide",
+    "link": "https://www.youtube.com/watch?v=1fA2YD34WJI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides a setup guide for VIVE Mars CamTrack and Aximmetry DE.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal y C++: Sistema de escalada. Trepar #4",
+    "link": "https://www.youtube.com/watch?v=WgAjJJwTPYE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video shows how to create a climbing system for a third-person character in Unreal Engine from scratch using C++.",
+    "categories": [
+      "C++",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Webinar: Taller de ideas para Producción Virtual, plantillas para mi proyecto de Unreal Engine.",
+    "link": "https://www.youtube.com/watch?v=7AymDhC4TvY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This webinar, presented by Rafa López, focuses on virtual production ideas and templates for Unreal Engine projects. It aims to help users explore Unreal Engine's capabilities, concretize their ideas, and learn more about Virtual Production.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Creating a custom morph target for Metahuman's face",
+    "link": "https://www.youtube.com/watch?v=3sHQ1AEeHg0",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video demonstrates how to add a custom morph target to a Metahuman head in Blender while preserving all LODs, which is crucial for optimized models. The tutorial covers importing Metahumans to Unreal, preparing and exporting as FBX, fixing FBX with Autodesk converter, and importing into Blender.\n\nIt also details creating custom morph targets, transferring them to higher LODs, exporting from Blender, and reimporting to Unreal. The video concludes with instructions on fixing materials and hair, and a final demonstration.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Materials & Shaders",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "I went through ALL Unreal Engine Plugins, here is what I found",
+    "link": "https://www.youtube.com/watch?v=zCkRsYEGD5s",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video reviews and showcases various Unreal Engine 5 plugins, offering insights into what's worth exploring for game development, whether for beginners or seasoned pros. It aims to help users become better game developers by highlighting useful plugins for cinematics, Sequencer, and Lumen.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Metahumans",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Integrating Convai Action API In Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=EWBglUB6vsA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial offers an in-depth look at the Convai Action API for Unreal Engine, recommending users watch the Unreal quick start video first. It provides step-by-step guidance on implementing various actions such as move, stop, wait, pick up, drop, and color change. The video also explains how to change the default pawn class, add features or content packs for movement, and includes practical examples and a deep dive into the companion blueprint.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Leveling Up with the Smartest AI NPCs for Games",
+    "link": "https://www.youtube.com/watch?v=jHodl-n7vvU",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video introduces Inworld AI NPCs, designed to offer next-level role-playing and immersion in games by possessing a mind of their own. It showcases them in action across various experiences and community-created mods, emphasizing their capabilities in learning, adapting, emotional navigation, memory, recall, and adherence to a '4th wall'.\n\nInworld's Character Engine goes beyond traditional LLMs and chatbots, enabling developers to create AI-driven non-player characters with complex and lifelike human behaviors. This enhances immersion for players, as NPCs can autonomously initiate goals, perform actions, and follow motivations that drive the narrative and integrate with the broader player experience.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Fixing Live Link XR in Unreal Engine 5.2 and 5.3",
+    "link": "https://www.youtube.com/watch?v=GKsPjufVPwg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tip shows how to fix issues with Vive trackers not appearing in Unreal Engine 5.2 and 5.3. It demonstrates creating a shortcut to start the Unreal Editor with a command that enables VR tracking and input in standard playmode, benefiting virtual production, mocap artists, and VTubers.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Crear Ropa para Metahumanos. Marvelous Designer. UE5. Parte 1",
+    "link": "https://www.youtube.com/watch?v=2i8UEakDPl0",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video tutorial demonstrates how to create clothing for Metahumans in Marvelous Designer for use in Unreal Engine 5.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Como cambiar la ropa de tu METAHUMAN con Blender y UNREAL ENGINE 5",
+    "link": "https://www.youtube.com/watch?v=isfQnBDEMZE",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to change Metahuman clothing using Blender and Unreal Engine 5. It covers model preparation, adjusting the Metahuman skeleton, transferring information to the new model, refining the result, and exporting/importing. The video also includes a bonus tip for replacing models.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "C++",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 16: Colored Smoke & Skeletal Mesh",
+    "link": "https://www.youtube.com/watch?v=Qfsc77E-HQk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is part 16 of the Niagara VFX Crash Course, focusing on creating colored smoke effects and working with skeletal meshes.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 15: Smoke Portal",
+    "link": "https://www.youtube.com/watch?v=3-NYINEsWZU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is part 15 of the Niagara VFX Crash Course, focusing on creating a smoke portal effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 14: Intro to FLIP Fluid Simulations",
+    "link": "https://www.youtube.com/watch?v=axhT18f9bDU",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video is part 14 of the Niagara VFX Crash Course, providing an introduction to FLIP Fluid Simulations. It is suitable for beginners.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 13: Force Field Part 3",
+    "link": "https://www.youtube.com/watch?v=yvDF53DvdBE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the third part of the Niagara VFX Crash Course series, focusing on creating a force field effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 12: Force Field Part 2",
+    "link": "https://www.youtube.com/watch?v=cH4LzNIOb7Q",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the second part of the Niagara VFX Crash Course series, continuing the creation of a force field effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 11: Force Field Part 1",
+    "link": "https://www.youtube.com/watch?v=1tl30xSysaA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the first part of the Niagara VFX Crash Course series, focusing on how to create a force field effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 10: Charge and Explode Part 3",
+    "link": "https://www.youtube.com/watch?v=iocdvVBf8iM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the third part of the Niagara VFX Crash Course, continuing the tutorial on creating a charge and explode effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 09: Charge and Explode Part 2",
+    "link": "https://www.youtube.com/watch?v=Bi5AexXQuTQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the second part of the Niagara VFX Crash Course, continuing the tutorial on creating a charge and explode effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 08: Charge and Explode Part 1",
+    "link": "https://www.youtube.com/watch?v=Z_I1bNOO4fI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the first part of the Niagara VFX Crash Course, focusing on how to create a charge and explode effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 07: Flamethrower",
+    "link": "https://www.youtube.com/watch?v=PtTp5b98mgg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is part 7 of the Niagara VFX Crash Course, focusing on creating a flamethrower effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 06: Energy Blast Part 2",
+    "link": "https://www.youtube.com/watch?v=eZeQl1JXc04",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the second part of the Niagara VFX Crash Course, continuing the tutorial on creating an energy blast effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 05: Energy Blast Part 1",
+    "link": "https://www.youtube.com/watch?v=7VcMC_n7H_I",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the first part of the Niagara VFX Crash Course, focusing on how to create an energy blast effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 04: Cryogenic Smoke",
+    "link": "https://www.youtube.com/watch?v=NUyZJ1vNOtU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is part 4 of the Niagara VFX Crash Course, focusing on creating a cryogenic smoke effect.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 03: Introduction to Niagara Fluids",
+    "link": "https://www.youtube.com/watch?v=HjcyQ06QzFg",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video is part 3 of the Niagara VFX Crash Course, providing an introduction to Niagara Fluids for beginners.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 02: Introduction to Particles",
+    "link": "https://www.youtube.com/watch?v=FYtMnwCCFRM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video is part 2 of the Niagara VFX Crash Course, providing an introduction to particles for beginners.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Niagara VFX Crash Course 01: Preparing Unreal Engine Project",
+    "link": "https://www.youtube.com/watch?v=v7WQaMnuVBg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is the first part of the Niagara VFX Crash Course, covering the preparation of an Unreal Engine project.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Use GitHub With Unreal Engine | Unreal Engine Remote Team Projects Collaboration",
+    "link": "https://www.youtube.com/watch?v=n3x1fErlmYA",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to set up Unreal Engine and GitHub for remote team collaboration on projects in Unreal Engine 4 or 5. It covers downloading and installing necessary tools like Git Console and Git LFS, setting up the project, pushing changes, publishing repositories, and adding collaborators. The video also explains how team members can access the project and manage pushing and pulling changes.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "35 UE5 Features You Probably Don't Know About | Unreal Fest 2022",
+    "link": "https://www.youtube.com/watch?v=k2IP5DYQ0-0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This recorded session from Unreal Fest 2022 highlights 35 lesser-known Unreal Engine 5 features that can significantly accelerate project development. Chris Murphy, an Unreal Engine Evangelist, demonstrates how these features can reduce development time from weeks to days.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Multiplayer",
+      "Project Setup"
+    ]
+  },
+  {
+    "name": "Pickup and drop system with physics on UE5",
+    "link": "https://www.youtube.com/watch?v=sPAPfQ1deuM",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial teaches how to create a pickup and drop system with physics in Unreal Engine 5 (UE5). It covers importing and scaling a 3D model, implementing a blueprint to pick up and drop a gun using physics, and setting up collision for the pistol. The video also guides through the pickup and detach logic, concluding with a demonstration of the final result.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Gameplay Programming",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Make a Simple Pick Up System in Unreal Engine 5 - Beginner Tutorial",
+    "link": "https://www.youtube.com/watch?v=qVtoemgM7wI",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This quick and simple tutorial demonstrates how to create a basic pick-up system in Unreal Engine 5. It teaches users how to grab and equip items and weapons from the ground onto their character.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Toggle Between Third Person And First Person Camera Perspective In Unreal Engine 5 (Tutorial)",
+    "link": "https://www.youtube.com/watch?v=21cLT6-3uDw",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to toggle between third-person and first-person camera perspectives in Unreal Engine 5. It guides users through changing camera views within their game.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine + Kinect for Immersive Experiences",
+    "link": "https://www.youtube.com/watch?v=e_X_ehYpulk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores building immersive projects using Unreal Engine and Kinect, integrating additional software like TouchDesigner to route Kinect control channels as OSC messages to Unreal. In Unreal, it shows how to set up Niagara particle systems, a cinematic camera, and blueprints to transform object positions using OSC messages. The tutorial includes Chop Execute DAT Code from TouchDesigner and an Unreal OSC Blueprint for practical implementation.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mejora Tus Cinematicas En Unreal Engine 5 (O Cualquier Otro Programa 3D)",
+    "link": "https://www.youtube.com/watch?v=9j36q6KiDrg",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video analyzes factors that contribute to a more \"cinematic\" 3D render in Unreal Engine 5 or other 3D programs. It covers disabling post-process effects, understanding anamorphic cameras, configuring them in UE 5.2, selecting appropriate aspect ratios and lenses, and setting FPS and resolution. The tutorial also discusses post-editing effects and provides a list of top cinematography learning resources.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Mobile Development",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Google Earth en Unreal Engine 5 ¡Importa Cualquier Ciudad del Mundo!",
+    "link": "https://www.youtube.com/watch?v=DQwhVnMUweI",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial teaches how to import any city or terrain from the world into Unreal Engine 5 using the Google Earth API and the Cesium plugin. It covers plugin installation, creating a Cesium account, obtaining the Google API key, configuring URLs, generating the initial environment, and considerations for generating specific cities.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Make a Simple Behavior Tree in Unreal Engine 5 - Advanced AI",
+    "link": "https://www.youtube.com/watch?v=QJuaB2V79mU",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to create a simple AI using Behavior Trees in Unreal Engine 5. It covers advanced AI concepts and provides references to other tutorials for simple enemy AI, blendspace, and animal AI.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Adding Modular Clothing for Metahuman. Tutorial UE5",
+    "link": "https://www.youtube.com/watch?v=hP5ECTLrCnM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates a simple method for setting up and customizing modular clothing for Metahumans in Unreal Engine 5. It covers adding Metahumans to a project, incorporating individual clothing pieces, creating new clothing nodes, applying opacity masks to body parts, and showcasing default animations.",
+    "categories": [
+      "Editor & Tools",
+      "Metahumans",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Getting Started With Action API In Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=MLP_evOiUls",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial guides users on how to get started with and use the Action API in Unreal Engine, recommending watching the Unreal quick start video first. It provides step-by-step instructions on implementing actions such as move, stop, wait, pick up, drop, and color change. The video explains how to change the default pawn class to enable movement, add new actions and functions by editing the companion blueprint, and concludes with practical examples and a deep dive into the companion blueprint.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Gameplay Programming",
+      "Mobile Development",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "5 Tricks you (probably) don't know about Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=ZF7Vwc8L1ok",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial reveals five easy tricks in Unreal Engine 5 that are beneficial for beginners. It aims to help users master filmmaking, video editing, and VFX within a single bundle.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "how to fix metahuman hair disappearing in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=SVugMixynnc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video shows how to fix the issue of Metahuman hair disappearing in Unreal Engine 5. It provides solutions for common problems related to Metahuman hair visibility in the engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 - Ultimate Voice AI Tutorial - Masterclass from scratch",
+    "link": "https://www.youtube.com/watch?v=xBs-nXzXwoM",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This masterclass provides a comprehensive guide to setting up a voice AI system in Unreal Engine 5 from scratch. It explains how to use a microphone for communication with an NPC/AI and receive a voice response using ChatGPT and Elevenlabs TTS. The tutorial covers requirements, limitations, project setup, speech recognition, ChatGPT communication, bug fixing, enabling ChatGPT to remember context, and Elevenlabs TTS integration.\n\nIt notes that Runtime Audio Importer and Speech Recognizer plugins are no longer free on the marketplace but can still be downloaded from GitHub. Project files are available for patrons.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Properly Export From Blender To Unreal Without Losing Textures",
+    "link": "https://www.youtube.com/watch?v=HIzDW4FlC-U",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to properly export a mesh or model from Blender and import it into Unreal Engine 4 or 5 without losing textures or data. It specifically addresses and resolves the common issue of materials appearing white upon import into Unreal using an FBX file.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Materials & Shaders",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "(Easy) Blender To Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=BBYIw23sFyU",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial offers an easy guide to transferring models from Blender to Unreal Engine 5. It covers quick export/import methods, Blender export options, importing into Unreal, and setting up a Cine-Camera. The video also addresses and fixes common pivot issues, presenting a correct workflow for integration.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Custom clothes for UE Metahuman / UE 5 / Blender 4+ /MarvelousDesigner 11",
+    "link": "https://www.youtube.com/watch?v=12k1gs65tlA",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video provides a streamlined workflow for adding custom clothes to Metahuman characters in Unreal Engine 5 using Blender 4+ and Marvelous Designer 11. It's designed as a step-by-step clickthrough rather than a deep dive into creating clothes or weight painting.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Metahumans",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Conversational AI in Unreal Engine Quick Setup Guide | MetaHumans, ReadyPlayerMe, and more | Convai",
+    "link": "https://www.youtube.com/watch?v=HHJvY9dmwwg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick setup guide demonstrates how to configure Convai's Unreal Engine plugin and utilize its demo project for conversational AI with MetaHumans, ReadyPlayerMe, and other avatars. It directs users to the Convai website to create their own characters and provides information on accessing the UE plugin.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "The Fastest Way to Learn Lighting in UE5",
+    "link": "https://www.youtube.com/watch?v=dT4Vl3PGe08",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video offers a fast way to learn lighting in Unreal Engine 5, focusing on a lighting study exercise to improve cinematic and short film lighting. It explains a simple framework for matching photograph lighting, basics of Directional Lights, Sky Lights, and Dynamic Lighting in UE5. The tutorial also covers creating a lighting study, distinguishing between sunny and overcast lighting, and cinematic lighting techniques.",
+    "categories": [
+      "Animation",
+      "Lighting",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorials: how to use the plugin",
+    "link": "https://www.youtube.com/watch?v=xo474w8-4ac",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial details how to use the MetaHuman SDK plugin in Unreal Engine, an automated AI solution for generating realistic character animations. It covers integrating TTS, adding audio for lip sync (both standard and streaming), integrating a chatbot, and combining these functionalities into a single combo request.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Metahuman's Head Detachment Fix",
+    "link": "https://www.youtube.com/watch?v=oY__OZAa0I4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial provides steps to fix the MetaHuman's head detachment issue from the body in Unreal Engine. It guides users through the necessary steps to resolve this common problem.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Connect Head and Body Animations to MetaHumans without Sequencer",
+    "link": "https://www.youtube.com/watch?v=lI-ZWAIcLRE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is a continuation of a previous tutorial, focusing on connecting head and body animations to MetaHumans without using Sequencer.",
+    "categories": [
+      "Animation",
+      "Cinematics / Sequencer",
+      "Metahumans"
+    ]
+  },
+  {
+    "name": "How to HIDE Texture REPETITION in Unreal Engine - UE4 Tutorial",
+    "link": "https://www.youtube.com/watch?v=yCRzOdo4b68",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This Unreal Engine 4 tutorial provides four tips to hide texture repetition on landscapes, a common issue that degrades visual quality. It covers using good textures, adding macro variation, blending texture size with distance, and varying materials to achieve photorealistic landscapes. This is the first part of a series on creating photorealistic landscapes.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Materials & Shaders",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Unreal 5.1 and 5.2 Meta Human Retarget to Third person character",
+    "link": "https://www.youtube.com/watch?v=d0igvod1t9E",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to retarget a MetaHuman character to a Third Person character in Unreal Engine 5.1 and 5.2.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "MetaHuman Animator Complete Guide for Head Rotation and Body Attachment",
+    "link": "https://www.youtube.com/watch?v=Rym1QpD_Wr4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This complete guide for MetaHuman Animator covers using upgraded 5.2 MetaHumans, exporting head animations with and without head rotation, and attaching head animations to a body. It also includes a bonus section on using neck data from MHA instead of just head rotation.",
+    "categories": [
+      "Animation",
+      "Metahumans",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to retarget Unreal 5 Mannequin animations to a MetaHuman (Tutorial)",
+    "link": "https://www.youtube.com/watch?v=3STorCH_Pvk",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial explains how to retarget MoCap Central UE5 mannequin animations to a MetaHuman using Unreal 5.2. It covers locating the MetaHuman proportion skeleton type, creating a new UE5 to MetaHuman Retargeter file, turning off Blend to Source in Retargeter, and reviewing/exporting retargeted MetaHuman animations.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Fix Metahuman Detached Head in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=m0iZUvS78yQ",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to fix the detached or floating head issue with Metahumans in Unreal Engine 5 when applying animation in Sequencer using Livelink. It explains why this occurs and provides a quick resolution method. The video covers understanding Metahuman skeletons, the reason for detachment, and how to fix it in Take Recorder.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Metahuman Disappearing Hair Fix",
+    "link": "https://www.youtube.com/watch?v=puAEwf6HvwM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial explains how to adjust LOD settings in Unreal Engine 5.03 (also works in 5.1) to prevent Metahuman character hair from disappearing in the viewport.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 preview 2 Fixing MetaHumans Issues Part 3",
+    "link": "https://www.youtube.com/watch?v=avyMhiecKQM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This is part 3 of a series by Gabriel Paiva, an authorized Unreal Instructor, focusing on fixing MetaHumans issues in Unreal Engine 5 preview 2. He shares news and tutorials related to Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 preview 2 Fixing MetaHumans Issues Part 2",
+    "link": "https://www.youtube.com/watch?v=yDFVKS4pYFQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This is part 2 of a series by Gabriel Paiva, an authorized Unreal Instructor, focusing on fixing MetaHumans issues in Unreal Engine 5 preview 2. He shares news and tutorials related to Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 preview 2 Fixing MetaHumans Issues Part 1",
+    "link": "https://www.youtube.com/watch?v=BH175dDOLJM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This is part 1 of a series by Gabriel Paiva, an authorized Unreal Instructor, focusing on fixing MetaHumans issues in Unreal Engine 5 preview 2. He shares news and tutorials related to Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Another Way to Combine Face and Body Animations - Metahumans in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=QS4EVC16opk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial presents an alternative method to combine Metahuman Face and Body animations in Sequencer within Unreal Engine 5. It provides a solution for integrating these animations.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Metahumans"
+    ]
+  },
+  {
+    "name": "How to make Cinematic animation inside Unreal Engine 5 II Tutorial II UE5",
+    "link": "https://www.youtube.com/watch?v=uBPm5w_gq7k",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to create cinematic animations within Unreal Engine 5. It guides viewers through the process of producing high-quality cinematic sequences.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Simple Exporting With the Movie Render Queue - Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=9wKHGXZFA78",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial explains how to export a render from Unreal Engine 5 using the Movie Render Queue. It also mentions additional resources for combining rendered image sequences and exporting as MP4 or AVI video files.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "FK vs IK (Explained in 25 seconds)",
+    "link": "https://www.youtube.com/watch?v=nGd7NlrT310",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This quick video explains the difference between FK (Forward Kinematics) and IK (Inverse Kinematics) and when to use each. It serves as an infographic for animators.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Audio2Face to MetaHuman | How to Animate MetaHuman using Audio2Face Live Link | Unreal Engine 5.2",
+    "link": "https://www.youtube.com/watch?v=HEFIvFnUfpw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to animate a MetaHuman using NVIDIA Omniverse Audio2Face Real-Time Facial Animation in Unreal Engine 5.2. It covers installing the new Omniverse Live Link Plugin to achieve real-time facial animation. The tutorial also highlights other tools like iClone 8 and Character Creator 4.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Dive into Source Control in Unreal Engine | Webinar",
+    "link": "https://www.youtube.com/watch?v=faYmvw_Pd-A",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This webinar delves into source control options within the Unreal Editor, focusing on risk reduction and enhanced collaboration for Unreal Engine projects. It covers the fundamentals of source control for managing versions of Levels, Materials, Blueprints, C++ code, and other content. The presentation specifically discusses Git, Perforce, Subversion, and Plastic SCM.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Source Control in Unreal Engine for dummies. Why is it different from incremental saving.",
+    "link": "https://www.youtube.com/watch?v=1wRT_rIpvIU",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video explains source control in Unreal Engine for beginners, clarifying why it differs from incremental saving and file syncing services like Dropbox. It breaks down the basic principles of source control and how it facilitates frictionless collaboration on Unreal Engine projects.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation"
+    ]
+  },
+  {
+    "name": "Metahuman Animator Part 2: Fixing detached floating head & rendering",
+    "link": "https://www.youtube.com/watch?v=lNGTlWrpfqg",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This is the second part of a MetaHuman Animator tutorial for Unreal Engine 5.2, focusing on combining facial performance capture with a full Metahuman body. It covers a cut/paste workflow between control rigs and retargeting animations from UE Mannequin.\n\nThe tutorial addresses the issue of detached floating heads by providing a workaround that stitches head keyframes to the body, unlike other solutions that failed for the creator. It also covers preparing for animation with camera and sequence, adding to the movie render queue, and rendering parameters, concluding with the animation result and final thoughts.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Head Reattachment Tutorial | Metahuman Animator",
+    "link": "https://www.youtube.com/watch?v=lERKslkPKYg",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows the correct way to reattach a Metahuman's head to its body in Unreal Engine 5 after applying an animation performance, especially when using Live Link. It explains why the head detaches and provides an easy solution for seamless character animation.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Configurar Visual Studio para Unreal Engine 5.X",
+    "link": "https://www.youtube.com/watch?v=H-DuWrcN7E4",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video explains how to configure Visual Studio for Unreal Engine 5.x, enabling the transition from Blueprints to C++ programming. It covers downloading and installing Visual Studio Community, configuring options for UE, identifying within Visual Studio, and installing the Unreal Visual Studio Integration Tool plugin. The tutorial then guides through creating a C++ project in Unreal Engine, performing a first compilation, activating the plugin, using an example code, and creating the first C++ Actor class to test UE_LOG.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "MetaHuman Animator Tutorial | Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=hZ2mkcd4C7M",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This step-by-step guide for Unreal Engine's MetaHuman Animator shows how to set up an iPhone with the LiveLink app for high-fidelity facial motion capture. It covers connecting the phone to a computer, setting up the project in UE5, importing footage, calibration, and processing the animation. The tutorial also demonstrates how to add and blend face and body animations for a Metahuman.",
+    "categories": [
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Our Studio was a HUGE waste of money - New Channel Launch!",
+    "link": "https://www.youtube.com/watch?v=_CxkmtBqGn8",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video discusses the challenges of limited studio space for multiple channels and how green screen technology with BlackMagic Ultimatte 12 helps overcome this by enabling live compositing. It touches on motion tracking and the capabilities and limitations of the setup for video production.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "7. Creación de Personajes MetaHuman y Unreal 5 ❤️ Curso de Videojuegos con UNREAL 5 GRATIS",
+    "link": "https://www.youtube.com/watch?v=6XLLVGhm8Jc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video is part of a free Unreal Engine 5 video game course, focusing on creating MetaHuman characters. It highlights MetaHuman Creator's ability to generate photorealistic digital humans with extensive customization. The video addresses how to create, modify, integrate, and export these digital humans for video games or films.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Metahumans",
+      "Mobile Development",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Ultimate, ultimate, ultimate MIDI Tutorial with Unreal Engine (PART 1) R1",
+    "link": "https://www.youtube.com/watch?v=s_QxpvBqC_4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This is the first part of an extensive MIDI tutorial with Unreal Engine, delving deep into the MIDI protocol library. It is a key piece in a series about motion control with Unreal Engine, covering the basics of the MIDI protocol and part of the MIDI Library in Unreal Engine. All projects will be hosted on GitHub.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Live Link Face Animation for Metahuman in Unreal Engine 5. [Step by Step Guide]",
+    "link": "https://www.youtube.com/watch?v=rFKXFdtCrfA",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This step-by-step tutorial shows how to use Live Link to record MetaHuman facial animation in Unreal Engine 5. It covers installing the Live Link app on an iPhone (iPhone X or above), connecting the phone to the computer, setting up Unreal Engine, adding the Metahuman model, and recording facial animation. The video concludes with a demonstration of the results.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "Mobile Development",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Kame House en Blender, Substance Painter y Unreal Engine 5 ::: Parte 1",
+    "link": "https://www.youtube.com/watch?v=-5MnSC6gh28",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial series teaches the workflow between Blender and Unreal Engine 5 to create the iconic Kame House. It also includes using Substance Painter for texturing the house. The series is sponsored by NVIDIA GeForce LA.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Exploring the Virtual Production Visualization Guide : Live From LA Lab!",
+    "link": "https://www.youtube.com/watch?v=AWWqsf6035M",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video teaches the basics of virtual production visualization from experts, drawing on studio insights to offer production-proven tips. It covers core concepts so users can begin experimenting with virtual production using an iOS device, Unreal Engine, and a computer. The content is derived from the Virtual Production Visualization Guide.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Mobile Development",
+      "Project Setup",
+      "Rendering",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "WHAT IS THIS MAGIC? NERF - LUMA AI TO UNREAL ENGINE 5.1 ( AND WHY IT'S BETTER THAN PHOTO SCANNING)",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores how to capture real-world 3D objects and environments using Neural Radiance Fields (NERF) and import them into Unreal Engine. It suggests that NERF can yield significantly better results than traditional photo scanning.",
+    "categories": [
+      "AI / Behavior Trees"
+    ]
+  },
+  {
+    "name": "Tutorial: Unreal Engine ChatGPT with Metahuman SDK",
+    "link": "https://www.youtube.com/watch?v=kZ2fTTwu6BE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to integrate ChatGPT (a GPT artificial neural network) with MetaHuman SDK in Unreal Engine, allowing for more natural and productive dialogue. It shows how to use ChatGPT with the plugin, providing a blueprint for implementation.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Lighting in Unreal Engine 5 for Beginners",
+    "link": "https://www.youtube.com/watch?v=fSbBsXbjxPo",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial is for beginners learning lighting in Unreal Engine 5, addressing the challenges of achieving correct lighting. It covers the fundamentals of light, types of lights available, and how to maximize their use. The video deeply explains real-world light behavior and how to mimic it in Unreal.\n\nIt demonstrates lighting an environment from scratch for both daytime and overcast, moody looks. The tutorial also includes quick tips on reflective objects and emissive materials.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Lighting",
+      "Materials & Shaders",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "State of Unreal | GDC 2023 | Epic Games - ESRB: RP to M",
+    "link": "https://www.youtube.com/watch?v=teTroOAGZjM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides a glimpse into the future of game development and the Epic ecosystem from GDC 2023's State of Unreal. It showcases new projects and dives into the latest Epic tech, featuring presentations by Epic Games and their partners.",
+    "categories": [
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "SWITCH CAMERA en directo para tu producción virtual || Unreal Engine 5.1",
+    "link": "https://www.youtube.com/watch?v=-grwSDnLgrs",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video teaches how to create a live camera switching system for virtual production in Unreal Engine 5.1. It covers programming fixed and moving cameras to enable real-time switching for an impactful visual experience.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Physics & Chaos",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "ChatGPT inside Unreal Engine 5, my new executive assistant!",
+    "link": "https://www.youtube.com/watch?v=4WXST65ImEc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to download and set up the free \"HttpGPT-ChatGPT integrated in the Engine\" plugin with Unreal Engine 5. It showcases ChatGPT's functionality within the engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Metahuman Animation Tutorial",
+    "link": "https://www.youtube.com/watch?v=LKaek__YPHI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial provides a guide on animating MetaHumans in Unreal Engine 5. It covers various aspects of Metahuman animation, including Control Rig, animation libraries, and retargeting from sources like Mixamo. The video addresses questions about Metahumans being free and game-ready.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 C++ Basics #1 - Structs, Variables",
+    "link": "https://www.youtube.com/watch?v=wALKKTJnJ-A",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This first part of a UE5 C++ Basics series demonstrates how to use C++ in Unreal Engine 5 to enhance game performance, noting its speed advantage over Blueprints for heavy or frequent tasks. It covers creating a project with a C++ template, defining custom C++ classes and structs, and using macros like USTRUCT() and UPROPERTY().\n\nThe tutorial also explains essential class requirements, managing Live Coding, and exposing C++ structs for use in Blueprints, aiming to provide a solid foundation for C++ development in Unreal.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Combining body and facial animations for Metahuman in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=jkBg4wI1wqg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates a method for combining body and facial animations for Metahumans in Unreal Engine 5 (specifically UE 5.0.3) without using a control rig or losing head rotations. It addresses the common issue of losing head rotation when integrating external animations with Live Link facial captures.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Combine Face and Body Animations - Metahumans in Unreal Engine 5 .1",
+    "link": "https://www.youtube.com/watch?v=MtAEN9aVp_M",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to combine Metahuman face and body animations in Sequencer within Unreal Engine 5.1 without losing head rotation from the facial mocap. It presents a controllable solution that allows switching between a fixed and original body-driven head animation, building upon a fix from EllieJayLiquid.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Metahumans",
+      "UI / UMG",
+      "VFX / Niagara"
+    ]
+  },
+  {
+    "name": "Mixamo and Metahumans in Sequencer",
+    "link": "https://www.youtube.com/watch?v=GwWR5QHXtlY",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial explains the basics of using Mixamo animations, retargeted to a Metahuman in a sequence. It also demonstrates how to mix facial animations with body animation. The video includes resources for Mixamo to UE5 workflows and IK Retargeting documentation.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 C++ 1 - How To Read and Write Text Files with C++? - Unreal Engine Tutorial Editor CPP",
+    "link": "https://www.youtube.com/watch?v=YcTa_wMjCzY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Unreal Engine C++ tutorial demonstrates how to easily read and write text files using FPlatformFileManager and FFileHelper functions. It covers setting up the header, reading a file, writing to a file, and testing the functionality.",
+    "categories": [
+      "AI / Behavior Trees",
+      "C++",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 C++ Enhanced Input - 4 - Using Two Dimensional Input Actions",
+    "link": "https://www.youtube.com/watch?v=_HsFpxESi9U",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video, part 4 of the UE5 C++ Enhanced Input series, teaches how to use two-dimensional Input Actions. Specifically, it demonstrates how to control the camera with the mouse.",
+    "categories": [
+      "C++",
+      "Gameplay Programming",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 C++ Enhanced Input - 1 - Core Concepts and Documentation",
+    "link": "https://www.youtube.com/watch?v=bIo97TLsXkY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This first video in the UE5 C++ Enhanced Input series introduces core concepts and documentation. It aims to explain all the foundational elements of Enhanced Input in Unreal Engine 5 C++.",
+    "categories": [
+      "AI / Behavior Trees",
+      "C++",
+      "Gameplay Programming"
+    ]
+  },
+  {
+    "name": "The Ultimate Guide to SNAPPING in Unreal Engine! (Place Objects Quickly and Accurately)",
+    "link": "https://www.youtube.com/watch?v=syBNq0wumkQ",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video provides the ultimate guide to using the snapping system in Unreal Engine for quick, easy, and accurate object placement. It covers grid snapping for placing walls, rotational snapping for objects, creating copies along an arc, and snapping objects to surfaces. The tutorial also explains how to use align to surface normal and vertex snapping, as well as setting a pivot point to a vertex.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Move Ai | Complete Guide to Getting Setup",
+    "link": "https://www.youtube.com/watch?v=MY7c6-_GXmg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial provides a complete step-by-step guide on setting up multiple iPhones for motion capture using Move.ai. It covers connecting iPhones to a host device, iPhone troubleshooting tips, tripod setup, and calibration for accurate motion capture data.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Push Unreal Projects to GitHub | Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=oHoXwMjhOC8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video provides a quick guide on how to push Unreal Engine 5 projects to GitHub. It covers creating an Unreal Project, setting up a repository on GitHub Desktop, publishing the repository, copying Unreal project files locally, committing to main, and pushing to GitHub's cloud.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Project Setup",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Creating a photorealistic rain scene in Unreal Engine | lumen tutorial",
+    "link": "https://www.youtube.com/watch?v=FTrCevoXqaA",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial offers a full breakdown of the workflow for creating a photorealistic rain scene in Unreal Engine, focusing on Lumen. It covers location scouting, car animation, lighting techniques, creating realistic rain, and establishing ambient atmosphere. The video also includes a bonus tool for cinematic fog and console variables for optimization.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Lighting",
+      "Performance & Optimization",
+      "Project Setup",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to use the Modeling Tools in UE5 and UEFN: Sculpting",
+    "link": "https://www.youtube.com/watch?v=gVqZfkCppxE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to use Unreal Engine's sculpting tools in UE5 and UEFN to create organic structures like an bridge. It covers dynamic sculpting mode, using orthographic views for control, changing brush size, and employing vertex sculpting tools.\n\nThe video also explains how to create and apply a WorldCoordinate3way material for seamless texture projection on objects without UVs, and for removing seams between overlapping objects.",
+    "categories": [
+      "Animation",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mixamo to UE5 : the ULTIMATE Guide",
+    "link": "https://www.youtube.com/watch?v=eYal6taYUfE",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This ultimate guide demonstrates how to achieve perfect animation retargeting with IK Rigs and IK Retargeter in Unreal Engine 5 (UE5). It covers downloading characters and animations from Mixamo, addressing common problems, converting assets with Blender, and importing them into UE5. The tutorial also explains creating IK Rigs for both Mixamo and Unreal Engine 5 characters, setting up IK Retargeter, modifying poses, adjusting animations with Full Body IK Solver, and adding bone settings.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Custom Clothes for Metahuman in Unreal Engine — BEGINNER TUTORIAL",
+    "link": "https://www.youtube.com/watch?v=gBEUvLq3Rak",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This beginner tutorial teaches how to add custom clothes to Metahumans using Blender and Unreal Engine. It covers downloading clothes from Sketchfab, exporting Metahuman skeletons from UE5, optionally converting glTF to FBX, merging the Metahuman skeleton with clothes, and importing into Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "[🔴 WEBINAR] Unreal Engine 5 Modeling Tools: Modelando y optimizando modelos dentro de Unreal Engine.",
+    "link": "https://www.youtube.com/watch?v=LX9ZvHuMBCk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This free webinar reviews Unreal Engine 5's Modeling Tools, demonstrating how to model and optimize models directly within the Unreal editor. Michele Bedendo presents the session, which focuses on enhancing 3D modeling workflows.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Blueprint Quickshot: Spawning Physics Actors | 04 | v4.7 Tutorial Series | Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=PpVfL2OhkmI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video, part 4 of the v4.7 Tutorial Series, explores spawning Actors using Class Blueprints, specifically focusing on physics Actors. It covers physics object creation, spawning them, and creating multiple spawn points.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Gameplay Programming",
+      "Performance & Optimization",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE5 FREE Clothings for MetaHumans, plus animations!",
+    "link": "https://www.youtube.com/watch?v=suc1rkqabzc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "Gabriel Paiva, an authorized Unreal Instructor, presents a video showcasing free clothing options and animations for MetaHumans in UE5. He invites viewers to subscribe for more news and tutorials on Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Making of MetaHuman with AI",
+    "link": "https://www.youtube.com/watch?v=xgrR3i9fMKE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates the process of creating a MetaHuman with AI, including implementing voice conversations for game characters.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "[UE5] Mixamo to MetaHumans - UnrealEngine (IK Retargeter)",
+    "link": "https://www.youtube.com/watch?v=SrzzttDindk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to retarget Mixamo animations to MetaHumans in Unreal Engine 5 using the IK Retargeter. It is part of a course available on Gumroad.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Crea un metahuman con tu imagen",
+    "link": "https://www.youtube.com/watch?v=3UW2Tre_zqI",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial explains how to create a Metahuman using your own image, leveraging Epic Games' RealityCapture tool. It covers recording a video with a mobile device, installing the application, importing the video, generating the 3D model, and exporting it.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mixamo - UnrealEngine 5.1",
+    "link": "https://www.youtube.com/watch?v=45gH6UzprCA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video serves as an inspiration for what can be achieved with Mixamo and Unreal Engine 5.1, rather than a direct tutorial.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Cómo hacer una gráfica de marcadores con iconos en #excel",
+    "link": "https://www.youtube.com/watch?v=6Px-GAZqaz0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial teaches how to create a line chart with icon markers in Excel. It invites viewers to support the creator on Patreon and offers information on live training and a platform for online courses.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Animating Metahumans in Unreal Engine: Marketplace Animations",
+    "link": "https://www.youtube.com/watch?v=QZYDfWD8A-k",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video discusses how to use marketplace animations, specifically those with root motion movement, and apply them to Metahumans in Unreal Engine. It references Unreal documentation on retargeting animations to a Metahuman in Unreal Engine 5.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Simple Lip Sync Workflow | Metahuman Face Helper v0.1",
+    "link": "https://www.youtube.com/watch?v=sAcQj3LWT_4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "MetaHuman Face Helper v0.1 introduces preset \"Phonemes\" for quick and intuitive lip sync animation directly within Unreal Engine 5 using Sequencer. The video also mentions the computer hardware used, an HP Z8 Workstation with an Nvidia RTX Quadro 8000.",
+    "categories": [
+      "C++",
+      "Editor & Tools",
+      "Lighting",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Convai Unreal plug-in quick overview",
+    "link": "https://www.youtube.com/watch?v=gaNUDyx7Bew",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides a quick overview of Convai's Unreal Engine plugin. It guides users to the Convai website to create characters and find the UE plugin. The video also mentions a developer forum for support.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Using A Vive Tracker To Control A Virtual Camera in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=HwAra3yXVHs",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video provides a detailed walkthrough on using a Vive Tracker to control a virtual camera in Unreal Engine 5. It requires enabling the Live Link XR plugin and mentions an original tutorial for the smoothing script.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Set-Up Virtual Camera using VIVE Tracker for Unreal Engine 5. [Easy way]",
+    "link": "https://www.youtube.com/watch?v=-teRPa1bvus",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates the easiest way to set up a virtual camera for Unreal Engine 5 using a Vive tracker. It covers connecting the Live Link XR plugin, Vive tracker connection, and configuring the camera to the tracker. The video also references another tutorial on using Vive trackers without a Vive headset.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial 2023: Cómo cambiar el láser de tu PlayStation 2 Slim",
+    "link": "https://www.youtube.com/watch?v=C0fTIL2FBS8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This 2023 tutorial provides a step-by-step guide on how to replace the laser of a PlayStation 2 Slim to resolve disc reading issues. It covers identifying a defective laser, acquiring a compatible replacement, and offers recommendations for tools and safety precautions during the substitution. The tutorial also includes tips for reassembling the console, testing its functionality, and maintaining the new laser.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Mobile Development",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Make Realistic PBR Materials from your Photos FREE! | Materialize",
+    "link": "https://www.youtube.com/watch?v=ONu14y5xqqA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to create realistic PBR materials from any image or personal photos for free using Materialize. It covers the Diffuse, Height Map, Normal Map, and AO Map sections, along with a bonus tip for height maps and creating tileable textures. The video also shows how to change lighting, save images, and use Quixel Bridge.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Lighting",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to Model in Unreal Engine 5 - Modeling a Japanese Torii",
+    "link": "https://www.youtube.com/watch?v=QsOTLlWmJPY",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial teaches how to model inside Unreal Engine 5 by creating a Japanese torii. It covers creating and deforming models, using new 5.1 features like the pattern tool and new modeling tools, and gaining a better understanding of in-engine modeling.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Free Suit-less Motion Capture | Rokoko A.I.",
+    "link": "https://www.youtube.com/watch?v=QS_NNtEkSuI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to set up and use the new free Rokoko A.I. motion capture tool, which enables suit-less motion capture. It covers footage capture, working with Rokoko Video and Rokoko Studio, and exporting mocap data.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Mobile Development",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Curso Profesores Unreal: Trabajo con Unreal Engine 5.1",
+    "link": "https://www.youtube.com/watch?v=7BlT1hsLHdI",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video showcases the result of designing an environment in Unreal Engine 5.1, created as part of an Epic Games course for teachers. The development process involved object creation with Reality Capture, lighting, post-processing, Sequencer, Bridge and Megascan. It also included inserting images into objects, creating textures, applying parallax effects for visible rooms from a terrace, architectural design based on real measurements, creating static meshes, using the marketplace for assets, and utilizing the Modeling tool.",
+    "categories": [
+      "Audio",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Capturing Lofoten in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=ifryjffUJT8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video presents a workflow and process for creating a Lofoten-inspired environment in Unreal Engine 5. It details how the creator built the ocean and mountains, and scanned an old arctic cabin using RealityCapture. The tutorial also touches on lighting, foliage, rendering, and color grading.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Project Setup",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Why Unreal Engine 5.1 is a Huge Deal",
+    "link": "https://www.youtube.com/watch?v=FUGqzE6Je5c",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video explains why Unreal Engine 5.1 is a significant update, particularly highlighting the integration of Nanite with foliage. It covers Nanite's capabilities, its application to large forests, and improvements in leaf scattering, glass and water reflections, Lumen, Path Tracing, and GPU Lightmass.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Lighting",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "How to Start Using Dynamic Runtime TTS in Unreal Engine 5 by ReadSpeaker.AI",
+    "link": "https://www.youtube.com/watch?v=MLQuvZTGvUE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to set up and use ReadSpeaker.ai's Unreal Engine 5 Plugin to integrate cutting-edge AI voices for game development with dynamic runtime Text-to-Speech (TTS). The process shown is also applicable to Unreal Engine 4.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorials: How to prepared Demo scene tutorial",
+    "link": "https://www.youtube.com/watch?v=E2K_DEDgyaY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial describes how to set up a demo scene using the MetaHuman SDK plugin for Unreal Engine. It details adding Text-to-Speech (TTS) and a voice track, as well as merging everything into a combo request for immersive interaction with a digital human. The MetaHumanSDK also supports interactive chat via Google Dialogflow.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Fest Day 2",
+    "link": "https://www.youtube.com/watch?v=n_ajnUdv994",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video captures presentations from Unreal Fest 2022, featuring talks by top game studios and Epic-hosted sessions. Topics include improving iteration in geo-distributed scenarios, working with data in Unreal Engine 5, building tools with Blueprints, menus, utilities, and widgets, and the transition from proprietary engines to UE5. It also covers 35 lesser-known UE5 features and cross-play/P2P challenges.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Mobile Development",
+      "Multiplayer",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "META HUMANS Lip sync, text to speech and Unreal Engine | Prototype | OVR Oculus Update",
+    "link": "https://www.youtube.com/watch?v=2m3RoNBs6Ts",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases a prototype integrating MetaHumans with lip sync and text-to-speech in Unreal Engine, powered by an OVR Oculus update. The creator acknowledges the assistance from Fractured Fantasy for the MetaHuman chatbot experiment and learning from their videos.",
+    "categories": [
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to use chaos in sequencer Unreal Engine5",
+    "link": "https://www.youtube.com/watch?v=g1g2zPN25ug",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video guide demonstrates how to get Chaos physics simulations working in Sequencer in Unreal Engine 5.0.2, from simulation to final rendered clip. It uses the Chaos cache manager and player, while acknowledging some unresolved issues, and invites viewers to share alternative methods.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "Physics & Chaos",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "¡Lleva la destrucción y el caos a Unreal Engine 5!",
+    "link": "https://www.youtube.com/watch?v=ED8H0SIlwhM",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video teaches how to prepare objects to fracture and break upon collision in Unreal Engine 5, leveraging the improved \"Chaos\" destruction features. It demonstrates examples ranging from destroying simple shapes to more complex scenarios where only a part of an imported object can be destroyed. The tutorial also references Unreal Engine's official documentation and a learning path for Chaos Destruction.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "Physics & Chaos",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Beginner Materials Tutorial - A Complete Guide in UE5",
+    "link": "https://www.youtube.com/watch?v=TSPbHLHmDJg",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This comprehensive tutorial guides beginners on creating materials from scratch in Unreal Engine 5. It covers understanding materials, creating a first material, PBR (Physical Based Rendering) principles, basic math operations, and using textures and masks. The video also delves into Lerps, changing Normal Map intensity, and creating Material Instances for roughness and tiling scale adjustments.\n\nFurther, it explores moving UV coordinates, base color tinting, parameter groups, and creating Material Functions for tiling and color tint. The tutorial concludes with Material Layers, Material Layer Blend, grunge texture blending, channel mask parameters, applying master materials to layer assets, changing layer parameters, adding snow with a Slope Mask, refining it, and basic vertex painting for puddles.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "¿Cómo hacer un suelo que se rompe en Unreal Engine 5?",
+    "link": "https://www.youtube.com/watch?v=2JhPGI7s6H0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explains how to use Unreal Engine 5's Fracture and Modeling modes to create different states of a tile, demonstrating various stages of deterioration. These generated static mesh objects can be used in any game and are easily integrable with the DBV Universal Platform marketplace asset.",
+    "categories": [
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "#shorts ¿Te gusta destruir objetos en tus juegos?",
+    "link": "https://www.youtube.com/watch?v=CkEVYsr3ZT4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This short video demonstrates the potential for destroying objects into many pieces upon impact within Unreal Engine 5. A full tutorial on this process will be provided if there is sufficient interest.",
+    "categories": [
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mastering Chaos Destruction in Unreal Engine 5 Tutorial - Migrating Field Blueprints",
+    "link": "https://www.youtube.com/watch?v=OEW81Bm4eTk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial focuses on mastering Chaos Destruction in Unreal Engine 5, specifically covering the migration of Field Blueprints. It is aimed at game developers and provides resources for learning Game Dev.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mastering Chaos Destruction in Unreal Engine 5 Tutorial - Damage Threshold",
+    "link": "https://www.youtube.com/watch?v=BOokVg4yeTc",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial focuses on mastering Chaos Destruction in Unreal Engine 5, specifically covering the concept of Damage Threshold. It aims to help game developers understand and implement destruction mechanics effectively.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Mastering Chaos Destruction in Unreal Engine 5 Tutorial - Destruction Theory",
+    "link": "https://www.youtube.com/watch?v=9VqSJHljy3E",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial delves into the theory behind mastering Chaos Destruction in Unreal Engine 5. It is designed to help game developers understand the principles of destruction mechanics within the engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: DBV Universal Platform for Unreal Engine 5. How to Use",
+    "link": "https://www.youtube.com/watch?v=_AtmbjfpMsM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to use the DBV Universal Platform in Unreal Engine 5 projects, enabling the creation of platforms that can move, rotate, or balance, similar to a Fall Guys game. It covers setting destination and speed for movement, updating parameters during play in the editor, and exploring various platform examples from the demo level. The Universal Platform can be used as either a C++ object or a blueprint.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "DBV Universal Platform for Unreal Engine 5. Demo Level (Third Person view)",
+    "link": "https://www.youtube.com/watch?v=PTT5V5t6F9A",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases the DBV Universal Platform for Unreal Engine 5 from a third-person perspective, highlighting its capability to create various dynamic platforms for games like Fall Guys. It demonstrates platforms that can move, rotate, balance, or break upon interaction. Users can set parameters like maximum distance, destination, velocity, and rotation velocity, with examples of horizontal, vertical, slider, attacking, rotating with obstacles, and combining movements and balance.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "C++",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How I Quickly Create 3D Environments in Unreal Engine 5 | FULL WORKFLOW",
+    "link": "https://www.youtube.com/watch?v=YZ4gSKZh6do",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video presents a full workflow for quickly creating atmospheric, photorealistic 3D environments in Unreal Engine 5. It covers gathering references, project setup, navigation, camera setup, and environment setup including Mesh Boolean operations. The tutorial also details lighting setup, using foliage assets with a master material for wind, organizing material attributes, painting foliage, and tweaking details. It concludes with high-quality export settings and console variables for optimization.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Constructing Destroyed Assets: Creating ‘Ninety Days’ in Unreal Engine 5",
+    "link": "https://www.youtube.com/watch?v=TABymp8AzMY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video by Quixel's Jakob Keudel demonstrates his approach to constructing destroyed buildings and environments for the 'Ninety Days' showcase video using Unreal Engine 5. He details how collapsed and broken structures were built entirely within Unreal Engine, leveraging its geometry and fracturing tools along with Megascans surface scans. The tutorial specifically focuses on creating broken floor modules and other destroyed building pieces without leaving the engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "DBV Universal Platform for Unreal Engine 5. Demo Level (Flying view)",
+    "link": "https://www.youtube.com/watch?v=j6-svHHZjA8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases the DBV Universal Platform for Unreal Engine 5 from a flying perspective, illustrating its capability to instantly create various dynamic platforms for games like Fall Guys. It demonstrates platforms that can move, rotate, or balance, as well as those that break upon impact. Users can update parameters such as maximum distance, destination, velocity, and rotation velocity during play.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Blueprints Tutorial ## - DOCUMENTACION OFICIAL - Como Usar Unreal Engine Español",
+    "link": "https://www.youtube.com/watch?v=OETHKVzEVOw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial teaches how to use Unreal Engine by drawing on official documentation, presented in Spanish. It invites users to join a Facebook group and Discord community for support, and references playlists for Unreal tutorials, FPS game creation, and free marketplace assets.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course",
+    "link": "https://www.youtube.com/watch?v=k-zMkzmduqI",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This free Unreal Engine 5 tutorial for beginners covers everything needed to get started, with a focus on Nanite and Lumen. It guides users through installing Unreal Engine, navigating the 3D viewport, creating materials and worlds, sculpting landscapes, and painting foliage. The tutorial also includes programming with Blueprints and creating a photorealistic world in real-time, concluding with a demonstration of a modular castle and optimization tips.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Performance & Optimization",
+      "Project Setup",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Unbox Therapy reviews the Lume Pad",
+    "link": "https://www.youtube.com/watch?v=QMBVR0vL9DI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "Unbox Therapy reviews the Lume Pad, highlighting it as the world's first 3D Lightfield tablet. It showcases the tablet's ability to play Hollywood blockbusters in 3D, convert 2D content (photos, Twitch streams) to 3D in real-time, and offer immersive 3D gaming without glasses.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "Mobile Development",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Blockout and Asset Production in UE5 | Feature Highlight | State of Unreal 2022",
+    "link": "https://www.youtube.com/watch?v=R5TsbnW4fk8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This evangelism talk from State of Unreal 2022 provides a primer on Unreal Engine 5's new and improved geometry tools for 3D modeling and asset production. It demonstrates the process of creating a scene from scratch, from blocking out to populating it with packed level instances and dynamic meshes made with geometry script.",
+    "categories": [
+      "Editor & Tools",
+      "Lighting",
+      "Multiplayer",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Upgrading your UE4 Project to UE5 | Feature Highlight | State of Unreal 2022",
+    "link": "https://www.youtube.com/watch?v=Dmh5a_ddO58",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This evangelism talk from State of Unreal 2022 assists developers in deciding whether to upgrade their Unreal Engine 4 projects to Unreal Engine 5. It provides examples of the upgrade process, advice on overcoming potential issues, and explains how content may change during the transition.",
+    "categories": [
+      "Lighting",
+      "Performance & Optimization",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Your First Game in UE5 | Tech Talk | State of Unreal 2022",
+    "link": "https://www.youtube.com/watch?v=Itd677YZi50",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tech talk from State of Unreal 2022 offers a practical, in-editor demonstration for beginners on how to start making a game from scratch in Unreal Engine 5. It highlights UE5 features and shows how quickly a game can be created by leveraging new and established engine functionalities. The demo uses assets from the Stack-O-Bot project on the Unreal Marketplace.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "💎 UNREAL ENGINE 5 💎 para principiantes | UE5 preview 2 | ARCHVIZ | TUTORIAL render Arquitectura",
+    "link": "https://www.youtube.com/watch?v=fFuc6VaFqvE",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial explores Unreal Engine 5 preview 2 for architectural visualization, demonstrating how easy it is for beginners to create renders. It covers installation, importing models, basic lighting, cameras, using Quixel Megascans, foliage scattering, and placing individual assets. The video also touches on fog adjustments, post-process volumes, point lights, creating night scenes, and rendering videos.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 - How To Create Cinematics in Sequencer Tutorial",
+    "link": "https://www.youtube.com/watch?v=5jHhIah8H7U",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This tutorial covers everything needed to produce cinematics in Sequencer within Unreal Engine 5 or 4. It guides users through using Sequencer, camera and object workflows, and creating scenes via animation, blueprint, or Sequencer itself. The video also explains the Curve Editor, slow motion, fade in/out effects, character movement, root motion, and rendering techniques, including a crucial warning for users.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Blender Cloth Sewing - Basic Shirt",
+    "link": "https://www.youtube.com/watch?v=-f5RgG_Yywg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to create a basic shirt in Blender using Cloth Sewing Physics.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Custom Metahuman, clothing & face using Quixel Mixer - Unreal Engine Tutorial",
+    "link": "https://www.youtube.com/watch?v=YjOpCdWg4_c",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to customize Metahuman assets, including clothing and face, using only Quixel Mixer and Unreal Engine. It covers altering existing clothing and face assets, setting up the project in Unreal Engine, and exporting texture files to Quixel Mixer. The video also explains importing and exporting FBX models, basic Quixel Mixer controls, coloring clothing, using texture masks, painting textures on meshes, importing custom brushes, and customizing Metahuman heads. It concludes with manually loading texture files into Unreal and manipulating materials for fine-tuning, including creating emissive effects for the Metahuman face.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "Physics & Chaos",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Sewing Cloth In Blender | Beginners",
+    "link": "https://www.youtube.com/watch?v=W9GDWKzf1mc",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial teaches beginners how to use Blender's cloth sewing feature (in Blender 2.92) to create clothing, specifically demonstrating how to make a 60s-style dress.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How To Create A Main Menu - Unreal Engine 4 Tutorial",
+    "link": "https://www.youtube.com/watch?v=K1vVbwMJCTQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Unreal Engine 4 tutorial demonstrates how to create a main menu for games. It covers designing the menu and implementing its functionality, such as navigating between different widgets/menus and starting or quitting the game.",
+    "categories": [
+      "Rendering",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4: Antorcha Sistema de Partículas (Español)",
+    "link": "https://www.youtube.com/watch?v=v1HaCQ9-VcE",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial (in Spanish) demonstrates how to create a torch particle system in Unreal Engine 4. Users can download the particle system to integrate into their projects.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4: ¡Envía tu juego! Empaquetar proyecto",
+    "link": "https://www.youtube.com/watch?v=w6DRYwh6Clk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video shows how to package an Unreal Engine 4 project for distribution. It also invites users to submit their games for a channel compilation and gameplay analysis.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4: Cinemáticas y secuencias (español)",
+    "link": "https://www.youtube.com/watch?v=u7IjhnkS10Q",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial teaches how to create cinematics and sequences in Unreal Engine 4, export them as AVI, and play them within projects.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Cinematics / Sequencer",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4 Chroma Keyer tutorial",
+    "link": "https://www.youtube.com/watch?v=yYJ4FwJb76U",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This is a tutorial on how to use the Chroma Keyer in Unreal Engine 4.",
+    "categories": [
+      "AI / Behavior Trees",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Basic Keying Realtime Video onto Geometry in Unreal Engine for Virtual Production",
+    "link": "https://www.youtube.com/watch?v=TOfeDE4Jfqk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video outlines a basic approach to keying real-time video onto geometry in Unreal Engine for virtual production, also applicable to video files or still images. It covers creating a master material from a texture, converting it into a material parameter, and adding MF_Chromakeyer. The tutorial emphasizes different Blend Mode options for transparency support and creating a Material Instance for keying parameters.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Materials & Shaders",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course!",
+    "link": "https://www.youtube.com/watch?v=gQmiqmxJMtA",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This updated Unreal Engine 5 tutorial is for beginners, covering everything needed to get started with a focus on Nanite and Lumen. It guides users through installing Unreal Engine, navigating the 3D viewport, creating materials and worlds, sculpting landscapes, and painting foliage.\n\nThe tutorial also includes programming with Blueprints and creating a photorealistic world in real-time, demonstrating how to set up a creek project, light an open world, sculpt rivers with water, paint trees, and build a modular castle. It concludes with adding small details, optimization tips, and final adjustments.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Lighting",
+      "Materials & Shaders",
+      "Metahumans",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Realtime 3D Video Production is here! (Unreal Engine Tutorial)",
+    "link": "https://www.youtube.com/watch?v=2k1QTEDOcYA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates real-time 3D video production using Unreal Engine, showcasing a workflow that includes real-time green keying and live camera tracking within a self-built virtual environment. It aims to help users master filmmaking, video editing, and VFX.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine ~ How to Setup an iPad as a Virtual Camera using the Live Link VCAM app",
+    "link": "https://www.youtube.com/watch?v=4FVW3R20ksk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates how to set up and use an iPad (or iPhone) as a Virtual Camera in Unreal Engine using the Live Link VCAM app, making virtual production much easier. The creator plans to share more results, especially in Unreal Engine 5. The tutorial highlights that Unreal Engine 5 empowers artists with unprecedented detail and interactivity through productive tools and content libraries.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial: Place yourself into an Unreal Engine environment with green screen",
+    "link": "https://www.youtube.com/watch?v=ErgZ248IFm8",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial explains how to place yourself into an Unreal Engine environment using a green screen. It references an ArchViz Interior project available through the Epic Games Launcher and provides links for video conversion.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "In depth Tutorial - Virtual Production with Unreal Engine and HTC Vive",
+    "link": "https://www.youtube.com/watch?v=XWQZNw9iMNs",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This in-depth tutorial covers virtual production in Unreal Engine with HTC Vive, recorded in late 2019. It delves into the setup of virtual sets using Aximmetry software, noting that most facilities already have the necessary hardware. The video also mentions tracking solutions like Antilatency and Glassmark Encoders.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Mobile Development",
+      "Multiplayer",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Tutorial RTSP Livestream Media in Unreal Engine 4",
+    "link": "https://www.youtube.com/watch?v=W13o893tWys",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial covers RTSP livestream media integration in Unreal Engine 4.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Croma AVANZADO en Unreal Engine | Especial 10.000 SUSCRIPTORES",
+    "link": "https://www.youtube.com/watch?v=-HbM2PeDPrQ",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This video celebrates reaching 10,000 subscribers by demonstrating advanced chroma keying techniques in Unreal Engine, allowing users to integrate themselves into 3D worlds. The tutorial aims to provide entertainment and valuable knowledge on virtual production.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Mobile Development",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Calibrate Metahuman and Live Link Face the right way - Virtual Production Tutorial 16",
+    "link": "https://www.youtube.com/watch?v=4elhEGL6iYQ",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial shows how to properly calibrate a Metahuman's face to work with a user's own face for Live Link animation, avoiding common issues like the mouth not closing. It allows for a better match or exaggeration of motions. The video covers setting up Live Link animation, capturing a neutral pose, modifying the animation blueprint, and trying out changes. It emphasizes the importance of acting and looking into the camera during mocap.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Educator’s Field Guide | Unreal Educator Livestream",
+    "link": "https://www.youtube.com/watch?v=k1UBeAizxkQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This livestream, part of the Educator’s Field Guide, features Luis Cataldi exploring the free Epic resources available to help teach Unreal Engine in schools, online, or within studios. It also highlights favorite community resources that have inspired and educated the Epic Games team. The session aims to equip educators and learners with essential resources for teaching Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "iClone MetaHuman Live Link Part 4: Full Character Animation & Recording in UE4",
+    "link": "https://www.youtube.com/watch?v=Dmpdpp7euCQ",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video, part 4 of the iClone MetaHuman Live Link series, explores full character animation and recording in Unreal Engine 4. It demonstrates how to stream both body and facial animation simultaneously from iClone into Unreal Engine via Live Link for full motion performance. The tutorial also covers recording animations using Take Recorder and troubleshooting common issues when animating MetaHuman characters with Live Link.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "My Rokoko MOCAP Guide for Unreal Engine and MetaHumans",
+    "link": "https://www.youtube.com/watch?v=E9TpcxtqTEk",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video outlines a process for offline Motion Capture/Performance Capture using the Rokoko Smart Suit, Smart Gloves, and Rokoko Studio. It covers rendering, retargeting, and MOCAP editing within Unreal Engine 4.26 and UE5. The video was originally produced for the Citizen Meta One YouTube channel.",
+    "categories": [
+      "Metahumans",
+      "Performance & Optimization",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Opening a Door in Car Configurators | Tips & Tricks | Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=O95-wUx_laY",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This Unreal Tips & Tricks video demonstrates how to use Sequencer and Blueprints to create simple interactions, such as opening a car door, in car configurators. It explains setting up animation with keyframes in Sequencer and triggering that animation via a Blueprint, outlining a workflow applicable for building UI systems.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Create a virtual set in 15 minutes, step by step demo by Jamie I Aximmetry DE",
+    "link": "https://www.youtube.com/watch?v=rhcwOVyKDlI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This step-by-step demo by Jamie Pence showcases how to easily and cost-effectively set up a virtual set in 15 minutes using Aximmetry DE software. It demonstrates incorporating existing hardware (camera, capture card, PC) and a green screen to create a virtual studio production, suitable for both novice and professional users.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Mobile Development",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Blurring the line between virtual production and game dev | Inside Unreal",
+    "link": "https://www.youtube.com/watch?v=NXPjz_npNxs",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "Alvaro Garcia Martinez discusses his transition from traditional filmmaking to real-time technology for his projects, blurring the lines between virtual production and game development. He shares practical examples for character animation, retargeting, MetaHuman stylization, and world building with Houdini. The session also provides tips focused on enhancing creativity in both filmmaking and game development.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Metahumans",
+      "Mobile Development",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 - Create a Beach in 1.5 mins",
+    "link": "https://www.youtube.com/watch?v=hI6xZxPkFVQ",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This quick tutorial demonstrates how to create a beach landscape in Unreal Engine 5 in 1.5 minutes using the new water body features.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Metahumans",
+      "Mobile Development",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Multi-User Editing | Live from HQ | Inside Unreal",
+    "link": "https://www.youtube.com/watch?v=MEKACTnXLJ0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This livestream demonstrates how to get started with Multi-User Editing in Unreal Engine, exploring its cinematic content pipeline. It explains how to connect multiple instances of Unreal Editor for collaborative real-time work in a shared virtual world. The session also includes news on Unreal Engine training and community spotlights.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Multiplayer",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "iPhone Facial Capture with Unreal Engine | Unreal Fest Online 2020",
+    "link": "https://www.youtube.com/watch?v=R3c4WjSFXJg",
+    "difficulty": "Advanced",
+    "type": "Video",
+    "description": "This talk by Epic Games' Ryan Mayeda demonstrates how Live Link Face for Unreal Engine, an iOS app, streams high-quality facial expressions from an iPhone's True Depth camera and ARKit to characters in Unreal Engine in real time. It covers advanced virtual production topics like multicast networking for multi-user workflows, timecode support for synchronization, remote control with OSC, and data management for recordings. This is beneficial for animators, stage operators, and streamers.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Mobile Development",
+      "Multiplayer",
+      "Performance & Optimization",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Evolving Animating with Unreal Engine | GDC 2021",
+    "link": "https://www.youtube.com/watch?v=AN9lgUXQNWM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "Jeremiah Grant, Technical Product Manager at Epic Games, demonstrates how to leverage new workflows and rigging/animation authoring tools in Unreal Engine, including Control Rig and Sequencer. The focus is on enabling artists to work in context, minimizing the need to switch between software packages for faster iteration within Unreal Engine.",
+    "categories": [
+      "Animation",
+      "Cinematics / Sequencer",
+      "Project Setup",
+      "UI / UMG"
+    ]
+  },
+  {
+    "name": "Star Wars Fan Film Contest 2021",
+    "link": "https://www.youtube.com/watch?v=rtoB7K3L1HA",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video announces the Star Wars Fan Film Contest 2021, celebrating the channel's 5-year anniversary by showcasing and rewarding other Star Wars Fan Film creators. It encourages aspiring filmmakers to participate, outlining contest details, rules, and prizes. The video also lists resources like a filmmaking course and free software access to assist participants.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Metahumans",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 5 Beginner Tutorial | Nordic Beach Environment",
+    "link": "https://www.youtube.com/watch?v=xxZwAMVMTUc",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This Unreal Engine 5 tutorial for beginners teaches how to create a Nordic beach environment using landscape tools and Quixel Megascans. It covers setting up Directional Light, Sky Light (Lumen), Sky Atmosphere, rotating the sun, Exponential Height Fog, Volumetric Clouds, Volumetric Fog, and Post Process Volume. The tutorial also includes auto exposure, landscape creation with material, using the water plugin to create an ocean, and adding Quixel Megascans assets.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Lighting",
+      "Materials & Shaders",
+      "Rendering",
+      "UI / UMG",
+      "VR / AR / XR",
+      "World Building"
+    ]
+  },
+  {
+    "name": "Custom Clothing (with Physics) for Metahuman in Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=vhm60iuj04o",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video demonstrates the complete workflow for creating a dress for a naked Metahuman character and applying physics to it within Unreal Engine. The final results are shown in a separate video.",
+    "categories": [
+      "Editor & Tools",
+      "Metahumans",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE4 - Meta Human - New Cloth",
+    "link": "https://www.youtube.com/watch?v=O_y8TqsjUh0",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video shows new cloth features for MetaHumans in Unreal Engine 4.",
+    "categories": [
+      "Physics & Chaos"
+    ]
+  },
+  {
+    "name": "iClone MetaHuman Live Link Part 2: Facial & Lipsync Animation for UE4",
+    "link": "https://www.youtube.com/watch?v=5AFvbtLSVMY",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This tutorial, part 2 of the iClone MetaHuman Live Link series, covers facial and lipsync animation for UE4. It demonstrates animating MetaHuman characters' faces in Unreal using iClone motion tools with the Live Link plug-in. The video also offers tips for optimizing the connection between iClone and Unreal for smoother operation.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Animate MetaHumans Face, Body, Voice Lip-Sync in ONE Application - iClone MetaHuman Live Link",
+    "link": "https://www.youtube.com/watch?v=mWRe8dfTSa4",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases the iClone MetaHuman Live Link, a solution for efficiently animating MetaHumans' faces, bodies, and voice lip-sync within a single application. It addresses the challenge of bringing MetaHumans to life for rapid production without compromising realism.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Desafío Empresas Andalucia 2010. Los 3 días.",
+    "link": "https://www.youtube.com/watch?v=Fbb33s6m_kI",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "This video features footage from the 2010 Desafío Empresas Andalucía, a three-day competition for companies with teams of four people, held in Málaga. The event focused on team-building, leadership, and innovative management in a unique environment. It successfully motivated participants and fostered connections between different economic sectors.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Blueprints",
+      "Mobile Development",
+      "Physics & Chaos",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to use the NewTek NDI SDK & Unreal Engine (UE4) to composite real-time green screen footage (4K)",
+    "link": "https://www.youtube.com/watch?v=ZLngVM5XRSI",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This step-by-step demonstration shows how to composite real-time green screen footage in Unreal Engine 4 (UE4) using the NewTek NDI SDK. It covers chroma-keying in OBS and pushing the footage through the network via the NDI protocol to UE4 for virtual production workflows. The method offers a free and effective solution for real-time compositing, acknowledging NDI as a powerful protocol.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4 Ipad",
+    "link": "https://www.youtube.com/watch?v=dXSjN79rilE",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This video demonstrates how to use an iPad as a virtual camera in Unreal Engine 4 and 5. It covers setting up the iPad for virtual production within Unreal Engine. The creator also promotes their courses on filmmaking in Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Lighting",
+      "Mobile Development",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Quick test using billboards | Aximmetry",
+    "link": "https://www.youtube.com/watch?v=M71WjytE7xo",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases a quick test using billboards in Aximmetry.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Mobile Development",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Using an iPhone as a tracker for Virtual Production",
+    "link": "https://www.youtube.com/watch?v=zZQu9f6U8zw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores using an iPhone as a tracker for a live-action camera within Unreal Engine for virtual production. It provides a step-by-step experimental guide to setting up this functionality. While the setup works to some degree, it still requires tweaking for production viability.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Mobile Development",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Motion Warping and Full-Body IK | Inside Unreal",
+    "link": "https://www.youtube.com/watch?v=SM_AR-oZ-1k",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This Inside Unreal session explores Unreal Engine 5’s new animation features: Full-Body IK (FBIK) and Motion Warping. FBIK provides tools for creating reactive, dynamic characters, while Motion Warping is an experimental feature allowing manipulation of root motion animations to adapt to the world with fewer custom assets.",
+    "categories": [
+      "Animation",
+      "Editor & Tools",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "MR Factory Brings Virtual Production to the Studio | Project Spotlight | Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=Kd6Bx74LMSM",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This project spotlight features MR Factory, a high-end production studio, explaining how they produce entire films in-house using a green screen, Brainstorm's virtual studio engine, and live 3D backgrounds from Unreal Engine. This virtual production setup saves time, fosters creativity, and opens new possibilities for filmmakers.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Gameplay Programming",
+      "Lighting",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Work-From-Home Virtual Production | Unreal Fest Online 2020",
+    "link": "https://www.youtube.com/watch?v=-EGlAIjLF_M",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "In this session, Cinematographer and Developer Matt Workman details how he established an indie virtual production studio at home using a mix of real-world camera equipment and Unreal Engine. He shares insights into his remote collaboration workflows, beneficial for live-action filmmakers and VFX/3D artists interested in virtual production.",
+    "categories": [
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Multiplayer",
+      "UI / UMG",
+      "VFX / Niagara",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Create Accurate, Natural, and Smooth Lipsync Animations with AccuLips | iClone",
+    "link": "https://www.youtube.com/watch?v=2BC59QEwkYU",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explores AccuLips in iClone, highlighting its intuitive method for generating procedural, editable lipsyncing animations that are accurate, natural, and smooth. It covers detecting and generating precise text and visemes from audio, making characters speak realistically, and utilizing 16 talking styles designed for various situations.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Metahumans",
+      "Performance & Optimization",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Real-time Compositing in Unreal Engine Virtual Production",
+    "link": "https://www.youtube.com/watch?v=5gZWna6RnCA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases real-time compositing for virtual production in Unreal Engine, filmed at MR Factory Madrid. It demonstrates solutions for real-time virtual production compositing.",
+    "categories": [
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Formidable girls and metahuman tests powered by Aximmetry",
+    "link": "https://www.youtube.com/watch?v=pbLM858p4oA",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video showcases MetaHuman tests featuring 'formidable girls', powered by Aximmetry. The content is credited to FUNTOO.",
+    "categories": [
+      "Metahumans"
+    ]
+  },
+  {
+    "name": "Tutorial UE4: Meta-Humans. Captura facial con iPhone, FaceLink, Take Recorder y Sequencer",
+    "link": "https://www.youtube.com/watch?v=t64b-ZZGpXs",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to use Meta-Humans in Unreal Engine 4, focusing on facial capture with an iPhone and FaceLink. It covers loading the Meta-Humans test project, configuring the iPhone and LiveLinkFace, and recording animations with Take Recorder. The video also shows how to create a sequence in Sequencer, add audio, animate cameras, edit the scene, and render with audio, using a dialogue from 'The Empire Strikes Back'.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Audio",
+      "Cinematics / Sequencer",
+      "Editor & Tools",
+      "Metahumans",
+      "Mobile Development",
+      "Project Setup",
+      "Rendering",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to change the body of a Metahuman | Metahuman Tutorial | Put a Metahuman in a spacesuit |",
+    "link": "https://www.youtube.com/watch?v=um2uYtOVv1E",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to change a Metahuman's body and put a Metahuman head on any existing skeleton or body, such as placing a Metahuman in a spacesuit. It covers using NASA 3D assets, setting up the MissionAR project, removing the head from a skeletal mesh, and exporting/importing the Metahuman from Quixel Bridge. The video also explains creating the Metahuman blueprint, retargeting animations from the default mannequin, creating a spacesuit helmet using Blender, attaching a static mesh (helmet) to the head via sockets, fixing normals and holes, and setting up the Third Person Character.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Blueprints",
+      "Editor & Tools",
+      "Metahumans",
+      "Performance & Optimization",
+      "Project Setup",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UE Take Recorder Live Link Source & Control Rig Backward Additive Solver",
+    "link": "https://www.youtube.com/watch?v=eDCwdriNuIY",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This video explains how to record Live Link Source data from the UE Live Link Face in Take Recorder to get cleaner facial motion capture data on new Metahumans. It also demonstrates using the new Control Rig Additive Backward Solver to fine-tune or add animations to recordings in Unreal Engine. The content was created using a Razer Blade 15 Studio Edition laptop with NVIDIACreator graphics.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Metahumans",
+      "UI / UMG",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Simple Beginner Tutorial UNREAL Metahuman and Live Link (Face and Head recognition)",
+    "link": "https://www.youtube.com/watch?v=erwXtT9lXR4",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This simple beginner tutorial guides users through integrating MetaHuman samples and the Live Link plugin in Unreal Engine, focusing on face and head recognition. It covers project creation, adjusting computer settings, changing viewport focus, and setting up Live Link for face and head recognition. The video also provides alternative access to the MetaHuman Sample Project for learning purposes.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "UNREAL MetaHuman Android or Webcam Face Recognition (non-free Live Link Alternative) Tutorial",
+    "link": "https://www.youtube.com/watch?v=fwAjwA44mSk",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This Unreal tutorial offers an alternative to the iPhone Live Link for MetaHuman face recognition, working with Android, PC, or pre-recorded video. It demonstrates a MetaHuman on Android, explains how the system works, and introduces Mocap Software (Freeware Studio) and its Unreal Plugin (Glassbox's Live Client). The tutorial also covers using Android Cam to Window (DroidCam), Faceware configurations, and setting up Faceware with a Metahuman project.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Animation",
+      "Editor & Tools",
+      "Metahumans",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Lip sync in Unreal Engine [TUTORIAL]",
+    "link": "https://www.youtube.com/watch?v=zCoHCSX-WHs",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial explains how to implement lip sync in Unreal Engine. It provides project files and references other tutorials for lip sync in UE4, as well as tools like PocketSphinx, Rhubarb, and Sox.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Audio",
+      "Editor & Tools",
+      "Mobile Development",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine 4.26 Water Tutorial",
+    "link": "https://www.youtube.com/watch?v=mE9jZbhI3Xg",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial explores the new Water System in Unreal Engine 4.26, showing which parameters to modify for desired looks. It covers using new river and lake tools and setting up buoyancy for actors like boats.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Editor & Tools",
+      "Gameplay Programming",
+      "Project Setup",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "How to animate a 3D METAHUMAN",
+    "link": "https://www.youtube.com/watch?v=abgJiLXEVfw",
+    "difficulty": "Unspecified",
+    "type": "Video",
+    "description": "This tutorial shows how to animate a 3D Metahuman. It is the creator's first detailed tutorial, aiming to help viewers bring their Metahumans to life.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "VR / AR / XR"
+    ]
+  },
+  {
+    "name": "Unreal Engine Metahuman Change Clothes",
+    "link": "https://www.youtube.com/watch?v=vMeyTJYmFp8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "This tutorial demonstrates how to change Metahuman clothes in Unreal Engine 4.26. It covers swapping clothes, using the Metahuman Creator, and integrating with perception neuron. The creator also promotes their courses on filmmaking in Unreal Engine.",
+    "categories": [
+      "AI / Behavior Trees",
+      "Metahumans",
+      "Performance & Optimization",
+      "Physics & Chaos",
+      "VR / AR / XR"
+    ]
+  }
+]

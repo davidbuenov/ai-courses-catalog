@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Content Catalog</title>
+    <title>{{PAGE_TITLE}}</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-
     <div class="container">
         <header>
-            <h1>AI Content Catalog</h1>
-            <p>Find the best courses, books, and tools to learn about Artificial Intelligence.</p>
+            <h1>{{HEADER_TITLE}}</h1>
+            <p>{{SUBTITLE}}</p>
             
-            <!-- CONTENEDOR PRINCIPAL PARA LA INFORMACIÓN DEL HEADER -->
             <div class="header-info">
-                <!-- Los contadores de tipo se añadirán aquí con JS -->
                 <div id="header-info-counters"></div>
-                
-                <!-- El span de "Última Actualización" que querías mantener -->
                 <span id="ultima-actualizacion-container" style="display: none;"> | 
                     Last updated: <strong id="ultima-actualizacion">...</strong>
                 </span>
             </div>
+
+            <!-- START: New Utility Links Section -->
+            <div class="utility-links">
+                <a href="{{REPO_URL}}" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+                <a href="{{OTHER_CATALOG_URL}}">
+                    <i class="fas fa-exchange-alt"></i> Switch to {{OTHER_CATALOG_NAME}} Catalog
+                </a>
+            </div>
+            <!-- END: New Utility Links Section -->
         </header>
 
         <main>

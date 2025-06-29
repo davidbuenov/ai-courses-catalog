@@ -95,3 +95,34 @@ header p { color: #7f8c8d; font-size: 1.1em; }
 .site-footer .footer-author a:hover { color: #3498db; }
 .site-footer .footer-attribution a { color: #7f8c8d; font-weight: 600; text-decoration: none; }
 .site-footer .footer-attribution a:hover { text-decoration: underline; }
+
+/* --- INICIO: NUEVOS ESTILOS PARA ENLACES DE UTILIDAD --- */
+.utility-links {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #e0e0e0; /* Una línea discontinua sutil para separarlo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.utility-links a {
+    color: #7f8c8d;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s ease-in-out;
+}
+
+.utility-links a:hover {
+    color: #3498db;
+}
+
+.utility-links a i {
+    font-size: 1.2em; /* Hace el icono un poco más grande que el texto */
+}
