@@ -4205,5 +4205,22 @@
       "Physics & Chaos",
       "VR / AR / XR"
     ]
+  },
+  {
+    "name": "UE5 Dev Notes",
+    "link": "https://www.linkedin.com/newsletters/ue5-dev-notes-7335728724010487808",
+    "difficulty": "Beginner",
+    "type": "Newsletter",
+    "description": "Weekly newsletter created by Jose Maria Luque Gomez, an Unreal Authorized Instructor and Game Developer in Unreal Engine 5. It offers UE5 tips and systems for developers, covering practical topics such as Enumerators, Variables (Maps), Boolean Algebra (AND, OR, NOT), and Arrays in Unreal Engine.",
+    "categories": [
+        "AI / Behavior Trees",
+        "Blueprints",
+        "Editor & Tools",
+        "Gameplay Programming",
+        "Mobile Development",
+        "Project Setup",
+        "UI / UMG",
+        "VR / AR / XR"
+    ]
   }
 ]
