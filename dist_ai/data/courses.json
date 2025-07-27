@@ -959,6 +959,494 @@
       "AI Agents",
       "Workflow Automation"
     ]
+  },
+ {
+  "name": "Gemini for Education",
+  "link": "https://edu.google.com/ai/gemini-for-education/",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Gemini for Education is a private and secure generative AI assistant from Google, specifically designed to transform teaching, learning, and administrative tasks for educators, students, and staff . It is included free of charge in all Google Workspace for Education editions for qualifying institutions . Built with Gemini 2.5 Pro, incorporating LearnLM, it is optimized for learning, making it the worlds leading model for learning . The tool provides enterprise-grade data protection, ensuring user data is not human-reviewed or used to train AI models and supports compliance with regulations like COPPA, FERPA, HIPPA, and FedRamp . Students under 18 receive a distinct product experience with fine-tuned guardrails, youth AI literacy resources, and trustworthy response features .Key capabilities for teaching include: rapidly drafting lesson plans, differentiating course material, and generating assessments and practice materials . For learning, it offers on-demand support for concepts, personalized practice quizzes for exam prep, and assistance with writing, brainstorming, and research, including citation generation . For administrative work, Gemini helps save time on communications, streamline tasks like summarizing documents and analyzing data, and enhance research efforts .Specific features include:- Deep Research: Provides detailed reports with citations and allows for follow-up questions to sharpen insights .- Gems: Enables users to create or utilize customized AI experts on any topic without coding, acting as a learning coach or brainstorming partner .- Gemini Canvas: An interactive space for creating quizzes, study guides, visual timelines, interactive prototypes, code snippets, and scripts .- Audio Overviews: Converts any file or Deep Research reports into podcasts for on-the-go learning .- Gemini Live: Facilitates real-time voice conversations for brainstorming, concept simplification, and presentation rehearsal, with screen/camera sharing for tailored help .Access to Gemini for Education is available via gemini.google.com or the Gemini mobile app .",
+  "categories": [
+    "AI Assistants",
+    "AI in Education",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "AI Applications",
+    "Content Generation with AI",
+    "AI Ethics",
+    "Workflow Automation",
+    "Data Analysis"
+  ]
+},
+{
+  "name": "Mathematical theory of deep learning",
+  "link": "https://doi.org/10.48550/arXiv.2407.18384",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "This book provides an introduction to the mathematical analysis of deep learning . It covers fundamental results in approximation theory, optimization theory, and statistical learning theory, which are the three main pillars of deep neural network theory . Serving as a guide for students and researchers in mathematics and related fields, the book aims to equip readers with foundational knowledge on the topic . It prioritizes simplicity over generality, and presents rigorous yet accessible results to help build an understanding of the essential mathematical concepts underpinning deep learning . The authors are Philipp Petersen and Jakob Zech . The paper was submitted on 25 Jul 2024 (v1) and last revised on 7 Apr 2025 (v3) .",
+  "categories": [
+    "Deep Learning",
+    "Machine Learning",
+    "Introduction to AI and Fundamental Concepts"
+  ]
+},
+{
+  "name": "CS229 Lecture Notes",
+  "link": "https://cs229.stanford.edu/main_notes.pdf",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "These lecture notes, authored by Andrew Ng and Tengyu Ma and updated on June 11, 2023, provide a comprehensive introduction to machine learning, covering both foundational concepts and advanced topics. The material is mathematically grounded and delves into the theoretical underpinnings of various algorithms and models.The notes are structured into five main parts:- Supervised Learning: This section covers linear regression, classification (including logistic regression), generalized linear models, generative learning algorithms (Gaussian Discriminant Analysis and Naive Bayes), kernel methods, and Support Vector Machines (SVMs). It explores concepts like cost functions, gradient descent, batch and stochastic gradient descent, normal equations, and probabilistic interpretations of models [2-12].- Deep Learning: This part introduces neural networks, including multi-layer perceptrons (MLPs), various activation functions (e.g., ReLU, sigmoid, tanh, GELU), and modern neural network modules such as residual connections and layer normalization. It details the backpropagation algorithm for efficient gradient computation in neural networks [13-17].- Generalization and Regularization: Here, the notes discuss the critical aspects of model performance on unseen data. Key topics include the bias-variance tradeoff, the double descent phenomenon, sample complexity bounds, different regularization techniques (like L2 regularization/weight decay), and implicit regularization effects of optimizers. Model selection methods such as cross-validation are also covered, along with an overview of Bayesian statistics in regularization [18-26].- Unsupervised Learning: This section explores methods for discovering patterns in unlabeled data. It includes clustering algorithms (e.g., k-means), Expectation-Maximization (EM) algorithms for density estimation (e.g., mixture of Gaussians), Principal Components Analysis (PCA) for dimensionality reduction and noise reduction, and Independent Components Analysis (ICA) for source separation [19, 27-32].- Reinforcement Learning and Control: The final part delves into how agents learn to make sequential decisions to maximize rewards. It defines Markov Decision Processes (MDPs) and covers algorithms like Value Iteration and Policy Iteration. It also addresses continuous state MDPs through discretization and value function approximation, and introduces Linear Quadratic Regulation (LQR), Differential Dynamic Programming (DDP), Linear Quadratic Gaussian (LQG), and Policy Gradient methods (REINFORCE) [33-42].Additionally, the notes touch upon Self-supervised learning and Foundation Models, explaining the paradigm of pretraining and adaptation, pretraining methods in computer vision (supervised and contrastive learning), and pretrained large language models (Transformers, zero-shot learning, and in-context learning) [33, 43-47].",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "Machine Learning",
+    "Deep Learning",
+    "Large Language Models (LLMs)",
+    "AI Ethics",
+    "AI Agents",
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Applications",
+    "Data Analysis"
+  ]
+},{
+  "name": "RAGFlow",
+  "link": "https://github.com/infiniflow/ragflow",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding [1-3]. It provides a streamlined RAG workflow designed for businesses of any scale, combining Large Language Models (LLMs) to deliver truthful question-answering capabilities backed by well-founded citations from various complex formatted data .Key features of RAGFlow include:- Deep document understanding-based knowledge extraction from unstructured data with complicated formats, capable of finding relevant information within unlimited tokens .- Template-based chunking that is intelligent and explainable, offering numerous template options .- Grounded citations with reduced hallucinations, providing visualization of text chunking for human intervention, quick access to key references, and traceable citations .- Compatibility with heterogeneous data sources, supporting a wide array of formats such as Word, slides, Excel, TXT, images, scanned copies, structured data, and web pages .- An automated and effortless RAG workflow that includes configurable LLMs and embedding models, multiple recall paired with fused re-ranking, and intuitive APIs for seamless business integration .Recent updates have added a Python/JavaScript code executor component to the Agent , support for cross-language queries , the ability to use a multi-modal model for understanding images within PDF or DOCX files , and integration with Internet search (Tavily) for Deep Research-like reasoning . It also supports text-to-SQL statements through RAG .RAGFlow is designed for easy deployment, with prerequisites including Docker and Docker Compose , and offers pre-built Docker images in various editions . It also supports launching the service from source for development purposes . RAGFlow has gained significant community support, evidenced by its 61k stars and 6.2k forks on GitHub .",
+  "categories": [
+    "RAG (Retrieval-Augmented Generation)",
+    "Large Language Models (LLMs)",
+    "Deep Learning",
+    "AI Applications",
+    "Document Processing",
+    "Content Generation with AI",
+    "Workflow Automation",
+    "Systems Integration",
+    "Data Analysis",
+    "AI Agents"
+  ]
+},
+{
+  "name": "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework",
+  "link": "https://github.com/HKUDS/AutoAgent",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "AutoAgent is a Fully-Automated and highly Self-Developing framework that enables users to create and deploy LLM agents through Natural Language Alone . It serves as a personal AI assistant, designed to be dynamic, extensible, customized, and lightweight .Key capabilities include:- Agentic-RAG with Native Self-Managing Vector Database: It outperforms industry-leading solutions like LangChain by being equipped with a native self-managing vector database .- Zero-Code Agent and Workflow Creation: Users can effortlessly build ready-to-use tools, agents, and workflows using natural language, requiring no coding [2-5].- Universal LLM Support: It seamlessly integrates with a wide range of LLMs, including OpenAI, Anthropic, Deepseek, vLLM, Grok, and Huggingface .- Flexible Interaction Modes: Supports both function-calling and ReAct interaction modes .- High Performance: Delivers comparable performance to many Deep Research Agents on the GAIA Benchmark . It is presented as a cost-effective, open-source alternative to OpenAIs Deep Research subscription .- User-Friendly Interface: Offers an easy-to-deploy CLI interface and handles file uploads for enhanced data interaction .The framework provides an out-of-the-box multi-agent system in its user mode . Installation can be done via CLI or Docker , and it supports adding API keys for various LLMs and third-party tool platforms like RapidAPI . Future developments include expanding evaluations to SWE-bench and WebArena, supporting Computer-Use agents with GUI interaction, integrating with more tool platforms (e.g., Composio), adding code sandboxes (e.g., E2B), and developing a comprehensive web interface . AutoAgent is primarily written in Python (99.8%) . It has garnered significant community interest with 5.7k stars and 774 forks on GitHub .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "Large Language Models (LLMs)",
+    "RAG (Retrieval-Augmented Generation)",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Applications",
+    "Content Generation with AI",
+    "Deep Learning"
+  ]
+},
+{
+  "name": "LLaMA-Factory: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "link": "https://github.com/hiyouga/LLaMA-Factory",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "LLaMA-Factory is an open-source tool designed for Unified Efficient Fine-Tuning of over 100 Large Language Models (LLMs) and Vision Language Models (VLMs) [13-15]. It simplifies the fine-tuning process with both a zero-code CLI and an intuitive Web UI .Key features and capabilities include:- Extensive Model Support: Compatible with a wide array of models such as LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen, DeepSeek, Yi, Gemma, ChatGLM, and Phi, among others . It provides day-N support for cutting-edge models .- Integrated Training Approaches: Supports various methods including (continuous) pre-training, (multimodal) supervised fine-tuning, reward modeling, and advanced preference learning algorithms like PPO, DPO, KTO, ORPO, and SimPO .- Scalable Resource Optimization: Offers 16-bit full-tuning, freeze-tuning, LoRA, and 2/3/4/5/6/8-bit QLoRA, leveraging multiple quantization techniques (AQLM/AWQ/GPTQ/LLM.int8/HQQ/EETQ) .- Advanced Algorithms & Practical Tricks: Integrates sophisticated algorithms such as GaLore, BAdam, APOLLO, Adam-mini, Muon, DoRA, LongLoRA, LLaMA Pro, Mixture-of-Depths, LoRA+, LoftQ, and PiSSA [14, 23-29]. It also includes performance-enhancing tricks like FlashAttention-2, Unsloth, Liger Kernel, RoPE scaling, and NEFTune .- Wide Task Support: Handles diverse tasks including multi-turn dialogue, tool using, image understanding, visual grounding, video recognition, and audio understanding .- Experiment Monitoring & Faster Inference: Supports various experiment monitors (LlamaBoard, TensorBoard, Wandb, MLflow, SwanLab)  and provides faster inference via OpenAI-style API, Gradio UI, and CLI with vLLM or SGLang workers .- Hardware Compatibility: Works across different hardware, including CUDA, Ascend NPU, and AMD ROCm [35-40].LLaMA-Factory is utilized by major companies like Amazon, NVIDIA, and Aliyun . It has achieved significant community traction with 55k stars and 6.8k forks on GitHub . The underlying research is detailed in the paper LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models .",
+  "categories": [
+    "Machine Learning",
+    "Deep Learning",
+    "Large Language Models (LLMs)",
+    "AI Applications",
+    "Model Management",
+    "LLMOps",
+    "AI Automation",
+    "Content Generation with AI",
+    "Multimodal AI"
+  ]
+},
+{
+  "name": "Transformer Lab: Open Source Application for Advanced LLM + Diffusion Engineering",
+  "link": "https://github.com/transformerlab/transformerlab-app",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Transformer Lab is an open-source application designed for Advanced LLM + Diffusion Engineering, allowing users to interact, train, fine-tune, and evaluate large language models on their own computer . This app is supported by Mozilla through the Mozilla Builders Program .Its features are accessible through a simple cross-platform GUI and include:- One-click Model Downloads: Easily download hundreds of popular models such as DeepSeek, Llama3, Qwen, Phi4, Gemma, Mistral, Mixtral, and Command-R, and any LLM from Hugging Face .- Flexible Fine-tuning and Training: Supports fine-tuning using MLX on Apple Silicon and Huggingface on GPU .- RLHF and Preference Optimization: Incorporates DPO, ORPO, SIMPO, and Reward Modeling .- Cross-Operating System Compatibility: Available as Windows, MacOS, and Linux applications .- Comprehensive Chat Functionality: Offers chat, completions, preset prompts, chat history, parameter tweaking, batched inference, and tool use/function calling (in alpha) .- Multiple Inference Engines: Utilizes MLX on Apple Silicon, Huggingface Transformers, vLLM, and Llama CPP .- Model Evaluation and RAG: Includes model evaluation capabilities and Retrieval-Augmented Generation (RAG) with a drag-and-drop file UI, compatible with various engines .- Dataset Building: Enables users to build datasets by pulling from hundreds of common Hugging Face datasets or providing their own via drag-and-drop .- Utilities and API: Features embedding calculation, a full REST API, and the ability to run in the cloud (with the UI locally or entirely on a single machine) .- Model Conversion and Plugins: Allows conversion of models between Huggingface, MLX, and GGUF formats, and supports custom plugins for extended functionality .- Developer Tools: Provides an embedded Monaco Code Editor for plugin editing and viewing behind-the-scenes operations, along with prompt editing and inference logs .This project is actively developed and has a strong community presence with 3.7k stars and 325 forks on GitHub . It is primarily written in TypeScript (96.7%) and JavaScript (2.8%) .",
+  "categories": [
+    "Large Language Models (LLMs)",
+    "Deep Learning",
+    "Generative AI",
+    "Machine Learning",
+    "AI Applications",
+    "Model Management",
+    "AI Deployment",
+    "Prompt Engineering",
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Agents",
+    "Data Analysis",
+    "Multimodal AI"
+  ]
+},
+{
+  "name": "xpander.ai: Backend-as-a-Service for AI Agents",
+  "link": "https://github.com/xpander-ai/xpander.ai",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "xpander.ai is a framework-agnostic Backend-as-a-Service (BaaS) infrastructure for autonomous AI agents . It abstracts away infrastructure complexity, allowing users to focus on building intelligent, effective, and production-ready AI agents .Its core offerings include:- Comprehensive Agent Capabilities: Provides memory, tools, multi-user state, various agent triggering options (MCP, A2A, API, Web interfaces), storage, and agent-to-agent messaging .- Framework Flexibility: Compatible with popular agent frameworks like OpenAI ADK, Agno, CrewAI, and LangChain, as well as direct LLM APIs .- Robust Tool Integration: Offers access to a comprehensive MCP-compatible tools library and pre-built integrations .- Scalable Hosting & Deployment: Enables effortless deployment and scaling of agents on managed infrastructure .- Real-time Event Management: Features event streaming capabilities for Slackbots, ChatUIs, Agent2Agent communication, and Webhook integrations .- API Guardrails: Implements strong guardrails using an Agent-Graph-System to define and manage dependencies between API actions for tool-use .xpander.ai offers quick setup for integrating a backend into agents, providing Python and Node.js SDKs, and a CLI for agent creation and deployment [53-56]. It supports deploying Docker containers to the cloud . The platform showcases featured open-source AI agents built using its services, such as a Kubernetes operations agent, a Coding Agent, and an NVIDIA Meeting Recorder . It has 362 stars and 57 forks on GitHub  and is mainly developed in Jupyter Notebook (58.5%), Python (36.2%), and JavaScript (3.8%) .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "Agent Memory",
+    "MCP (Model Context Protocol)",
+    "AI Deployment",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Applications"
+  ]
+},
+{
+    "name": "VibeKit: Run coding agents in a secure sandbox",
+    "link": "https://github.com/superagent-ai/vibekit",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "VibeKit es un SDK sencillo para ejecutar agentes de codificación de forma segura en un entorno aislado (sandbox) . Está diseñado para integrar potentes agentes de codificación como Claude Code, OpenAI Codex, Gemini CLI y SST Opencode en tus aplicaciones o flujos de trabajo . Permite generar y ejecutar código real de forma segura, transmitir la salida a interfaces de usuario en tiempo real y operar con aislamiento y flexibilidad, principalmente en la nube (con soporte local planificado) .Entre sus características clave se incluyen:   Sandboxing seguro: Proporciona un entorno robusto para la ejecución segura de código .   SDK drop-in: Facilita la integración con diversos agentes de codificación .   Ejecución basada en la nube: Permite el funcionamiento de agentes en la nube (con soporte local planificado) .   Automatización de GitHub: Soporta funciones como la creación de ramas, commits y pull requests .   Historial de prompts y continuidad de contexto: Mantiene el contexto conversacional para los agentes .   Salida en streaming: Permite actualizaciones en tiempo real a las interfaces de usuario .   Soporte OpenTelemetry: Para trazabilidad y métricas .   Compatibilidad con tiempos de ejecución de sandboxes: Compatible con E2B, Daytona, Northflank, Cloudflare y Dagger .   Ejecución de comandos arbitrarios: Capacidad de ejecutar cualquier comando dentro de entornos sandbox .Los casos de uso de VibeKit incluyen la creación de herramientas internas de depuración, el lanzamiento de funciones impulsadas por IA, la automatización de tareas de codificación repetitivas y la prueba segura de la salida de LLMs en entornos de producción o prototipos . El proyecto tiene licencia MIT  y está desarrollado principalmente en TypeScript (97.8%) . Ha captado el interés de la comunidad con 772 estrellas y 103 forks en GitHub .",
+    "categories": [
+        "AI Agents",
+        "Agent Development",
+        "Systems Integration",
+        "AI Applications",
+        "Large Language Models (LLMs)",
+        "Workflow Automation",
+        "AI Deployment"
+    ]
+},
+{
+    "name": "Context Engineering Template (GitHub Repo)",
+    "link": "https://github.com/coleam00/context-engineering-intro",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "This repository is presented as a comprehensive template for getting started with Context Engineering, a discipline focused on designing the context that AI coding assistants need to complete tasks from beginning to end . It claims to be \"10 times better than prompt engineering and 100 times better than vibe coding\" , offering a complete system that includes documentation, examples, rules, patterns, and validation, unlike prompt engineering which is limited to task formulation . Its benefits include reducing AI failures (mostly context failures), ensuring consistency with project patterns, enabling complex features, and allowing autocorrection through validation loops . While centered around Claude Code , the strategy is applicable to any AI coding assistant . The template structure includes .claude/ for commands and settings, PRPs/ for Product Requirements Prompts, examples/ for code examples (critical for success as AI performs better with patterns) , CLAUDE.md for global rules , INITIAL.md for feature requests , and README.md . It provides a quick start guide  and a step-by-step guide  covering setting up global rules (e.g., project awareness, code structure, testing, style, documentation standards) , creating initial feature requests (e.g., specific functionality, examples, documentation links, other considerations) [11-13], generating comprehensive PRPs (Product Requirements Prompts)  which are blueprints with context, steps, validation, and test requirements , and executing PRPs for feature implementation . The repository has 7.3k stars and 1.5k forks on GitHub  and is primarily developed in Python (53.3%) and TypeScript (46.6%) . It explicitly notes that it doesnt focus on RAG and tools for context engineering as more is planned for the future . Best practices include being explicit in INITIAL.md, providing comprehensive examples (both what to do and what not to do, and error handling patterns), using validation gates (PRPs include test commands), leveraging documentation, and customizing CLAUDE.md .",
+    "categories": [
+      "Prompt Engineering",
+      "AI Agents",
+      "Large Language Models (LLMs)",
+      "AI Deployment",
+      "Workflow Automation"
+    ]
+  },
+  {
+    "name": "GitHub MCP Server",
+    "link": "https://github.com/github/github-mcp-server",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "This is the official GitHub MCP Server designed to connect AI tools directly to the GitHub platform . It empowers AI agents, assistants, and chatbots to interact with repositories and code files, manage issues and Pull Requests (PRs), analyze code, and automate workflows, all through natural language interactions . Key use cases include repository management (browsing, searching, analyzing commits), issue & PR automation (creating, updating, triaging bugs, reviewing code), CI/CD & workflow intelligence (monitoring GitHub Actions, analyzing failures), code analysis (security findings, Dependabot alerts), and team collaboration (discussions, notifications) . It is built for developers wanting to connect AI tools to GitHub context and capabilities, from simple natural language queries to complex multi-step agent workflows . The server can be implemented as a remote GitHub-hosted server  or locally (requiring Docker) . It supports secure management of Personal Access Tokens (PATs) using environment variables for security best practices (e.g., minimum scopes, separate tokens, never committing, regular rotation, file permissions) . Users can enable or disable specific groups of functionalities via toolsets to control which GitHub API capabilities are available to AI tools . Available toolsets include context (strongly recommended), actions, code_security, dependabot, discussions, issues, notifications, orgs, pull_requests, repos, secret_protection, and users (all on by default) . A special all toolset enables all functionalities . The server also includes dynamic tool discovery (beta feature) to help models avoid confusion from too many tools  and can run in read-only mode to prevent modifications . It supports GitHub Enterprise Server and Enterprise Cloud with data residency via the --gh-host flag or GITHUB_HOST environment variable . The tool descriptions can be overridden using a JSON config file or environment variables for internationalization (i18n) . The repository is developed primarily in Go (98.9%)  and is licensed under MIT . It has accumulated 19.3k stars and 1.6k forks on GitHub .",
+    "categories": [
+      "AI Agents",
+      "MCP (Model Context Protocol)",
+      "Systems Integration",
+      "Workflow Automation",
+      "AI Automation",
+      "AI Deployment",
+      "AI Applications"
+    ]
+  },
+  {
+    "name": "MCP Project End to End + Explanation of MCP (Sreemanti Dey)",
+    "link": "https://www.youtube.com/watch?v=8dzuX4Y06Io",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "This resource is an \"End to End MCP Project\" that includes a detailed explanation of the Model Context Protocol (MCP) . It is part of a collection of practical Machine Learning and Data Science projects recommended by Sreemanti Dey for hands-on learning . The MCP is an open protocol that standardizes how Large Language Model (LLM) applications can access context in terms of tools and data resources, based on a client-server architecture [conversation history, drawing from 151]. This project likely guides users through the complete implementation of an MCP-based application [conversation history, implied by 93].",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "AI Agents",
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "AI Deployment",
+      "AI Applications",
+      "Agent Development"
+    ]
+  },
+  {
+    "name": "RAG Project End to End + Explanation of RAG (Sreemanti Dey)",
+    "link": "https://www.youtube.com/watch?v=ERijuxJAaoQ",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "This resource focuses on an \"End to End RAG Project\" with a detailed explanation of Retrieval Augmented Generation (RAG) . It is part of a collection of practical Machine Learning and Data Science projects recommended by Sreemanti Dey for hands-on learning . RAG is a technique that enhances the capabilities of LLMs by allowing them to retrieve relevant information from an external knowledge base to inform their responses, which reduces hallucinations and provides up-to-date information [conversation history, drawing from 135]. This project aims to offer a practical guide for building and deploying an RAG-based application from start to finish [conversation history, implied by 93].",
+    "categories": [
+      "RAG (Retrieval-Augmented Generation)",
+      "AI Agents",
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "AI Applications",
+      "Agent Development"
+    ]
+  },
+  {
+    "name": "Google Cloud Skills Boost Catalog",
+    "link": "https://www.cloudskillsboost.google/",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "This is Google Clouds comprehensive learning catalog, offering over 980+ learning activities designed to help users apply their skills in the Google Cloud console . The catalog features a variety of activity formats, including bite-size individual labs and multi-module courses that combine videos, documents, labs, and quizzes . Students are provided with temporary credentials to actual cloud resources, enabling hands-on practice with real Google Cloud environments . Users can earn badges for completing activities and define, track, and measure their success . Among its wide-ranging offerings, the catalog includes resources for learning about generative AI from the ground up and gaining a solid understanding of the field .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI",
+      "Machine Learning",
+      "AI Deployment",
+      "AI Applications",
+      "Large Language Models (LLMs)"
+    ]
+  },
+  {
+    "name": "AI Engineering: Building Applications with Foundation Models (Chip Huyen, December 2024)",
+    "link": "https://www.linkedin.com/posts/muhammad-zarar-4995aa246_aiengineering-activity-7347964728385626113-mtsL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADvoYgBR6OaUkic3fcx6maIpbJDW9ElVf0",
+    "difficulty": "Unspecified",
+    "type": "Book",
+    "description": "This book, authored by Chip Huyen and slated for December 2024, addresses the significant surge in AI applications and the reduced entry barrier for developers following advancements like ChatGPT . It positions AI as a powerful development tool accessible to everyone, noting that its even possible to build applications without writing a single line of code . The book highlights that modern AI adoption is built upon existing techniques, such as language modeling (since the 1950s) and Retrieval-Augmented Generation (RAG), which leverages older retrieval technology . It emphasizes that the best practices for deploying traditional machine learning applications—systematic experimentation, rigorous evaluation, and relentless optimization for faster and cheaper models—remain crucial for foundation model-based applications . The book aims to help readers understand AI engineering and how it differs from traditional machine learning engineering, learn the process of developing an AI application including challenges and solutions, explore model adaptation techniques (prompt engineering, RAG, fine-tuning, agents, dataset engineering), examine latency and cost bottlenecks when serving foundation models, and choose the right model, dataset, evaluation benchmarks, and metrics . It has received positive feedback from experts, with comments like Chip Huyen nails it again .",
+    "categories": [
+      "AI Applications",
+      "Large Language Models (LLMs)",
+      "Prompt Engineering",
+      "RAG (Retrieval-Augmented Generation)",
+      "AI Agents",
+      "Machine Learning",
+      "AI Deployment",
+      "LLMOps",
+      "Introduction to AI and Fundamental Concepts"
+    ]
+  },
+  {
+    "name": "GPT-4.1 Prompting Guide",
+    "link": "N/A (OpenAI Documentation Guide)",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "The GPT-4.1 Prompting Guide provides important prompting tips derived from extensive internal testing to help developers fully leverage the improved abilities of the new GPT-4.1 model family . GPT-4.1 represents a significant step forward from GPT-4o in capabilities across coding, instruction following, and long context . While many typical best practices (like providing context examples, specific instructions, and inducing planning) still apply, GPT-4.1 is trained to follow instructions more closely and literally than its predecessors, making it highly steerable with well-specified prompts . The guide emphasizes building agentic workflows with GPT-4.1, noting its state-of-the-art performance on SWE-bench Verified (solving 55% of problems) . Key recommendations for agent prompts include Persistence (to ensure multi-message turns) , Tool-calling (to encourage tool use and reduce hallucination) , and optional Planning (to ensure explicit planning and reflection between tool calls) . Adhering to these simple instructions significantly improved internal SWE-bench Verified scores . The guide strongly encourages using the tools field in OpenAI API requests for passing tools to minimize errors and observed a 2% increase in pass rate . Developers should use clear names and detailed descriptions for tools and their parameters . Prompting-induced planning or \"chain-of-thought\" (CoT) can be effective to break down problems, improve output quality, and increase pass rates (e.g., 4% increase on SWE-bench Verified) by making the model \"think out loud\" . The guide also covers long context usage (up to 1M tokens)  and advises placing instructions at both the beginning and end of long context for optimal performance . For instruction following, GPT-4.1 exhibits outstanding performance, but developers may need to be explicit about what to do or not to do, as the model follows instructions more literally . A recommended workflow for developing instructions involves starting with high-level guidance, adding specific detail sections, and using ordered lists for workflow steps . It also highlights common failure modes, such as models hallucinating tool inputs if not enough information is available . The guide includes a sample prompt for SWE-bench Verified  and a customer service agent example , demonstrating best practices for workflow, problem-solving strategy, and instruction diversity . It provides general advice on prompt structure  and delimiters like Markdown, XML, and JSON [19-21]. The GPT-4.1 family also features substantially improved diff capabilities, with a recommended diff format (V4A diff format) extensively trained on, and a reference Python implementation for an apply_patch tool [22-25].",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "Prompt Engineering",
+      "Prompt Optimization",
+      "Prompting Strategies",
+      "Interaction with LLMs",
+      "AI Agents",
+      "Agent Development",
+      "AI Applications"
+    ]
+  },
+  {
+    "name": "WebMCP",
+    "link": "https://github.com/MiguelsPizza/WebMCP",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "WebMCP (Model Context Protocol - Browser-specific) is a tool that allows websites to function as MCP servers, exposing their existing functionality (e.g., APIs, forms, state) as structured tools that AI agents can directly call . It operates securely within the browsers existing authentication and security model [26-28]. For users, the MCP-B Chrome extension enables AI interactions on MCP-enabled sites by auto-detecting tools and allowing chat-based AI queries (e.g., \"Add to cart\") that execute tools across tabs using browser sessions for authentication . For website owners, implementation involves installing npm packages and adding an MCP server to register tools wrapping existing logic [28-30]. These tools can be dynamic and page-scoped, with the extension automatically injecting clients, making the site securely AI-ready within the browser sandbox . From an AIs perspective, it receives domain-prefixed tools from open tabs and calls them with JSON parameters for deterministic actions . The extension handles routing and navigation, with responses enabling chaining of actions . This approach supports dynamic updates and authentication via browser context, reducing errors compared to visual automation . The project provides quick start guides , a live demo , and examples like a simple todo app where AI agents can manage tasks (e.g., add, update, delete todos) . It also features a native host that bridges the browser to local MCP clients (e.g., Claude Desktop, Cursor), allowing tools from your website to be called from desktop apps . WebMCP emphasizes security, respecting the browser sandbox and same-origin policy, collecting no data, and allowing users to audit tool calls via the extension .",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "MCP (Model Context Protocol)",
+      "Systems Integration",
+      "Workflow Automation",
+      "AI Deployment",
+      "AI Applications"
+    ]
+  },
+  {
+    "name": "LLaMA-Factory: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs",
+    "link": "https://github.com/hiyouga/LLaMA-Factory",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "LLaMA-Factory is a powerful open-source tool designed for the unified efficient fine-tuning of over 100 Large Language Models (LLMs) and Visual Language Models (VLMs) . It simplifies the fine-tuning process with both a zero-code Command Line Interface (CLI) and a user-friendly Web UI (LLaMA Board GUI) . The platform supports a diverse range of cutting-edge models including LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen, DeepSeek, Yi, Gemma, ChatGLM, Phi, and more, offering day-N support for newly released models . It integrates various training methods such as (Continuous) pre-training, (multimodal) supervised fine-tuning, reward modeling, PPO, DPO, KTO, and ORPO . For scalable and efficient resource utilization, LLaMA-Factory supports 16-bit full-tuning, freeze-tuning, LoRA, and 2/3/4/5/6/8-bit QLoRA through different quantization techniques (AQLM/AWQ/GPTQ/LLM.int8/HQQ/EETQ) . It also incorporates advanced algorithms like GaLore, BAdam, APOLLO, Muon, DoRA, LongLoRA, LLaMA Pro, Mixture-of-Depths, LoRA+, LoftQ, and PiSSA, alongside practical tricks such as FlashAttention-2, Unsloth, Liger Kernel, RoPE scaling, NEFTune, and rsLoRA for optimized performance [38, 45-47]. LLaMA-Factory is capable of handling a wide array of tasks, including multi-turn dialogue, tool using, image understanding, visual grounding, and video/audio recognition . It provides faster inference capabilities via an OpenAI-style API, Gradio UI, and CLI, with support for vLLM or SGLang workers . The tool is widely recognized and used by prominent organizations like Amazon, NVIDIA, and Aliyun . It includes comprehensive support for various datasets used in pre-training, supervised fine-tuning, and preference learning . Users can easily get started by installing it from source, pre-built Docker images, or setting up a virtual environment, with specific instructions for Windows and Ascend NPU users also provided [52-56].",
+    "categories": [
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Deployment",
+      "AI Applications",
+      "Generative AI",
+      "LLMOps",
+      "Prompt Engineering",
+      "AI Agents"
+    ]
+  },
+  {
+    "name": "Google for Education: Impulsando la educación con la IA",
+    "link": "https://edu.google.com/intl/ALL_es/ai/education/",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "Google for Education se compromete a hacer que la IA sea útil para todo el mundo en el ámbito educativo, tanto dentro como fuera de clase, aplicando la tecnología de forma responsable y con un enfoque centrado en las personas . La IA no busca reemplazar la experiencia, el conocimiento ni la creatividad de un docente, sino ser una herramienta útil para mejorar y enriquecer las experiencias de enseñanza y aprendizaje . Google garantiza la protección de datos reforzada en sus herramientas de IA, como Gemini, y asegura que los datos de cliente de los servicios principales de Google Workspace for Education no se usan sin permiso para entrenar modelos de IA generativa y de lenguaje extenso en los que se basan Gemini y otros sistemas externos .Para los docentes, la IA puede optimizar su labor, impulsando su creatividad y productividad al ahorrarles tiempo que pueden invertir en ellos mismos y en sus alumnos . Gemini, como asistente de IA integrado en Google Workspace for Education, ayuda a los docentes a ahorrar tiempo, obtener inspiración con ideas innovadoras y crear experiencias de aprendizaje atractivas en un entorno privado y seguro . Próximamente, la IA también sugerirá preguntas sobre vídeos de YouTube en Classroom para hacer las clases más atractivas . La gama Chromebook Plus es una opción económica y potente que integra lo mejor de la IA de Google para el profesorado y el personal .Para los alumnos, la IA ayuda a personalizar el aprendizaje al adaptarse a sus necesidades individuales . Las prácticas guiadas de Google Classroom pueden ofrecer comentarios automáticos en tiempo real y consejos útiles a los alumnos que tengan dificultades . Además, la IA integrada en los Chromebooks proporciona funciones avanzadas de conversión de texto a voz, dictado y subtítulos automáticos .La seguridad y privacidad son una prioridad fundamental . Google bloquea el 99.9% del spam, phishing y malware con sistemas de detección basados en IA, y los dispositivos ChromeOS no han registrado ataques de ransomware . La infraestructura de Google Workspace for Education cumple rigurosos estándares de cumplimiento como el RGPD, FERPA y COPPA . Google se toma muy en serio la seguridad de los usuarios, especialmente la de los niños, diseñando funciones y productos de IA con protecciones adaptadas a diferentes grupos de edad y realizando pruebas rigurosas para minimizar daños potenciales .Google ofrece una variedad de recursos de formación, kits de herramientas y guías sobre IA para docentes, incluyendo cursos sobre IA generativa, habilidades digitales aplicadas y cursos de IA y aprendizaje automático de Grow with Google . También se compromete a una colaboración continua con centros educativos, docentes y expertos para desarrollar y mejorar sus herramientas de IA, introduciendo nuevas funciones de forma gradual para que los centros puedan decidir qué es lo que más les conviene .",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "Prompt Engineering",
+      "AI Agents",
+      "AI Applications",
+      "AI in Education",
+      "AI Ethics",
+      "Workflow Automation",
+      "AI Deployment"
+    ]
+  },
+  {
+    "name": "MarkItDown",
+    "link": "https://github.com/microsoft/markitdown",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "MarkItDown es una utilidad ligera de Python diseñada para convertir varios tipos de archivos a formato Markdown, pensada principalmente para su uso con modelos de lenguaje grandes (LLMs) y otras pipelines de análisis de texto . Su objetivo es preservar la estructura y el contenido importante del documento, incluyendo encabezados, listas, tablas y enlaces, aunque no está destinada a conversiones de alta fidelidad para consumo humano, sino para ser procesada por herramientas de análisis de texto .Tipos de archivos compatibles: MarkItDown soporta la conversión de una amplia gama de formatos, tales como: PDF, PowerPoint, Word, Excel, imágenes (incluyendo metadatos EXIF y OCR), audio (metadatos EXIF y transcripción de voz), HTML, formatos basados en texto (CSV, JSON, XML), archivos ZIP (iterando sobre su contenido), URLs de YouTube y EPUBs, entre otros .¿Por qué Markdown? Este formato es muy similar al texto plano, con un marcado mínimo, pero permite representar la estructura fundamental del documento . Los LLMs principales, como GPT-4o de OpenAI, hablan Markdown de forma nativa y a menudo lo incorporan en sus respuestas sin ser solicitados, lo que sugiere que han sido entrenados con grandes volúmenes de texto formateado en Markdown y lo entienden bien . Además, las convenciones de Markdown son altamente eficientes en el uso de tokens .Características clave y uso:   Integración con MCP (Model Context Protocol): MarkItDown ofrece un servidor MCP para la integración con aplicaciones LLM, como Claude Desktop . El MCP es un protocolo abierto que estandariza cómo las aplicaciones LLM acceden a herramientas y recursos de datos . Esto permite que MarkItDown añada capacidades de scraping (rastreo web) potentes a editores de código a través de MCP .   Requisitos: Requiere Python 3.10 o superior y se recomienda el uso de un entorno virtual .   Instalación: Se instala fácilmente con pip install markitdown[all] para incluir todas las dependencias opcionales, o se pueden instalar individualmente (ej. [pdf, docx, pptx]) [7-9]. También se puede instalar desde el código fuente .   Uso por línea de comandos (CLI): Permite la conversión de archivos como markitdown path-to-file.pdf -o document.md o el encadenamiento de contenido a través de pipes .   Plugins: Soporta plugins de terceros, que están deshabilitados por defecto y se pueden habilitar mediante comandos específicos .   Integración con Azure Document Intelligence: Puede utilizarse con Microsoft Document Intelligence para conversiones avanzadas .   API de Python: Ofrece una API de Python para la conversión programática de documentos, incluyendo la integración con Azure Document Intelligence y la descripción de imágenes usando LLMs (ej. GPT-4o) .   Docker: Se puede construir y ejecutar en un contenedor Docker .Comunidad y contribuciones: El proyecto MarkItDown es de código abierto (licencia MIT) y acoge contribuciones [13-15]. Sigue el Código de Conducta de Código Abierto de Microsoft y anima a la comunidad a revisar issues y pull requests . El repositorio tiene una gran cantidad de soporte comunitario, con 69.5 mil estrellas y 3.7 mil forks , y ha sido utilizado por 1.7 mil proyectos , con contribuciones de 65 desarrolladores . Su desarrollo es principalmente en Python .",
+    "categories": [
+      "Document Processing",
+      "Large Language Models (LLMs)",
+      "MCP (Model Context Protocol)",
+      "AI Applications",
+      "AI Agents",
+      "Workflow Automation",
+      "Systems Integration",
+      "AI Deployment"
+    ]
+  },
+    {
+    "name": "MCP Toolbox for Databases",
+    "link": "https://github.com/googleapis/genai-toolbox",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "El MCP Toolbox for Databases es un servidor MCP (Model Context Protocol) de código abierto diseñado para bases de datos [1-3]. Su objetivo principal es simplificar y acelerar el desarrollo de herramientas de IA, haciéndolas más seguras al manejar complejidades como la gestión de conexiones, la autenticación y más . Originalmente llamado Gen AI Toolbox for Databases, fue renombrado para alinearse con su compatibilidad con MCP . Actualmente se encuentra en fase beta, lo que implica que podría haber cambios significativos hasta su primera versión estable (v1.0) .¿Por qué utilizar Toolbox?   Desarrollo simplificado: Permite integrar herramientas a un agente con menos de 10 líneas de código, reutilizar herramientas entre múltiples agentes o frameworks, y desplegar nuevas versiones de herramientas con mayor facilidad .   Mejor rendimiento: Implementa las mejores prácticas como el connection pooling y la autenticación .   Seguridad mejorada: Ofrece autenticación integrada para un acceso más seguro a los datos .   Observabilidad de extremo a extremo: Proporciona métricas y trazas listas para usar con soporte integrado para OpenTelemetry .Optimización del flujo de trabajo con un asistente de IA para bases de datos :   Consultas en lenguaje natural: Permite interactuar con los datos utilizando lenguaje natural directamente desde el IDE, eliminando la necesidad de escribir SQL para preguntas complejas .   Automatización de la gestión de bases de datos: El asistente de IA puede generar consultas, crear tablas, añadir índices y gestionar la base de datos describiendo simplemente las necesidades de datos .   Generación de código consciente del contexto: Capacita al asistente de IA para generar código de aplicación y pruebas con un conocimiento profundo del esquema de la base de datos en tiempo real, acelerando el ciclo de desarrollo .   Reducción de la sobrecarga de desarrollo: Ayuda a reducir drásticamente el tiempo dedicado a configuraciones de base de datos tediosas, código repetitivo y migraciones de esquema propensas a errores .Arquitectura y funcionamiento: Toolbox se sitúa entre el framework de orquestación de la aplicación y la base de datos, actuando como un control plane para modificar, distribuir o invocar herramientas. Centraliza la gestión de herramientas, permitiendo compartirlas entre agentes y aplicaciones y actualizarlas sin necesidad de redesplegar la aplicación .Instalación: Se puede instalar como un binario , como una imagen de contenedor Docker , usando Homebrew en macOS o Linux , o compilando desde el código fuente con Go .Configuración y herramientas: La configuración principal se realiza a través de un archivo tools.yaml . Este archivo define:   sources: Las fuentes de datos a las que Toolbox tendrá acceso (ej. PostgreSQL) .   tools: Las acciones que un agente puede realizar, incluyendo el tipo de herramienta, la(s) fuente(s) a la que afecta, los parámetros y la sentencia .   toolsets: Grupos de herramientas que pueden cargarse conjuntamente, útiles para definir diferentes conjuntos según el agente o la aplicación .Integración con aplicaciones (SDKs de cliente): Toolbox ofrece SDKs para varios frameworks y lenguajes:   Python: toolbox-core , toolbox-langchain , toolbox-llamaindex .   Javascript/Typescript: @toolbox-sdk/core con integraciones para LangChain/LangGraph  y Genkit .   Go: mcp-toolbox-sdk-go con integraciones para LangChain Go , Genkit , Go GenAI  y OpenAI Go .El proyecto es de código abierto bajo licencia Apache-2.0  y da la bienvenida a las contribuciones, siguiendo un Código de Conducta para Contribuidores . Cuenta con una comunidad activa en Discord . El repositorio de GitHub muestra un notable apoyo comunitario con 8 mil estrellas y 584 forks, y 48 contribuidores . Está desarrollado principalmente en Go (99.4%) .",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "AI Agents",
+      "Large Language Models (LLMs)",
+      "Generative AI",
+      "Agent Development",
+      "Systems Integration",
+      "Workflow Automation",
+      "AI Deployment",
+      "Data Analysis",
+      "LLMOps",
+      "AI Applications"
+    ]
+  },
+   {
+    "name": "Vibe Kanban",
+    "link": "https://github.com/microsoft/vibe-kanban",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "Vibe Kanban is a Kanban board designed to manage AI coding agents [conversation history]. Its primary purpose is to simplify and optimize the workflow of human engineers who spend most of their time planning, reviewing, and orchestrating tasks for AI coding agents [conversation history].This board allows users to [conversation history]:   Easily switch between different coding agents (such as Claude Code, Gemini CLI, Codex, Amp, and others).   Orchestrate the execution of multiple coding agents, either in parallel or in sequence.   Quickly review work and launch development servers.   Track the status of tasks that coding agents are working on.   Centralize the configuration of Model Context Protocol (MCP) settings for coding agents.Key Features and Usage [conversation history]:   License: The project is open-source under the Apache-2.0 license.   Installation: Requires authentication with the desired coding agent, then running npx vibe-kanban in the terminal.   Documentation and Support: The latest documentation and user guides are available on its website. To report bugs or request features, an issue should be opened in the GitHub repository.   Development: Prerequisites include Rust (latest stable version), Node.js (>=18), and pnpm (>=8). It can be built from the source code.   Environment Variables: Allows configuring build variables (such as GITHUB_CLIENT_ID for GitHub OAuth authentication and PostHog API keys for analytics) and runtime variables (such as server ports and host). It is possible to use a custom GitHub OAuth application for self-hosting or custom branding.   Community and Contributions: The project has considerable community support, with 3.4k stars and 297 forks on GitHub. It has had 8 contributors, and its code is developed primarily in Rust (59.8%) and TypeScript (37.3%). The repository has 48 releases, with the most recent being v0.0.55, dated July 20, 2025.   Related Topics: Includes agent, management, kanban, task-manager, and ai-agents.",
+    "categories": [
+      "AI Agents" ,
+      "Agent Development" ,
+      "Multi-Agent Systems" ,
+      "MCP (Model Context Protocol)" ,
+      "Workflow Automation" ,
+      "Systems Integration" ,
+      "AI Applications" ,
+      "Large Language Models (LLMs)" ,
+      "LLMOps" 
+    ]
+  },
+   {
+    "name": "Magnific AI",
+    "link": "https://magnific.ai",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "Magnific AI is a generative Artificial Intelligence tool designed to upscale, enhance, transform, and generate images, offering insanely high-resolution image upscaling that feels like magic [1-3]. It allows users to reimagine as many details as they wish, guided by a text prompt and various parameters or controls [1-3].Key Features and Functionality:   Advanced AI Technology: It is powered by Generative AI to achieve incredibly high-detail image upscaling and enhancement . The technology aims to provide new levels of resolution and detail in AI generations, photos, and illustrations .   Process Control: Users can direct the upscaling process using a text description and sliders such as Creativity, HDR, and Resemblance . The Creativity slider specifically allows control over the level of hallucinations (new details generated by the AI) that users want to add . Most artifacts, if they occur, can be controlled using these parameters .   Versatile Applications: Magnific AI is ideal for enhancing a wide range of image types, including portraits, illustrations, graphic designs, video game assets, landscapes, 3D renders, science fiction, fantasy, horror, films, photography, interior design, and food photoshoots . It has also been used for vintage photo restoration , beautifying Minecraft builds , and in the creation of AI-powered animations .   User-Oriented Design: The tool is designed to be accessible and user-friendly for creators of all backgrounds and skill levels . It features an intuitive interface, in-depth tutorials, and a community to support the users creative journey .   Broad Target Audience: Magnific AI caters to professionals and enthusiasts in photography, graphic design, digital art, and illustration who require high-resolution images and meticulous detail enhancements . It also serves AI artists and creators looking to upscale their AI-generated images for more resolution and depth, as well as businesses and individuals aiming to enhance their visual content .   Developers: It was built by Javi Lopez (@javilopen) and Emilio Nicolas (@emailnicolas), two indie entrepreneurs known for other projects .   Community Reception and Capabilities: The project has received considerable community support and praise, with notable users like Elon Musk , Emad Mostaque , Claire Silver , and Beeple  expressing astonishment at the quality and detail it can add. It has demonstrated the ability to upscale images 8x, from 1.2MP to 77MP (resulting in 64x more pixels) , and even 16x upscaling/enhancement has been reported .   Pricing and Payments: Applicable prices are displayed on their pricing page, potentially in local currency, and VAT/local taxes may be added . An annual subscription offers two months free . Payments are accepted via credit or debit cards (including VISA, MasterCard, American Express, iDeal, SOFORT, and many more) . Financial processing is handled by Stripe, ensuring a 100% secure payment service without retaining card details . Currently, PayPal or cryptocurrency are not accepted .   Cancellation and Refunds: Subscriptions can be canceled at any time through Stripes billing portal . However, refunds are not offered due to the substantial expenses associated with the AI-driven GPU processing time required for image upscaling, as their upstream providers do not offer refunds for this service . Users agree to waive their right to a refund for this reason upon signup .",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI",
+      "Image Analysis with AI",
+      "Prompt Engineering"
+    ]
+  },
+   {
+    "name": "Agent File (.af)",
+    "link": "https://github.com/letta-ai/agent-file",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "The Agent File (.af) is an open file format for serializing stateful AI agents with persistent memory and behavior [1-3]. Originally designed for the Letta framework, this standard provides a portable way to share agents with their complete state, enabling easy checkpointing and version control across compatible frameworks [1-3].Key Purposes of Agent File (.af):   Portability: Allows agents to be moved between different systems or deployed to new environments .   Collaboration: Facilitates sharing agents with other developers and the community .   Preservation: Enables archiving agent configurations to preserve your work .   Versioning: Provides a standardized format for tracking changes to agents over time .Included State: An .af file packages all components necessary to re-create the exact same stateful agent . This comprehensive state includes:   System prompts : Initial instructions that define the agents behavior.   Editable memory : Such as personality and user information.   Tool configurations : Complete tool definitions including source code and JSON schema.   LLM settings : Like model name, context window limit, and embedding model name.   Message history : Complete chat history with an in_context field indicating if a message is in the current context window.   Memory blocks : In-context memory segments.   Tool rules : Definitions of how tools should be sequenced or constrained.   Environment variables : Configuration values for tool execution.Current Limitations & Roadmap:   The format currently does not support Passages (the units of Archival Memory in Letta/MemGPT), but support for them is on the roadmap .   Future plans for the .af format include support for MCP servers/configs, archival memory passages, data sources (e.g., files), migration support between schema changes, multi-agent .af files, and converters between different frameworks .Compatibility with other Frameworks: While originally for Letta, other frameworks could theoretically load .af files by converting the state into their own representations . Adding support involves mapping Agent File components to the frameworks equivalent featureset and implementing import/export functionality . Concepts like context window blocks might need adaptation if not natively supported by other frameworks .Secrets Handling: When agents with associated secrets for tool execution are exported, the secrets are automatically set to null within the .af file for security .Usage with Letta:   Users can import and export .af files to and from any Letta Server (self-deployed with Docker, Letta Desktop, or via Letta Cloud) .   This can be done using the visual Agent Development Environment (ADE), or through REST APIs or developer SDKs (available for Python and TypeScript) [7-11].   Example agents are available for download from the repository, including MemGPT, Deep Research, Customer Support, Stateless Workflow, and Composio Tools agents, each with separate instructions for use .Community and Development:   The project is open-source under the Apache-2.0 license .   It has garnered significant community interest, boasting 875 stars and 80 forks on GitHub .   As of the source material, it has 3 contributors .   Community contributions are welcomed and encouraged through various means, such as sharing example agents by opening pull requests, joining discussions on their Discord server, providing feedback via GitHub issues (for suggestions, features, or compatibility challenges), and helping refine the format as it evolves .",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "Multi-Agent Systems",
+      "Agent Memory",
+      "MCP (Model Context Protocol)",
+      "Workflow Automation",
+      "Systems Integration"
+    ]
+  },
+  {
+    "name": "opencode: AI Coding Agent",
+    "link": "https://github.com/sst/opencode",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "opencode is an AI coding agent built for the terminal [1-3]. It is an open-source project licensed under the MIT license [3-5].Key Features and Philosophy:   Provider-Agnostic: Unlike tools coupled to specific AI providers, opencode is designed to work with various models, including Anthropic (recommended), OpenAI, Google, or even local models. This emphasizes its adaptability as models evolve and pricing changes .   Terminal-Focused User Interface (TUI): Developed by Neovim users and the creators of terminal.shop, opencode aims to push the boundaries of whats possible within the terminal environment .   Client/Server Architecture: This design allows for flexible deployment, such as running the agent on one computer while controlling it remotely, for example, from a mobile application. The TUI frontend is just one potential client .Installation:   Installation can be done via a YOLO curl command (curl -fsSL https://opencode.ai/install | bash), package managers like npm, bun, pnpm, yarn (npm i -g opencode-ai@latest), or homebrew for macOS (brew install sst/tap/opencode), and paru for Arch Linux (paru -S opencode-bin) .   Its advised to remove versions older than 0.1.x before installing .   The install script respects a priority order for the installation path: $OPENCODE_INSTALL_DIR, $XDG_BIN_DIR, $HOME/bin, and finally $HOME/.opencode/bin as a default fallback .Contributing:   While opencode is an opinionated tool and does not accept Pull Requests (PRs) for core features, contributions are welcomed for bug fixes, improvements to LLM performance, support for new providers, fixes for environment-specific quirks, missing standard behavior, and documentation .   To run opencode locally, Bun and Golang 1.24.x are required .Community and Development:   The project has garnered significant community interest with 15k stars and 918 forks on GitHub .   It lists 110 contributors .   The primary languages used in its development are TypeScript (46.4%) and Go (46.2%) .   Users can join the community via Discord, YouTube, or X.com .",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "Software Development",
+      "Workflow Automation",
+      "Systems Integration"
+    ]
+  },
+  {
+    "name": "Gemini for Google Workspace: Prompting Guide",
+    "link": "https://www.gstatic.com/bricks/pdf/5ed3a163-8d70-4ece-96f0-0fe228765889/Gemini-for-google-workspace-prompting-guide_ES.pdf",
+    "difficulty": "Beginner",
+    "type": "Book",
+    "description": "This guide, titled Introducción a la creación de instrucciones para Gemini for Google Workspace (Introduction to Prompt Creation for Gemini for Google Workspace) , is an essential resource for learning to write effective prompts to maximize the benefits of Generative AI within Google Workspace applications . It aims to provide users with basic skills to enhance productivity and efficiency in daily tasks .Key Concepts of Prompting:   Prompt as a Question: A prompt is considered a question to initiate a conversation with an AI-powered assistant . The process often involves writing multiple prompts as the conversation progresses .   Four Main Areas for Effective Prompts: The guide highlights four crucial elements to consider: Persona, Task, Context, and Format . While not all four are always necessary, using some of them is beneficial . An example prompt utilizing all four areas is provided for Gmail and Google Docs .Tips for Effective Prompt Writing:   Use Natural Language: Write as if speaking to another person, using complete sentences .   Be Specific and Iterate: Clearly state what Gemini for Workspace needs to do (e.g., summarize, write, change tone, create content) and provide as much context as possible. Adjust and refine prompts iteratively if results are not satisfactory [13-15].   Be Brief and Avoid Complexity: Frame requests concisely and specifically, avoiding jargon. Successful prompts average 21 words .   Make it a Conversation: Engage in a back-and-forth dialogue with the AI to refine outputs .   Break Down Tasks: For multiple related tasks, divide them into separate prompts .   Set Limits: Include details like character counts or the number of options desired to generate specific results .   Assign a Role: Encourage creativity by assigning a persona to Gemini (e.g., You are a Program Manager in Google Cloud.) .   Ask for Feedback: In a conversation with Gemini, describe the project and desired outcome, then ask questions like What questions do you have for me that could help you provide the best result? .   Consider the Tone: Adapt prompts to the target audience and desired tone (formal, informal, technical, creative, casual) .Integration and Capabilities with Google Workspace:   Geminis Generative AI features are seamlessly integrated into everyday applications such as Gmail, Google Docs, Google Sheets, and Google Slides, and Google Meet . Users can also chat with Gemini at gemini.google.com .   It can assist with improving writing, organizing data, creating original images, summarizing information, displaying statistics, fostering connections, researching unfamiliar topics, detecting trends, identifying business opportunities, and synthesizing information .   Specific features include Help me write (Docs, Gmail), Help me organize (Sheets), Create image with Gemini (Slides), and Create background images (Meet) .Important Considerations:   Generative AI is still evolving, and responses can be unpredictable .   Always review AI-generated output for clarity, relevance, and accuracy before applying it . The final result remains the users responsibility .Target Audience and Use Cases:   The guide includes practical situations and example prompts for various roles, including Customer Service, Executives and Entrepreneurs (e.g., CEO, COO, CMO, CTO, CIO), Human Resources (e.g., HR Manager, Recruiter), Marketing (e.g., Brand Manager, Digital Marketing Manager, Content Marketing Manager), Project Management, and Sales (e.g., Account Executive, Sales Director, Account Manager, Business Development Manager) .",
+    "categories": [
+      "Prompt Engineering",
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "AI Assistants",
+      "AI Applications",
+      "Workflow Automation",
+      "Introduction to AI and Fundamental Concepts"
+    ]
+  },
+  {
+    "name": "AI Business Consultant Agent with Gemini 2.5 Flash",
+    "link": "https://www.theunwindai.com/p/build-an-ai-consultant-agent-with-gemini-2-5-flash",
+    "difficulty": "Unspecified",
+    "type": "Course",
+    "description": "The AI Business Consultant Agent is a fully functional, open-source agentic application built for business consultation . This powerful AI business consultant is developed using Googles Agent Development Kit (ADK) and leverages the Gemini 2.5 Flash model for its AI capabilities . It is combined with Perplexity AI for real-time web research to provide current market data, trends, and competitor intelligence . The application is designed to offer real-time insights, data-driven strategies, and rapid responses to market changes for various business needs .Key Features of the AI Business Consultant Agent include :   Real-time Web Research: Gathers current market data and trends using Perplexity AI search.   Market Analysis: Processes research data to generate structured insights with confidence scores.   Strategic Recommendations: Creates actionable business advice, complete with timelines and implementation plans.   Risk Assessment: Identifies potential risks and provides mitigation strategies.   Interactive UI: Features a clean web interface powered by Google ADK for easy user consultation.   Evaluation System: Includes built-in evaluation and debugging capabilities with session tracking.How it Works: Users initiate a consultation by submitting business questions through the Google ADK web interface . The agent then conducts real-time web research using Perplexity AI , followed by market analysis to process the data and generate structured insights . Strategic recommendation tools are used to create actionable business advice . Finally, the agent synthesizes its web research findings and analysis results into a comprehensive consultation report, providing users with professional consultation that includes citations, action items, and measurable success metrics .Technical Details and Setup: To build this agent, users are recommended to have Python (version 3.10 or higher) installed, along with their Google Gemini and Perplexity API keys . Basic familiarity with Python programming is also a prerequisite . The code walkthrough involves cloning the awesome-llm-apps GitHub repository, navigating to the ai_consultant_agent folder, installing required dependencies using pip install -r requirements.txt, and setting up API keys as environment variables . The main implementation resides in ai_consultant_agent.py, while agent.py and __init__.py are essential files for Google ADKs web interface discovery system . The agents behavior is defined by its instructions, which configure it as a \"senior AI business consultant specializing in market analysis and strategic planning\" . Once set up, the app can be launched via the Google ADK web interface, typically accessed at http://localhost:8000 .Community and Expandability: This project is part of the broader awesome-llm-apps repository, which has garnered significant community support with 45.7k stars and 5.2k forks on GitHub . Future expansion possibilities for the consultant agent include industry specialization, integration with business intelligence tools or CRM systems, implementation of advanced evaluation metrics, and the addition of collaboration features for team strategic planning sessions . The project is open-source and encourages community contributions and sharing on social channels .",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "Large Language Models (LLMs)",
+      "AI Applications",
+      "Workflow Automation",
+      "Systems Integration",
+      "Prompt Engineering",
+      "Data Analysis",
+      "Web Scraping with AI"
+    ]
+  },
+    {
+    "name": "RunAgent",
+    "link": "https://github.com/runagent-dev/runagent",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "RunAgent is an AI Agent Deployment Platform designed to simplify the serverless deployment of AI agents . It provides a powerful Command Line Interface (CLI), multi-language SDK support, and built-in agent invocation and streaming support . The platform aims to allow developers to focus on agent development rather than repetitive processes like implementing REST and streaming APIs .Core Purpose and Philosophy:   Universal AI Agent Platform: RunAgent allows you to write AI agents once in Python and access them natively from any language .   Simplified Deployment: It simplifies the serverless deployment of AI agents, whether locally or on its upcoming cloud platform .   Developer Focus: The platform is built for developers who are using AI agents to empower or enhance their products, freeing them from concerns about deployment complexities .Key Features:   Powerful CLI: Deploy AI agents using the RunAgent CLI with a simple configuration file . Commands include init, serve, deploy, run, setup, template, upload, start, and teardown .   Multi-language SDKs: Provides native-feeling SDKs for Python, JavaScript/TypeScript, Rust, and Go with full type safety, intellisense, automatic error handling, and seamless authentication . This eliminates the need to wrestle with REST APIs directly .   Native Streaming Support: One of its most powerful features is native streaming support across all languages, allowing real-time agent responses that feel natural in each programming language, using iterators in Python, async iterators in JavaScript, futures streams in Rust, and context-aware iterators in Go .   Local Development Environment: Offers a powerful local development environment with a built-in FastAPI server that includes hot reload, logging, monitoring, and debugging tools .   Framework Agnostic: RunAgent works with any Python AI framework, including LangChain, LangGraph, CrewAI, Letta, Agno, or custom frameworks, providing pre-built templates and specific guides .   Smart Architecture: Supports local development now and provides a clear path to production-scale serverless cloud deployment in the future .   Production Ready (Self-Hosting): The current open-source foundation is suitable for self-hosting and enterprise deployments .   Agent Lifecycle Management: Features smart project initialization, environment management, and one-command deployment .   Webhooks: Supports webhook integrations for event-driven architectures .How it Works (Quick Start):1.  Installation: Install the RunAgent CLI and Python SDK using pip install runagent .2.  Initialize from a Template: Create a new agent project using runagent init <project_name> with options for specific frameworks like --langgraph or --crewai .3.  Configure Your Agent: The crucial runagent.config.json file defines entrypoints, which are the functions from your codebase that will be exposed through the RunAgent server and accessible via SDKs . For streaming entrypoints, the tag should include a _stream suffix to indicate streaming capability . Example Python functions mock_response and mock_response_stream are shown as entrypoints .4.  Serve Your Agent Locally: Start a local development server using runagent serve . (if in the project directory) or runagent serve <project_dir/name> . This provides an agent_id, host:port URL, WebSocket endpoints, and a development dashboard for monitoring .5.  Use a Deployed Agent: Connect to your agent using the RunAgentClient from any RunAgent SDK, specifying the agent_id or host:port and the entrypoint_tag . You can then invoke the run method like a native function . For streaming functions, you can iterate over the returned object naturally.Target Audience & Use Cases:RunAgent is perfect for polyglot teams where Python AI experts collaborate with frontend (JS/TS) and backend (Rust/Go) developers . It is also suitable for microservices architecture, enabling centralized AI logic with distributed access, legacy integration for adding AI capabilities without rewrites, performance-critical apps by consuming Python AI logic from high-performance languages, and rapid prototyping with a seamless path to production .Roadmap and Future Plans:   Foundation (Available Now): The current open-source foundation provides cross-language SDKs, a local development server, framework-agnostic support, pre-built templates, a comprehensive CLI, real-time debugging, and is suitable for self-hosting and enterprise deployments .   Cloud Platform (Coming Q2 2025): This serverless cloud platform will offer one-command deployment, auto-scaling from zero to thousands of requests, a global edge network for minimal latency, built-in monitoring, webhook integrations, team collaboration features, usage analytics, and an API Gateway .   Enterprise Features (Coming 2025): An enterprise tier will provide private cloud deployment (AWS, GCP, Azure), advanced security (SOC2 Type II compliance, encryption), compliance features (GDPR, HIPAA), role-based access control, custom SLAs (99.9% uptime), custom runtime environments, enterprise integrations (SSO, LDAP), and advanced analytics .Community and Contribution:RunAgent is hosted on GitHub as runagent-dev/runagent . It has 247 stars and 32 forks , with 4 contributors . Its primary languages are Python (53.1%), Rust (30.5%), Go (9.7%), and TypeScript (5.4%) . RunAgent welcomes community contributions, including bug reports, feature requests, code contributions, documentation improvements, community support, and SDK development . Users can join the community via Discord, GitHub Discussions, or Twitter .License:RunAgent is licensed under the Elastic License 2.0 (ELv2) . This license allows free use for development, testing, and production, as well as modification and distribution . However, it cannot be offered as a managed service without permission .",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "AI Deployment",
+      "LLMOps",
+      "Large Language Models (LLMs)",
+      "Systems Integration",
+      "Workflow Automation"
+    ]
+  },
+  {
+    "name": "any-llm",
+    "link": "https://github.com/mozilla-ai/any-llm",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "any-llm is a single interface designed to communicate with different Large Language Model (LLM) providers [1-3]. Developed by mozilla-ai, it aims to address the fragmented ecosystem of LLM provider interfaces where variations exist despite the OpenAI API becoming a de facto standard . The project provides a light wrapper to handle these differences consistently .Key Features offered by any-llm include :   Simple, unified interface: Allows switching models with just a string change using a single function for all providers.   Developer friendly: Provides full type hints for better IDE support and clear, actionable error messages.   Leverages official provider SDKs: Reduces maintenance burden and ensures compatibility by utilizing official SDKs when available.   Framework-agnostic: Can be used across various projects and use cases.   Actively maintained: The tool is used in Mozilla AIs own product, any-agent, ensuring continued support.   No Proxy or Gateway server required: Eliminates the need for setting up additional services to interact with LLM providers.The motivation behind any-llm is to overcome limitations of existing solutions, such as LiteLLM (which reimplements provider interfaces potentially leading to compatibility issues), AISuite (lacks active maintenance and modern typing), framework-specific solutions (causing fragmentation), and proxy-only solutions like OpenRouter and Portkey (which require a hosted proxy) .To get started, users need Python 3.11 or newer and API keys for their chosen LLM provider . Installation is done via pip, allowing users to include specific providers or install support for all using any-llm-sdk[all] . API keys can be set as environment variables (e.g., MISTRAL_API_KEY) or passed directly as an api_key parameter in the completion call . Basic usage involves importing the completion function from any_llm and specifying the model parameter as <provider_id>/<model_id> (e.g., mistral/mistral-small-latest), along with messages .any-llm is licensed under the Apache-2.0 license . The GitHub repository, mozilla-ai/any-llm, has garnered 558 stars and 31 forks, with 99.7% of its codebase in Python and 0.3% in Shell . Its topics include inference, text-completion, and LLMs .",
+    "categories": [
+      "Large Language Models (LLMs)",
+      "Systems Integration",
+      "AI Agents",
+      "Agent Development",
+      "AI Deployment",
+      "LLMOps"
+    ]
   }
 
 ]
