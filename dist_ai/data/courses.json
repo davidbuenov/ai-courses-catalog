@@ -1447,6 +1447,1145 @@
       "AI Deployment",
       "LLMOps"
     ]
-  }
+  },
+   {
+    "name": "Talkpal AI Language Teacher",
+    "link": "https://talkpal.ai/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "A GPT-powered AI language teacher that helps users boost their speaking, listening, writing, and pronunciation skills, allowing them to learn 5x faster. It offers immersive conversations, real-time personalized feedback, and personalization tailored to the user's style and pace. The tool supports 57+ languages and uses advanced AI to imitate real-life tutoring scenarios.",
+    "categories": [
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "AI Applications",
+      "Content Generation with AI",
+      "AI in Education",
+      "AI Assistants"
+    ]
+  },
+  {
+    "name": "Cleanup.pictures",
+    "link": "https://cleanup.pictures/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "An advanced editing tool based on Artificial Intelligence for 'inpainting' (object removal). It allows photographers and creative agents to eliminate unwanted people, objects, text, logos, or watermarks from any photo in seconds with incredible quality. The AI is capable of reconstructing what was behind the unwanted element, unlike traditional clone tools. The free version is limited to 720px export resolution.",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Image Analysis with AI"
+    ]
+  },
+  {
+    "name": "Durable AI Website Builder",
+    "link": "https://durable.co/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "An AI business partner and the #1 AI website builder for creating and growing a business. It instantly generates professionally designed, customizable, and search-optimized (SEO) websites. The platform includes AI-powered features such as a copywriter for high-converting content, an AI blog that writes and publishes new content weekly, and integrated tools for contact management/CRM and simple invoicing.",
+    "categories": [
+      "AI Applications",
+      "Content Generation with AI",
+      "Workflow Automation",
+      "Business Automation",
+      "AI for Productivity"
+    ]
+  },
+  {
+    "name": "Playground AI Design Tool",
+    "link": "https://playground.com/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "A free AI design tool for creating content such as logos, T-shirts, social media graphics (implied by title), art, stickers, wallpapers, and a variety of templates including posters and e-book covers.",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI"
+    ]
+  },
+  {
+    "name": "Gamma AI Presentation Maker & Website Builder",
+    "link": "https://gamma.app/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "An AI design partner for effortless creation of presentations, websites (no coding required), social media posts, and documents (like proposals and PDFs). It allows users to generate content from an idea or outline, edit with AI to instantly add smart layouts and AI-generated images, and export content to PPT, PDF, or Google Slides.",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI",
+      "Workflow Automation",
+      "AI for Productivity"
+    ]
+  },
+  {
+    "name": "Looka Logo Design & Brand Identity",
+    "link": "https://looka.com/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "An AI-powered platform for designing logos and building a complete brand identity. It uses AI software to instantly generate hundreds of custom logo mockups without requiring design skills. The Brand Kit uses the logo's design, colors, and fonts to instantly create over 300 templates for marketing materials (such as business cards and email signatures).",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI",
+      "AI for Productivity"
+    ]
+  },
+  {
+    "name": "SOUNDRAW AI Music Generator",
+    "link": "https://soundraw.io/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "The fastest AI beat-maker that creates and customizes royalty-free music in seconds. Users can edit every instrument, adjust intensity, set the perfect length using the Mixer, and even blend genres (e.g., Hip-Hop + Orchestra). The AI is trained exclusively on original SOUNDRAW music, ensuring users receive a perpetual, worldwide commercial license and keep 100% of the royalties. High-quality WAV and separate STEMS files are available for download.",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI"
+    ]
+  },
+  {
+    "name": "Stockimg AI",
+    "link": "https://stockimg.ai/",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "An all-in-one design and content creation tool powered by AI. It can generate logos, illustrations, stock photos, and visual content. It also functions as a social media manager, capable of generating, editing, and scheduling posts endlessly. It can generate viral videos (Reels/Tiktok) complete with audio and subtitles in just 30 seconds, supporting integration with over 10 social media platforms.",
+    "categories": [
+      "Generative AI",
+      "AI Applications",
+      "Content Generation with AI",
+      "Workflow Automation",
+      "AI for Productivity"
+    ]
+  },
+  {
+  "name": "Futurepedia",
+  "link": "https://www.futurepedia.io/",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Futurepedia is a leading AI resource platform, dedicated to empowering professionals across various industries to leverage AI technologies for innovation and growth . The platform provides access to an array of cutting-edge solutions that simplify AI integration into professional practices . It offers comprehensive directories (categorizing 2525 AI tools into 10 categories) , easy-to-follow guides, a weekly newsletter, and an informative YouTube channel . Committed to making AI understandable and practical, it caters to diverse professional needs .",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "AI Applications",
+    "AI for Productivity",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "DEEP LEARNING",
+  "link": "https://www.uhu.es/publicaciones/?q=libros&code=1252",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "Authored by Isaac Pérez and Manuel Emilio Gegúndez, this book offers an updated introduction to deep learning from a different perspective . It focuses on the fundamentals and basic concepts necessary to understand the functioning of these models, independent of the programming language and libraries used . While deep learning has brought a revolution to Artificial Intelligence, this resource aims to fill the gap left by most existing resources that primarily focus on practical application . It provides historical context, addresses the main deep learning models (including convolutional and recurrent neural networks), and outlines the guidelines and techniques for their training . The book is available for free download as an interactive PDF or ePUB .",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "Deep Learning",
+    "Machine Learning"
+  ]
+},
+{
+  "name": "Learning opencv eBook (PDF)",
+  "link": "http://riptutorial.com/ebook/opencv",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "This free eBook provides a comprehensive tutorial for learning OpenCV, covering 20 chapters of essential concepts and practical implementations. Topics include getting started with OpenCV, understanding Basic Structures, Image Processing, Edge Detection, Blob Detection, and Object Detection using Cascade Classifiers . It offers guides for specific environments and languages, such as building and compiling for Python on Windows, Drawing Functions in Java and C++, Image Content Modification, and using `VideoCapture` with OpenCV Python .",
+  "categories": [
+    "Image Analysis with AI",
+    "AI Applications",
+    "Introduction to AI and Fundamental Concepts"
+  ]
+},
+{
+  "name": "Grok CLI",
+  "link": "https://github.com/superagent-ai/grok-cli",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Grok CLI is an open-source AI agent that brings the power of Grok directly into your terminal . It functions as a conversational AI CLI tool powered by Grok-3 . Key features include a Natural Language Interface ; Smart File Operations that allow the AI to automatically view, create, and edit files ; and Bash Integration to execute shell commands through natural conversation . The tool uses Automatic Tool Selection  and supports extending capabilities via MCP Tools (Model Context Protocol servers) . It is designed with an interactive terminal UI built with Ink  and supports Headless Mode for scripting and CI/CD pipelines . Furthermore, it uses OpenAI-compatible APIs, allowing configuration with providers like X.AI (Grok), OpenAI, OpenRouter, and Groq . Optional features include Morph Fast Apply for high-speed code editing at 4,500+ tokens/sec , which becomes available when the Morph API key is configured .",
+  "categories": [
+    "AI Agents",
+    "Large Language Models (LLMs)",
+    "MCP (Model Context Protocol)",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Applications",
+    "Agent Development"
+  ]
+},
+{
+  "name": "Eigent",
+  "link": "https://github.com/eigent-ai/eigent",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Eigent is the World's First Multi-agent Workforce desktop application, designed to unlock exceptional productivity by allowing users to build, manage, and deploy a custom AI workforce that automates complex workflows . Built on CAMEL-AI's open-source project, the system enhances productivity through parallel execution, customization, and privacy protection . Key features include being 100% Open Source and supporting Local Deployment (Community Edition) . It features advanced Multi-Agent Coordination to solve complex tasks by activating specialized agents to work in parallel . Pre-defined agents include a Developer Agent (writes/executes code), a Search Agent (searches the web), a Document Agent (creates/manages documents), and a Multi-Modal Agent (processes images/audio) . Eigent also offers MCP (Model Context Protocol) Tools Integration with massive built-in tools (e.g., Notion, Google suite, Slack) and supports custom tools . If a task encounters uncertainty, the system automatically requests Human-in-the-Loop input . It supports complex use cases like generating detailed travel itineraries, automating financial reports from CSV data, and performing market research .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "MCP (Model Context Protocol)",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Applications",
+    "AI for Productivity"
+  ]
+},
+ {
+    "name": "Unsloth AI",
+    "link": "https://github.com/unslothai/unsloth",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "Unsloth is a highly efficient library for Fine-tuning & Reinforcement Learning (RL) for LLMs . It uses optimized kernels written in Triton and manual backpropagation to accelerate training by up to 2x faster and reduce VRAM usage by 70% or more [2, 4-6]. It guarantees 0% loss in accuracy . Unsloth supports a wide array of models including OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, and various Llama models . It enables significantly longer context windows (e.g., Llama 3.1 (8B) up to 342K context on 80GB VRAM) . The library supports full fine-tuning, pretraining, LoRA, and various quantization methods (4-bit, 8-bit, 16-bit) . It is the most efficient library for RL methods like GRPO, GSPO, DrGRPO, DAPO, and DPO . Unsloth works on Linux, WSL, and Windows, and integrates seamlessly with Hugging Face's `transformers` and `TRL` . It can export trained models to formats like GGUF, Ollama, vLLM, or Hugging Face .",
+    "categories": [
+      "Deep Learning",
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "Generative AI",
+      "AI Applications",
+      "Agent Development",
+      "Multimodal AI",
+      "LLMOps",
+      "AI Deployment"
+    ]
+  },
+  {
+    "name": "HuggingFace TRL",
+    "link": "https://github.com/huggingface/trl",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "TRL (Transformer Reinforcement Learning) is a comprehensive library for post-training foundation models using advanced techniques . Built on the 🤗 Transformers ecosystem , TRL provides dedicated trainers like SFTTrainer (Supervised Fine-Tuning) , DPOTrainer (Direct Preference Optimization, used for Llama 3) , and GRPOTrainer . The library is efficient and scalable, leveraging 🤗 Accelerate for multi-node clusters (DDP and DeepSpeed) and full integration with 🤗 PEFT for LoRA/QLoRA training on modest hardware . TRL accelerates training by integrating optimized kernels from Unsloth . It features a Command Line Interface (CLI) that simplifies fine-tuning without requiring users to write code .",
+    "categories": [
+      "Deep Learning",
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "Generative AI",
+      "AI Applications",
+      "Agent Development"
+    ]
+  },
+  {
+    "name": "Axolotl",
+    "link": "https://github.com/axolotl-ai-cloud/axolotl",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "Axolotl is a free and open-source LLM Fine-tuning Framework designed to streamline post-training and fine-tuning for the latest large language models . It supports training diverse models (LLaMA, Mistral, Mixtral, Pythia, GPT-OSS, Gemma) . Key capabilities include Multimodal Training for vision-language models (VLMs) and audio models . It integrates numerous training methods, including Full fine-tuning, LoRA, QLoRA, GPTQ, QAT, Preference Tuning (DPO, IPO, KTO, ORPO), and RL (GRPO) . Axolotl simplifies the pipeline through easy YAML configuration  and includes performance optimizations such as Flash Attention, DeepSpeed, FSDP, and Sequence Parallelism (SP) . The framework is Cloud Ready, shipping PyPI packages and Docker images for use on platforms like RunPod and Vast.ai .",
+    "categories": [
+      "Deep Learning",
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "Generative AI",
+      "AI Applications",
+      "Model Management",
+      "LLMOps",
+      "Multimodal AI",
+      "Agent Development"
+    ]
+  },
+  {
+    "name": "LLaMA-Factory",
+    "link": "https://github.com/hiyouga/LLaMA-Factory",
+    "difficulty": "Unspecified",
+    "type": "Tool",
+    "description": "LLaMA-Factory is a powerful open-source tool for the unified efficient fine-tuning of over 100 Large Language Models (LLMs) and Visual Language Models (VLMs) . It offers both a zero-code Command Line Interface (CLI) and a user-friendly Web UI (LLaMA Board GUI) . It supports extensive models and integrates various training methods, including pre-training, (multimodal) supervised fine-tuning, reward modeling, PPO, DPO, KTO, and ORPO . For efficiency, it utilizes 16-bit full-tuning, freeze-tuning, LoRA, and 2/3/4/5/6/8-bit QLoRA via multiple quantization techniques . The platform incorporates advanced algorithms (e.g., GaLore, BAdam, DoRA, PiSSA) and practical tricks like FlashAttention-2 and Unsloth for optimized performance . LLaMA-Factory handles diverse tasks, including multi-turn dialogue, tool using, and multi-modal recognition . It is used by major companies like Amazon, NVIDIA, and Aliyun  and provides faster inference via an OpenAI-style API and vLLM/SGLang workers .",
+    "categories": [
+      "Large Language Models (LLMs)",
+      "Machine Learning",
+      "Deep Learning",
+      "AI Deployment",
+      "AI Applications",
+      "Generative AI",
+      "LLMOps",
+      "Prompt Engineering",
+      "AI Agents",
+      "Model Management",
+      "AI Automation",
+      "Multimodal AI"
+    ]
+  },
+  {
+  "name": "Opal: Google's Visual AI App Builder",
+  "link": "https://opal.withgoogle.com/landing/",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Opal is Google's free visual AI app builder and workflow automation tool, inspired by platforms like n8n, but simplified for non-developers. Users interact with the tool using natural language (e.g., \"Create an app that turns meeting notes into action items\"), and Opal automatically builds the visual workflow . The platform connects Google's AI models, search, and various tools automatically. Users can edit the generated workflow using a drag-and-drop builder, where the logic is displayed as connected blocks . This allows users to chain prompts, AI models, and tools together to create custom mini-AI apps . Creations can be shared with anyone who has a Google account. The visual app builder supports interconnected steps for tasks like obtaining user information, asset creation, and outputting content (e.g., generating a blog post) . Access requires signing in to view or make mini-apps .",
+  "categories": [
+    "Workflow Automation",
+    "Generative AI",
+    "AI Applications",
+    "AI for Productivity",
+    "Systems Integration",
+    "Prompt Engineering",
+    "AI Agents",
+    "Business Automation",
+    "n8n"
+  ]
+},
+{
+  "name": "LLM Engineer Toolkit",
+  "link": "https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "This repository contains the LLM Engineer Toolkit, a comprehensive, curated list of 120+ LLM libraries categorized by function . It serves as a centralized resource for staying updated with Generative AI, LLMs, Agents, and RAG technologies . The toolkit covers nearly every aspect of the LLM development lifecycle, including extensive categories such as: LLM Training and Fine-Tuning ; LLM Application Development (Frameworks, Multi-API Access, Memory, Low Code, Cache) ; Retrieval-Augmented Generation (RAG) ; LLM Inference and Serving ; LLM Data Extraction and Generation ; LLM Agents ; LLM Evaluation and Monitoring ; LLM Prompts and Structured Outputs ; and LLM Safety and Security . The project has substantial community support, evidenced by its 7.2k stars and 1.1k forks .",
+  "categories": [
+    "Large Language Models (LLMs)",
+    "Generative AI",
+    "AI Agents",
+    "RAG (Retrieval-Augmented Generation)",
+    "Agent Development",
+    "LLMOps",
+    "Prompt Engineering",
+    "AI Applications",
+    "Machine Learning",
+    "Deep Learning",
+    "AI Ethics"
+  ]
+},
+{
+  "name": "Qwen3-Coder-30B-A3B-Instruct",
+  "link": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "The Qwen3-Coder-30B-A3B-Instruct is a streamlined Causal Language Model designed for advanced coding tasks . This model, which has 30.5B parameters total (3.3B activated) and is built with a Mixture of Experts (MoE) architecture (128 experts, 8 activated) , provides significant performance among open models on Agentic Coding and Agentic Browser-Use . It supports long-context capabilities with native support for 256K tokens (262,144 natively), which can be extended up to 1M tokens using Yarn, making it optimized for repository-scale understanding . The model excels in tool calling capabilities  and supports agentic coding platforms like Qwen Code and CLINE using a specific function call format . It can be integrated using the `transformers` library  and is compatible with applications like Ollama, LMStudio, and llama.cpp for local use . The model supports non-thinking mode and does not generate `<think></think>` blocks in its output .",
+  "categories": [
+    "Large Language Models (LLMs)",
+    "Deep Learning",
+    "Generative AI",
+    "AI Agents",
+    "Agent Development",
+    "AI Applications",
+    "Multimodal AI"
+  ]
+},
+{
+  "name": "Academic Prompt Generator (Gemini-Powered Research Assistant)",
+  "link": "https://gemini.google.com/share/4af4639b6049",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "An AI-powered personal research assistant created with the help of Gemini to streamline the often-frustrating literature review process. This tool, developed under a Creative Commons license, acts as an Academic Prompt Generator. Its functionalities include: Refining Your Topic (AI helps reformulate ideas and discover key multilingual concepts); Precise Targeting (allowing selection from major open-access databases like Scielo and CORE); Full Control (filtering by document type, dates, and output format, including BibTeX for direct import into citation managers like Zotero or Mendeley); and Generation (obtaining a customized JSON prompt optimized for deep searches). The project is included in the Educational Applications Repository, a collection of resources from the Vibe Coding Educativo community.",
+  "categories": [
+    "Prompt Engineering",
+    "Prompt Optimization",
+    "AI Assistants",
+    "AI in Education",
+    "AI Applications",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "MIT FUTURE OF AI: Foundation Models & Generative AI (6.S087)",
+  "link": "https://www.futureofai.mit.edu/",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This is a non-technical series of lectures (6.S087) from MIT, created by MIT researcher Rickard Brüel Gabrielsson, specializing in foundation models and generative AI . The course focuses on Foundation Models and Generative AI, which are driving recent major breakthroughs like ChatGPT, Copilot, CLIP, Dall-E, Stable-Diffusion, and AlphaFold . The lectures address the 'secret sauce' behind these technologies and discuss the possibility that Artificial General Intelligence (AGI) has already been achieved . The curriculum is accessible to all backgrounds  and covers applications in both science and business . Topics include: a short history of AI , the limitations of supervised learning and reinforcement learning , and the foundational implications of foundation models achieved via self-supervised learning . Specific concepts covered include: ChatGPT & LLMs , Image Generation , Autonomy , Biology , Neural Networks , Generative AI , GANs (adversarial) , and Ethics (Lecture 8) . Lectures are scheduled to start on Tuesday, January 9 .",
+  "categories": [
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "Deep Learning",
+    "Machine Learning",
+    "Introduction to AI and Fundamental Concepts",
+    "AI Applications",
+    "Multimodal AI",
+    "AI Ethics"
+  ]
+},
+{
+  "name": "MIT Efficient ML Course (YouTube)",
+  "link": "https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This MIT course focuses on Efficient Machine Learning (Efficient ML), described as the 'most underrated skill in AI today'. The training addresses the challenge that large models (LLMs, diffusion models, etc.) are often compute-hungry, memory-intensive, and difficult to deploy on real-world devices. It is considered a must for anyone serious about scalable, accessible AI. The curriculum teaches core techniques to make AI fast, light, and deployable [Source: Query]. Specific techniques covered include: Compression & Pruning, Quantization, Neural Architecture Search, Distributed & Parallel Training, On-device Fine-tuning, Gradient Compression, Acceleration for LLMs, diffusion, video, point cloud, and Quantum ML [Source: Query]. The course includes a hands-on project to Deploy LLaMA 2 on your laptop [Source: Query]. The underlying philosophy is that 'the future isn’t just about building bigger models — it’s about making them run everywhere' [Source: Query].",
+  "categories": [
+    "Deep Learning",
+    "Large Language Models (LLMs)",
+    "LLMOps",
+    "AI Deployment",
+    "Machine Learning",
+    "Generative AI",
+    "AI Applications",
+    "Multimodal AI"
+  ]
+},
+{
+  "name": "Modern Deep Learning Foundations",
+  "link": "https://www.researchgate.net/publication/395663230_Modern_Deep_Learning_Foundations",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "Authored by Dr. Barak Or and released in September 2025 , this book serves as the official course notes for the ArtificialGate program . It offers a systematic, hands-on introduction to the principles, architectures, and practices of contemporary deep learning . It is designed for engineers and applied researchers familiar with Python and basic mathematics, but without required prior machine learning background, guiding them from first principles through industrial deployment . The text emphasizes conceptual clarity, practical proficiency, reproducibility, explainability, and system-level thinking . Topics covered include: the structure and training of Neural Networks (NN) , Optimization (Gradient Descent, AdamW, Lion, Adafactor) , Regularization (Dropout, L2, Early Stopping) , Convolutional (CNN) and Recurrent (RNN, GRU, LSTM) architectures , Attention and Transformer models , Autoencoders , Evaluation Metrics (e.g., Confusion Matrix, AUC, R-squared) , Mixed Precision Training , Transfer Learning and Fine-Tuning , and Deployment Practices (using FastAPI and TorchScript) . Each chapter integrates theoretical foundations with PyTorch code implementations and engineering checklists .",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "Deep Learning",
+    "Machine Learning",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "LLMOps",
+    "AI Deployment",
+    "AI Applications",
+    "Image Analysis with AI"
+  ]
+},
+{
+  "name": "MIT 18.S096 Matrix Calculus for Machine Learning and Beyond, January IAP 2022",
+  "link": "https://dspace.mit.edu/handle/1721.1/155680",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This course (18.S096), authored by Alan Edelman and Steven G. Johnson, addresses the need for matrix calculus in modern applications such as machine learning . It serves as the logical next step beyond univariate and vector calculus, covering a coherent approach to matrix derivatives . The curriculum teaches techniques for conceptualizing a matrix holistically and computing derivatives of important matrix factorizations . A major focus is placed on truly understanding forward and reverse modes of differentiation . Topics discussed include adjoint methods, custom Jacobian matrix vector products, and the principle that modern automatic differentiation is often more computer science than mathematics, as it is neither symbolic nor based on finite differences . The course content package is available for download and was issued in 2022 by the MIT Department of Mathematics .",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "Machine Learning",
+    "Deep Learning",
+    "AI Applications"
+  ]
+},
+{
+  "name": "Microsoft Model Context Protocol (MCP) Curriculum for Beginners",
+  "link": "https://github.com/microsoft/mcp-for-beginners/",
+  "difficulty": "Beginner",
+  "type": "Course",
+  "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through structured, practical techniques for building modular, scalable, and secure AI workflows . Designed for developers, system architects, and software engineers, it provides real-world, cross-language examples in C# (.NET), Java, TypeScript, JavaScript, Rust, and Python . The curriculum is divided into modules covering Core Concepts, Security in MCP, Getting Started, Practical Implementation, and Advanced Topics . Key areas of focus include session setup, service orchestration , and comprehensive deployment strategies . The curriculum is highly hands-on, featuring a 13-lab learning path dedicated to building production-ready MCP servers with PostgreSQL database integration . It also covers multi-modality, scaling, and enterprise use . The repository has significant community support, boasting 11.3k stars and 3.4k forks , and offers multi-language support .",
+  "categories": [
+    "MCP (Model Context Protocol)",
+    "Introduction to AI and Fundamental Concepts",
+    "AI Agents",
+    "Agent Development",
+    "Systems Integration",
+    "AI Deployment",
+    "LLMOps",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "Extending GitHub Copilot Coding Agent with Model Context Protocol (MCP) Documentation",
+  "link": "https://docs.github.com/es/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "This documentation details how repository administrators can use the Model Context Protocol (MCP) to extend the capabilities of the GitHub Copilot Coding Agent . The extension works by configuring MCP servers using a specific JSON format within the repository settings on GitHub.com . Once configured, Copilot can use the tools provided by the server autonomously without requiring explicit user approval . The configuration requires specifying the tools to be enabled and the server type (which can be `\"local\"`, `\"http\"`, or `\"sse\"`) . For security, any required keys or secrets must be added to the Copilot environment and prefixed with `COPILOT_MCP_` . The guide provides examples for integrating various external services via MCP, including Sentry (for exception access) , Notion (for notes and content access) , Azure (for Cosmos DB and Storage) , Cloudflare , and Azure DevOps (for work items and pipelines) . It also covers customizing the integrated GitHub MCP Server, which is enabled by default for read-only repository access, to allow broader access using a fine-grained Personal Access Token [17-19]. A validation process is included to ensure the MCP configuration is set up correctly .",
+  "categories": [
+    "MCP (Model Context Protocol)",
+    "AI Agents",
+    "Agent Development",
+    "Systems Integration",
+    "Workflow Automation",
+    "AI Deployment",
+    "AI Applications"
+  ]
+},
+{
+  "name": "Copilot 3D (Microsoft Copilot Labs)",
+  "link": "https://copilot.microsoft.com/labs/experiments/copilot-3d",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Copilot 3D is a free, experimental tool from Microsoft Copilot Labs that transforms 2D images into fully rendered 3D models, aiming to democratize 3D content creation [Query]. It offers a single-click conversion from any image and produces GLB output that is compatible with 3D viewers, design tools, and game engines [Query]. The tool boasts a zero learning curve, meaning no prior 3D modeling experience is required [Query]. It is completely free to use via Copilot Labs with a Microsoft account [Query]. It supports PNG/JPG files under 10MB on any modern browser, and models are stored on the 'My Creations' page for 28 days with manual deletion options [Query]. While the quality may not be the best available, it is recognized for being super easy to use and excellent for quickly testing ideas [Query].",
+  "categories": [
+    "Generative AI",
+    "Multimodal AI",
+    "AI Applications",
+    "Content Generation with AI",
+    "Image Analysis with AI"
+  ]
+},
+{
+  "name": "Data Formulator: Create Rich Visualizations with AI (Microsoft Research)",
+  "link": "https://github.com/microsoft/data-formulator",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Data Formulator is an application from Microsoft Research that uses large language models (LLMs) to transform data and expedite the practice of data visualization iteratively with AI . It is an AI-powered tool for analysts to create rich visualizations by combining user interface interactions (UI) and natural language (NL) inputs, delegating data transformation to AI .Key features and capabilities include:*   AI Agents for Data Transformation: Agents generate SQL queries to transform data and create rich visualizations . Users can anchor intermediate datasets for cleaner follow-up analysis .*   Large Data Handling: It supports working with *large* data by uploading files to a local database (powered by DuckDB) and dynamically fetching data for visualizations with ⚡️⚡️⚡️ speeds .*   External Data Loaders: It includes an external data loader class to simplify data import, supporting sources like MySQL, Azure Data Explorer (Kusto), Azure Blob, Amazon S3 (json, parquet, csv), Postgresql, and mssql .*   Multi-Dataset Support: It supports working with multiple datasets at once, figuring out how to join tables to create a visualization based on the encoding shelf input .*   Model Agnostic Support: It supports various models, including OpenAI, Azure, Ollama, and Anthropic models, powered by LiteLLM . Models with strong code generation and instruction following capabilities (e.g., gpt-4o, claude-3-5-sonnet) are recommended .*   Iterative Workflow: Users can create visualizations beyond the initial dataset by typing names of fields that do not exist in the current data in the encoding shelf, letting the AI compute the transformation . Explorations are trackable in the Data Threads panel .*   Installation/Deployment: It can be installed easily via Python PIP for local running, or through Codespaces for a pre-configured environment . It is licensed under the MIT license .",
+  "categories": [
+    "Data Analysis",
+    "Generative AI",
+    "AI Applications",
+    "Large Language Models (LLMs)",
+    "AI Agents",
+    "Agent Development",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "Qwen-Image: 20B MMDiT Image Generation Foundation Model",
+  "link": "https://github.com/QwenLM/Qwen-Image",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Qwen-Image is a powerful image generation foundation model (a 20B MMDiT model) capable of achieving significant advances in complex text rendering and precise image editing . It shows exceptional performance in text rendering, particularly for Chinese .Key features and functionalities include:*   Image Generation (Text-to-Image): Supports generating images based on text prompts and allows for various aspect ratios (e.g., 1:1, 16:9) .*   Image Editing: Features the specialized Qwen-Image-Edit architecture . The latest iteration, Qwen-Image-Edit-2509, supports multi-image editing (optimal for 1 to 3 inputs) and significantly enhances single-image consistency .*   Enhanced Consistency: The Edit-2509 version offers improved consistency in Person Editing (better facial identity preservation), Product Editing (better preservation of product identity), and Text Editing (supporting modification of content, fonts, colors, and materials) .*   Control and Integration: Provides Native Support for ControlNet image conditions (depth maps, edge maps, keypoint maps) . It is also natively supported in ComfyUI .*   Prompt Enhancement: Recommended workflows utilize the official Prompt Enhancement Tool (powered by Qwen-Plus or Qwen-VL-Max) to improve stability and optimize T2I and editing prompts .*   Deployment and Optimization: Supports Multi-GPU API Server deployment with a Gradio-based web interface, parallel processing, and queue management . Inference acceleration is available via cache-dit .*   Evaluation Platform: Introduces AI Arena, an open benchmarking platform built on the Elo rating system to compare image generation capabilities against closed-source APIs .The repository has strong community support, boasting 5.5k stars and 296 forks , and is licensed under the Apache-2.0 license .",
+  "categories": [
+    "Generative AI",
+    "Multimodal AI",
+    "Deep Learning",
+    "Large Language Models (LLMs)",
+    "Content Generation with AI",
+    "Image Analysis with AI",
+    "AI Deployment",
+    "LLMOps",
+    "Prompt Engineering"
+  ]
+},
+{
+  "name": "Firecrawl: The Web Data API for AI",
+  "link": "https://github.com/firecrawl/firecrawl",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Firecrawl is an open-source Web Data API and platform designed to transform entire websites into LLM-ready markdown or structured data 🔥 . It aims to empower AI applications with clean data by featuring advanced scraping, crawling, and data extraction capabilities . The tool is available as an API service (hosted or self-hosted) .Key Features & Endpoints :*   Crawl: Crawls a URL and all accessible subpages, returning content in LLM-ready format, without needing a sitemap . It is optimized for Reliability and handles challenging issues like proxies, anti-bot mechanisms, dynamic content (JS-rendered), and orchestration .*   Scrape: Scrapes a single URL and returns content in formats including markdown, structured data (via LLM Extract), screenshot, or HTML . Supports batch scraping .*   Extract (Beta): Uses AI to get structured data from single pages, multiple pages, or entire domains using a prompt and/or a schema (supports Pydantic/Zod schemas in SDKs) [6, 10-12].*   Map: Quickly retrieves all URLs present on a website, which can be combined with a search parameter .*   Search: Performs web searches and optionally scrapes the full content from results in one operation .*   Actions (Cloud-only): Allows performing interactions on a web page before extraction, such as `click`, `scroll`, `input`, and `wait`, useful for dynamic content .Integration & Licensing: Firecrawl provides SDKs for Python and Node and integrates directly with major LLM frameworks like Langchain, Llama Index, and Crew.ai [17-19]. It is licensed under the AGPL-3.0, though SDKs and some components use the MIT License . The project has substantial community support with 61.3k stars and 5k forks .",
+  "categories": [
+    "Web Scraping with AI",
+    "Large Language Models (LLMs)",
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Agents",
+    "Agent Development",
+    "Data Analysis",
+    "AI Applications",
+    "Workflow Automation",
+    "Systems Integration"
+  ]
+},
+{
+  "name": "agenticSeek: Private, Fully Local Autonomous AI Agent",
+  "link": "https://github.com/Fosowl/agenticSeek",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "AgenticSeek is a 100% local alternative to Manus AI and other cloud-based agents, providing a private, autonomous AI assistant that runs entirely on your local hardware . This open-source project is designed for users who want an agent that thinks, browses the web, and codes without relying on APIs or incurring monthly cloud bills . The agent keeps all data, conversations, and searches private on the user's device .Key Features:*   Fully Local Operation: Everything runs on the user's machine, ensuring privacy and zero cloud dependency . It is compatible with local providers like Ollama and LM Studio , though it also supports cloud APIs (OpenAI, Google Gemini, Deepseek, etc.) as an optional setup .*   Autonomous Capabilities: Acts as a Smart Web Browser (searching, reading, extracting information, and filling web forms) and an Autonomous Coding Assistant (writing, debugging, and running code in languages like Python, C, Go, and Java) .*   Task Planning: Can split complex tasks (from trip planning to complex projects) into steps and execute them using a Smart Agent Selection system and multiple AI agents .*   Interface: Supports both a web interface (runnable via Docker on `http://localhost:3000/`) and a command-line interface (CLI) .*   Voice Capability: Voice-enabled features (speech-to-text and text-to-speech) are included and are currently a work in progress (CLI mode only, experimental) .The project is licensed under GPL-3.0  and has substantial community backing, noted by its 22k stars and 2.3k forks .",
+  "categories": [
+    "AI Agents" ,
+    "Agent Development" ,
+    "Multi-Agent Systems" ,
+    "Large Language Models (LLMs)" ,
+    "AI Assistants",
+    "AI Deployment",
+    "Workflow Automation",
+    "Web Scraping with AI",
+    "AI Applications"
+  ]
+},
+{
+  "name": "Awesome Generative AI (Curated List)",
+  "link": "https://github.com/steven2358/awesome-generative-ai",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "A curated list of modern Generative Artificial Intelligence projects and services . Generative AI is defined as technology that creates original content such as images, sounds, and texts by using machine learning algorithms trained on large amounts of data . The list is organized into key domains including Text (Models, Chatbots, Search, Writing assistants), Coding (Assistants, Developer tools, Local LLM Deployment), Agents (Autonomous and Custom), Image, Video, and Audio . It highlights major milestones such as ChatGPT, GPT-4, LLaMA, and Sora . The resource covers applications in art, entertainment, marketing, academia, and computer science .",
+  "categories": [
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "AI Applications",
+    "Multimodal AI",
+    "AI Agents",
+    "Deep Learning",
+    "Introduction to AI and Fundamental Concepts"
+  ]
+},
+{
+  "name": "AGENTS.md: Open Format for Guiding Coding Agents (OpenAI)",
+  "link": "https://github.com/openai/agents.md",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "AGENTS.md is a simple, open format designed for guiding coding agents . It is conceptualized as a README for agents, serving as a dedicated and predictable place to provide context and instructions to help AI coding agents work on a project . The format provides structure for project governance by including elements such as Dev environment tips, Testing instructions (e.g., specifying run commands like `pnpm turbo run test`), and PR instructions (e.g., required title formats and pre-commit checks) . The repository also hosts a basic website that explains the project's goals .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Workflow Automation",
+    "Systems Integration"
+  ]
+},
+{
+  "name": "All RL Algorithms from Scratch (Python Implementation)",
+  "link": "https://github.com/FareedKhan-dev/all-rl-algorithms",
+  "difficulty": "Beginner",
+  "type": "Course",
+  "description": "A collection of Python implementations of various Reinforcement Learning (RL) algorithms . The *primary* goal is educational: to gain a deep and intuitive understanding of how these algorithms work . The repository prioritizes readability and clarity over performance optimization . It uses basic libraries (NumPy, Matplotlib, PyTorch) and serves as an interactive textbook for RL . It includes 18 algorithm notebooks  covering foundational and advanced RL methods, such as Q-Learning, SARSA, REINFORCE, PPO (Proximal Policy Optimization), A2C/A3C, DDPG, SAC (Soft Actor-Critic), TRPO, DQN, MADDPG, QMIX, HAC, MCTS, and PlaNet . A comprehensive cheat sheet summarizing key concepts and algorithms is also provided .",
+  "categories": [
+    "Machine Learning",
+    "Deep Learning",
+    "AI Agents",
+    "Introduction to AI and Fundamental Concepts"
+  ]
+},
+{
+  "name": "Awesome Computer Vision (Curated Resource List)",
+  "link": "https://github.com/jbhuang0604/awesome-computer-vision",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "A curated list of awesome computer vision resources . The list is comprehensive, including sections for Books , Courses (e.g., Stanford's Convolutional Neural Networks for Visual Recognition) , Papers , Software (e.g., OpenCV, Annotation tools) , Datasets (e.g., PASCAL, ImageNet, KITTI) , Tutorials, and resources for students (including advice on research and writing) . It covers numerous specialized topics such as Deep Vision, Object Detection, 3D Machine Learning, Neural Rendering, Visual Tracking, Semantic Segmentation, and SLAM (Simultaneous Localization and Mapping) [32-34].",
+  "categories": [
+    "Image Analysis with AI",
+    "Deep Learning",
+    "Machine Learning",
+    "Multimodal AI",
+    "AI Applications",
+    "Introduction to AI and Fundamental Concepts"
+  ]
+},
+{
+  "name": "Awesome MCP Servers (Curated List)",
+  "link": "https://github.com/punkpeye/awesome-mcp-servers/",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "A curated list of awesome Model Context Protocol (MCP) servers . MCP is an open protocol that allows AI models to securely interact with local and remote resources through standardized server implementations, enabling AI capabilities via file access, database connections, and API integrations . The list focuses on production-ready and experimental servers , categorized extensively by function:*   Aggregators (e.g., MetaMCP, Magg: A meta-MCP server) .*   Biology/Medicine (e.g., BioMCP, FHIR servers) .*   Browser Automation (e.g., Playwright, Puppeteer servers) .*   Databases (e.g., PostgreSQL, Snowflake, Redis, Milvus, Qdrant integrations) [40-42].*   Coding Agents (e.g., CodeMCP, VSCode MCP servers, LeetCode solvers) .*   Developer Tools (e.g., GitKraken, Docker, GitHub, GitLab integrations) .*   Finance & Fintech (e.g., Alpaca, Binance, Bitcoin, trading agents) [46-48].*   Knowledge & Memory (e.g., Graphlit, Mem0, Pinecone Assistant, Zotero) .*   Security (e.g., Ghidra, VirusTotal, Sentry, Semgrep integration) .It also lists official MCP clients, tutorials (e.g., Quickstart), and frameworks like FastMCP . The repository has considerable community support with 71.9k stars .",
+  "categories": [
+    "MCP (Model Context Protocol)",
+    "AI Agents",
+    "Agent Development",
+    "Systems Integration",
+    "Workflow Automation",
+    "AI Deployment",
+    "Large Language Models (LLMs)"
+  ]
+},
+{
+  "name": "Microsoft Hands-on Course: Model Context Protocol (MCP)",
+  "link": "https://www.youtube.com/playlist?list=PLlrxD0HtieHjYfVUpGl_-ai7D6FRBjV-d",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This is a full hands-on course released by Microsoft focusing on the Model Context Protocol (MCP), described as an essential resource for building real-world AI agents [Query]. The course covers MCP fundamentals and architecture, as well as security best practices for safe deployment [Query]. It includes step-by-step instructions for building the first MCP server, developing, testing, and deploying applications with real tools [Query]. The curriculum addresses advanced workflows for scalable and multimodal agents [Query], contributing to the ecosystem (tools, docs, and code), and includes lessons from early adopters and real-world case studies [Query]. Practical laboratories are conducted in Visual Studio Code, Docker, and Google Cloud [Query]. The course features an SDK walkthrough for FastMCP (Python) and details end-to-end agent deployment with Azure and browser automation [Query]. Bonus modules cover adaptive learning and AI documentation workflows [Query].",
+  "categories": [
+    "MCP (Model Context Protocol)",
+    "AI Agents",
+    "Agent Development",
+    "AI Deployment",
+    "LLMOps",
+    "Systems Integration",
+    "Workflow Automation",
+    "Large Language Models (LLMs)",
+    "Multimodal AI"
+  ]
+},
+{
+  "name": "LEANN: Low-Storage Vector Index for Private RAG (97% Savings)",
+  "link": "https://github.com/yichuan-w/LEANN",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "LEANN is an innovative vector database that democratizes personal AI by enabling RAG (Retrieval-Augmented Generation) on Everything . It is capable of running a fast, accurate, and 100% private RAG application on a personal device, achieving up to 97% less storage than traditional solutions without accuracy loss [1, 3-5]. This is accomplished through core techniques like graph-based selective recomputation and high-degree preserving pruning, which compute embeddings on-demand instead of storing them . The system ensures complete privacy as data never leaves the user's laptop .LEANN can index and semantic search across diverse data sources, including :*   Your personal file system and documents (.pdf, .txt, .md) .*   Email (Apple Mail) .*   Browser history (Chrome) .*   Chat history (WeChat, iMessage) .*   Agent memory (ChatGPT, Claude conversations) .*   Codebase (with AST-aware code chunking for Python, Java, C#, and TypeScript) .LEANN is a semantic search MCP service fully compatible with Claude Code . It supports flexible deployment, working with local inference engines like Ollama (recommended for privacy) and LM Studio, as well as cloud APIs compatible with OpenAI . It offers both a declarative Python API and a powerful Command Line Interface (CLI) .",
+  "categories": [
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Agents",
+    "MCP (Model Context Protocol)",
+    "Large Language Models (LLMs)",
+    "AI Deployment",
+    "Systems Integration",
+    "Document Processing",
+    "Data Analysis",
+    "Deep Learning"
+  ]
+},
+{
+  "name": "Supermemory MCP - Universal Memory across LLMs",
+  "link": "https://github.com/supermemoryai/supermemory-mcp",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Supermemory MCP (Model Context Protocol) is an open-source project designed to provide Universal Memory across different Large Language Models (LLMs) . The philosophy is that while 'Your memories are in ChatGPT... [they are] nowhere else,' and this tool makes those memories available to every single LLM .Key features include:*   Portability: Users can carry their memories to any MCP client, ensuring consistency regardless of the LLM application used .*   Accessibility: The service is described as being built on the Supermemory API, extremely fast and scalable, and is completely free to use with no logins or paywalls required .*   Setup: The setup process is extremely simple, often requiring just one command to set it up . Users can get started by visiting the corresponding application website .*   Self-Hosting: Self-hosting is supported by obtaining an API key and adding it to the `.env` file .The repository has strong community support, boasting 1.5k stars and 143 forks , and is primarily developed using TypeScript (99.6%) . It is licensed under the MIT license . A warning notes that MCP v1 is being deprecated, and users should get the latest version from the Supermemory app website .",
+  "categories": [
+    "MCP (Model Context Protocol)",
+    "AI Agents",
+    "Agent Memory",
+    "Large Language Models (LLMs)",
+    "Systems Integration",
+    "AI Deployment",
+    "LLMOps"
+  ]
+},
+{
+  "name": "Gemini for Google Workspace: Prompting Guide 101 (Quick-Start Handbook)",
+  "link": "https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf",
+  "difficulty": "Beginner",
+  "type": "Book",
+  "description": "This quick-start handbook (October 2024 edition) provides foundational skills for writing effective prompts when using Gemini for Google Workspace, emphasizing collaboration with AI to boost productivity and creativity without sacrificing privacy or security . Gemini is integrated into apps like Gmail, Docs, Sheets, Meet, and Slides, with access to personal knowledge in Drive . Effective prompts should consider four main areas: Persona, Task, Context, and Format . Key tips include using natural language, being specific and iterative, keeping requests concise (fruitful prompts average around 21 words), making it a conversation, using documents (via tagging `@file name`), and using the 'Make this a power prompt' feature in Gemini Advanced . The guide assures that user content is protected and never used to train or improve Gemini models . It provides scenario-based examples for various roles, including Customer Service, Executives, HR Managers, Marketing Specialists, and Project Managers .",
+  "categories": [
+    "Prompt Engineering",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "AI Assistants",
+    "AI Applications",
+    "Workflow Automation",
+    "Introduction to AI and Fundamental Concepts",
+    "AI Ethics"
+  ]
+},
+{
+  "name": "AI in the Enterprise: Lessons from Seven Frontier Companies (OpenAI)",
+  "link": "https://cdn.openai.com/business-guides-and-resources/ai-in-the-enterprise.pdf",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "This guide distills seven essential lessons for enterprise AI adoption based on insights from numerous customer deployments . It emphasizes that the future of work involves sophisticated, complex, and interconnected AI workflows . Key lessons include: 1) Start with Evals (using rigorous, structured processes to measure performance against use cases, e.g., Morgan Stanley) ; 2) Embed AI into products (e.g., Indeed used GPT-4o mini to personalize job matching, resulting in a 20% increase in applications started) ; 3) Start now and invest early (AI value compounds, e.g., Klarna's AI assistant handles two-thirds of service chats) ; 4) Customize and Fine-tune models (tailoring models to specific data for improved accuracy and domain expertise, like Lowe's search improvement) ; 5) Get AI in the hands of experts (enabling employees to build their own custom GPTs, e.g., BBVA employees created over 2,900 custom GPTs) ; 6) Unblock developers (automating the software development lifecycle, e.g., Mercado Libre built the Verdi platform) ; and 7) Set bold automation goals (automating entire workflows) . The guide highlights the Operator agentic tool, which uses a virtual browser to automate workflows without custom APIs .",
+  "categories": [
+    "AI Applications",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "LLMOps",
+    "Workflow Automation",
+    "AI Deployment",
+    "AI Agents",
+    "Business Automation"
+  ]
+},
+{
+  "name": "A Practical Guide to Building Agents (OpenAI)",
+  "link": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+  "difficulty": "Intermediate",
+  "type": "Book",
+  "description": "This guide assists product and engineering teams in building reliable and effective LLM agents, which are systems that independently accomplish complex, multi-step tasks on a user's behalf . Agents are particularly suited for workflows where deterministic, rule-based approaches fail, such as those involving complex decisions or unstructured data . The three core components of an agent are the Model (LLM for reasoning), Tools (external APIs or systems, including computer-use models for legacy UIs) , and Instructions (clear guidelines and guardrails) . Orchestration patterns covered include Single-Agent Systems (a single model executing a workflow in a loop) and Multi-Agent Systems (distributed workflows via the Manager Pattern or Decentralized Handoffs) . A critical section is dedicated to Guardrails, described as a layered defense mechanism (e.g., Relevance Classifier, Safety Classifier, Rules-based protections) to ensure agents operate safely and predictably in production .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "Large Language Models (LLMs)",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Deployment",
+    "AI Ethics"
+  ]
+},
+{
+  "name": "Building Effective Agents: Simple, Composable Patterns (Anthropic Engineering Guide)",
+  "link": "https://www.anthropic.com/engineering/building-effective-agents",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This post shares Anthropic's learning from working with dozens of teams building LLM agents, concluding that the most successful implementations use simple, composable patterns rather than complex frameworks . It defines an important architectural distinction between Workflows (predefined code paths) and Agents (LLMs dynamically direct their own processes and tool usage) . The core component is the Augmented LLM, enhanced with retrieval, tools, and memory . Recommended agentic workflows include Prompt Chaining , Routing (classifies input and directs it to a specialized task) , and Evaluator-Optimizer (one LLM generates a response, another provides iterative feedback) . Agents are recommended for open-ended problems where the required number of steps is difficult to predict . Three core implementation principles are emphasized: maintaining simplicity, prioritizing transparency (showing planning steps), and carefully crafting the agent-computer interface (ACI) through thorough tool documentation and testing . Promising applications include Customer Support and Coding Agents (e.g., solving SWE-bench tasks) .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Large Language Models (LLMs)",
+    "Workflow Automation",
+    "Systems Integration",
+    "Prompt Engineering"
+  ]
+},
+{
+  "name": "Identifying and Scaling AI Use Cases (OpenAI Business Guide)",
+  "link": "https://cdn.openai.com/business-guides-and-resources/identifying-and-scaling-ai-use-cases.pdf",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "This guide provides a framework for organizations to find and scale AI use cases that deliver clear value, drawing on insights from over 300 successful customer implementations . It suggests focusing on three areas where AI can create 'super-assistants': Repetitive low value tasks, Skill bottlenecks (e.g., data analysis, coding), and Navigating ambiguity (ideation/brainstorming) [201-204]. The core of the guide presents the Six Use Case Primitives that apply across all departments and disciplines: Content creation, Automation, Research, Coding, Data analysis, and Ideation/strategy . The resource details how to prioritize ideas using the Impact/Effort Framework (scoring value vs. effort)  and encourages thinking about embedding AI into multi-step workflows (Workflow Mapping) rather than just single tasks . Specific agentic capabilities highlighted include Deep Research (multi-step internet research agent)  and Operator (web automation agent) .",
+  "categories": [
+    "AI Applications",
+    "Generative AI",
+    "Workflow Automation",
+    "Data Analysis",
+    "Large Language Models (LLMs)",
+    "AI Agents",
+    "Introduction to AI and Fundamental Concepts",
+    "Business Automation"
+  ]
+},
+{
+  "name": "601 Real-World Generative AI Use Cases from Industry Leaders (Google Cloud)",
+  "link": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders?hl=en",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "This document showcases an extensive collection of real-world generative AI use cases, which expanded from 101 entries to 601 entries within one year, demonstrating the speed of enterprise AI adoption . The use cases are organized across 11 major industry groups (e.g., Automotive & Logistics, Financial Services, Healthcare, Retail) and categorized by six agent types: Customer, Employee, Creative, Code, Data, and Security . Examples include using conversational AI in vehicles (Mercedes Benz, General Motors) , enhancing employee productivity via Google Workspace/Gemini (Oxa, Rivian, Uber) , accelerating code development (Renault Group's Ampere, TCS) , combatting fraud (Citi, Deutsche Bank, Bradesco) , and creating hyper-personalized customer experiences (Spotify, Target, Wendy's) [221-223]. The document acts as a showcase of how leading organizations are enhancing their work with Google's AI solutions .",
+  "categories": [
+    "AI Applications",
+    "Generative AI",
+    "AI Agents",
+    "Large Language Models (LLMs)",
+    "Business Automation",
+    "AI Deployment",
+    "Workflow Automation",
+    "Systems Integration",
+    "Data Analysis"
+  ]
+},
+{
+  "name": "RAG-Anything: All-in-One Multimodal RAG Framework (HKUDS)",
+  "link": "https://github.com/HKUDS/RAG-Anything",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "RAG-Anything is a comprehensive, All-in-One Multimodal Document Processing RAG system built on LightRAG . It is designed to address the challenge that traditional RAG systems face when processing documents containing diverse multimodal content, such as text, images, tables, equations, charts, and multimedia . As a unified solution, it eliminates the need for multiple specialized tools by providing seamless processing and querying across all content modalities within a single integrated framework .Key Features and Architecture:*   Universal Document Support: It handles PDFs, Office documents (DOCX, PPTX, XLSX), images, and diverse file formats . Processing Office documents requires a separate LibreOffice installation .*   Multimodal Knowledge Graph: The system extracts multimodal entities and automatically discovers cross-modal relationships to enhance understanding, transforming document content into structured semantic representations .*   Specialized Content Analysis: It deploys dedicated processing units for heterogeneous data, including Visual Content Analyzer (integrating vision models for image analysis and caption generation), Structured Data Interpreter (for tables and statistical analysis), and a Mathematical Expression Parser (with native LaTeX support) .*   Intelligent Retrieval: It uses a Hybrid Intelligent Retrieval system, combining vector similarity search with graph traversal algorithms for comprehensive content retrieval .*   VLM-Enhanced Query Mode: When documents include images, the system seamlessly integrates them into the Vision Language Model (VLM) for advanced multimodal analysis, enabling enhanced RAG with text, images, tables, and equations .*   Deployment: The Python-based project (100.0% Python)  can be installed via PyPI (`pip install raganything`)  and has significant community support (8k stars, 904 forks) .",
+  "categories": [
+    "RAG (Retrieval-Augmented Generation)",
+    "Multimodal AI",
+    "Document Processing",
+    "Large Language Models (LLMs)",
+    "Deep Learning",
+    "AI Applications",
+    "Image Analysis with AI",
+    "Data Analysis",
+    "Systems Integration",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "Mem0: Universal Memory Layer for AI Agents",
+  "link": "https://github.com/mem0ai/mem0",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Mem0 ('mem-zero') is an open-source project designed as an intelligent memory layer that enhances AI assistants and agents, enabling personalized and continuously learning AI interactions . It is suitable for autonomous systems, customer support chatbots, and AI assistants . The project is licensed under the Apache-2.0 license .It achieves high performance, demonstrating +26% Accuracy over OpenAI Memory on the LOCOMO benchmark, delivering 91% Faster Responses, and resulting in 90% Lower Token Usage compared to full-context methods .Key features and concepts include:*   OpenMemory MCP: Mem0 implements OpenMemory MCP for local and secure memory management , providing a self-hosted option .*   Multi-Level Memory: It seamlessly retains User, Session, and Agent state with adaptive personalization .*   Developer-Friendly: It offers an intuitive API, cross-platform SDKs (via pip/npm installation), and a fully managed service option .*   LLM Support: Mem0 requires a Large Language Model (LLM) to function, defaulting to `gpt-4o-mini` from OpenAI but supporting a variety of other LLMs .*   Integrations: It supports integrations with major frameworks and applications, including Langgraph, CrewAI, a Browser Extension (for services like ChatGPT, Perplexity, and Claude), and a Live Demo of ChatGPT with Memory .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Agent Memory",
+    "MCP (Model Context Protocol)",
+    "Large Language Models (LLMs)",
+    "LLMOps",
+    "AI Deployment",
+    "Systems Integration",
+    "AI Applications",
+    "Chatbots",
+    "Workflow Automation",
+    "RAG (Retrieval-Augmented Generation)",
+    "Deep Learning"
+  ]
+},
+{
+  "name": "Parlant: LLM Agents Built for Control",
+  "link": "https://github.com/emcie-co/parlant",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Parlant is an open-source framework (licensed under Apache-2.0 ) for developing LLM agents built for control, designed for real-world use and deployable in minutes . It aims to solve the problem of agents ignoring system prompts, hallucinating responses, failing on edge cases, and exhibiting unpredictable behavior in production .Instead of relying on complex system prompts, Parlant ensures compliance by allowing developers to define Behavioral Guidelines using natural language . These rules are contextually matched and reliably enforced .Key features that provide control and reliability include:*   Behavioral Guidelines: Easily defined rules that match relevant context (e.g., 'Customer asks about refunds' triggers an action) .*   Tool Integration: Reliable integration of external APIs, data fetchers, or backend services attached to specific interaction events . Conversational Journeys: Tools to lead the customer step-by-step toward a specific goal .  Canned Responses: Response templates used to eliminate hallucinations and guarantee consistency in style . Guardrails: Built-in mechanisms to prevent hallucination and off-topic responses .   Explainability: Full transparency to understand why and when each guideline was matched and followed .Parlant is production-ready from day one  and is used by companies in Financial Services (for compliance-first design), Healthcare (HIPAA-ready agents), E-commerce, and Legal Tech . The repository has strong community support, boasting 13.4k stars and 1.1k forks . It is primarily developed in Python (88.5%)  and offers a drop-in React widget for chat UI integration .",
+  "categories": [
+    "AI Agents" ,
+    "Agent Development" ,
+    "Large Language Models (LLMs)" ,
+    "Generative AI" ,
+    "AI Deployment" ,
+    "LLMOps" ,
+    "Workflow Automation" ,
+    "Systems Integration" ,
+    "AI Applications" ,
+    "Chatbots" ,
+    "AI Assistants" 
+  ]
+},
+{
+  "name": "MiniCPM-V 4.5: GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+  "link": "https://github.com/OpenBMB/MiniCPM-V",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "MiniCPM-V is a series of efficient end-side multimodal Large Language Models (MLLMs) developed by THUNLP and ModelBest, designed to accept images, videos, and text inputs and deliver high-quality text outputs, aiming for strong performance and efficient deployment . The repository has garnered significant community support with 22k stars and 1.7k forks .Key Model (MiniCPM-V 4.5):This model has 8B parameters and, in vision-language capabilities, it outperforms proprietary models like GPT-4o-latest, Gemini-2.0 Pro, and open-source models like Qwen2.5-VL 72B . It is considered the most performant on-device multimodal model in the open-source community . New features include: *   Efficient High-FPS and Long Video Understanding (up to 96x compression rate for video tokens) using a Unified 3D-Resampler .*   Controllable Hybrid Fast/Deep Thinking modes .*   Strong Handwritten OCR and complex table/document parsing, surpassing proprietary models like GPT-4o-latest and Gemini 2.5 on OCRBench .*   Ability to process high-resolution images up to 1.8 million pixels .Omni-modal Model (MiniCPM-o 2.6):This end-to-end 8B parameter model achieves comparable performance to GPT-4o-202405 in vision, speech, and multimodal live streaming [11-14]. It supports bilingual real-time speech conversation with configurable voices, voice cloning, and style control . It exhibits superior token density (75% fewer tokens than most models for a 1.8M pixel image) .Deployment and Integration:MiniCPM-V and MiniCPM-o models are licensed under the Apache-2.0 license  and support various deployment methods :*   Efficient CPU Inference on local devices via official support for llama.cpp and Ollama [17-19].*   High-throughput inference via vLLM and SGLang [17-19].*   Quantized models are available in int4, GGUF, and AWQ formats .*   Fine-tuning support is provided via Transformers, LLaMA-Factory, SWIFT, and Align-Anything [17, 21-23].*   Includes optimized local iOS apps for iPhone and iPad .",
+  "categories": [
+    "Multimodal AI",
+    "Large Language Models (LLMs)",
+    "Generative AI",
+    "Deep Learning",
+    "AI Deployment",
+    "Image Analysis with AI",
+    "Model Management",
+    "LLMOps",
+    "Machine Learning"
+  ]
+},
+{
+  "name": "NVIDIA Deep Learning Institute (DLI) Training Catalog",
+  "link": "https://www.nvidia.com/en-us/training/find-training/?Free+Courses=Free",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This link directs to the comprehensive training catalog offered by the NVIDIA Deep Learning Institute (DLI), specifically filtered for free courses [Query]. The platform offers various formats, including Self Paced Courses, Instructor-Led Workshops, Learning Paths, and opportunities for Certification . The training is designed to help users acquire specific skills, keep pace with technology, and advance their careers . The curriculum covers critical AI and computing topics such as Accelerated Computing, Data Science, Deep Learning, Generative AI / LLMs, and Simulation / Modeling / Design . NVIDIA also focuses on topics like Agentic AI  and enterprise AI infrastructure .",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts",
+    "Deep Learning",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "Machine Learning",
+    "AI Applications",
+    "Data Analysis",
+    "AI Agents",
+    "AI Deployment",
+    "LLMOps"
+  ]
+},
+{
+  "name": "Pocket Server: OS for AI Agents, Built for Your Pocket",
+  "link": "https://github.com/yayasoumah/pocket-server",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Pocket Server is the local runtime of Pocket, a mobile operating system for AI agents . It allows a phone to host, control, and collaborate with agents against a local codebase in real time by exposing HTTP + WebSocket APIs . Its mission is to make agents native to the phone, prioritizing fast, local-first, and secure operation by providing OS-like primitives such as sessions, processes, filesystem, networking, and notifications . The project is licensed under the Apache-2.0 license and has strong community support with 715 stars and 58 forks .Core OS Capabilities:*   Agent Runtime and Tools: Supports coding agents that can be approved or auto-run with `bash`, `editor`, and `web-search` tools .*   Native Mobile Terminal: Features a fast, touch-optimized, multi-tab terminal session with smooth streaming, which can be resumed on a desktop terminal using the CLI .*   File System + Editor: Enables browsing, viewing, editing, and diffing files directly from the phone .*   Background Agents: Supports launching autonomous coding jobs on VMs from GitHub repositories, allowing monitoring, review of diffs, and approval of Pull Requests (PRs) .*   Context Injection: Injects project context into agent prompts by searching the working directory for `CLAUDE.md` (preferred by Anthropic) or `AGENTS.md` (preferred by OpenAI), capping the context size at ~100KB to maintain prompt responsiveness .*   Security and Access: Uses PIN pairing (local by default) and short-lived tokens for authentication over HTTP and WS . Optional remote access is available via a Cloudflare tunnel initiated with the `--remote` flag .Integration:It supports major AI providers, including OpenAI (GPT-5) and Anthropic (Claude), configured via environment variables (e.g., `OPENAI_API_KEY`) .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Systems Integration",
+    "Workflow Automation",
+    "AI Deployment",
+    "Large Language Models (LLMs)",
+    "LLMOps",
+    "AI Applications"
+  ]
+},
+{
+  "name": "System Prompts and Models of AI Tools (Curated Collection)",
+  "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "This GitHub repository is a comprehensive and massive collection of system prompts, internal tools, and underlying AI models of numerous commercial and open-sourced AI tools . It provides deep insights into the structure and functionality of these systems, boasting over 20,000+ lines of insights .The repository covers a vast array of AI tools, primarily focusing on coding agents and AI assistants :*   Coding/Developer Agents: Augment Code, Claude Code, CodeBuddy, Comet Assistant, Cursor Prompts, Devin AI, Junie, Kiro, Leap.new, Manus Agent Tools, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, and Z.ai Code [1, 3-5].*   AI Tools/Assistants: Cluely, Lovable, NotionAI, Orchids.app, Perplexity, dia, and v0 Prompts and Tools [1, 3-5].*   Other Prompts/Models: Anthropic and Amp .The goal of this collection is to provide the tools needed for building reliable Agents and Prompts . The project is highly recognized within the community, evidenced by 89.7k stars and 24.4k forks . It is licensed under the GPL-3.0 license . The creator also offers a security notice regarding the risk of exposed prompts and internal tools for AI startups . Updates are initially shared on Discord before appearing in the repository .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Prompt Engineering",
+    "Large Language Models (LLMs)",
+    "AI Applications",
+    "Software Development",
+    "Systems Integration",
+    "Workflow Automation"
+  ]
+},
+{
+  "name": "Codebuff: Multi-Agent AI Coding Assistant (Terminal & SDK)",
+  "link": "https://github.com/CodebuffAI/codebuff",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "Codebuff is an open-source AI coding assistant (licensed under Apache-2.0) that edits entire codebases through natural language instructions, boasting 2.3k stars and 284 forks . It operates through a coordinated multi-agent approach to achieve better context understanding, more accurate edits, and fewer errors compared to single-model tools .Codebuff claims to beat Claude Code (61% vs 53%) on its evaluations across over 175 real-world coding tasks .Key Features:*   Multi-Agent Architecture: Coordinates specialized agents (e.g., File Explorer Agent, Planner Agent, Editor Agent, and Reviewer Agent) to plan and execute precise changes across the codebase .*   CLI Interface: Allows users to run coding tasks directly from the terminal (e.g., 'Fix the SQL injection vulnerability in user registration') .*   Customizability: Supports creating custom agents and defining complex workflows with TypeScript generators, offering maximum control over agent behavior, tool specification, and prompts .*   Production SDK: Provides a TypeScript SDK (`@codebuff/sdk`) to run agents in production, enabling integration into CI/CD pipelines, development environments, and applications .*   Model Agnostic: Supports any model on OpenRouter (including Claude, GPT, Qwen, and DeepSeek), avoiding vendor lock-in associated with single-provider tools .*   Agent Reusability: Promotes the composition and reuse of existing published agents, positioning its agents as 'the new MCP' .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "Large Language Models (LLMs)",
+    "Prompt Engineering",
+    "MCP (Model Context Protocol)",
+    "Workflow Automation",
+    "Systems Integration",
+    "AI Deployment",
+    "LLMOps",
+    "AI Applications",
+    "Software Development"
+  ]
+},
+{
+  "name": "Deep Learning for Computer Vision 2025 (Stanford Online)",
+  "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
+  "difficulty": "Unspecified",
+  "type": "Course",
+  "description": "This is a free and complete course, titled 𝗗𝗘𝗘𝗣 𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚 𝗙𝗢𝗥 𝗖𝗢𝗠𝗣𝗨𝗧𝗘𝗥 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟱, published by Stanford Online [Query]. It is described as an absolute luxury due to its accessibility and prestige, consisting of 18 sessions of approximately one hour each, with content that is fully updated [Query]. The comprehensive curriculum addresses: Fundamentals of visual recognition [Query], deep neural networks for classification and detection [Query], transformers applied to vision [Query], state-of-the-art diffusion models [Query], and visual language models (like those used by ChatGPT-4V) [Query]. The course also involves practical projects with networks of millions of parameters [Query]. This technology drives critical applications such as the autonomous vehicle revolution, medical imaging diagnosis, visual search systems, and augmented reality applications [Query]. The material is accessible worldwide and available with subtitles in various languages on YouTube [Query].",
+  "categories": [
+    "Introduction to AI and Fundamental Concepts" ,
+    "Deep Learning" ,
+    "Generative AI" ,
+    "Machine Learning" ,
+    "Multimodal AI" ,
+    "AI Applications" ,
+    "Image Analysis with AI" 
+  ]
+},
+{
+  "name": "AgentScope: Agent-Oriented Programming for Building LLM Applications",
+  "link": "https://github.com/agentscope-ai/agentscope",
+  "difficulty": "Unspecified",
+  "type": "Tool",
+  "description": "AgentScope is an open-source framework (licensed under Apache-2.0 ) designed for Agent-Oriented Programming for building Large Language Model (LLM) applications . It is structured to be easy for beginners yet powerful for experts . The framework has significant community support with 12.9k stars and 1k forks  and is developed primarily in Python (100.0%) .Core Principles and Architecture:*   Transparent to Developers: Transparency is the FIRST principle, ensuring that prompt engineering, API invocation, agent building, and workflow orchestration are visible and controllable, avoiding deep encapsulation or implicit 'magic' .*   Model Agnostic: Allows programming once and running with all models, supporting features like async invocation and streaming/non-streaming returns .*   Multi-Agent Oriented: Explicitly designed for multi-agent systems, utilizing `MsgHub` and pipelines for efficient message passing and workflow orchestration .*   LEGO-style Building: All components are modular and independent, allowing for high customizability of tools, prompts, agents, and workflows .Key Features (AgentScope 1.0):*   Agentic Capabilities: Supports agentic tools management, agent-controlled long-term memory control, and agentic RAG . It includes specialized agents like the `ReActAgent`, `Voice Agent`, `Deep Research Agent`, `Browser-use Agent`, and `Meta Planner Agent` .*   Realtime Steering: Natively supports realtime interruption with robust memory preservation .*   Planning: Includes a powerful new Plan module that supports ReAct-based long-term planning and manual plan specification .*   MCP Integration: Provides native support for the Model Context Protocol (MCP) with streamable HTTP/SSE/StdIO transport, supporting both stateful and stateless modes . Developers can obtain the MCP tool as a local callable function for fine-grained control .*   RAG: Features a dedicated RAG module that supports agentic and multimodal RAG .*   Deployment and Observability: Includes AgentScope Runtime for effective agent deployment with sandboxed tool execution for production-ready applications . It also features AgentScope Studio for tracing and visualization , and supports OpenTelemetry-based tracing across LLM, tools, and agents .",
+  "categories": [
+    "AI Agents",
+    "Agent Development",
+    "Multi-Agent Systems",
+    "Large Language Models (LLMs)",
+    "MCP (Model Context Protocol)",
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Deployment",
+    "LLMOps",
+    "Systems Integration",
+    "Workflow Automation",
+    "Multimodal AI",
+    "Deep Learning"
+  ]
+},
+{
+  "name": "How to build with Nano Banana: Complete Developer Tutorial (Google AI)",
+  "link": "https://dev.to/googleai/how-to-build-with-nano-banana-complete-developer-tutorial-646",
+  "difficulty": "Unspecified",
+  "type": "Book",
+  "description": "This is a comprehensive developer tutorial providing a walkthrough for integrating Gemini 2.5 Flash Image, also known by its codename Nano Banana, into applications using the Gemini Developer API . Nano Banana is described as a powerful new model for image generation and editing, offering state-of-the-art capabilities .The guide covers the following key areas:*   Environment Setup: Using the model in Google AI Studio for prototyping (free of charge) , obtaining an API key, setting up billing (API usage costs $0.039 per image) , and installing the Google Gen AI SDK for Python or JavaScript/TypeScript .*   Core Capabilities: Demonstrates Image creation from a text prompt (using the model ID `gemini-2.5-flash-image-preview`) , Image editing using both text and image inputs while maintaining character consistency , Photo restoration (including restoring and colorizing old photographs from 1932) , and working with multiple input images for complex tasks (e.g., changing clothing) .*   Conversational Editing: Explains how to use a `chats` session for iterative refinement and conversational image editing, noting that starting a new session with a consolidated prompt may be necessary to prevent 'drift' after many edits .*   Best Practices: Provides prompting tips, including the need to be Hyper-Specific, provide Context and Intent, Iterate and Refine, use Step-by-Step Instructions, use Positive Framing, and Control the Camera using photographic terms . The tutorial also provides examples of community-built applications for inspiration .",
+  "categories": [
+    "Generative AI",
+    "Multimodal AI",
+    "Image Analysis with AI",
+    "AI Applications",
+    "Prompt Engineering",
+    "Large Language Models (LLMs)",
+    "Introduction to AI and Fundamental Concepts",
+    "AI Deployment"
+  ]
+},
+{
+"name": "How to make your website AI-visible: A step-by-step guide (Leonardo Ubbiali)",
+"link": "https://www.linkedin.com/posts/leonardo-ubbiali_ai-crawlers-visibility-guide-activity-7373304284848877568-j-4r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADvoYgBR6OaUkic3fcx6maIpbJDW9ElVf0",
+"difficulty": "Unspecified",
+"type": "Course",
+"description": "A detailed, step-by-step guide to make websites visible to AI crawlers . It covers why AI crawlers differ from Googlebot (no JavaScript support, no rendering wait) , how to pre-render JS-heavy pages so crawlers see the content, and methods to strip unnecessary bloat like analytics scripts, popups, and widgets . The guide explains how to inject smart metadata and JSON-LD (Article, Product, FAQ) with explicit code examples . It emphasizes that the solution must happen at the edge and details deployment using tools like Cloudflare Workers . Finally, it teaches how to debug AI visibility using curl, schema validators, and prompt testing in ChatGPT . This resource is aimed at professionals working in growth, SEO, or product management .",
+"categories": [
+"AI Applications",
+"AI Deployment",
+"Workflow Automation"
+]
+},
+{
+"name": "DreamFace - Fast AI Generator",
+"link": "https://dreamfaceapp.com",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "An AI-powered platform for creating avatar videos, AI videos, and AI photos instantly . It allows users to input text or audio to generate high-quality videos with realistic avatars and voices, eliminating the need for actors or equipment . Additional features include Background Remover, Photo Enhance, Old Photo Restoration, and AI Filter capabilities . Available across mobile and web platforms, with an API for business use .",
+"categories": [
+"Generative AI",
+"AI Applications",
+"Content Generation with AI",
+"Multimodal AI"
+]
+},
+{
+"name": "Thunderbit: AI Web Scraper",
+"link": "https://thunderbit.com",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "An AI-powered Web Scraper designed for sales and operations teams to scrape leads and other data in two clicks . It features pre-built templates for popular sites (like Amazon and LinkedIn) , and uses AI to restructure, summarize, categorize, and translate the output data . It handles data export to popular tools like Google Sheets and Notion . Use cases span Lead Generation, Competitor Monitoring, Real Estate Aggregation, and Social Media analysis [10-12].",
+"categories": [
+"Web Scraping with AI",
+"AI Applications",
+"Workflow Automation",
+"Data Analysis",
+"AI Automation"
+]
+},
+{
+"name": "Macaron – World's First Personal AI Agent",
+"link": "http://macaron.im",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "The world's first personal AI agent designed to help users 'live better' . It features Deep Memory and grows with the user, remembering details 'like a real friend' . it builds real-life tools and solutions based on simple requests, requiring no frustrating adjustments . The platform is developed using an in-house RL platform that supports large LLMs .",
+"categories": [
+"AI Agents",
+"AI Assistants",
+"Large Language Models (LLMs)",
+"Agent Memory",
+"AI Applications"
+]
+},
+{
+"name": "Vapi - Advanced Voice AI Agents API",
+"link": "http://vapi.ai",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "An API-first platform for developers to build and deploy highly configurable Voice AI agents . It supports inbound calls (powering 400,000+ daily calls) , multilingual communication in over 100 languages , and tool calling to integrate external APIs and perform actions . It is built for enterprise scale, featuring 99.99% uptime, sub-500ms latency, AI guardrails, automated testing, and compliance (SOC2, HIPAA, PCI) [17-19].",
+"categories": [
+"AI Agents",
+"AI Deployment",
+"Systems Integration",
+"AI Applications",
+"Large Language Models (LLMs)",
+"Workflow Automation"
+]
+},
+{
+"name": "Lovart | The Design Agent",
+"link": "http://lovart.ai",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "The world's first Design Agent that automates the entire creative journey, from concept creation to final images, videos, 3D models, and audio . It plans and creates like a professional designer, calling the right tools and responding in dialogue via its ChatCanvas . Lovart can generate a complete brand identity, including logos, colors, and production-ready 3D models and animations, all from a single text prompt .",
+"categories": [
+"AI Agents",
+"Generative AI",
+"AI Applications",
+"Content Generation with AI",
+"Multimodal AI",
+"Workflow Automation"
+]
+},
+{
+"name": "Droxy: AI-Powered Employee for Customer Interactions",
+"link": "http://try.droxy.ai",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "An all-in-one platform for building and deploying reliable, customer-facing AI agents across multiple channels (website, phone, messaging, comments) [24-26]. Droxy handles customer messages and calls 24/7  and offers features like Automated Lead Collection, Seamless Human Hand-off, and Smart Product Recommendations . Agents are trained on company knowledge from various sources (websites, PDFs, YouTube)  and use advanced NLP to ensure human-like interactions with a customizable tone and style . It supports communication in over 95 languages .",
+"categories": [
+"AI Agents",
+"AI Applications",
+"Workflow Automation",
+"Systems Integration",
+"Large Language Models (LLMs)",
+"Chatbots"
+]
+},
+{
+"name": "ChatGPT 'Absolute Mode' Custom Instructions (Prompt Engineering Guide)",
+"link": "https://www.reddit.com/r/PromptEngineering/comments/1nei9ev/this_prompt_turned_chatgpt_into_what_it_should_be/",
+"difficulty": "Unspecified",
+"type": "Course",
+"description": "A popular collection of custom system instructions ('Absolute Mode') designed to radically alter ChatGPT's behavior to provide clear, accurate, and to-the-point answers . The goal is to restore independent, high-fidelity thinking in the user, leading toward 'model obsolescence via user self-sufficiency' . The core instructions enforce a blunt, directive style by eliminating soft asks, conversational transitions, emotional softening, emojis, filler, hype, and engagement-boosting behaviors . Replies must terminate immediately after delivering information, with no closures . Complementary instructions emphasized by community members include demanding absolute precision and honesty, prohibiting speculation or invention, explicitly stating when information is inaccessible or unverifiable, and requiring the citation of diverse, verifiable sources and direct URLs . These instructions are added to the ChatGPT settings under 'Custom Instructions' .",
+"categories": [
+"Prompt Engineering",
+"Large Language Models (LLMs)",
+"Introduction to AI and Fundamental Concepts",
+"Prompt Optimization"
+]
+},
+{
+"name": "Genkit: Open-Source AI-Powered App Framework (Firebase/Google)",
+"link": "https://github.com/firebase/genkit",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "Genkit is an open-source framework for building full-stack AI-powered applications . It was built and is used in production by Google's Firebase . It provides SDKs for JavaScript/TypeScript and Go (both production-ready), and Python (Alpha) . Genkit offers a unified interface for integrating AI models from providers such as Google, OpenAI, Anthropic, and Ollama . Developers can rapidly build and deploy production-ready chatbots, automations, and recommendation systems using streamlined APIs for multimodal content, structured outputs, tool calling, and agentic workflows . Key features include AI workflows, RAG (Retrieval-Augmented Generation), type-safe data generation, and prompt templating . It supports deployment to environments like Cloud Functions for Firebase or Google Cloud Run . Development is accelerated via a local CLI and Developer UI for prompt testing, debugging with detailed execution traces, and rapid iteration . It also supports production monitoring to track performance and error rates . The project has 4.3k stars and 484 forks  and is licensed under Apache-2.0 .",
+"categories": [
+"AI Applications",
+"AI Deployment",
+"Large Language Models (LLMs)",
+"AI Agents",
+"RAG (Retrieval-Augmented Generation)",
+"Multimodal AI",
+"Workflow Automation",
+"Systems Integration",
+"Prompt Engineering",
+"Agent Development",
+"LLMOps"
+]
+},
+{
+"name": "Alibaba WAN 2.5 Model Collection (WaveSpeedAI)",
+"link": "https://wavespeed.ai/collections/wan-2-5",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "WAN 2.5 is a state-of-the-art text/image-to-video generation model from Alibaba, available on the DashScope platform . It converts text or images into lip-synced HD videos (480p, 720p, or 1080p resolution) in a single step . The models produce high-quality videos complete with synchronized audio from simple text or image prompts . Compared to Google Veo3, WAN 2.5 is designed to be more affordable and offers faster video generation speeds . Key advantages include One-pass A/V sync to generate video with voiceover and lip-sync in a single run ; reliable multilingual A/V sync for Chinese and minor languages ; longer, more flexible output (up to 10 seconds compared to ~8 seconds on Veo 3) ; and support for audio-driven control using voice, sound effects (SFX), or background music (BGM) as generation references . The collection includes models for `text-to-video`, `image-to-video`, and faster variants of both, as well as `text-to-image` . It is suitable for creating Shorts (6–10s hooks for TikTok/Reels), Ads & E-commerce (product hero shots + CTA), and Explainers/Tutorials (step-by-step with on-beat voiceover) .",
+"categories": [
+"Generative AI",
+"Content Generation with AI",
+"Multimodal AI",
+"AI Deployment",
+"AI Applications",
+"Image Analysis with AI"
+]
+},
+{
+"name": "Python for Data Analysis, 3E (Open Access Edition)",
+"link": "https://wesmckinney.com/book/",
+"difficulty": "Unspecified",
+"type": "Book",
+"description": "The 3rd edition of Python for Data Analysis is available as an 'Open Access' HTML version on this site . This edition was initially published in August 2022  and has been updated for pandas 2.0.0 and Python 3.10 . The content updates primarily focus on reflecting changes within the pandas library since 2017 . The code examples referenced in the book are MIT-licensed and can be found on GitHub or Gitee, along with the supporting datasets . The updates, such as the one for pandas 2.0.0, are fixed periodically .",
+"categories": [
+"Data Analysis"
+]
+},
+{
+"name": "Prompt Manual, Version 3 (Alfredo Vela Zancada)",
+"link": "https://www.linkedin.com/posts/alfredovela_manual-del-prompt-versi%C3%B3n-3-activity-7377224206230511617-rj5s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADvoYgBR6OaUkic3fcx6maIpbJDW9ElVf0",
+"difficulty": "Unspecified",
+"type": "Book",
+"description": "This is the 3rd version of the 'Prompt Manual' (ebook), released to help users create quality prompts and obtain better results from Generative AI tools like ChatGPT . The manual contains 17% more content than its previous version . It offers advice intended to assist both those already working in the world of AI and those taking their first steps, whether for professional or personal activities . Topics suggested for inclusion emphasize advanced prompting techniques, such as asking the AI to find all flaws, risks, and blind spots in an idea or project , and the importance of learning to prompt the AI to generate a prompt itself, leveraging the idea that the AI knows itself best . Other suggestions include ensuring prompts use unambiguous, complete examples .",
+"categories": [
+"Prompt Engineering",
+"Large Language Models (LLMs)",
+"Introduction to AI and Fundamental Concepts",
+"AI Applications",
+"Generative AI",
+"Prompt Optimization"
+]
+},
+{
+"name": "Intelligent World 2035",
+"link": "https://www.huawei.com/en/giv",
+"difficulty": "Unspecified",
+"type": "Book",
+"description": "This report explores the technological exploration driving civilization toward a more intelligent world, highlighting how Generative AI is opening up possibilities previously unimaginable . It details 10 technological leaps leading to 2035, including the path to AGI (Artificial General Intelligence) through 'going physical'  and the role of Embodied AI in extending AI into the physical world . Key trends include AI agents driving an industrial revolution , the evolution of the mobile Internet into multi-agent collaboration , and the necessity of an Agentic Internet to connect the expected 900 billion AI agents by 2035 . The report also covers profound shifts in industries like Healthcare (shifting from treatment to protection via AI intervention) , Manufacturing (using AI for generative design and intelligent factories) , Finance (implementing 'human + agent' collaboration models) , and Education (AI integrated for personalized learning) . Furthermore, it discusses rethinking computing beyond the von Neumann architecture , the shift of data toward 'intelligence' , and the vital necessity of addressing AI ethics and cybersecurity to ensure AI serves humanity .",
+"categories": [
+"Introduction to AI and Fundamental Concepts",
+"Generative AI",
+"AI Agents",
+"AI Applications",
+"AI Deployment",
+"Workflow Automation",
+"AI Ethics"
+]
+},
+{
+"name": "Microsoft Agent Framework (GitHub Repository)",
+"link": "https://github.com/microsoft/agent-framework",
+"difficulty": "Unspecified",
+"type": "Tool",
+"description": "Microsoft's comprehensive multi-language framework for building, orchestrating, and deploying AI agents . It provides full support for both Python and C#/.NET implementations with consistent APIs . The framework supports everything from simple chat agents to complex multi-agent workflows orchestrated using a graph-based system . This graph system connects agents and deterministic functions and features streaming, checkpointing, human-in-the-loop, and time-travel capabilities . Key features include built-in OpenTelemetry integration for distributed tracing, monitoring, and debugging (Observability) , flexible middleware for request/response processing , and support for multiple LLM providers . It also includes DevUI, an interactive developer UI for agent testing and debugging workflows , and experimental packages for cutting-edge features in AF Labs, such as benchmarking and reinforcement learning . The project has 2.3k stars and 244 forks and is licensed under the MIT license .",
+"categories": [
+"AI Agents",
+"Agent Development",
+"Multi-Agent Systems",
+"Workflow Automation",
+"AI Deployment",
+"Systems Integration",
+"Large Language Models (LLMs)",
+"LLMOps"
+]
+}
+
 
 ]

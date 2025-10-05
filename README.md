@@ -66,7 +66,8 @@ The project is structured to separate the application "engine" from the data it 
 
 ---
 
-## 🚀 How to Contribute
+## 🚀 Last changes
+[New Entries in AI Catalog October 2025 ](202510NewEntries.md)
 
 ## 🚀 How to Contribute
 
