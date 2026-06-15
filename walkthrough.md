@@ -28,3 +28,27 @@ OK
 ```
 
 Las comprobaciones visuales y de interacción del navegador confirman que todo se ve premium y los eventos del dashboard, upvotes y ranking funcionan al 100%.
+
+---
+
+## Adición de Recurso: Boletín "The AI State of Mind" (15 de Junio, 2026)
+
+Se ha añadido con éxito un nuevo recurso al catálogo de Inteligencia Artificial:
+
+- **Nombre:** The AI State of Mind
+- **Tipo:** Newsletter
+- **Enlace:** [LinkedIn Newsletter](https://www.linkedin.com/newsletters/the-ai-state-of-mind-7436074294725685248/)
+- **Categorías:** AI Ethics, LLMOps, AI Agents, AI Applications
+- **Dificultad:** Intermediate
+
+### Validación y Compilación
+1. Se ha registrado la entrada en `claudecowork/ai/aprobados.json`.
+2. Se ha ejecutado el script de validación `merge.py` para contrastar la entrada contra las taxonomías oficiales (`ai_types.json`, `ai_categories.json`). La validación resultó exitosa con 0 rechazos.
+3. Se fusionó el archivo en `claudecowork/ai/salida/courses.json` y se copió al repositorio de producción en `data/ai/courses.json`.
+4. Se compiló el sitio ejecutando `build.py` y se verificó la integridad mediante los tests unitarios.
+
+### Verificación Visual en Navegador
+El subagente de navegación levantó el servidor y refrescó la aplicación, confirmando la visualización correcta de la nueva entrada:
+
+![Búsqueda y Verificación del Nuevo Recurso](/C:/Users/bueno/.gemini/antigravity-ide/brain/e2f7a882-d416-4fc8-994c-634ffe03640e/new_entry_verification_1781531452178.png)
+

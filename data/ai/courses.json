@@ -3336,5 +3336,19 @@
       "AI Applications"
     ],
     "date": "2026-06-15"
+  },
+  {
+    "name": "The AI State of Mind",
+    "link": "https://www.linkedin.com/newsletters/the-ai-state-of-mind-7436074294725685248/",
+    "difficulty": "Intermediate",
+    "type": "Newsletter",
+    "description": "Weekly newsletter by Rime Ellorhaoui, Digital & AI Transformation Leader and Principal Consultant in PMO, Change & AI Governance, aimed at leaders, builders, and operators who refuse to choose between technical depth and business strategy. Each issue analyzes the week's AI developments across five recurring pillars (Infrastructure & Architecture, Next Frontier, Ethics & Governance, Business & Adoption, and Edge & Society), connecting them under a single narrative thread and closing each section with a strategic takeaway. Recurring topics include AI infrastructure financing and compute economics, frontier model governance and regulation, enterprise AI adoption and ROI, and the shifting balance of power between AI labs, governments, and platforms.",
+    "categories": [
+      "AI Ethics",
+      "LLMOps",
+      "AI Agents",
+      "AI Applications"
+    ],
+    "date": "2026-06-15"
   }
 ]

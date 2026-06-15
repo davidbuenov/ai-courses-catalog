@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Sin publicar] / [Unreleased]
 
+### Added
+- **Nuevo recurso en IA:** Boletín semanal "The AI State of Mind" (Newsletter) sobre gobernanza, infraestructura y adopción empresarial de la IA.
+
 ---
 
 ## [2.0.0] — 2026-06-15
