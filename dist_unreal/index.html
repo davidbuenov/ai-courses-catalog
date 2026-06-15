@@ -1,87 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--
+      Multi-Catalog Project: AI & Unreal Engine — Shared core codebase generating separate AI Content and Unreal Engine Content Catalogs
+      Copyright (c) 2026 David Bueno Vallejo · https://davidbuenov.com
+      Licensed under the MIT License. See LICENSE for details.
+      Built with dbv-specs-ops · https://github.com/davidbuenov/dbv-specs-ops
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unreal Engine Content Catalog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Unreal Engine Content Catalog</h1>
-            <p>Discover tutorials, assets, and resources for Unreal Engine development.</p>
+    <div class="app-layout">
+        <!-- Hero Panel (Left Sidebar) -->
+        <aside class="hero-panel">
+            <div class="logo-area">
+                <span class="logo-icon"><i class="fas fa-brain"></i></span>
+                <span class="logo-text" id="logo-title">Unreal Engine Content Catalog</span>
+            </div>
             
-            <div class="header-info">
-                <div id="header-info-counters"></div>
-                <span id="ultima-actualizacion-container" style="display: none;"> | 
-                    Last updated: <strong id="ultima-actualizacion">...</strong>
-                </span>
+            <h1 class="hero-slogan" id="hero-slogan">Aprende.<br>Descubre.<br>Aplica.</h1>
+            <p class="hero-desc" id="hero-desc">Discover tutorials, assets, and resources for Unreal Engine development.</p>
+            
+            <ul class="hero-checklist">
+                <li><i class="fas fa-check-circle"></i> <span id="feat-1">Selected courses</span></li>
+                <li><i class="fas fa-check-circle"></i> <span id="feat-2">Recommended books</span></li>
+                <li><i class="fas fa-check-circle"></i> <span id="feat-3">Curated newsletters</span></li>
+                <li><i class="fas fa-check-circle"></i> <span id="feat-4">Practical tools</span></li>
+                <li><i class="fas fa-check-circle"></i> <span id="feat-5">Updated weekly</span></li>
+            </ul>
+            
+            <div class="stat-badge">
+                <i class="fas fa-chart-line"></i>
+                <div>
+                    <span class="stat-number" id="stat-count">+0</span>
+                    <span class="stat-label">resources in catalog</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Panel -->
+        <main class="main-panel">
+            <!-- Navigation Header -->
+            <div class="top-nav">
+                <div class="search-bar-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-box" placeholder="Search in name, description, categories (min. 3 chars)...">
+                    <button id="clear-search-btn" class="clear-btn" style="display: none;"><i class="fas fa-times"></i></button>
+                </div>
+                
+                <div class="utility-links">
+                    <a href="https://github.com/davidbuenov/ai-courses-catalog/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://davidbuenov.github.io/ai-courses-catalog/dist_ai/" class="switch-catalog-btn">
+                        <i class="fas fa-exchange-alt"></i> Switch to AI
+                    </a>
+                </div>
             </div>
 
-            <!-- START: New Utility Links Section -->
-            <div class="utility-links">
-                <a href="https://github.com/davidbuenov/ai-courses-catalog/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> View on GitHub
-                </a>
-                <a href="https://davidbuenov.github.io/ai-courses-catalog/dist_ai/">
-                    <i class="fas fa-exchange-alt"></i> Switch to AI Catalog
-                </a>
-            </div>
-            <!-- END: New Utility Links Section -->
-        </header>
-
-        <main>
-            <div class="search-container">
-                <input type="text" id="search-box" placeholder="Search in name, description, or categories (min. 3 chars)...">
-            </div>
-
-            <div id="filtros-container">
-                <div class="filtro-grupo">
-                    <label for="filtro-tipo">Filter by Type:</label>
+            <!-- Filters Area -->
+            <div id="filtros-container" class="dashboard-filters">
+                <div class="filtro-select-wrapper">
                     <select id="filtro-tipo">
-                        <option value="">-- Select a type --</option>
+                        <option value="">-- All Types --</option>
                     </select>
                 </div>
-                <div class="filtro-grupo">
-                    <label for="filtro-categoria">Filter by Category:</label>
+                <div class="filtro-select-wrapper">
                     <select id="filtro-categoria">
-                        <option value="">-- Select a category --</option>
+                        <option value="">-- All Categories --</option>
                     </select>
                 </div>
-                <div class="filtro-grupo">
-                    <label for="filtro-dificultad">Filter by Difficulty:</label>
+                <div class="filtro-select-wrapper">
                     <select id="filtro-dificultad">
-                        <option value="">-- Select a difficulty --</option>
+                        <option value="">-- All Difficulties --</option>
                     </select>
                 </div>
             </div>
 
-            <div id="filtros-activos">
-                <!-- Active filter tags will be added here with JS -->
+            <div id="filtros-activos"></div>
+
+            <!-- Dashboard View (Home State) -->
+            <div id="dashboard-view" class="dashboard-grid">
+                <!-- Central Hub Layout -->
+                <div class="central-hub-section">
+                    <div class="hub-container">
+                        <!-- Hub Connection Lines -->
+                        <div class="hub-line line-tl"></div>
+                        <div class="hub-line line-tr"></div>
+                        <div class="hub-line line-bl"></div>
+                        <div class="hub-line line-br"></div>
+
+                        <div class="hub-center-node">
+                            <i class="fas fa-compass hub-icon"></i>
+                            <span class="hub-label">EXPLORE</span>
+                            <span class="hub-sublabel">Content Hub</span>
+                        </div>
+                        
+                        <!-- 4 Branching Cards (Types populated via JS) -->
+                        <div class="hub-card card-top-left" id="hub-card-0" data-type-index="0">
+                            <div class="hub-card-header">
+                                <i class="fas fa-graduation-cap card-icon"></i>
+                                <span class="badge-new">NEW</span>
+                            </div>
+                            <h3 class="card-title">Courses</h3>
+                            <p class="hub-card-desc" id="card-desc-0">Curated programs by difficulty</p>
+                            <span class="hub-card-count" id="count-0">0 items</span>
+                        </div>
+                        
+                        <div class="hub-card card-top-right" id="hub-card-1" data-type-index="1">
+                            <div class="hub-card-header">
+                                <i class="fas fa-book card-icon"></i>
+                                <span class="badge-new">NEW</span>
+                            </div>
+                            <h3 class="card-title">Books</h3>
+                            <p class="hub-card-desc" id="card-desc-1">In-depth reference manuals</p>
+                            <span class="hub-card-count" id="count-1">0 items</span>
+                        </div>
+                        
+                        <div class="hub-card card-bottom-left" id="hub-card-2" data-type-index="2">
+                            <div class="hub-card-header">
+                                <i class="fas fa-envelope card-icon"></i>
+                                <span class="badge-new">NEW</span>
+                            </div>
+                            <h3 class="card-title">Newsletters</h3>
+                            <p class="hub-card-desc" id="card-desc-2">Weekly updates and digests</p>
+                            <span class="hub-card-count" id="count-2">0 items</span>
+                        </div>
+                        
+                        <div class="hub-card card-bottom-right" id="hub-card-3" data-type-index="3">
+                            <div class="hub-card-header">
+                                <i class="fas fa-tools card-icon"></i>
+                                <span class="badge-new">NEW</span>
+                            </div>
+                            <h3 class="card-title">Tools</h3>
+                            <p class="hub-card-desc" id="card-desc-3">Software and AI applications</p>
+                            <span class="hub-card-count" id="count-3">0 items</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recently Updated Section -->
+                <div class="recent-updates-section">
+                    <h2 class="section-title"><i class="fas fa-history"></i> Recently Updated</h2>
+                    <div class="recent-grid" id="recent-grid">
+                        <div class="loader">Loading updates...</div>
+                    </div>
+                </div>
             </div>
 
-            <div id="cursos-container">
-                <!-- Content will be rendered here with JS -->
-                <div class="loader">Loading content...</div>
+            <!-- Search Results View (Filtered State) -->
+            <div id="results-view" class="results-layout" style="display: none;">
+                <div class="results-header">
+                    <h2><i class="fas fa-th-list"></i> Search & Filter Results</h2>
+                    <button id="back-to-dashboard-btn" class="back-btn">
+                        <i class="fas fa-arrow-left"></i> Clear & Go Back
+                    </button>
+                </div>
+                <div id="cursos-container">
+                    <div class="loader">Loading resources...</div>
+                </div>
             </div>
         </main>
 
-        <footer class="site-footer">
-            <div class="footer-author">
-                A project by David Bueno Vallejo
-                <a href="https://www.linkedin.com/in/davidbueno/" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                <a href="https://davidbuenov.com" target="_blank" rel="noopener noreferrer" aria-label="David Bueno's Personal Website"><i class="fas fa-globe"></i></a>
+        <!-- Sidebar Panel (Right Sidebar) -->
+        <aside class="sidebar-panel">
+            <!-- Learning Paths Widget -->
+            <div class="sidebar-widget learning-paths-widget">
+                <h3><i class="fas fa-route"></i> Learning Paths</h3>
+                <div class="path-timeline" id="paths-container">
+                    <!-- Populated dynamically via JS -->
+                </div>
             </div>
-            <div class="footer-attribution">
-                This website was generated with the help of <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.
-            </div>
-        </footer>
 
+            <!-- Most Popular Widget -->
+            <div class="sidebar-widget popular-widget">
+                <h3><i class="fas fa-fire"></i> Most Popular</h3>
+                <ol class="popular-list" id="popular-container">
+                    <!-- Populated dynamically via JS -->
+                </ol>
+            </div>
+
+            <!-- Categories Widget -->
+            <div class="sidebar-widget categories-widget">
+                <h3><i class="fas fa-tags"></i> Categories</h3>
+                <div class="tags-cloud" id="categories-cloud-container">
+                    <!-- Populated dynamically via JS -->
+                </div>
+            </div>
+        </aside>
     </div>
 
-    <script src="js/script.js"></script>
+    <!-- Highlight Footer Bar -->
+    <footer class="app-footer">
+        <div class="footer-highlights">
+            <div class="highlight-item">
+                <i class="fas fa-award"></i>
+                <div>
+                    <h4>Curated Criteria</h4>
+                    <p>Quality over quantity</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <i class="fas fa-sync-alt"></i>
+                <div>
+                    <h4>Continuous Updates</h4>
+                    <p>New resources weekly</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <i class="fas fa-hourglass-half"></i>
+                <div>
+                    <h4>Save Time</h4>
+                    <p>All in one place</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <i class="fas fa-rocket"></i>
+                <div>
+                    <h4>Discover & Grow</h4>
+                    <p>Learn with confidence</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>A project by <strong>David Bueno Vallejo</strong> 
+                <a href="https://www.linkedin.com/in/davidbueno/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://davidbuenov.com" target="_blank" rel="noopener noreferrer" aria-label="Personal Website"><i class="fas fa-globe"></i></a>
+            </p>
+            <p class="attribution">Generated with <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio</a> & built with <a href="https://github.com/davidbuenov/dbv-specs-ops" target="_blank" rel="noopener noreferrer">dbv-specs-ops</a></p>
+        </div>
+    </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

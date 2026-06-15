@@ -102,12 +102,19 @@ If you want to fix a bug or add a new feature to the website itself:
 
 1.  **Fork** and **clone** the repository.
 2.  Make your changes to the files inside the `/app` directory (e.g., `app/js/script.js` or `app/css/style.css`).
-3.  **Run the build script** to apply your changes. To build both sites, run:
+3.  **Run the build script** to apply your changes:
     ```bash
     python build.py
     ```
-4.  **Test your changes locally** by running a web server inside one of the output folders (e.g., `dist_ai`).
-5.  Commit your changes and create a **Pull Request**.
+4.  **Test your changes locally** using the cross-platform scripts (served on `http://localhost:8050`):
+    *   **Windows:** Run `start.cmd` (stop with `stop.cmd`).
+    *   **macOS/Linux:** Run `start.sh` (stop with `stop.sh`).
+5.  **Run automated tests** before committing:
+    ```bash
+    python -m unittest discover tests
+    ```
+6.  Commit your changes and create a **Pull Request**.
+
 
 ## ✍️ Authors
 

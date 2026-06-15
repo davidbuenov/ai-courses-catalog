@@ -41,16 +41,25 @@ def build_theme(theme_name):
     source_app_dir = "app"
     source_data_dir = os.path.join("data", theme_name)
     output_dir = f"dist_{theme_name}"
+    output_data_dir = os.path.join(output_dir, "data")
 
     # 1. Clean up previous build
     if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
+        try:
+            shutil.rmtree(output_dir)
+        except PermissionError:
+            print(f"Warning: '{output_dir}' is currently in use. Refreshing files in place instead of removing the folder.")
 
     # 2. Copy the shared 'app' files (css, js)
-    shutil.copytree(source_app_dir, output_dir, ignore=shutil.ignore_patterns('*.html'))
+    shutil.copytree(source_app_dir, output_dir, ignore=shutil.ignore_patterns('*.html'), dirs_exist_ok=True)
 
     # 3. Copy the specific data files for the theme
-    shutil.copytree(source_data_dir, os.path.join(output_dir, "data"))
+    if os.path.exists(output_data_dir):
+        try:
+            shutil.rmtree(output_data_dir)
+        except PermissionError:
+            print(f"Warning: '{output_data_dir}' is currently in use. Overwriting data files in place.")
+    shutil.copytree(source_data_dir, output_data_dir, dirs_exist_ok=True)
 
     # 4. Process and personalize the index.html template
     template_path = os.path.join(source_app_dir, "index.html")

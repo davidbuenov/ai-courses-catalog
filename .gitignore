@@ -1,1 +1,3 @@
 claudecowork/
+__pycache__/
+*.pyc
