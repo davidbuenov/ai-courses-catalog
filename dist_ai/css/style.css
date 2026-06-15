@@ -61,6 +61,10 @@ header p { color: #7f8c8d; font-size: 1.1em; }
 /* END: New Styles */
 
 .course-description { color: #555; font-size: 0.95em; margin-top: 5px; margin-bottom: 10px; line-height: 1.5; }
+.course-description { color: #555; font-size: 0.95em; margin-top: 5px; margin-bottom: 10px; line-height: 1.5; }
+.course-date { color: #607080; font-size: 0.9em; margin: 0 0 10px; }
+.course-date time { font-weight: 600; }
+.course-date-missing { color: #95a5a6; font-style: italic; }
 .curso-dificultad { flex-shrink: 0; padding: 4px 10px; border-radius: 12px; font-size: 0.8em; font-weight: 600; color: white; text-transform: capitalize; }
 .difficulty-beginner { background-color: #2ecc71; }
 .difficulty-intermediate { background-color: #f39c12; }

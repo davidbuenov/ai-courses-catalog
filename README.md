@@ -80,7 +80,7 @@ If you know of a great course, book, tool, or resource, this is the way to go. Y
 1.  **Fork** this repository.
 2.  Navigate to the appropriate data folder (`data/ai/` or `data/unreal/`).
 3.  Edit the corresponding `courses.json`, `categories.json`, or `types.json` file directly on GitHub or in your cloned repo.
-4.  Please ensure any new entry in `courses.json` follows the format below.
+4.  Please ensure any new entry in `courses.json` follows the format below, including the catalog entry date in `YYYY-MM-DD` format.
 5.  Create a **Pull Request** with your changes.
 
 #### Content JSON Format
@@ -92,7 +92,8 @@ If you know of a great course, book, tool, or resource, this is the way to go. Y
   "difficulty": "Beginner", // Beginner, Intermediate, Advanced, or Unspecified
   "type": "Course",        // Course, Book, Newsletter, or Tool
   "description": "A brief description of the content.",
-  "categories": ["Category A", "Category B"]
+    "categories": ["Category A", "Category B"],
+    "date": "2026-06-14"      // Catalog entry date in YYYY-MM-DD format
 }
 ```
 ### 2. Improving the Application (For Developers)
