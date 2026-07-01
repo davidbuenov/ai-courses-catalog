@@ -4530,5 +4530,124 @@
       "Metahumans"
     ],
     "date": "2026-06-15"
+  },
+  {
+    "name": "Let's Play with the Official Code Assistant AI Plugin for Unreal Engine",
+    "link": "https://www.youtube.com/watch?v=HLVxmSw1jNg",
+    "type": "Video",
+    "difficulty": "Unspecified",
+    "categories": [
+      "Editor & Tools",
+      "AI / Behavior Trees"
+    ],
+    "description": "Walkthrough of the freshly released official AI Code Assistant plugin for Unreal Engine, demonstrating how it helps developers write, fix, and navigate C++ and Blueprint code directly inside the editor (March 2026).",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Kimodo (NVIDIA) — Text-to-Motion for Game Dev",
+    "link": "https://huggingface.co/spaces/nvidia/Kimodo",
+    "type": "Tool",
+    "difficulty": "Unspecified",
+    "categories": [
+      "Animation",
+      "Editor & Tools"
+    ],
+    "description": "NVIDIA's kinematic motion diffusion model that generates 3D character animations from text prompts and pose constraints; exported FBX files drop directly into Unreal Engine, enabling fast AI-driven animation workflows.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Everything You Need to Know About Mesh Terrain in UE5.8",
+    "link": "https://www.youtube.com/watch?v=Vtu6ZxQUV6w",
+    "type": "Video",
+    "difficulty": "Beginner",
+    "categories": [
+      "World Building",
+      "Editor & Tools"
+    ],
+    "description": "Concise 13-minute overview of the new Mesh Terrain system in Unreal Engine 5.8, covering how this true 3D mesh approach enables overhangs, caves, and floating islands impossible with traditional heightmaps.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "MESH TERRAIN - The Complete Course | Unreal Engine 5.8",
+    "link": "https://www.youtube.com/watch?v=fFRCeyP1qNM",
+    "type": "Video",
+    "difficulty": "Intermediate",
+    "categories": [
+      "World Building",
+      "Editor & Tools"
+    ],
+    "description": "Full course-format tutorial on Unreal Engine 5.8's Mesh Terrain system, covering the complete workflow from terrain creation and PCG integration to manual art direction with non-destructive sculpt and paint tools.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Free Professional Unreal Engine Courses — Epic Developer Community",
+    "link": "https://dev.epicgames.com/community/unreal-engine/learning",
+    "type": "Course",
+    "difficulty": "Beginner",
+    "categories": [
+      "Editor & Tools",
+      "Blueprints",
+      "Gameplay Programming"
+    ],
+    "description": "Over 20 professional Unreal Engine courses now free on the Epic Developer Community (June 2026), spanning UE Foundations & Blueprints, Animation & Control Rig, Game Development, and C++ Programming tracks.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Summer of Unreal 2026 (Sir Wade)",
+    "link": "https://courses.sirwade.com/unrealsummer",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Animation",
+      "Cinematics / Sequencer",
+      "Editor & Tools"
+    ],
+    "description": "Two-week live online workshops in July 2026 on Unreal Engine 5.8, taught by an official Epic Games trainer; Class 01 focuses on new 5.8 animation features, Class 02 on cinematic and virtual production workflows.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Unreal MCP in Unreal Editor",
+    "link": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor?lang=en-US",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Editor & Tools"
+    ],
+    "description": "Epic's official experimental MCP server shipped with UE 5.8, letting AI agents (Claude, Codex, Gemini) inspect and modify Blueprints, meshes, materials, and lighting directly inside the editor.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Your First Game in Unreal Engine",
+    "link": "https://dev.epicgames.com/documentation/unreal-engine/your-first-game-in-unreal-engine?lang=en-US",
+    "type": "Course",
+    "difficulty": "Beginner",
+    "categories": [
+      "Project Setup",
+      "Blueprints"
+    ],
+    "description": "Official Epic course (with Tinkr Studios), the follow-up to 'Your First Hour in Unreal Engine', adding timers, speed boosts, and dynamic obstacles, updated for UE 5.8.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Chaos Fields User Guide in Unreal Engine",
+    "link": "https://dev.epicgames.com/documentation/unreal-engine/chaos-fields-user-guide-in-unreal-engine",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Physics & Chaos"
+    ],
+    "description": "Official Epic guide to Chaos Fields, covering how to drive physics simulations (forces, strain, velocity fields) in UE 5.8's now production-ready Chaos physics system.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Unreal Outpost",
+    "link": "https://www.unrealoutpost.com/",
+    "type": "Newsletter",
+    "difficulty": "Unspecified",
+    "categories": [
+      "Editor & Tools"
+    ],
+    "description": "Independent newsletter covering Unreal Engine news, the community, and projects built with the engine.",
+    "date": "2026-07-01"
   }
 ]

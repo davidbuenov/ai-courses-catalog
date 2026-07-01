@@ -3350,5 +3350,261 @@
       "AI Applications"
     ],
     "date": "2026-06-15"
+  },
+  {
+    "name": "AI Prompting for Everyone",
+    "link": "https://www.deeplearning.ai/courses/ai-prompting-for-everyone",
+    "type": "Course",
+    "difficulty": "Beginner",
+    "categories": [
+      "Prompt Engineering",
+      "Prompting Strategies",
+      "Interaction with LLMs"
+    ],
+    "description": "New course (April 2026) by Andrew Ng teaching effective AI prompting skills applicable across ChatGPT, Claude, and Gemini—from finding information to building apps—for all experience levels.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Building Live Voice Agents with Google's ADK",
+    "link": "https://www.deeplearning.ai/courses/building-live-voice-agents-with-googles-adk",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "Multi-Agent Systems"
+    ],
+    "description": "Hands-on course by Google engineers on building real-time voice agents with Google's open-source Agent Development Kit (ADK), covering memory, tool integration, and multi-agent orchestration.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Model Context Protocol (MCP) Course (Hugging Face)",
+    "link": "https://huggingface.co/learn/mcp-course/en/unit0/introduction",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "Agent Development",
+      "AI Agents"
+    ],
+    "description": "Free Hugging Face course (built with Anthropic) on MCP from fundamentals to production: covers protocol concepts, building servers and clients, and end-to-end application deployment.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Build Interactive Agents with Generative UI (DeepLearning.AI)",
+    "link": "https://www.deeplearning.ai/courses/build-interactive-agents-with-generative-ui",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "AI Agents",
+      "Agent Development",
+      "AI Applications"
+    ],
+    "description": "Practical course on the AG-UI protocol (CopilotKit) teaching how to build fullstack agent apps that generate dynamic UIs—charts, forms, whiteboards—on demand, going beyond plain-text responses.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Voice for AI Agents and Applications",
+    "link": "https://www.deeplearning.ai/courses/voice-for-ai-agents-and-applications",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "AI Agents",
+      "Applications of LLMs"
+    ],
+    "description": "Short course covering three patterns for integrating voice into AI agents—voice embedded in an app, voice layered over an existing agent, and voice as a callable tool—without rebuilding existing agent logic.",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "Loop Engineering (cobusgreyling)",
+    "link": "https://github.com/cobusgreyling/loop-engineering",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Agent Development",
+      "AI Automation"
+    ],
+    "description": "CLI toolkit (loop-init, loop-audit, loop-cost) and patterns for 'loop engineering'—designing systems that prompt and orchestrate AI coding agents like Claude Code, Cursor, and Codex, rather than prompting them manually.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "HyperFrames (HeyGen)",
+    "link": "https://github.com/heygen-com/hyperframes",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Content Generation with AI",
+      "Multimodal AI"
+    ],
+    "description": "Open-source HTML-to-video framework built for AI agents: write HTML/CSS/JS and render it to MP4, with 19 installable skills and no proprietary timeline format. Created by HeyGen.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Palmier Pro",
+    "link": "https://github.com/palmier-io/palmier-pro",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Content Generation with AI",
+      "MCP (Model Context Protocol)"
+    ],
+    "description": "Open-source macOS video editor with generative AI built into the timeline and a local MCP server so Claude, Codex, or Cursor can read and edit the same project.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "codebase-memory-mcp (DeusData)",
+    "link": "https://github.com/DeusData/codebase-memory-mcp",
+    "type": "Tool",
+    "difficulty": "Advanced",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "Agent Memory"
+    ],
+    "description": "High-performance MCP server that indexes codebases into a persistent knowledge graph across 158 languages, cutting token usage by up to 99% versus file-by-file exploration for coding agents.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "MinerU",
+    "link": "https://github.com/opendatalab/mineru",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Document Processing",
+      "Data Analysis"
+    ],
+    "description": "Open-source document parser that converts PDFs, Office files, and images into LLM-ready Markdown/JSON, with an MCP server and LangChain/LlamaIndex integrations for agentic workflows.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Free LLM API Resources",
+    "link": "https://github.com/cheahjs/free-llm-api-resources",
+    "type": "Tool",
+    "difficulty": "Unspecified",
+    "categories": [
+      "Applications of LLMs",
+      "Interaction with LLMs"
+    ],
+    "description": "Actively maintained list of free LLM inference providers accessible via API, detailing rate limits and usage constraints for each service.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "EverOS (EverMind-AI)",
+    "link": "https://github.com/EverMind-AI/EverOS",
+    "type": "Tool",
+    "difficulty": "Advanced",
+    "categories": [
+      "Agent Memory",
+      "Agent Development"
+    ],
+    "description": "Local-first, Markdown-native portable memory layer for AI agents, built on the EverMemOS research, giving agents durable long-term memory across apps and workflows.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "NVIDIA NeMo Speech",
+    "link": "https://github.com/NVIDIA-NeMo/Speech",
+    "type": "Tool",
+    "difficulty": "Advanced",
+    "categories": [
+      "Multimodal AI",
+      "Deep Learning"
+    ],
+    "description": "NVIDIA's generative AI framework for speech models (ASR, TTS, and speech LLMs), including the June 2026 Nemotron streaming ASR release supporting 40 languages.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Skills.sh — The Agent Skills Directory",
+    "link": "https://www.skills.sh/",
+    "type": "Tool",
+    "difficulty": "Beginner",
+    "categories": [
+      "Agent Development",
+      "AI Agents"
+    ],
+    "description": "Vercel's open directory for discovering and one-command-installing reusable 'Agent Skills' (SKILL.md packages) for Claude Code, Cursor, Copilot, and other AI coding agents.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "CORE (RedPlanetHQ)",
+    "link": "https://github.com/RedPlanetHQ/core",
+    "type": "Tool",
+    "difficulty": "Advanced",
+    "categories": [
+      "Agent Memory",
+      "AI Automation"
+    ],
+    "description": "Open-source 'personal AI OS': a temporal knowledge-graph memory layer that lets agents act across email, GitHub, Slack, and the terminal with configurable autonomy and approval gates.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "BMAD-METHOD",
+    "link": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "Agent Development",
+      "Multi-Agent Systems"
+    ],
+    "description": "Open-source framework structuring AI agent collaboration across the software development lifecycle, with role-based agents (Analyst, Architect, Dev, QA) guiding agile AI-driven development.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "OpenAI Academy: AI Foundations, Applied AI Foundations & Agents and Workflows",
+    "link": "https://openai.com/index/academy-courses-applying-ai-at-work/",
+    "type": "Course",
+    "difficulty": "Unspecified",
+    "categories": [
+      "AI Applications",
+      "AI Agents"
+    ],
+    "description": "Three free courses launched by OpenAI Academy on June 12, 2026, taking teams from everyday AI use to structured, agent-assisted workflows, with a certificate on completion of each.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Anthropic AI Fluency Courses (Coursera)",
+    "link": "https://www.coursera.org/partners/anthropic",
+    "type": "Course",
+    "difficulty": "Beginner",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "AI Ethics"
+    ],
+    "description": "Five free courses Anthropic launched on Coursera in June 2026 (Framework and Foundations, plus editions for educators, students, and nonprofits) on ethical, effective collaboration with AI.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "AI Automation Engineer with n8n Specialization",
+    "link": "https://www.coursera.org/specializations/ai-automation-engineer-n8n",
+    "type": "Course",
+    "difficulty": "Intermediate",
+    "categories": [
+      "n8n",
+      "Workflow Automation"
+    ],
+    "description": "Coursera specialization by LearnKartS (June 2026) taking learners from their first n8n workflow to a deployed multi-agent AI automation system.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Akiflow MCP Integration",
+    "link": "https://product.akiflow.com/en/help/articles/4302815-akiflow-mcp",
+    "type": "Tool",
+    "difficulty": "Unspecified",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "AI for Productivity"
+    ],
+    "description": "Akiflow's MCP server (launched on Product Hunt on June 30, 2026) lets AI assistants like Claude and ChatGPT read and manage tasks, calendar events, and meeting transcripts.",
+    "date": "2026-07-01"
+  },
+  {
+    "name": "Framer 3.0: AI Agents",
+    "link": "https://www.producthunt.com/products/framer",
+    "type": "Tool",
+    "difficulty": "Intermediate",
+    "categories": [
+      "AI Applications",
+      "Content Generation with AI"
+    ],
+    "description": "Framer 3.0 (June 16, 2026) adds canvas-native AI agents that co-edit websites in real time, plus branching and support for external agents like Claude Code via CLI.",
+    "date": "2026-07-01"
   }
 ]

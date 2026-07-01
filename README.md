@@ -67,6 +67,8 @@ The project is structured to separate the application "engine" from the data it 
 ---
 
 ## 🚀 Last changes
+[Multi-Catalog Update — July 2026](202607NewEntries.md) (AI +21, Unreal Engine +10)
+
 [New Entries in AI Catalog October 2025 ](202510NewEntries.md)
 
 ## 🚀 How to Contribute
