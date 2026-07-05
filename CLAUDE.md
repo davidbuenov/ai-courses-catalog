@@ -11,6 +11,7 @@ Este proyecto sigue la metodología **Spec-Driven Development (SDD)**. Lee estos
 | `docs/DESIGN.md` | Sistema de diseño visual: tokens de color, tipografía, componentes y filosofía *(si existe)* |
 | `memory.md` | **Contexto y Decisiones:** Conocimiento cualitativo (ADRs, lecciones, mapa) |
 | `task.md` | Estado actual + Snapshot de Contexto |
+| `docs/HUB.md` | Cómo este repo se conecta con `dbv-control-center` vía MCP (`trigger_sync`, `get_project_context`, etc.) |
 
 ## ⚠️ Reglas Core (Puntero Fuerte)
 
