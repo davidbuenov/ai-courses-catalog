@@ -3606,5 +3606,338 @@
     ],
     "description": "Framer 3.0 (June 16, 2026) adds canvas-native AI agents that co-edit websites in real time, plus branching and support for external agents like Claude Code via CLI.",
     "date": "2026-07-01"
+  },
+  {
+    "name": "herdr",
+    "link": "https://github.com/ogulcancelik/herdr",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Terminal-based multiplexer for running and monitoring multiple coding agents (Claude Code, Codex, and 30+ others) in real terminal panes, with live status tracking, mouse-native workspaces, and persistent remote/SSH sessions.",
+    "categories": [
+      "Agent Development",
+      "AI Automation"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Kokoro-82M",
+    "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Open-weight text-to-speech model with 82 million parameters that delivers quality comparable to larger models while being faster and cheaper to run, released under an Apache license.",
+    "categories": [
+      "Multimodal AI"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "SkillSpector",
+    "link": "https://github.com/nvidia/skillspector",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Security scanner for AI agent skills (Claude Code, Codex CLI, Gemini CLI) that detects vulnerabilities and malicious patterns through static analysis, AST inspection, and optional LLM semantic review.",
+    "categories": [
+      "Agent Development"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "The Science and Implications of Generative AI (Harvard Kennedy School)",
+    "link": "https://generative-ai-course.hks.harvard.edu/spring-2024",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "Harvard Kennedy School course on generative AI covering how LLMs work, prompt engineering, retrieval-augmented generation and fine-tuning, plus societal implications like misinformation, copyright and the future of work, with full video sessions.",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "AI Ethics"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "CS50's Introduction to Artificial Intelligence with Python",
+    "link": "https://cs50.harvard.edu/ai/",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "Harvard's free OpenCourseWare exploring the concepts and algorithms behind modern AI, including search, knowledge representation, optimization, machine learning, and neural networks, through hands-on Python projects.",
+    "categories": [
+      "Introduction to AI and Fundamental Concepts",
+      "Machine Learning"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "caveman",
+    "link": "https://github.com/juliusbrussee/caveman",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Skill/plugin for Claude Code and 30+ other coding agents that compresses responses into terse, technically accurate language, cutting output tokens by roughly 65% on benchmarked tasks.",
+    "categories": [
+      "Agent Development",
+      "AI Automation"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Claude Context (Zilliz)",
+    "link": "https://github.com/zilliztech/claude-context",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "MCP-based semantic code search tool that indexes an entire codebase so coding agents like Claude Code can use it as context without reading every file.",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "RAG (Retrieval-Augmented Generation)"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Token Savior",
+    "link": "https://github.com/mibayy/token-savior",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "MCP server combining structural code navigation with persistent memory for coding agents, benchmarked at an 80% reduction in active tokens and a 97.9% success rate on a 96-task coding benchmark.",
+    "categories": [
+      "MCP (Model Context Protocol)",
+      "Agent Memory"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Pocket TTS",
+    "link": "https://github.com/kyutai-labs/pocket-tts",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Lightweight open-source text-to-speech model (100M parameters) by Kyutai that runs efficiently on CPU with low latency, voice cloning, and support for six languages.",
+    "categories": [
+      "Multimodal AI"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "OpenScience",
+    "link": "https://github.com/synthetic-sciences/openscience",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "Open-source, model-agnostic AI workbench that runs an autonomous research loop -- literature review, hypothesis, code, experiments, write-up -- for machine learning, biology, physics, and chemistry.",
+    "categories": [
+      "AI Agents",
+      "Agent Development"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "OfficeCLI",
+    "link": "https://github.com/iOfficeAI/OfficeCLI",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Free, open-source, single-binary office suite built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files without requiring Office to be installed.",
+    "categories": [
+      "Document Processing",
+      "AI Automation"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Spec-Driven Development with the Antigravity CLI (Google Codelabs)",
+    "link": "https://codelabs.developers.google.com/sdd-agy-cli",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "Google Codelabs hands-on tutorial teaching spec-driven development with the Antigravity CLI, where an agent adds a BigQuery integration to an e-commerce dashboard using skills, MCP, and Google Cloud plugins.",
+    "categories": [
+      "Agent Development",
+      "MCP (Model Context Protocol)"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Stanford CS229: Building Large Language Models",
+    "link": "https://www.youtube.com/watch?v=9vM4p9NN0Ts",
+    "difficulty": "Advanced",
+    "type": "Course",
+    "description": "Stanford CS229 guest lecture covering how to build a ChatGPT-like model, from pretraining (tokenization, evaluation, benchmarks) through post-training (SFT and RLHF).",
+    "categories": [
+      "Large Language Models (LLMs)",
+      "Machine Learning"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Presidio",
+    "link": "https://github.com/data-privacy-stack/presidio",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Open-source, context-aware framework using NLP and pattern matching to detect, redact, mask, and anonymize personally identifiable information across text, images, and structured data.",
+    "categories": [
+      "Document Processing",
+      "AI Ethics"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "NameThatUI",
+    "link": "https://namethatui.com/",
+    "difficulty": "Beginner",
+    "type": "Tool",
+    "description": "Visual dictionary of UI elements: describe a component in plain words and get its real name, API symbol, and a precise prompt ready to paste into a coding agent.",
+    "categories": [
+      "Prompting Strategies",
+      "AI Assistants"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "last30days-skill",
+    "link": "https://github.com/mvanhorn/last30days-skill",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket, and the web, then synthesizes a grounded summary of recent activity.",
+    "categories": [
+      "AI Agents",
+      "Applications of LLMs"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Aiden",
+    "link": "https://github.com/taracodlabs/aiden",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "Autonomous AI agent that operates a computer from prompts, with browser control, terminal execution, workflow tools, error-recovery systems, and persistent memory.",
+    "categories": [
+      "AI Agents",
+      "Agent Memory"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "LiteRT.js",
+    "link": "https://github.com/google-ai-edge/LiteRT/tree/main/litert/js",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "Web runtime for Google's LiteRT (formerly TensorFlow Lite) that runs .tflite on-device AI models directly in the browser with WebGPU or WASM acceleration, for tasks like image segmentation and pose estimation.",
+    "categories": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Thiings",
+    "link": "https://www.thiings.co/things",
+    "difficulty": "Beginner",
+    "type": "Tool",
+    "description": "Growing library of over 10,000 free 3D icons generated with AI, downloadable individually or under a commercial license for the full collection.",
+    "categories": [
+      "Content Generation with AI",
+      "Multimodal AI"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "video-use",
+    "link": "https://github.com/browser-use/video-use",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "Open-source Claude Code skill that edits raw video into a finished cut -- trimming filler words, color grading, adding subtitles -- by having the LLM read transcripts and timelines instead of watching every frame.",
+    "categories": [
+      "Content Generation with AI",
+      "Multimodal AI"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Grok Build (grok CLI)",
+    "link": "https://github.com/xai-org/grok-build",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "xAI's terminal-based AI coding agent: a full-screen TUI that understands a codebase, edits files, runs shell commands, searches the web, and manages long tasks interactively or headlessly.",
+    "categories": [
+      "AI Agents",
+      "Agent Development"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Open Code Review (OCR)",
+    "link": "https://github.com/alibaba/open-code-review",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "Open-source AI code review CLI used at Alibaba's scale, combining deterministic pipelines with an LLM agent to produce line-level review comments (null pointers, thread-safety, XSS, SQL injection).",
+    "categories": [
+      "AI Agents",
+      "LLMOps"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Penecho",
+    "link": "https://github.com/penecho/penecho",
+    "difficulty": "Intermediate",
+    "type": "Tool",
+    "description": "A shared canvas for thinking with AI beyond the chat box, supporting handwriting, equations, diagrams, and spatial reasoning.",
+    "categories": [
+      "Multimodal AI",
+      "AI Assistants"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "NVIDIA-labs OO Agents (NOOA)",
+    "link": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
+    "difficulty": "Advanced",
+    "type": "Tool",
+    "description": "Model-agnostic Python framework for building AI agents where state, capabilities, prompts, and typed interfaces are expressed as a single class, with async LLM-driven methods, tracing, and memory.",
+    "categories": [
+      "Agent Development",
+      "AI Agents"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+    "link": "https://www.youtube.com/watch?v=nknCzIxHHzw",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "Session showing rapid XR prototyping by combining Google's XR Blocks framework with Gemini, demonstrating how AI-assisted development speeds up building extended-reality experiences.",
+    "categories": [
+      "Multimodal AI",
+      "Generative AI"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "ADK Agent Template",
+    "link": "https://github.com/zackseal89/Agentic-IDE-ADK-python-Starter-Template",
+    "difficulty": "Beginner",
+    "type": "Tool",
+    "description": "Starter template for building AI agents with Google's Agent Development Kit (ADK) in Python, designed for use with AI coding assistants, including basic, tool-using, and memory-enabled agent templates.",
+    "categories": [
+      "Agent Development",
+      "AI Agents"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "AI Agents for Beginners",
+    "link": "https://www.youtube.com/playlist?list=PLlrxD0HtieHgKcRjd5-8DT9TbwdlDO-OC",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "10-lesson course taking learners from concept to code while covering the fundamentals of building AI agents, with full course materials and code samples (aka.ms/ai-agents-beginners).",
+    "categories": [
+      "AI Agents",
+      "Agent Development"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Fast LLM Inference with Cerebras",
+    "link": "https://www.deeplearning.ai/courses/fast-llm-inference-with-cerebras",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "DeepLearning.AI short course built with Cerebras teaching how to build real-time LLM applications on Cerebras' Wafer-Scale Engine (WSE-3), covering inference-speed fundamentals and hands-on labs on live personalization and multi-tool workflows.",
+    "categories": [
+      "Large Language Models (LLMs)",
+      "AI Deployment"
+    ],
+    "date": "2026-07-25"
   }
 ]

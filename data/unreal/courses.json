@@ -4649,5 +4649,52 @@
     ],
     "description": "Independent newsletter covering Unreal Engine news, the community, and projects built with the engine.",
     "date": "2026-07-01"
+  },
+  {
+    "name": "This Is How 3D Artists Will Work in 2027 — Pro AI Character Workflow",
+    "link": "https://www.youtube.com/watch?v=0TGkhdMI3tc",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "Shows an AI-assisted 3D character production pipeline in Unreal Engine 5.8 -- from 2D concept to base-mesh generation to a rigged, playable MetaHuman -- illustrating how AI tools compress traditional character-art workflows.",
+    "categories": [
+      "Metahumans",
+      "Animation"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Unreal Engine 5.8 Beginner Tutorial - Getting Started (2026)",
+    "link": "https://www.youtube.com/watch?v=57yLCKqC9m8",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "Beginner walkthrough for getting started in Unreal Engine 5.8, covering installation and first steps in the updated editor.",
+    "categories": [
+      "Project Setup"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Unreal Engine 5.8 Is Out! - How To Make Your First Game (Full Course)",
+    "link": "https://www.youtube.com/watch?v=DooFXuCDOaE",
+    "difficulty": "Beginner",
+    "type": "Video",
+    "description": "Full beginner course for building a first game in Unreal Engine 5.8, covering the updated editor and core gameplay setup.",
+    "categories": [
+      "Project Setup",
+      "Blueprints"
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "name": "Unreal Engine 5.8 for Architects - 2026 Full Course",
+    "link": "https://www.youtube.com/watch?v=CnoC-v9xB_E",
+    "difficulty": "Intermediate",
+    "type": "Video",
+    "description": "Full course applying Unreal Engine 5.8 to architectural visualization workflows, covering lighting and rendering setups for archviz projects.",
+    "categories": [
+      "Lighting",
+      "Rendering"
+    ],
+    "date": "2026-07-25"
   }
 ]
