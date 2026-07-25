@@ -52,7 +52,7 @@
             <div class="top-nav">
                 <div class="search-bar-container">
                     <i class="fas fa-search search-icon"></i>
-                    <input type="text" id="search-box" placeholder="Search in name, description, categories (min. 3 chars)...">
+                    <input type="text" id="search-box" aria-label="Search resources" placeholder="Search in name, description, categories (min. 3 chars)...">
                     <button id="clear-search-btn" class="clear-btn" style="display: none;"><i class="fas fa-times"></i></button>
                 </div>
                 
@@ -105,7 +105,7 @@
                         </div>
                         
                         <!-- 4 Branching Cards (Types populated via JS) -->
-                        <div class="hub-card card-top-left" id="hub-card-0" data-type-index="0">
+                        <div class="hub-card card-top-left" id="hub-card-0" data-type-index="0" role="button" tabindex="0" aria-label="Browse all resources of this type">
                             <div class="hub-card-header">
                                 <i class="fas fa-graduation-cap card-icon"></i>
                                 <span class="badge-new">NEW</span>
@@ -115,7 +115,7 @@
                             <span class="hub-card-count" id="count-0">0 items</span>
                         </div>
                         
-                        <div class="hub-card card-top-right" id="hub-card-1" data-type-index="1">
+                        <div class="hub-card card-top-right" id="hub-card-1" data-type-index="1" role="button" tabindex="0" aria-label="Browse all resources of this type">
                             <div class="hub-card-header">
                                 <i class="fas fa-book card-icon"></i>
                                 <span class="badge-new">NEW</span>
@@ -125,7 +125,7 @@
                             <span class="hub-card-count" id="count-1">0 items</span>
                         </div>
                         
-                        <div class="hub-card card-bottom-left" id="hub-card-2" data-type-index="2">
+                        <div class="hub-card card-bottom-left" id="hub-card-2" data-type-index="2" role="button" tabindex="0" aria-label="Browse all resources of this type">
                             <div class="hub-card-header">
                                 <i class="fas fa-envelope card-icon"></i>
                                 <span class="badge-new">NEW</span>
@@ -135,7 +135,7 @@
                             <span class="hub-card-count" id="count-2">0 items</span>
                         </div>
                         
-                        <div class="hub-card card-bottom-right" id="hub-card-3" data-type-index="3">
+                        <div class="hub-card card-bottom-right" id="hub-card-3" data-type-index="3" role="button" tabindex="0" aria-label="Browse all resources of this type">
                             <div class="hub-card-header">
                                 <i class="fas fa-tools card-icon"></i>
                                 <span class="badge-new">NEW</span>
@@ -149,7 +149,10 @@
 
                 <!-- Recently Updated Section -->
                 <div class="recent-updates-section">
-                    <h2 class="section-title"><i class="fas fa-history"></i> Recently Updated</h2>
+                    <div class="section-title-row">
+                        <h2 class="section-title" id="recent-title"><i class="fas fa-history"></i> Recently Updated</h2>
+                        <button id="ver-todo-btn" class="section-more" type="button">View all <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
                     <div class="recent-grid" id="recent-grid">
                         <div class="loader">Loading updates...</div>
                     </div>
@@ -159,10 +162,18 @@
             <!-- Search Results View (Filtered State) -->
             <div id="results-view" class="results-layout" style="display: none;">
                 <div class="results-header">
-                    <h2><i class="fas fa-th-list"></i> Search & Filter Results</h2>
-                    <button id="back-to-dashboard-btn" class="back-btn">
-                        <i class="fas fa-arrow-left"></i> Clear & Go Back
-                    </button>
+                    <h2 id="results-title"><i class="fas fa-th-list"></i> Search & Filter Results</h2>
+                    <div class="results-actions">
+                        <select id="orden-select" aria-label="Sort results">
+                            <option value="date-desc">Newest first</option>
+                            <option value="date-asc">Oldest first</option>
+                            <option value="name-asc">Name A–Z</option>
+                            <option value="name-desc">Name Z–A</option>
+                        </select>
+                        <button id="back-to-dashboard-btn" class="back-btn">
+                            <i class="fas fa-arrow-left"></i> Clear & Go Back
+                        </button>
+                    </div>
                 </div>
                 <div id="cursos-container">
                     <div class="loader">Loading resources...</div>
@@ -178,11 +189,13 @@
                 <div class="path-timeline" id="paths-container">
                     <!-- Populated dynamically via JS -->
                 </div>
+                <button id="paths-toggle-btn" class="widget-more" type="button">Show all paths <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
             </div>
 
-            <!-- Most Popular Widget -->
+            <!-- Top Picks Widget -->
             <div class="sidebar-widget popular-widget">
-                <h3><i class="fas fa-fire"></i> Most Popular</h3>
+                <h3><i class="fas fa-star"></i> Top Picks</h3>
+                <p class="widget-note">Based on your votes and latest additions</p>
                 <ol class="popular-list" id="popular-container">
                     <!-- Populated dynamically via JS -->
                 </ol>
@@ -239,6 +252,27 @@
             <p class="attribution">Generated with <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio</a> & built with <a href="https://github.com/davidbuenov/dbv-specs-ops" target="_blank" rel="noopener noreferrer">dbv-specs-ops</a></p>
         </div>
     </footer>
+
+    <!-- Resource Detail Modal -->
+    <div id="resource-modal" class="modal-overlay" hidden>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title" data-id="">
+            <button class="modal-close" type="button" aria-label="Close details"><i class="fas fa-times" aria-hidden="true"></i></button>
+            <div class="curso-meta-info" id="modal-badges"></div>
+            <h2 id="modal-title"></h2>
+            <p class="course-description" id="modal-description"></p>
+            <p class="course-date" id="modal-date"></p>
+            <div class="curso-etiquetas" id="modal-tags"></div>
+            <div class="modal-footer">
+                <div class="curso-sharing" id="modal-sharing"></div>
+                <div class="curso-votacion" id="modal-votes"></div>
+                <a id="modal-cta" class="modal-cta" target="_blank" rel="noopener noreferrer">
+                    Visit resource <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                    <span class="sr-only">(opens in a new tab)</span>
+                </a>
+                <span id="modal-no-link" class="curso-enlace-no-disponible" hidden>Link not available</span>
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>

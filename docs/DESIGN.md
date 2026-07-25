@@ -74,11 +74,22 @@ Utilizaremos fuentes modernas y limpias importadas de Google Fonts para reemplaz
 - Un panel vertical en el lateral derecho con un hilo conductor (timeline) que conecta círculos con icono.
 - Cada etapa tiene el título del trayecto de aprendizaje y el conteo de recursos disponibles (ej. "Fundamentos de IA - 12 recursos").
 
-### D. Panel de Recursos Populares ("Lo más popular")
+### D. Panel "Top Picks" (antes "Lo más popular")
 - Lista numerada del 1 al 5 en el lateral, con fuentes compactas y una pequeña insignia que indica el tipo de recurso (ej. "ChatGPT | Herramienta").
+- Renombrado el 2026-07-25: el ranking solo refleja votos locales del dispositivo (sin backend), así que el título honesto es "Top Picks" con la nota "Based on your votes and latest additions" en vez de "Most Popular", que sugería un ranking global inexistente.
+- Cada ítem es un `<button>` nativo (accesible por teclado) que abre la ficha de detalle (ver F) en lugar de salir directamente al enlace externo.
 
 ### E. Rejilla de Novedades ("Actualizado Recientemente")
 - Tarjetas horizontales más compactas que muestran los recursos agregados en las últimas horas/días con un badge verde de `NUEVO`.
+- Cada tarjeta (y cada tarjeta del panel D y de la rejilla de resultados) abre la ficha de detalle (ver F) al pulsarla; el enlace externo real solo se visita desde el CTA "Visit resource" dentro de la ficha.
+- Un botón "View all" junto al título abre el listado completo (misma vista de resultados que la búsqueda/filtros, sin filtros activos).
+
+### F. Modal de Ficha de Recurso (2026-07-25)
+- Overlay de pantalla completa (`rgba(7,12,30,0.7)` + `blur(6px)`) con una tarjeta glassmorphic centrada (`max-width: 640px`, `backdrop-filter: blur(12px)`) que reutiliza los mismos componentes visuales que la tarjeta de resultados: badges de tipo/dificultad, etiquetas clicables, botones de voto y compartir.
+- Se abre desde Top Picks, Recently Updated y el grid de resultados; nunca se navega directamente al enlace externo sin pasar antes por la ficha.
+- CTA primario "Visit resource ↗" con gradiente `--accent-blue → --accent-purple`, único punto desde el que se abre el recurso externo (en pestaña nueva).
+- Cierre con la X, clic en el overlay, tecla `Escape` o el botón Atrás del navegador (el estado del modal se refleja en `location.hash#res=<id>`, compartible por URL).
+- Accesibilidad: `role="dialog"` + `aria-modal="true"`, foco devuelto al elemento que lo abrió al cerrarse, *focus trap* básico con Tab.
 
 ---
 

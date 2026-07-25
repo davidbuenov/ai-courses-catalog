@@ -50,6 +50,11 @@ The project is structured to separate the application "engine" from the data it 
 
 *   **Instant Search:** Find content by typing in the search box (activates with 3+ characters). It looks through names, descriptions, and categories.
 *   **Dynamic Filtering:** Combine search with filters for **Content Type**, **Difficulty Level**, and specific **Categories**.
+*   **Resource Detail Modal:** Clicking any resource (from Top Picks, Recently Updated, or the results grid) opens a detail card with the full description, tags, voting, and sharing — before sending you to the external link.
+*   **Sortable Results:** Order the results list by newest, oldest, or name (A–Z / Z–A).
+*   **"View All" Shortcuts:** Expand the Recently Updated section into the full sortable list, or expand the Learning Paths widget to show every category group.
+*   **Shareable URLs:** Active filters, sort order, and an open resource detail all live in the page hash, so links can be copied, bookmarked, and survive a refresh.
+*   **Keyboard Accessible:** Every interactive widget (hub cards, learning paths, tags, Top Picks, resource cards, modal) is reachable and operable with Tab/Enter/Space, with visible focus states.
 *   **Dynamic Header Counters:** The header provides an at-a-glance summary of how many items of each content type are available.
 *   **Interactive Filter Tags:** Active filters appear as removable pills for a clear overview of the current query.
 *   **Clickable Tags:** Click on any content category tag to instantly filter by that category.
@@ -67,9 +72,11 @@ The project is structured to separate the application "engine" from the data it 
 ---
 
 ## 🚀 Last changes
-[Multi-Catalog Update — July 2026](202607NewEntries.md) (AI +21, Unreal Engine +10)
+[Multi-Catalog Update — July 2026](202607NewEntries.md) (AI +28, Unreal Engine +4)
 
-[New Entries in AI Catalog October 2025 ](202510NewEntries.md)
+[Multi-Catalog Update — June 2026](202606NewEntries.md) (AI +21, Unreal Engine +10)
+
+[New Entries in AI Catalog October 2025](202510NewEntries.md)
 
 ## 🚀 How to Contribute
 
@@ -129,6 +136,10 @@ This project was brought to life by:
 *   **Google AI Studio**
     *   The structure, code, and functionalities of this web application were generated with the assistance of Google's AI models.
     *   **Learn more:** [`aistudio.google.com`](https://aistudio.google.com/)
+
+*   **Claude (Anthropic)**
+    *   Usability improvements, accessibility, and feature development for this project were carried out with the assistance of Claude Code.
+    *   **Learn more:** [`claude.com/claude-code`](https://claude.com/claude-code)
 
 ## 📄 License
 

@@ -1091,6 +1091,252 @@ body {
 }
 
 /* =============================================================================
+   RESOURCE DETAIL MODAL
+   ============================================================================= */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(7, 12, 30, 0.7);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.modal-overlay[hidden] {
+    display: none;
+}
+
+.modal-card {
+    position: relative;
+    background: var(--bg-sidebar);
+    border: 1px solid var(--border-glass-hover);
+    border-radius: 16px;
+    box-shadow: var(--shadow-card), var(--shadow-neon-blue);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 640px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    animation: fadeIn 0.2s ease;
+}
+
+.modal-card h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text-primary);
+    padding-right: 32px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 6px 10px;
+    transition: all 0.2s;
+}
+
+.modal-close:hover {
+    color: var(--text-primary);
+    border-color: var(--border-glass);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    border-top: 1px solid var(--border-glass);
+    padding-top: 16px;
+    margin-top: 6px;
+}
+
+.modal-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.modal-cta:hover {
+    box-shadow: var(--shadow-neon-blue);
+    transform: translateY(-1px);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* =============================================================================
+   SECTION / WIDGET UTILITIES (View all, sort, notes, a11y)
+   ============================================================================= */
+.section-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.section-title-row .section-title {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.section-more,
+.widget-more {
+    background: none;
+    border: 1px solid var(--border-glass);
+    border-radius: 20px;
+    color: var(--accent-blue);
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 6px 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+}
+
+.section-more:hover,
+.widget-more:hover {
+    border-color: var(--accent-blue);
+    background: rgba(0, 210, 255, 0.05);
+}
+
+.widget-more {
+    margin-top: 14px;
+    width: 100%;
+    justify-content: center;
+}
+
+.widget-note {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin: -8px 0 12px;
+}
+
+.results-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#orden-select {
+    padding: 8px 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-glass);
+    border-radius: 20px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#orden-select:hover, #orden-select:focus {
+    color: var(--text-primary);
+    border-color: var(--accent-blue);
+    outline: none;
+}
+
+/* Interactive widget items rendered as native buttons: reset browser button chrome
+   so they keep looking like the original div/span-based design */
+.path-item,
+.tag-cloud-item,
+.etiqueta {
+    font-family: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button.path-item {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    width: 100%;
+}
+
+.popular-item {
+    padding: 0;
+}
+
+.popular-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Keyboard focus visibility */
+.hub-card:focus-visible,
+.path-item:focus-visible,
+.popular-btn:focus-visible,
+.tag-cloud-item:focus-visible,
+.recent-card:focus-visible,
+.etiqueta-clickable:focus-visible,
+.section-more:focus-visible,
+.widget-more:focus-visible,
+.section-title:focus-visible,
+.modal-close:focus-visible,
+.modal-cta:focus-visible,
+.vote-btn:focus-visible,
+.share-btn:focus-visible,
+.back-btn:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 2px;
+}
+
+/* =============================================================================
    RESPONSIVE DESIGN (Media Queries)
    ============================================================================= */
 @media (max-width: 1200px) {
@@ -1155,5 +1401,14 @@ body {
         flex-direction: column;
         gap: 12px;
         text-align: center;
+    }
+    .modal-card {
+        max-height: 92vh;
+        padding: 20px;
+    }
+    .results-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
     }
 }

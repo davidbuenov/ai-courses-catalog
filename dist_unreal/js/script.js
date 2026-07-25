@@ -32,6 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const pathsContainer = document.getElementById('paths-container');
     const popularContainer = document.getElementById('popular-container');
     const categoriesCloudContainer = document.getElementById('categories-cloud-container');
+    const recentTitle = document.getElementById('recent-title');
+    const verTodoBtn = document.getElementById('ver-todo-btn');
+    const resultsTitle = document.getElementById('results-title');
+    const ordenSelect = document.getElementById('orden-select');
+    const pathsToggleBtn = document.getElementById('paths-toggle-btn');
+
+    // Resource detail modal
+    const modalOverlay = document.getElementById('resource-modal');
+    const modalCard = modalOverlay ? modalOverlay.querySelector('.modal-card') : null;
 
     let todosLosCursos = [];
     let todasLasCategorias = {};
@@ -39,11 +48,28 @@ document.addEventListener('DOMContentLoaded', () => {
     let votos = {};
     let isAICatalog = true;
 
+    const ORDEN_VALIDOS = ['date-desc', 'date-asc', 'name-asc', 'name-desc'];
+    let orden = 'date-desc';
+    let verTodo = false;
+    let pathsExpandidos = false;
+
+    let fichaAbierta = null;
+    let focoPrevio = null;
+    let modalPushed = false;
+    let aplicandoHash = false;
+
     const filtros = {
         tipo: new Set(),
         categorias: new Set(),
         dificultades: new Set()
     };
+
+    // Canonical resource id (same scheme already used by stored votes — do not change)
+    function getCursoId(curso) {
+        return curso.name.replace(/[^a-zA-Z0-9]/g, '');
+    }
+
+    const cursosPorId = new Map();
 
     async function init() {
         // Detect Catalog type from header title or document title
@@ -55,7 +81,23 @@ document.addEventListener('DOMContentLoaded', () => {
         await cargarDatos();
         poblarFiltros();
         configurarEventListeners();
-        renderizar();
+
+        if (location.hash.length > 1) {
+            aplicarHash();
+        } else {
+            renderizar();
+        }
+    }
+
+    // Adds click + keyboard (Enter/Space) activation for elements with role="button"
+    function hacerActivable(el, fn) {
+        el.addEventListener('click', fn);
+        el.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                fn(event);
+            }
+        });
     }
 
     function customizeHeroAndMetadata() {
@@ -92,6 +134,16 @@ document.addEventListener('DOMContentLoaded', () => {
             todosLosCursos = await cursosRes.json();
             todasLasCategorias = await categoriasRes.json();
             todosLosTipos = await tiposRes.json();
+
+            cursosPorId.clear();
+            todosLosCursos.forEach(curso => {
+                const id = getCursoId(curso);
+                if (cursosPorId.has(id)) {
+                    console.warn('Duplicate resource id, keeping first occurrence:', id);
+                } else {
+                    cursosPorId.set(id, curso);
+                }
+            });
 
             // Set total resources stat
             if (statCount) {
@@ -199,17 +251,240 @@ document.addEventListener('DOMContentLoaded', () => {
             backToDashboardBtn.addEventListener('click', resetAllFilters);
         }
 
-        // Central hub card click listeners
+        // Central hub card click + keyboard listeners
         for (let i = 0; i < 4; i++) {
             const card = document.getElementById(`hub-card-${i}`);
             if (card) {
-                card.addEventListener('click', () => {
+                hacerActivable(card, () => {
                     if (todosLosTipos[i]) {
                         agregarFiltro('tipo', todosLosTipos[i]);
                     }
                 });
             }
         }
+
+        // Sort selector (results view)
+        if (ordenSelect) {
+            ordenSelect.addEventListener('change', event => {
+                orden = ORDEN_VALIDOS.includes(event.target.value) ? event.target.value : 'date-desc';
+                renderizar();
+            });
+        }
+
+        // "View all" from Recently Updated (button and section title)
+        const mostrarListadoCompleto = () => {
+            verTodo = true;
+            renderizar();
+        };
+        if (verTodoBtn) verTodoBtn.addEventListener('click', mostrarListadoCompleto);
+        if (recentTitle) recentTitle.addEventListener('click', mostrarListadoCompleto);
+
+        // "Show all paths" toggle (Learning Paths widget)
+        if (pathsToggleBtn) {
+            pathsToggleBtn.addEventListener('click', () => {
+                pathsExpandidos = !pathsExpandidos;
+                renderizarPathsWidget();
+            });
+        }
+
+        // Resource detail modal
+        if (modalOverlay && modalCard) {
+            modalOverlay.addEventListener('click', event => {
+                if (event.target === modalOverlay) {
+                    cerrarFicha();
+                }
+            });
+            modalCard.querySelector('.modal-close').addEventListener('click', () => cerrarFicha());
+            modalCard.addEventListener('click', handleCardActions);
+            document.addEventListener('keydown', manejarTecladoModal);
+        }
+
+        // Shareable state: restore filters/modal on back/forward navigation
+        window.addEventListener('hashchange', aplicarHash);
+    }
+
+    function manejarTecladoModal(event) {
+        if (fichaAbierta === null) return;
+
+        if (event.key === 'Escape') {
+            cerrarFicha();
+        } else if (event.key === 'Tab') {
+            const focusables = modalCard.querySelectorAll('button, a[href], select, input, [tabindex]:not([tabindex="-1"])');
+            if (focusables.length === 0) return;
+            const first = focusables[0];
+            const last = focusables[focusables.length - 1];
+
+            if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault();
+                last.focus();
+            } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault();
+                first.focus();
+            }
+        }
+    }
+
+    function abrirFicha(id, { updateHash = true } = {}) {
+        if (!modalOverlay || !modalCard) return;
+        const curso = cursosPorId.get(id);
+        if (!curso) return;
+
+        const badgesEl = modalCard.querySelector('#modal-badges');
+        const titleEl = modalCard.querySelector('#modal-title');
+        const descEl = modalCard.querySelector('#modal-description');
+        const dateEl = modalCard.querySelector('#modal-date');
+        const tagsEl = modalCard.querySelector('#modal-tags');
+        const sharingEl = modalCard.querySelector('#modal-sharing');
+        const votesEl = modalCard.querySelector('#modal-votes');
+        const ctaEl = modalCard.querySelector('#modal-cta');
+        const noLinkEl = modalCard.querySelector('#modal-no-link');
+
+        const typeHtml = curso.type ? `<span class="curso-tipo">${curso.type}</span>` : '';
+        const difficultyHtml = curso.difficulty
+            ? `<span class="curso-dificultad difficulty-${curso.difficulty.toLowerCase().replace(/\s/g, '-')}">${curso.difficulty}</span>`
+            : '';
+        badgesEl.innerHTML = typeHtml + difficultyHtml;
+
+        titleEl.textContent = curso.name;
+
+        if (curso.description) {
+            descEl.textContent = curso.description;
+            descEl.hidden = false;
+        } else {
+            descEl.textContent = '';
+            descEl.hidden = true;
+        }
+
+        const formattedDate = formatCourseDate(curso.date);
+        dateEl.textContent = formattedDate ? `Catalog entry: ${formattedDate}` : 'Catalog entry: unavailable';
+
+        tagsEl.innerHTML = curso.categories
+            ? curso.categories.map(categoria => `<button type="button" class="etiqueta etiqueta-clickable" data-categoria="${categoria}">${categoria}</button>`).join('')
+            : '';
+
+        const shareText = encodeURIComponent(`Check out this content: "${curso.name}"`);
+        const shareUrl = encodeURIComponent(curso.link || window.location.href);
+        sharingEl.innerHTML = `
+            <a href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}" target="_blank" rel="noopener noreferrer" class="share-btn twitter" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}&title=${encodeURIComponent(curso.name)}&summary=${shareText}" target="_blank" rel="noopener noreferrer" class="share-btn linkedin" aria-label="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <button class="share-btn copy-link-btn copy-link" data-link="${curso.link}" aria-label="Copy link"><i class="fas fa-link"></i></button>
+        `;
+
+        votesEl.innerHTML = `
+            <button class="vote-btn" data-id="${id}" data-vote="up" aria-label="Upvote"><i class="fas fa-thumbs-up"></i><span class="vote-count up-count">0</span></button>
+            <button class="vote-btn" data-id="${id}" data-vote="down" aria-label="Downvote"><i class="fas fa-thumbs-down"></i><span class="vote-count down-count">0</span></button>
+        `;
+
+        if (curso.link && curso.link.startsWith('http')) {
+            ctaEl.href = curso.link;
+            ctaEl.hidden = false;
+            noLinkEl.hidden = true;
+        } else {
+            ctaEl.hidden = true;
+            noLinkEl.hidden = false;
+        }
+
+        modalCard.dataset.id = id;
+        actualizarVotosTarjeta(modalCard);
+
+        fichaAbierta = id;
+        focoPrevio = document.activeElement;
+        modalOverlay.hidden = false;
+        document.body.classList.add('modal-open');
+        modalCard.querySelector('.modal-close').focus();
+
+        if (updateHash) {
+            modalPushed = true;
+            actualizarHash({ push: true });
+        }
+    }
+
+    function cerrarFicha({ updateHash = true } = {}) {
+        if (fichaAbierta === null) return;
+
+        fichaAbierta = null;
+        modalOverlay.hidden = true;
+        document.body.classList.remove('modal-open');
+        if (focoPrevio && typeof focoPrevio.focus === 'function') {
+            focoPrevio.focus();
+        }
+        focoPrevio = null;
+
+        if (updateHash) {
+            if (modalPushed) {
+                modalPushed = false;
+                history.back();
+            } else {
+                actualizarHash({ push: false });
+            }
+        }
+    }
+
+    function serializarEstado() {
+        const params = new URLSearchParams();
+        const searchText = searchBox.value.trim();
+
+        if (searchText.length >= 3) params.set('q', searchText);
+        filtros.tipo.forEach(valor => params.append('type', valor));
+        filtros.categorias.forEach(valor => params.append('cat', valor));
+        filtros.dificultades.forEach(valor => params.append('diff', valor));
+        if (orden !== 'date-desc') params.set('sort', orden);
+        if (verTodo) params.set('all', '1');
+        if (fichaAbierta) params.set('res', fichaAbierta);
+
+        return params.toString();
+    }
+
+    function actualizarHash({ push = false } = {}) {
+        if (aplicandoHash) return;
+
+        const nuevoHash = serializarEstado();
+        const nuevaUrl = nuevoHash
+            ? `${location.pathname}${location.search}#${nuevoHash}`
+            : `${location.pathname}${location.search}`;
+
+        if (push) {
+            history.pushState(null, '', nuevaUrl);
+        } else {
+            history.replaceState(null, '', nuevaUrl);
+        }
+    }
+
+    function aplicarHash() {
+        aplicandoHash = true;
+
+        const params = new URLSearchParams(location.hash.slice(1));
+
+        filtros.tipo.clear();
+        filtros.categorias.clear();
+        filtros.dificultades.clear();
+        params.getAll('type').forEach(valor => filtros.tipo.add(valor));
+        params.getAll('cat').forEach(valor => filtros.categorias.add(valor));
+        params.getAll('diff').forEach(valor => filtros.dificultades.add(valor));
+
+        const q = params.get('q') || '';
+        searchBox.value = q;
+        clearSearchBtn.style.display = q ? 'block' : 'none';
+
+        const sortParam = params.get('sort');
+        orden = ORDEN_VALIDOS.includes(sortParam) ? sortParam : 'date-desc';
+        if (ordenSelect) ordenSelect.value = orden;
+
+        verTodo = params.get('all') === '1';
+
+        renderizar();
+
+        const resId = params.get('res');
+        if (resId && cursosPorId.has(resId)) {
+            abrirFicha(resId, { updateHash: false });
+        } else if (resId) {
+            // Resource id not found in this catalog (e.g. cross-catalog link) — drop it
+            actualizarHash({ push: false });
+        } else if (fichaAbierta !== null) {
+            cerrarFicha({ updateHash: false });
+        }
+
+        aplicandoHash = false;
     }
 
     function handleCardActions(event) {
@@ -222,7 +497,15 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (copyButton) {
             handleCopyLink(copyButton);
         } else if (tag) {
+            if (tag.closest('#resource-modal')) {
+                cerrarFicha({ updateHash: false });
+            }
             manejarClickEtiqueta(tag);
+        } else if (!event.target.closest('a')) {
+            const card = event.target.closest('.curso-card, .recent-card');
+            if (card && card.dataset.id) {
+                abrirFicha(card.dataset.id);
+            }
         }
     }
 
@@ -235,6 +518,9 @@ document.addEventListener('DOMContentLoaded', () => {
         filtroTipoSelect.value = '';
         filtroCategoriaSelect.value = '';
         filtroDificultadSelect.value = '';
+        verTodo = false;
+        orden = 'date-desc';
+        if (ordenSelect) ordenSelect.value = orden;
         renderizar();
     }
 
@@ -273,8 +559,8 @@ document.addEventListener('DOMContentLoaded', () => {
         votos[id].userVote = votos[id].userVote === voto ? null : voto;
         guardarVotos();
         
-        // Update vote displays in all containers containing card
-        document.querySelectorAll(`.curso-card[data-id="${id}"]`).forEach(actualizarVotosTarjeta);
+        // Update vote displays in all containers containing card (grid cards and open modal)
+        document.querySelectorAll(`.curso-card[data-id="${id}"], .modal-card[data-id="${id}"]`).forEach(actualizarVotosTarjeta);
         
         // Refresh popularity sidebar to reflect changes
         renderizarPopularWidget();
@@ -353,17 +639,37 @@ document.addEventListener('DOMContentLoaded', () => {
         return rightTimestamp - leftTimestamp;
     }
 
+    function ordenarCursos(leftCourse, rightCourse) {
+        switch (orden) {
+            case 'date-asc':
+                return -compareCoursesByDate(leftCourse, rightCourse);
+            case 'name-asc':
+                return leftCourse.name.localeCompare(rightCourse.name);
+            case 'name-desc':
+                return rightCourse.name.localeCompare(leftCourse.name);
+            case 'date-desc':
+            default:
+                return compareCoursesByDate(leftCourse, rightCourse);
+        }
+    }
+
     function renderizar() {
-        const hasActiveFilters = 
+        const hasActiveFilters =
             searchBox.value.trim().length >= 3 ||
             filtros.tipo.size > 0 ||
             filtros.categorias.size > 0 ||
             filtros.dificultades.size > 0;
 
-        if (hasActiveFilters) {
+        if (hasActiveFilters || verTodo) {
             // Show Search Results, Hide Dashboard
             if (dashboardView) dashboardView.style.display = 'none';
             if (resultsView) resultsView.style.display = 'flex';
+            if (resultsTitle) {
+                resultsTitle.innerHTML = hasActiveFilters
+                    ? '<i class="fas fa-th-list"></i> Search & Filter Results'
+                    : '<i class="fas fa-th-list"></i> All Resources';
+            }
+            if (ordenSelect) ordenSelect.value = orden;
             renderizarFiltrosActivos();
             renderizarCursos();
         } else {
@@ -373,6 +679,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderizarFiltrosActivos();
             renderizarDashboard();
         }
+
+        actualizarHash();
     }
 
     function renderizarFiltrosActivos() {
@@ -408,7 +716,10 @@ document.addEventListener('DOMContentLoaded', () => {
         recentCursos.forEach(curso => {
             const card = document.createElement('div');
             card.className = 'recent-card';
-            card.dataset.id = curso.name.replace(/[^a-zA-Z0-9]/g, '');
+            card.dataset.id = getCursoId(curso);
+            card.setAttribute('role', 'button');
+            card.setAttribute('tabindex', '0');
+            card.setAttribute('aria-label', `View details of ${curso.name}`);
 
             const typeHtml = curso.type ? `<span class="recent-card-type">${curso.type}</span>` : '';
             const formattedDate = formatCourseDate(curso.date);
@@ -421,11 +732,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <h3>${curso.name}</h3>
             `;
-            
-            // Clicking a recent card opens the item directly
-            card.addEventListener('click', () => {
-                if (curso.link && curso.link.startsWith('http')) {
-                    window.open(curso.link, '_blank', 'noopener,noreferrer');
+
+            // Opening is handled by the click delegation registered on #recent-grid
+            // (handleCardActions); keyboard activation is added here since the card is a div.
+            card.addEventListener('keydown', event => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    abrirFicha(card.dataset.id);
                 }
             });
 
@@ -437,9 +750,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!pathsContainer) return;
         pathsContainer.innerHTML = '';
 
-        // Select 3 fixed core paths depending on the catalog type
         let selectedPaths = [];
-        if (isAICatalog) {
+        if (pathsExpandidos) {
+            // Show every category group defined for this catalog
+            selectedPaths = Object.keys(todasLasCategorias).map(groupId => ({
+                id: groupId,
+                label: groupId.replace(/^\d+\.\s*/, '')
+            }));
+        } else if (isAICatalog) {
+            // Select 3 fixed core paths depending on the catalog type
             selectedPaths = [
                 { id: "1. Fundamentals and Concepts of AI", label: "Fundamentals of AI" },
                 { id: "3. AI Agents and Systems", label: "AI Agents & Systems" },
@@ -454,14 +773,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         selectedPaths.forEach(path => {
-            const item = document.createElement('div');
+            const item = document.createElement('button');
+            item.type = 'button';
             item.className = 'path-item';
-            
+
             // Count resources in this top category group
             let count = 0;
             if (todasLasCategorias[path.id]) {
                 const subcategories = todasLasCategorias[path.id];
-                count = todosLosCursos.filter(curso => 
+                count = todosLosCursos.filter(curso =>
                     curso.categories && curso.categories.some(cat => subcategories.includes(cat))
                 ).length;
             }
@@ -490,6 +810,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             pathsContainer.appendChild(item);
         });
+
+        if (pathsToggleBtn) {
+            pathsToggleBtn.innerHTML = pathsExpandidos
+                ? 'Show less <i class="fas fa-chevron-up" aria-hidden="true"></i>'
+                : 'Show all paths <i class="fas fa-chevron-down" aria-hidden="true"></i>';
+        }
     }
 
     function renderizarPopularWidget() {
@@ -498,7 +824,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // We compute popularity count based on localStorage user upvotes + pad with first few items
         const scoredCourses = todosLosCursos.map(curso => {
-            const id = curso.name.replace(/[^a-zA-Z0-9]/g, '');
+            const id = getCursoId(curso);
             const userUpvote = votos[id] && votos[id].userVote === 'up' ? 1 : 0;
             return {
                 curso,
@@ -517,21 +843,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const topPopular = scoredCourses.slice(0, 5);
 
         topPopular.forEach((item, index) => {
+            const id = getCursoId(item.curso);
             const courseEl = document.createElement('li');
             courseEl.className = 'popular-item';
             courseEl.innerHTML = `
-                <span class="popular-num">${index + 1}</span>
-                <div class="popular-info">
-                    <span class="popular-name">${item.curso.name}</span>
-                    <span class="popular-meta">${item.curso.type || 'Resource'}</span>
-                </div>
+                <button type="button" class="popular-btn" data-id="${id}" aria-label="View details of ${item.curso.name}">
+                    <span class="popular-num">${index + 1}</span>
+                    <div class="popular-info">
+                        <span class="popular-name">${item.curso.name}</span>
+                        <span class="popular-meta">${item.curso.type || 'Resource'}</span>
+                    </div>
+                </button>
             `;
 
-            courseEl.addEventListener('click', () => {
-                if (item.curso.link && item.curso.link.startsWith('http')) {
-                    window.open(item.curso.link, '_blank', 'noopener,noreferrer');
-                }
-            });
+            courseEl.querySelector('.popular-btn').addEventListener('click', () => abrirFicha(id));
 
             popularContainer.appendChild(courseEl);
         });
@@ -555,25 +880,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const topCategories = sortedCategories.slice(0, 6);
 
         topCategories.forEach(cat => {
-            const btn = document.createElement('span');
+            const btn = document.createElement('button');
+            btn.type = 'button';
             btn.className = 'tag-cloud-item';
             btn.textContent = cat;
-            btn.addEventListener('click', () => {
-                manejarClickEtiqueta(btn);
-            });
+            btn.dataset.categoria = cat;
+            btn.addEventListener('click', () => manejarClickEtiqueta(btn));
             categoriesCloudContainer.appendChild(btn);
         });
-
-        // Click tag function inside helper
-        function manejarClickEtiqueta(etiqueta) {
-            const categoria = etiqueta.textContent;
-            if (!categoria) return;
-            filtros.tipo.clear();
-            filtros.categorias.clear();
-            filtros.dificultades.clear();
-            filtros.categorias.add(categoria);
-            renderizar();
-        }
     }
 
     function renderizarCursos() {
@@ -599,7 +913,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cursosFiltrados = cursosFiltrados.filter(curso => filtros.dificultades.has(curso.difficulty));
         }
 
-        cursosFiltrados = [...cursosFiltrados].sort(compareCoursesByDate);
+        cursosFiltrados = [...cursosFiltrados].sort(ordenarCursos);
         cursosContainer.innerHTML = '';
 
         if (cursosFiltrados.length === 0) {
@@ -609,7 +923,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         cursosFiltrados.forEach(curso => {
             const cursoElement = document.createElement('div');
-            const cursoId = curso.name.replace(/[^a-zA-Z0-9]/g, '');
+            const cursoId = getCursoId(curso);
             const typeHtml = curso.type ? `<span class="curso-tipo">${curso.type}</span>` : '';
             const difficultyHtml = curso.difficulty
                 ? `<span class="curso-dificultad difficulty-${curso.difficulty.toLowerCase().replace(/\s/g, '-')}">${curso.difficulty}</span>`
@@ -638,7 +952,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </p>
                     <div class="curso-etiquetas">
                         ${curso.categories
-                            ? curso.categories.map(categoria => `<span class="etiqueta etiqueta-clickable" data-categoria="${categoria}">${categoria}</span>`).join('')
+                            ? curso.categories.map(categoria => `<button type="button" class="etiqueta etiqueta-clickable" data-categoria="${categoria}">${categoria}</button>`).join('')
                             : ''}
                     </div>
                 </div>
